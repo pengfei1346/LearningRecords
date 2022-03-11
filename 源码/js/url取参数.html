@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //  给定一个url ?id=1&name=666&id=2&id=3
+    //  取出id name 如果有多个，就返回一个数组
+    let url = 'http://xxx.com?id=1&name=666&id=2&id=3'
+    // let reg = /\/\?no=\S*&version=\S*#\/$/;
+    // getUrlParams (name) {
+    //     let reg = /(^|&)" + name + "=([^&]*)(&|$)/i;
+    //     let r = window.location.search.substr(1).match(reg);
+    //     if (r != null) {
+    //         return unescape(r[2]);
+    //     }
+    //     return null;
+    // },
+
+    const fn1 = (name) => {
+        // ...code
+        let reg = /(^|&)" + name + "=([^&]*)(&|$)/i;
+    }
+
+    // fn1("id")  期望 [1,2,3]
+    //   fn1("name")  期望 666
+
+</script>
+</html>

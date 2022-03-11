@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    /*
+    * @question
+    * 给定m行n列的网格， 有一个机器人从左上角（0,0）出发， 每一步可以向下或者向右走一步。问有多少种不同的方式走到右下角。
+    * */
+
+    // 分析
+
+    /*
+    1、从边上走只有一种情况 = 当i=0或者j=0 f（i,j）= 1 。
+    2、 每一步可以向下或者向右走一步 = 计算（i，j）点所有的方式等于左边的点的方式+上边点的方式，即
+    f(i,j) = f(i-1,j) + f(i,j-1)
+    * */
+    function CreateMatrix(m ,n, c) {
+        //m 行  n 列 c 默认值
+        return new Array(m) // 生成 n*1 数组
+            .fill(null) // 填充 null
+            .map(() => new Array(n).fill(c)) // 对每个null 填充 1*n 个c
+    }
+    function uniquePaths(m, n) {
+        // 创造一个数组 [[0,0,0],[0,0,0],[0,0,0]],假想成矩阵
+        let f = CreateMatrix(m, n, 0)
+
+        for (let i = 0;i < m ;i++) {
+            for (let j = 0;j < n ;j++) {
+                if(i===0 || j===0) {
+                    f[i][j] = 1
+                }else {
+                    f[i][j] = f[i-1][j] + f[i][j-1]
+                }
+            }
+        }
+
+        return f[m-1][n-1]
+    }
+
+    console.log(uniquePaths(3, 3));
+</script>
+</html>

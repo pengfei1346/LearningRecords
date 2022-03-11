@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    /*
+    * 你有三种硬币， 分别面值2元， 5元和7元， 每种硬币都有足够多
+        买一本书需要27元
+        如何用最少的硬币组合正好付清， 不需要对方找钱
+    * */
+    const computedResult = function (coinType = [],total = 27) {
+        const s = new Date().getTime()
+        // 存储硬币个数
+        let num = 0
+        // 存储结果
+        let result = []
+
+        for (let i = 0; i<Math.round(total/2); i++) {
+            for (let j = 0; j<Math.round(total/5); j++) {
+                let m = 2*i
+                let n = 5*j
+                let l = (total-m-n)/7
+
+                if(Number.isInteger(l)) {
+                    if(num === 0 ||  (i+j+l) < num) {
+                        result = [i,j,l]
+                    }
+                    num = i+j+l
+                }
+            }
+        }
+        const e = new Date().getTime()
+        console.log(e - s);
+        return result
+    }
+
+    console.log(computedResult());
+
+    /**
+     *
+     * @param {int []} A
+     * @param {int} M
+     */
+    function coinChange(A, M){
+        const s = new Date().getTime()
+        var f = new Array(M+1);
+        // f.fill(0,0, f.length) // 用0初始化数组
+        var n = A.length // number of kinds of coins
+
+        // initialization
+        f[0] = 0;
+
+        var i, j;
+        // f[1], f[2], .... f[27]
+        for(i = 1; i <= M; ++i){
+            f[i] = Number.MAX_VALUE;
+            // last coin a[j]
+            for(j = 0; j <= n; ++j){
+                if(i >= A[j] && f[i - A[j]] !== Number.MAX_VALUE){
+                    var a = f[i - A[j]] + 1;
+                    var b = f[i];
+                    f[i] = Math.min.apply(null, [a, b])
+                }
+
+            }
+        }
+        if(f[M] === Number.MAX_VALUE){
+            return -1;
+        }
+        const e = new Date().getTime()
+        console.log(e - s);
+        return f[M]
+    }
+
+    // console.log(coinChange([2,5,7],27));
+
+
+    const computedResult1 = () => {
+
+    }
+</script>
+</html>

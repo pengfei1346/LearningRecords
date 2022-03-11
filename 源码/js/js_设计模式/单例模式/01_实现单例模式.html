@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+  //单例模式的定义： 保证一个类仅有一个实例，并提供一个访问它的全局访问点
+
+  var Dog = function (name) {
+    this.name = name;
+    this.instance = null;
+  }
+
+  Dog.prototype.getName = function () {
+    alert(this.name)
+  }
+
+  Dog.getInstance = function (name) {
+    if (!this.instance) {
+      this.instance = new Dog(name)
+    }
+    return this.instance
+  }
+
+  var dog1 = Dog.getInstance('xiaohua')
+  var dog2 = Dog.getInstance('xiaobai')
+
+  // console.log(dog1 === dog2);
+
+  //  使用类来改写
+
+  class DogClass {
+    constructor(name) {
+      this.name = name
+      this.instance = null
+    }
+
+    //  类相当于实例的原型，所有在类中定义的方法，都会被实例继承。
+    //  如果在一个方法前，加上static关键字，就表示该方法不会被实例继承，而是直接通过类来调用，这就称为“静态方法”。
+    //  静态方法只能在静态方法中调用,不能再实例方法中调用
+    static getInstance(name) {
+      if(!this.instance) {
+        this.instance = new DogClass(name)
+      }
+      return this.instance
+    }
+  }
+  var DogClass1 = DogClass.getInstance('xiaohua')
+  var DogClass2 = DogClass.getInstance('xiaobai')
+
+  // console.log(dog1 === dog2);
+  // new DogClass('aaaa')
+
+
+  // // 声明类
+  // class Boy {
+  //   //定义属性
+  //   info = '见过你的美,还能爱上谁?';
+  //   // 定义方法
+  //   say() {
+  //     console.log('小姐姐,' + this.info);
+  //   }
+  // }
+  // // 实例化类
+  // let b = new Boy;
+  // // 成功调用方法
+  // b.say();
+</script>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+
+    //  时间复杂度 O(n²) 。额外空间复杂度O(1)。
+    /*
+    *   算法步骤
+        比较相邻的元素。如果第一个比第二个大，就交换他们两个。
+
+        对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对。这步做完后，最后的元素会是最大的数。
+
+        针对所有的元素重复以上的步骤，除了最后一个。
+
+        持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。
+    * */
+    // 什么时候最快
+    // 当输入的数据已经是正序时，时间复杂度 O(n) 。
+    // 什么时候最慢
+    // 当输入的数据是反序时，时间复杂度 O(n²) 。
+
+    // function bubbleSort(list) {
+    //
+    //     for (let i = 0; i < list.length - 1; i++) {
+    //         for (let j = 0; j < list.length - i - 1; j++) {
+    //             if( list[j] > list[j+1]) {
+    //                 let temp = list[j];
+    //                 list[j] = list[j+1];
+    //                 list[j+1] = temp
+    //             }
+    //         }
+    //     }
+    //
+    //     return list
+    // }
+    //
+    // console.log(bubbleSort([1, 123, 3, 4, 7, 6, 9, 34, 2])); // length 9
+
+
+    function bubbleSort (arr) {
+
+        for (let i = 0; i < arr.length - 1; i++) {
+            let hasChange = false; // 提前退出冒泡循环的标志位
+            for (let j = 0; j < arr.length - i - 1; j++) {
+                if(arr[j] > arr[j + 1]) {
+                    let temp = arr[j]
+                    arr[j] = arr[j + 1]
+                    arr[j + 1] = temp
+                    hasChange = true
+                }
+            }
+            if (!hasChange) return
+        }
+        console.log(arr);
+        return arr
+    }
+    // 时间复杂度 o(n2)
+    // 空间复杂度 o(1)
+
+    bubbleSort([1,5,2,5,4,3])
+
+
+
+
+</script>
+
+</html>

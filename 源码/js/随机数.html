@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+    // 生成UUID通用唯一标识码
+    function createUUID() {
+        const result = [];
+        const hexDigits = "0123456789abcdef";
+        for (var i = 0; i < 36; i++) {
+            result[i] = hexDigits.substr(Math.floor(Math.random() * 0x10), 1)
+        }
+        // bits 12-15 of the time_hi_and_version field to 0010
+        result[14] = "4"
+        // bits 6-7 of the clock_seq_hi_and_reserved to 01
+        result[19] = hexDigits.substr((result[19] & 0x3) | 0x8, 1)
+        result[8] = result[13] = result[18] = result[23] = "-"
+        return result.join("")
+    }
+
+    function aa() {
+        var len = len || 32;
+
+        var chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';
+
+        var maxPos = chars.length;
+
+        var pwd = '';
+
+        for (var i = 0; i < len; i++) {
+
+            pwd += chars.charAt(Math.floor(Math.random() * maxPos));
+
+        }
+
+        return pwd
+    }
+
+    function createUniqueId(n) {
+        var random = function() { // 生成10-12位不等的字符串
+            return Number(Math.random().toString().substr(2)).toString(36); // 转换成十六进制
+        };
+        var arr = [];
+        function createId() {
+            var num = random();
+            var _bool = false;
+            arr.forEach(v => {
+                if(v === num) _bool = true;
+            });
+            if(_bool) {
+                createId();
+            }else {
+                arr.push(num);
+            }
+        }
+        var i = 0;
+        while(i < n) {
+            createId();
+            i++;
+        }
+        return arr;
+    }
+
+    function uuidGenerator() {
+        var originStr = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+            originChar = '0123456789abcdef',
+            len = originChar.length;
+        return originStr.replace(/x/g, function(match) {
+            return originChar.charAt(Math.floor(Math.random() * len))
+        })
+    }
+
+    function createRandomId() {
+        return (Math.random()*10000000).toString(16).substr(0,4)+'-'+(new Date()).getTime()+'-'+Math.random().toString().substr(2,5);
+    }
+
+    console.log(createUUID());
+    console.log(aa());
+    console.log(createUniqueId(1));
+    console.log(uuidGenerator());
+    console.log(createRandomId());
+
+
+</script></html>

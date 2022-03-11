@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+// import * as assert from "assert";
+
+var outerVal = 'ninja'
+
+var later
+
+var outerFnc = function () {
+    var innerVal = 'sari'
+
+    function innerFnc() {
+        console.log(outerVal, 'i can see ninja')
+
+        console.log(innerVal, 'i can see sari')
+    }
+
+    later = innerFnc
+}
+
+outerFnc()
+
+later()
+</script>
+</html>

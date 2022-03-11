@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    // 基本数据类型
+
+    // console.log(typeof 1);
+    // console.log(typeof "1");
+    // console.log(typeof null);
+    // console.log(typeof true);
+    // console.log(typeof undefined);
+    // var x= new String('12345')
+    // console.log(typeof x); //object
+    // var x= String('12345')
+    // console.log(typeof x); //object
+
+    // console.log(Object.prototype.toString.call("jerry"));//[object String]
+    var arr=[1,2,3];
+    console.log(Array.prototype.hasOwnProperty("toString"));//true
+    console.log(arr.toString());//1,2,3
+    delete Array.prototype.toString;//delete操作符可以删除实例属性
+    console.log(Array.prototype.hasOwnProperty("toString"));//false
+    console.log(arr.toString());//"[object Array]"
+
+</script>
+</html>

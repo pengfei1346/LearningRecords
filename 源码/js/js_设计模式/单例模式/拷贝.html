@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+
+
+  let source = [
+    {
+      name: 'zhangsan',
+      sex: '男',
+      age: 18
+    },
+    {
+      name: 'lisi',
+      sex: '女',
+      age: 22
+    }
+  ]
+
+  let target = []
+
+  Object.assign(target,source)
+
+  target[0].age = 100
+
+  console.log(source);
+  console.log(target);
+</script>
+</html>

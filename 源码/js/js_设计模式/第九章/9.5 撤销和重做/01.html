@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="reply">回放</button>
+</body>
+<script>
+    const Ryu = {
+        attack () {
+            console.log('攻击');
+        },
+        defense () {
+            console.log('防御');
+        },
+        jump () {
+            console.log('跳跃');
+        },
+        crouch () {
+            console.log('蹲下');
+        }
+    }
+
+    const makeCommand = ( receiver, state ) => {
+        return () => {
+            receiver[ state ] ()
+        }
+    }
+
+    const commands = {
+        "119": "jump",
+        "115": "crouch",
+        "97": "defense",
+        "100": "attack",
+    }
+
+    let commandStack = []
+
+    document.onkeypress = (ev) => {
+        const keyCode = ev.keyCode,
+            command = makeCommand( Ryu, commands[ keyCode ] )
+
+        if(command) {
+            command()
+            commandStack.push( command )
+        }
+    }
+
+    document.getElementById( "reply" ).onclick = () => {
+        let command
+        while ( command = commandStack.shift() ) {
+            command()
+        }
+    }
+</script>
+</html>

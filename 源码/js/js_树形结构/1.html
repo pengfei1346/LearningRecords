@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    let data = [
+        // {
+        //     label: '1',
+        //     value: 1,
+        //     children: [
+        //         {
+        //             label: '1-1',
+        //             value: 2,
+        //             children: [
+        //                 {
+        //                     label: '1-1-1',
+        //                     value: 3,
+        //                 }
+        //             ]
+        //         },
+        //         {
+        //             label: '1-2',
+        //             value: 4,
+        //             children: [
+        //                 {
+        //                     label: '1-2-1',
+        //                     value: 5,
+        //                 }
+        //             ]
+        //         }
+        //     ]
+        //
+        // },
+        {
+            label: '2',
+            value: 6,
+            children: [
+                {
+                    label: '2-1',
+                    value: 7,
+                    // children: [
+                    //     {
+                    //         label: '2-1-1',
+                    //         value: 8,
+                    //     }
+                    // ]
+                },
+                {
+                    label: '2-2',
+                    value: 9,
+                    children: [
+                        {
+                            label: '2-2-1',
+                            value: 10,
+                            // children: [
+                            //     {
+                            //         label: '2-2-1-1',
+                            //         value: 11
+                            //     }
+                            // ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            label: '3',
+            value: 100,
+        }
+    ]
+
+    function test(arr, id, level = 1) {
+
+        let result = [],
+            state = false
+
+        const getChildren = (source, target, level) => {
+
+            for (let i = 0; i < source.length; i++) {
+
+                if (state)return;
+
+                let item = source[i];
+
+                //在遍历过程中保存路径value
+                result.push(item)
+
+                // result = result.slice(0,level)
+                // console.log('item----',item,result, level);
+                console.log('item----'+new Date().getTime(),result);
+
+                if (item.value === target) {
+                    // 如果找到了就停止循环
+                    // result.push(source[i].value)
+                    state = true
+                    return
+                } else if (item.children) {
+                    // 没找到，继续递归children
+                    getChildren(item.children, id, level + 1)
+                } else {
+                    // 没找到，children不存在，结束
+                    result.pop()
+
+                    // result.slice(0,level + 1)
+                    // result = []
+                }
+            }
+        }
+
+        getChildren(arr, id, level)
+
+        return result
+    }
+
+    console.log(test(data, 7));
+    // console.log();
+
+
+
+</script>
+
+</html>

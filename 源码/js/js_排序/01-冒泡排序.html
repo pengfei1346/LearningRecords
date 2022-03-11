@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="a"></div>
+</body>
+<script>
+
+    //  原理：
+    // 从左到右，相邻元素进行比较，如果前一个元素值大于后一个元素值（正序），则交换，这样一轮下来，将最大的数在最右边冒泡出来。这样一轮一轮下来，最后实现从小到大排序。
+
+    let arr = [ 8, 2, 1, 3, 5, 7, 4, 6]
+        // [1, 3, 5, 4, 6, 2, 7, 8]
+    const bubbleSort = (arr) => {
+        console.log('---start---',arr);
+        for (let i = 0;i<arr.length;i++) {
+            for (let j = 0; j< arr.length - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    const temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                    console.log('---arr---',arr);
+                }
+            }
+        }
+
+        return arr
+    }
+
+    //  时间复杂度：最好时间复杂度 O(n)，平均时间复杂度 O(n^2^)
+    //  空间复杂度：O(1)
+    console.log('result---',bubbleSort(arr));
+
+
+</script>
+</html>
