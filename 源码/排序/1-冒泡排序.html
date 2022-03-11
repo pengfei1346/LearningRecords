@@ -11,6 +11,12 @@
 
 <script>
 
+    // 来源：https://github.com/biaochenxuying/blog/issues/42
+
+//  优点：排序算法的基础，简单实用易于理解。
+//  缺点：比较次数多，效率较低。
+
+
     //  时间复杂度 O(n²) 。额外空间复杂度O(1)。
     /*
     *   算法步骤
@@ -27,48 +33,63 @@
     // 什么时候最慢
     // 当输入的数据是反序时，时间复杂度 O(n²) 。
 
-    // function bubbleSort(list) {
-    //
-    //     for (let i = 0; i < list.length - 1; i++) {
-    //         for (let j = 0; j < list.length - i - 1; j++) {
-    //             if( list[j] > list[j+1]) {
-    //                 let temp = list[j];
-    //                 list[j] = list[j+1];
-    //                 list[j+1] = temp
-    //             }
-    //         }
-    //     }
-    //
-    //     return list
-    // }
-    //
+
+    /*@ 分析
+    * 第一，冒泡排序是原地排序算法吗 ？
+    * 冒泡排序只涉及相邻元素交换位置，只需要temp一个内存空间，所以空间复杂度为 O(1)，因此是原地排序算法。
+    *
+    * 第二，冒泡排序是稳定的排序算法吗 ？
+    * 冒泡排序当后一个元素比前一个元素小才会改变顺序，当前后元素相等时不交换位置，即不改变元素排序，因此稳定。
+    *
+    * 第三，冒泡排序的时间复杂度是多少 ？
+    * 最佳情况：T(n) = O(n)
+    * 最差情况：T(n) = O(n2)
+    * */
+
+    function bubbleSort (arr) {
+        // 思路 双层遍历，
+        // 第一次遍历次数 ，length - 1,
+        // 第二层遍历对比索引i之后未排序的剩余元素，如果前一个比后一个大，就交换位置。
+
+        let len = arr.length
+
+        for (let i = 0; i < len - 1; i++) {
+            for (let j = 0; j < len - i - 1; j++) {
+                if(arr[j] > arr[j+1]) {
+                    let temp = arr[j]
+                    arr[j] = arr[j+1]
+                    arr[j+1] = temp
+                }
+            }
+        }
+
+        return arr
+    }
+
     // console.log(bubbleSort([1, 123, 3, 4, 7, 6, 9, 34, 2])); // length 9
 
 
-    function bubbleSort (arr) {
-
-        for (let i = 0; i < arr.length - 1; i++) {
-            let hasChange = false; // 提前退出冒泡循环的标志位
-            for (let j = 0; j < arr.length - i - 1; j++) {
-                if(arr[j] > arr[j + 1]) {
-                    let temp = arr[j]
-                    arr[j] = arr[j + 1]
-                    arr[j + 1] = temp
-                    hasChange = true
-                }
-            }
-            if (!hasChange) return
-        }
-        console.log(arr);
-        return arr
-    }
+    // function bubbleSort (arr) {
+    //
+    //     for (let i = 0; i < arr.length - 1; i++) {
+    //         let hasChange = false; // 提前退出冒泡循环的标志位
+    //         for (let j = 0; j < arr.length - i - 1; j++) {
+    //             if(arr[j] > arr[j + 1]) {
+    //                 let temp = arr[j]
+    //                 arr[j] = arr[j + 1]
+    //                 arr[j + 1] = temp
+    //                 hasChange = true
+    //             }
+    //         }
+    //         if (!hasChange) return
+    //     }
+    //     console.log(arr);
+    //     return arr
+    // }
     // 时间复杂度 o(n2)
     // 空间复杂度 o(1)
 
     bubbleSort([1,5,2,5,4,3])
-
-
-
 
 </script>
 
