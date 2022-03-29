@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    /*
+    *   1–for … of遍历获取的是对象的键值,for … in 获取的是对象的键名
+        2–for … in会遍历对象的整个原型链,性能非常差不推荐使用,而for … of只遍历当前对象不会遍历原型链
+        3–对于数组的遍历,for … in会返回数组中所有可枚举的属性(包括原型链上可枚举的属性),for … of只返回数组的下标对应的属性值
+    *   for in遍历的是数组的索引（即键名），
+        而for of遍历的是数组元素值。
+    *   索引是字符串型的数字，因而不能直接进行几何运算
+        遍历顺序可能不是实际的内部顺序
+        for in会遍历数组所有的可枚举属性，包括原型。例如的原型方法method和name属性
+        *
+        *
+    * for of 遍历数组
+      for in 遍历对象
+    * */
+
+
+    let a = {
+        name: '1',
+        age: 18
+    }
+    console.log(a.__proto__);
+    a.__proto__.type = "animal"
+    // a.prototype.getName = function () {
+    //     return a.name
+    // }
+
+    for (const aKey in a) {
+        console.log(aKey);
+    }
+
+
+</script>
+
+</html>

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            padding-top: 60px;
+            margin-left: 40px;
+        }
+        /*容器设置大小*/
+        .container {
+            width: 600px;
+            border: 1px solid #000;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /*内容*/
+        .list {
+            position: relative;
+            width: 600px;
+            display: flex;
+            left: 0;
+        }
+        .list img{
+            width: 100%;
+        }
+        /*  左右箭头  */
+        .operate .left{
+            position: absolute;
+            left: 10px;
+            top: 130px;
+            width: 20px;
+            height: 60px;
+            background: #fff;
+        }
+        .operate .right{
+            position: absolute;
+            right: 10px;
+            top: 130px;
+            width: 20px;
+            height: 60px;
+            background: #fff;
+        }
+        /*  dot  */
+        .dot {
+            position: absolute;
+            left: 50%;
+            bottom: 40px;
+            transform: translateX(-50%);
+            display: flex;
+        }
+        .dot li {
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius: 50%;
+        }
+        .dot li.active {
+            background: red;
+        }
+        .dot li+li {
+            margin-left: 14px;
+        }
+        ul,li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="list">
+            <img src="../assets/images/banner_1.jpeg" alt="">
+            <img src="../assets/images/banner_2.jpeg" alt="">
+            <img src="../assets/images/banner_3.jpeg" alt="">
+        </div>
+        <div class="dot">
+            <li></li>
+            <li></li>
+            <li></li>
+        </div>
+        <div class="operate">
+            <div class="left"> < </div>
+            <div class="right"> > </div>
+        </div>
+    </div>
+</body>
+
+<script>
+
+    let container = document.querySelector('.container')
+    let list = document.querySelector('.list')
+    let dotCon = document.querySelector('.dot')
+    let dotList = document.querySelectorAll('.dot li')
+    let leftBtn = document.querySelector('.left')
+    let rightBtn = document.querySelector('.right')
+
+    let index = 0 // 标识当前位置
+
+    let width = container.clientWidth
+
+    let cloneImg = list.firstElementChild.cloneNode()
+    list.appendChild(cloneImg)      // 复制出来一份 结果：1 2 3  1
+    setActive(0)
+
+    leftBtn.onclick = function () {
+        if (index === 0) {
+            index = 3
+            list.style.transition = 'none'
+            list.style.left = index * -width + 'px'
+            // 定时器设为0 那么他会在上面的代码执行后立即执行
+
+            setTimeout(() => {
+                index--
+                setActive(2)
+                list.style.transition = '.5s ease'
+                list.style.left = index * -width + 'px'
+            }, 0);
+        } else {
+            index--
+            list.style.left = index * -width + 'px'
+        }
+        setActive(index)
+    }
+
+    rightBtn.onclick = function () {
+        index++
+
+        list.style.transition = '.5s ease'
+        list.style.left = index * -width + 'px'
+
+        // 当切换到克隆的那张图片时
+        if (index === 3) {
+            list.style.left = index * -width + 'px'
+            setActive(0)
+
+            // 在0.5s切换成功后 清除transition 立马把index设置成第一张图片(下标0)
+            setTimeout(() => {
+                index = 0
+                list.style.transition = 'none'
+                list.style.left = index * -width + 'px'
+            }, 500);
+        }else {
+            setActive(index)
+        }
+    }
+
+    dotCon.onclick = function (e) {
+        let dotIndex = Array.prototype.indexOf.call(dotList, e.target);
+        for (let i = 0; i < dotCon.childElementCount; i++) {
+            if (i === Math.abs(dotIndex)) {
+                dotList[i].style.backgroundColor = 'red'
+            } else {
+                dotList[i].style.backgroundColor = '#fff'
+            }
+        }
+
+        index = dotIndex
+        list.style.transition = '.5s ease'
+        list.style.left = index * -width + 'px'
+    }
+
+    function setActive(index) {
+        // class="active"
+        for (let i = 0; i < list.childElementCount - 1; i++) {
+            if (i === Math.abs(index)) {
+                dotList[i].style.backgroundColor = 'red'
+            } else {
+                dotList[i].style.backgroundColor = '#fff'
+            }
+        }
+    }
+
+</script>
+</html>

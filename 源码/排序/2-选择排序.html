@@ -11,12 +11,19 @@
 
 <script>
     /*
-    *   首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置。
+    @ 思想
+    *   一般人打扑克牌，整理牌的时候，都是按牌的大小（从小到大或者从大到小）整理牌的，那每摸一张新牌，就扫描自己的牌，把新牌插入到相应的位置。
+    *   插入排序的工作原理：通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。
+    * */
 
-        再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。
+    /*
+    从第一个元素开始，该元素可以认为已经被排序；
+    取出下一个元素，在已经排序的元素序列中从后向前扫描；
+    如果该元素（已排序）大于新元素，将该元素移到下一位置；
+    重复步骤 3，直到找到已排序的元素小于或者等于新元素的位置；
+    将新元素插入到该位置后；
+    重复步骤 2 ~ 5。
 
-        重复第二步，直到所有元素均排序完毕。
-    */
     /*
     *   选择排序是一种简单直观的排序算法，无论什么数据进去都是 O(n²) 的时间复杂度。额外空间复杂度O(1)。
 
@@ -29,25 +36,62 @@
 
         重复第二步，直到所有元素均排序完毕。
     * */
-    function selectionSort(list) {
+    // function selectionSort(list) {
+    //
+    //     let len = list.length;
+    //     let minIndex, temp;
+    //
+    //     for (let i = 0; i < len - 1; i++) {
+    //         minIndex = i;
+    //         for (let j = i + 1; j < len; j++) {
+    //             if (list[j] < list[minIndex]) {     // 寻找最小的数
+    //                 minIndex = j;                 // 将最小数的索引保存
+    //             }
+    //         }
+    //         temp = list[i];
+    //         list[i] = list[minIndex];
+    //         list[minIndex] = temp;
+    //     }
+    //
+    //     return list
+    // }
 
-        let len = list.length;
-        let minIndex, temp;
+    // function selectionSort(arr) {
+    //     //  已排序的部分一定是有序的，
+    //     //  每次排序后，记录已排序部分中索引，供遍历未排序部分时进行比较
+    //     //  比较完成后，互换位置。
+    //
+    //     let len = arr.length
+    //     let minIndex //  未排序的部分最小值
+    //
+    //     for (let i = 0; i < len - 1; i++) {
+    //         //
+    //         minIndex = i
+    //
+    //         for (let j = i + 1; j < len; j++) {
+    //             // 未优化，总要完全遍历一次，找出未排序部分最小的值
+    //             // 找出来比已排序列表大，未排序中最小的元素
+    //             if(arr[j] < arr[minIndex]) {
+    //                 minIndex = j
+    //                 console.log(i,j);
+    //             }
+    //         }
+    //
+    //         let temp = arr[i]
+    //         arr[i] = arr[minIndex]
+    //         arr[minIndex] = temp
+    //     }
+    //     return arr
+    // }
 
-        for (let i = 0; i < len - 1; i++) {
-            minIndex = i;
-            for (let j = i + 1; j < len; j++) {
-                if (list[j] < list[minIndex]) {     // 寻找最小的数
-                    minIndex = j;                 // 将最小数的索引保存
-                }
-            }
-            temp = list[i];
-            list[i] = list[minIndex];
-            list[minIndex] = temp;
+    function selectionSort(arr) {
+        let len = arr.length
+
+        for (let i = 0; i < len; i++) {
+
         }
-
-        return list
     }
+
 
     console.log(selectionSort([1, 2, 9, 6, 3, 5, 8]));
 </script>
