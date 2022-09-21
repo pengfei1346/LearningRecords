@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    // typeof
+    // let a = "1"
+    // let b = 1
+    // let c = true
+    // let d = null
+    // let e = undefined
+    // let f = new Symbol("1")
+
+
+    // console.log(typeof 10n)
+    // console.log(9007199254740995n);    // → 9007199254740995n
+
+    let aaa = {
+        a:1
+    }
+
+    console.log(aaa.toString);
+
+    // function test(person) {
+    //     person.age = 26
+    //     // person = {
+    //     //     name: 'yyy',
+    //     //     age: 30
+    //     // }
+    //
+    //     return person.name
+    // }
+    // const p1 = {
+    //     name: 'yck',
+    //     age: 25
+    // }
+    // const p2 = test(p1)
+    // console.log(p1) // -> ?
+    // console.log(p2) // -> ?
+
+
+    // console.log(typeof function () {
+    //
+    // });
+
+    // console.log(Object.prototype.toString.call(null));
+    // console.log(Object.prototype.toString.call(1));
+    // console.log(Object.prototype.toString.call("1"));
+    // console.log(Object.prototype.toString.call(undefined));
+    // console.log(Object.prototype.toString.call(true));
+    // console.log(Object.prototype.toString.call(1n));
+    //
+    // console.log(Object.prototype.toString.call([]));
+    // console.log(Object.prototype.toString.call({}));
+    // console.log(Object.prototype.toString.call(function () {}));
+    // console.log(false.toString());
+
+    // console.log("4" * false);
+
+
+
+    // function foo() {
+    //     console.log(this.a)
+    // }
+    // var a = 1
+    // foo()
+    //
+    // const obj = {
+    //     a: 2,
+    //     foo
+    // }
+    // obj.foo()
+    //
+    // const c = new foo()
+
+
+    // var A = function() {};
+    // A.prototype.n = 1;
+    // var b = new A();
+    // A.prototype = {
+    //     n: 2,
+    //     m: 3
+    // }
+    // var c = new A();
+    //
+    // console.log(b.n);
+    // console.log(b.m);
+    //
+    // console.log(c.n);
+    // console.log(c.m);
+
+
+    let a = function () {
+       return 666
+    }
+    let b =  new Function()
+    let c = {}
+    let d = new Object()
+
+    console.log(a.__proto__);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+
+</script>
+</html>

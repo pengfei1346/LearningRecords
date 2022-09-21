@@ -21,12 +21,18 @@
     // console.log(typeof x); //object
 
     // console.log(Object.prototype.toString.call("jerry"));//[object String]
-    var arr=[1,2,3];
-    console.log(Array.prototype.hasOwnProperty("toString"));//true
-    console.log(arr.toString());//1,2,3
-    delete Array.prototype.toString;//delete操作符可以删除实例属性
-    console.log(Array.prototype.hasOwnProperty("toString"));//false
-    console.log(arr.toString());//"[object Array]"
+    // var arr=[1,2,3];
+    // console.log(Array.prototype.hasOwnProperty("toString"));//true
+    // console.log(arr.toString());//1,2,3
+    // delete Array.prototype.toString;//delete操作符可以删除实例属性
+    // console.log(Array.prototype.hasOwnProperty("toString"));//false
+    // console.log(arr.toString());//"[object Array]"
 
+
+    function typeOf(data) {
+        // 完美解决
+        // slice第二个参数负数代表从尾部开始
+        return Object.prototype.toString.call(data).slice(8,-1).toLocaleUpperCase()
+    }
 </script>
 </html>

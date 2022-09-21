@@ -10,6 +10,54 @@
 </body>
 
 <script>
+    /**
+     * 获取所有父级节点的某个属性值
+     * @param tree 待查找的树
+     * @param value 要找到的值
+     * @param valueName 要找到的值的属性名称
+     * @param returnName 要返回的属性名称
+     * @param childrenName 树的子节点的属性名称
+     * @returns {*[]}
+     */
+    const findPatentValue = (tree, value, valueName = 'id', returnName = 'title', childrenName = 'children') => {
+        if (!value || !Array.isArray(tree)) return []
+        let result = []
+        let valid = false // 表示是否找到指定的值
+        const seek = (arr, target, level) => {
+            for (let j = 0; j < arr.length; j++) {
+                // 在第几层循环，就保证数组的长度为几
+                if (result.length -1 > level) {
+                    result.splice(0, level+1)
+                }
+
+                let o = arr[j]
+                // 将当前层级的 放到数组
+                result[level] = o[returnName];
+                let val = o[valueName]
+                if (target === val) {
+                    valid = true
+                    break
+                } else {
+                    let child = o[childrenName]
+                    if (child && child.length) {
+                        seek(child, target, level + 1)
+                    }
+                }
+                // 如果找到了，就终止循环
+                if(valid) {
+                    break
+                }
+            }
+        }
+        // 执行方法
+        seek(tree, value, 0)
+        // 判断结果，如果没有找到返回空数组
+        if (!valid) {
+            return []
+        } else {
+            return result;
+        }
+    }
 
 
 </script>

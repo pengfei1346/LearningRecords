@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+    // 广度优先和深度优先的概念很简单，区别如下：
+// 深度优先，访问完一颗子树再去访问后面的子树，而访问子树的时候，先访问根再访问根的子树，称为先序遍历；先访问子树再访问根，称为后序遍历。
+// 广度优先，即访问树结构的第n+1层前必须先访问完第n层
+    const data = [
+        {
+            name: 'a',
+            children: [
+                { name: 'b', children: [{ name: 'e' }] },
+                { name: 'c', children: [{ name: 'f' }] },
+                { name: 'd', children: [{ name: 'g' }] },
+            ],
+        },
+        {
+            name: 'a2',
+            children: [
+                { name: 'b2', children: [{ name: 'e2' }] },
+                { name: 'c2', children: [{ name: 'f2' }] },
+                { name: 'd2', children: [{ name: 'g2' }] },
+            ],
+        }
+    ]
+
+    // 深度遍历, 使用递归
+    function getName(data) {
+        const result = [];
+        data.forEach(item => {
+            const map = data => {
+                result.push(data.name);
+                data.children && data.children.forEach(child => map(child));
+            }
+            map(item);
+        })
+        return result.join(',');
+    }
+
+    // 广度遍历, 创建一个执行队列, 当队列为空的时候则结束
+    function getName2(data) {
+        let result = [];
+        let queue = data;
+        while (queue.length > 0) {
+            [...queue].forEach(child => {
+                queue.shift();
+                result.push(child.name);
+                child.children && (queue.push(...child.children));
+            });
+        }
+        return result.join(',');
+    }
+
+    // console.log(getName(data))
+    // console.log(getName2(data))
+
+
+    const rule = {
+        name: "String",
+        age: "Number",
+        hobby: "Array",
+        father: {
+            name: "String",
+            age: "Number"
+        },
+        sister: {
+            name: "String",
+            father: {
+                name: "String",
+                age: "Number",
+                hobby: "Array",
+                marry: "Boolean"
+            }
+        }
+    }
+
+    const data1 = {
+        name: "张三",
+        age: 18,
+        marry: undefined,
+        hobby: ["游泳","打球"],
+        father: {
+            name: '88',
+            age: null
+        },
+        sister: {
+            name: '99',
+            father: {
+                name: '88',
+                hobby: null,
+                marry: false
+            }
+        }
+    }
+    /**
+     * @desc 给定一个对象data，rule是对象的类型规则，找出所有不满足类型的字段
+     * @return ["marry","father.age","sister.father.hobby"]
+     * */
+
+    const getFields = (data,rule) => {
+
+        return []
+    }
+</script>
+
+</html>

@@ -119,11 +119,140 @@
         return result
     }
 
-    console.log(test(data, 7));
+    // console.log(test(data, 7));
     // console.log();
 
 
+    const printTree = () => {
+        /* 数组转树  非递归求解
+        * 利用数组和对象相互引用  时间复杂度O(n)
+        * /@param {Object} list
+        */
+        const idObj = {};
+        const newArr = [];
+        list.forEach((item) => {
+            idObj[item.id] = item;
+        });
+        list.forEach((item) => {
+            const parent = idObj[item.parentId];
+            if (parent) {
+                (parent.children || (parent.children = [])).push(item);
+            } else {
+                newArr.push(item);
+            }
+        })
 
+        return newArr
+    }
+
+    // // 开始递归打印
+    // print(root, 0)
+    // function print(root, strLength) {
+    //     console.log(' '.repeat(strLength) + root.name)
+    //     for (let child of root.children) {
+    //         print(child, strLength + root.name.length)
+    //     }
+    // }
+
+    // function toThousands (price) {
+    //     // return price.toString().replace(/(?<!\.\d+)(?=\B(\d{3})+\b)/g, ',');
+    //     let str = price.toString().split('.')
+    //     let m = str[0] // 整数部分
+    //     let n = str[1] // 小数数部分
+    //     let numDist = ''
+    //     for (let i = 0; i < m.length; i++) {
+    //         numDist += m[i]
+    //         if ((i + 1) % 3 === 0 && (i + 1) < m.length) {
+    //             numDist += ','
+    //         }
+    //     }
+    //     return `${numDist}.${n}`
+    // }
+
+    const rule = {
+        name: "String",
+        age: "Number",
+        hobby: "Array",
+        marry: "Boolean",
+        father: {
+            name: "String",
+            age: "Number"
+        },
+        sister: {
+            name: "String",
+            father: {
+                name: "String",
+                age: "Number",
+                hobby: "Array",
+                marry: "Boolean",
+                sister: {
+                    name: 'String',
+                    age: "Number",
+                    hobby: "Array"
+                }
+            }
+        }
+    }
+
+    const data1 = {
+        name: "张三",
+        age: 18,
+        marry: undefined,
+        hobby: ["游泳","打球"],
+        father: {
+            name: '88',
+            age: null
+        },
+        sister: {
+            name: '99',
+            father: {
+                name: '88',
+                hobby: null,
+                marry: false,
+                sister: {
+                    name: '我是捏爹',
+                    age: 9999,
+                    hobby: null
+                }
+            }
+        }
+    }
+    /**
+     * @desc 给定一个对象data，rule是对象的类型规则，找出所有不满足类型的字段
+     * @return ["marry","father.age","sister.father.hobby"]
+     * */
+
+    const getErrorFields = (data,rules) => {
+        let pre = []
+
+        // 判断类型
+        const getType = (field) => {
+          return Object.prototype.toString.call(field).slice(8,-1)
+        }
+
+        const findError = (itemData,itemRules, depth ) => {
+            for (const itemDataKey in itemData) {
+                // 判断是对象，继续递归遍历
+                if(getType(itemData[itemDataKey]) === "Object") {
+                    let r = `${depth?depth + '.':''}${itemDataKey}`
+                    findError(itemData[itemDataKey],itemRules[itemDataKey],r)
+                }else {
+                    // 如果不是，对比字段类型与规则类型是否相同
+                    // 不同，推进错误字段数组
+                    if(getType(itemData[itemDataKey]) !== itemRules[itemDataKey]) {
+                        let rKey = `${depth?depth + '.':''}${itemDataKey}`
+                        pre.push(rKey)
+                    }
+                }
+            }
+        }
+
+        findError(data,rules)
+
+        return pre
+    }
+
+    console.log(getErrorFields(data1, rule));
 </script>
 
 </html>
