@@ -252,7 +252,47 @@
         return pre
     }
 
-    console.log(getErrorFields(data1, rule));
+    // 判断类型
+    const getType = (field) => {
+        return Object.prototype.toString.call(field).slice(8,-1)
+    }
+
+    const getErrorFieldsOptimize = (data,rules,func) => {
+        let pre = []
+
+        const findError = (itemData,itemRules, depth ) => {
+            for (const itemDataKey in itemData) {
+                // 判断是对象，继续递归遍历
+                if(getType(itemData[itemDataKey]) === "Object") {
+                    let r = `${depth?depth + '.':''}${itemDataKey}`
+                    findError(itemData[itemDataKey],itemRules[itemDataKey],r)
+                }else {
+                    // 如果不是，对比字段类型与规则类型是否相同
+                    // 不同，推进错误字段数组
+                    if(func(itemData[itemDataKey],itemRules[itemDataKey])) {
+                        let rKey = `${depth?depth + '.':''}${itemDataKey}`
+                        pre.push(rKey)
+                    }
+                }
+            }
+        }
+
+        findError(data,rules)
+
+        return pre
+    }
+
+    // console.log(getErrorFields(data1, rule));
+
+    /**
+     * 高阶函数形式，功能更强
+     * 可以自定义规则
+     * 提取类型不同的字段可以 (itemData,itemRules) =>  getType(itemData) !== itemRules
+     * 提取类型相同的字段可以 (itemData,itemRules) =>  getType(itemData) === itemRules
+     * */
+    const arr = getErrorFieldsOptimize(data1, rule, (itemData,itemRules) => getType(itemData) !== itemRules)
+
+    console.log(arr);
 </script>
 
 </html>
