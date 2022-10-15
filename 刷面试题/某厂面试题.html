@@ -25,22 +25,22 @@
      8    4          HH
      9    5          II
 
-     interface TreeNode {
-  id: number; // 节点 ID
-  parentId: number; // 父节点 ID
-  name: string； // 节点名称
-}
+    interface TreeNode {
+      id: number; // 节点 ID
+      parentId: number; // 父节点 ID
+      name: string； // 节点名称
+    }
 
      请写一个函数 printTree(list: TreeNode[]): void 把输入的数据在控制台打印为一个有缩进的树形结构。上面的示例输出的结果如下：
      AA
-     BB
-     FF
-     GG
-     CC
-     DD
-     HH
-     EE
-     II
+       BB
+         FF
+         GG
+       CC
+         DD
+           HH
+         EE
+           II
      * */
     const printTree = (list) => {
 
