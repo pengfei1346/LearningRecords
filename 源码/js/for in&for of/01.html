@@ -26,6 +26,143 @@
     * */
 
 
+    /****************************/
+
+    /*
+    * for of 的原理，就是调用目标的迭代接口(生成器函数)获取一个迭代器，然后不断迭代这个迭代器，将返回对象的 value 属性赋值给变量，直到返回对象的 done 属性为 true。
+    * */
+    /**
+     * @description: for of 方法实现
+     * @param {object} iteratorObj 可迭代对象
+     * @param {Function} fn 回调函数
+     * @return {void}
+     */
+    function myForOf(iteratorObj, fn) {
+        // 如果传入的对象不具备迭代接口，抛出异常
+        if (typeof iteratorObj[Symbol.iterator] != 'function') {
+            throw new TypeError(`${iteratorObj} is not iterable`)
+        }
+        // 获取迭代器
+        let iterator = iteratorObj[Symbol.iterator]()
+        // 遍历迭代器
+        let i
+        while (!(i = iterator.next()).done) {
+            fn(i.value)
+        }
+    }
+
+    const arr = [10, 20, 30]
+
+    myForOf(arr, (item) => {
+        console.log(item)
+    })
+
+    let map = new Map([
+        ['a', 1],
+        ['b', 2],
+        ['c', 3],
+    ])
+
+    myForOf(map, ([key, value]) => {
+        console.log(key, value)
+    })
+
+    // 扩展 for of
+
+    /**
+     * 迭代协议、迭代器、生成器。
+     *  迭代协议: 在 JS 中，对象的迭代接口通过属性 Symbol.iterator 暴露给了开发者。
+     *
+     *  迭代器: 迭代器是一个对象，它具有一个 next 方法，该方法会返回一个对象，包含 value 和 done 两个属性。value 表示这次迭代的值； done 表示是否已经迭代到序列中的最后一个。
+     迭代器对象可以重复调用 next() 方法，该过程称迭代一个迭代器，又称消耗了这个迭代器，因为它通常只能迭代一次。 在产生终止值之后，对 next() 的额外调用只会返回 {value: 最终值, done：true}。
+     *
+     * 生成器:生成器是一个函数，我将从语法和调用两个方面详细说明生成器函数。
+     * 语法：
+     生成器函数的语法有一定规则，该函数要使用 function* 语法编写，在其内部可以使用 yield 关键字指定每一次迭代产出的值，也可以使用 return 关键字作为迭代器的终值。
+     调用：调用生成器函数只会返回一个迭代器对象，不会执行函数体中的代码。通过调用生成器的 next() 方法，才会执行函数体中的内容，直到遇到 yield 关键字或执行完毕。
+     * */
+
+    function* generator() {
+        console.log('第一次调用')
+        yield 'a'
+        console.log('第二次调用')
+        yield 'b'
+        console.log('第三次调用')
+        return 'c'
+    }
+
+    let iterator = generator()
+    console.log('创建迭代器')
+
+    console.log('next1:', iterator.next()) // {value: 'a',done: false}
+    console.log('next2:', iterator.next())// {value: 'b',done: false}
+    console.log('next3:', iterator.next())// {value: 'c',done: true}
+    console.log('next4:', iterator.next())// {value: undefined,done: true}
+    //生成器函数的内容是分步调用的，每次迭代只运行到下一个 yield 的位置，将 yield 关键字后的表达式作为本次迭代的值产出。当遇到 return 或执行完函数后，返回对象的 done 属性会被设置为 true，表示这个迭代器被完全消耗了。
+
+
+    //  next 方法是可以传参的，参数将以 yield 关键字的返回值的形式被使用，第一次 next 调用传递的参数将被忽略。
+    //  看看下面这个无限累加器，传递0会将其重置：
+    function* generator(start) {
+        let cur = start
+        while (true) {
+            let num = yield cur
+            if (num == 0) {
+                console.log('迭代器被重置')
+                cur = start
+            } else {
+                cur += num
+            }
+        }
+    }
+
+    let iterator = generator(10)
+    console.log('创建迭代器')
+    console.log('next1:', iterator.next().value)
+    console.log('next2:', iterator.next(2).value)
+    console.log('next3:', iterator.next(4).value)
+    console.log('next4:', iterator.next(5).value)
+    console.log('next5:', iterator.next(0).value)
+    console.log('next6:', iterator.next(5).value)
+    console.log('next7:', iterator.next(10).value)
+
+
+    // ****对象
+    //  for of 美中不足的一点是没法直接遍历对象的属性
+    Object.prototype[Symbol.iterator] = function* () {
+        const keys = Object.keys(this)
+        for (let i = 0; i < keys.length; i++) {
+            yield keys[i]
+        }
+    }
+
+    const obj = { a: 1, b: 2, c: 3 }
+
+    for (const key of obj) {
+        console.log(key, obj[key])
+    }
+    // a 1
+    // b 2
+    // c 3
+    // ****数组
+    //  for of 另一点不足就是取不到索引，没法修改数组，可以通过实现 Number 原型对象上的迭代接口解决
+    Number.prototype[Symbol.iterator] = function* () {
+        const num = this.valueOf()
+        for (let i = 0; i < num; i++) {
+            yield i
+        }
+    }
+
+    const arr = [...5]
+
+    console.log(arr) // [0, 1, 2, 3, 4]
+
+    for (const index of arr.length) {
+        arr[index] *= 2
+    }
+
+    console.log(arr) // [0, 2, 4, 6, 8]
+
 </script>
 
 </html>

@@ -63,8 +63,8 @@
 
     var person = new Person();
 
-    console.log(person.__proto__ == Person.prototype) // true
-    console.log(Person.prototype.constructor == Person) // true
+    console.log(person.__proto__ === Person.prototype) // true
+    console.log(Person.prototype.constructor === Person) // true
     console.log(person.constructor === Person); // true
     //  当获取 person.constructor 时，其实 person 中并没有 constructor 属性,当不能读取到constructor 属性时，会从 person 的原型也就是 Person.prototype 中读取，正好原型中有该属性，所以：
     // 顺便学习一个ES5的方法,可以获得对象的原型
@@ -74,6 +74,18 @@
 
     //   简单的回顾一下构造函数、原型和实例的关系：每个构造函数都有一个原型对象，原型对象都包含一个指向构造函数的指针，而实例都包含一个指向原型对象的内部指针。那么假如我们让原型对象等于另一个类型的实例，结果会怎样？显然，此时的原型对象将包含一个指向另一个原型的指针，相应地，另一个原型中也包含着一个指向另一个构造函数的指针。假如另一个原型又是另一个类型的实例，那么上述关系依然成立。如此层层递进，就构成了实例与原型的链条。这就是所谓的原型链的基本概念。——摘自《javascript高级程序设计》
     // 原型链的尽头是null
+
+    /*
+    * 原型：
+    * 任何函数都可以作为构造函数，只要被new了，就是一个构造函数，每个函数都有一个prototype属性，这个是生成函数时自动加上的，函数的这个prototype属性指向的就是函数的原型对象
+    * 每个原型对象都有一个constructor构造器，这个属性指向的就是引用的那个构造函数，也就是声明这个原型对象的函数
+    * 每个对象都有一个__proto__属性，这个属性指向的是这个的对象的构造函数的的原型对象，也就是说一个实例对象的原型是等于它的构造函数的原型对象
+    *
+    *
+    * 原型链：从一个对象上获取某一个属性或者方法时，如果这个对象本身不具备这个属性或者方法，那就会从这个对象的构造函数的原型对象上去找，如果还没找到就会从构造函数的构造函数上去找，直到找到构造函数为Object时终止，因为Object.prototype.proto===null，这样形成的一个链条就叫原型链。
+    * */
+
+    // todo instanceof
 
 </script>
 
