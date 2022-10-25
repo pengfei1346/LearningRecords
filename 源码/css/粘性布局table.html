@@ -1,15 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>纯CSS实现表格首行和首列固定</title>
+    <!-- 插入Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <style>
+        .main{
+            width: 500px;
+            overflow:auto;
+            height:208px;  /* 设置固定高度 */
+        }
+        td, th {
+            /* 设置td,th宽度高度 */
+            border:1px solid gray;
+            width:100px;
+            height:30px;
+        }
+        th {
+            background-color:lightblue;
+        }
+        table {
+            table-layout: fixed;
+            width: 200px; /* 固定宽度 */
+        }
+        td:first-child, th:first-child {
+            /*td:nth-child(2), th:nth-child(2)*/
+            position:sticky;
+            left:0; /* 首行永远固定在左侧 */
+            z-index:1;
+            background-color:lightpink;
+        }
+        thead tr th {
+            position:sticky;
+            top:0; /* 列首永远固定在头部  */
+        }
+        th:first-child{
+            z-index:2;
+            background-color:lightblue;
+        }
+    </style>
 </head>
 <body>
-$END$
+<div id="app">
+    <div class="main">
+        <table  cellspacing="0" >
+            <thead>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="(item, index) in 30" :key="index">
+                <td>{{index}} - 1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 </body>
-
 <script>
-
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello'
+        },
+    })
 </script>
-
 </html>

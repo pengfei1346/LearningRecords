@@ -1,15 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+
 </body>
 
 <script>
+    async function fun1() {
+        console.log(111);
+        await fun2()
+        console.log(222);
+    }
 
+    async function fun2() {
+        console.log(333);
+        new Promise((res, rej) => {
+            console.log(444);
+            setTimeout(() => {
+                console.log(555);
+                res(666)
+            },0)
+            res(777)
+        }).then(res => {
+            console.log(res);
+        })
+    }
+
+    fun1()
+    console.log(888);
+    setTimeout(() => {
+        console.log(999);
+    },0)
+
+
+    // let x = [1, 2, 3];
+    // let y = x;
+    // let z = [4, 5, 6];
+    // y[0] = 10;
+    // y = z;
+    // z[1] = 20;
+    // x[2] = z = 30;
+    // console.log(x, y, z);
 </script>
 
 </html>
