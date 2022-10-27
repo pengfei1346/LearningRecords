@@ -5,21 +5,102 @@
     <title>Title</title>
 </head>
 <body>
-
+<button onclick="clickMe()">点我</button>
 </body>
 
 <script>
- let task = class {
-     taskArr = []
+    //1 很容易想到使用同步非阻塞方案，每隔一定的时间去检测一下队列中有无任务，有则取出第一个处理。这里检测间隔间隔500毫秒，使用setTimeout模拟异步请求。
+    // let queue = []
+    // let index = 0
+    // function clickMe() {
+    //     queue.push({name: 'click', index: index++})
+    // }
+    //
+    // run()
+    // async function run() {
+    //     while (true) {
+    //         if (queue.length > 0) {
+    //             let obj = queue.shift()
+    //             let res = await request(obj.index)
+    //             console.log('已处理事件' + res)
+    //         } else {
+    //             await wait(500)
+    //             console.log('----- 队列空闲中 -----')
+    //         }
+    //     }
+    // }
+    // // 通过setTimeout模拟异步请求
+    // function request(index) {
+    //     return new Promise(function (resolve, reject) {
+    //         setTimeout(() => {
+    //             resolve(index)
+    //         }, 1000)
+    //     })
+    // }
+    // function wait(time) {
+    //     return new Promise(function (resolve) {
+    //         setTimeout(() => {
+    //             resolve()
+    //         }, time)
+    //     })
+    // }
 
-     push() {
+    //
+    // 队列空闲仍在循环处理，消耗资源
+    // 检测间隔时间难把握，若间隔时间过大导致队列任务处理不完，检测间隔时间过小消耗资源
+    // 那有没有像Java中BlockingQueue那样的队列空闲就阻塞，不消耗资源的处理方式呢？
 
-     }
- }
 
 
- let taskO = new task()
- console.log(taskO);
+
+    /**
+     * 主要思路：
+     将异步请求加入队列中，当队列中任务数大于0时，开始处理队列中的任务
+     待一个任务执行完后再执行下一个任务
+     队列中任务全部处理完后标志running状态为false
+     * */
+
+    // 异步请求队列
+    const queue = []
+    // 用来模拟不同的返回值
+    let index = 0
+    // 标志是否正在处理队列中的请求
+    let running = false
+
+    // 使用setTimeout模拟异步请求
+    function request(index) {
+        return new Promise(function (resolve) {
+            setTimeout(() => {
+                resolve(index)
+            }, 1000)
+        })
+    }
+
+    // 连续点击，触发异步请求，加入任务队列
+    function clickMe() {
+        addQueue(() => request(index++))
+    }
+
+    // 当队列中任务数大于0时，开始处理队列中的任务
+    function addQueue(item) {
+        queue.push(item)
+        if (queue.length > 0 && !running) {
+            running = true
+            process()
+        }
+    }
+
+    function process() {
+        const item = queue.shift()
+        if (item) {
+            item().then(res => {
+                console.log('已处理事件' + res)
+                process()
+            })
+        } else {
+            running = false
+        }
+    }
 
 </script>
 

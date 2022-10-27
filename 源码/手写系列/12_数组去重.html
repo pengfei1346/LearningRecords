@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+
 </body>
 
 <script>
+
+    let uniqueArr = (arr) => {
+        return [...new Set(arr)]
+    }
+    let uniqueArr1 = (arr) => {
+
+        let cur = {}
+        let curArr = []
+
+        // 回溯思想
+        for (let i = 0; i < arr.length; i++) {
+            if(!cur[arr[i]]) {
+                curArr.push(arr[i])
+            }
+            cur[arr[i]] = arr[i]
+        }
+        return curArr
+    }
+
+    // console.log(uniqueArr1([1, 2, 2, 4, 8]));
+
+    let uniqueArr2 = (arr) => {
+        return arr.reduce( (pre,cur) => {
+            if(!pre.includes(cur)) {
+                pre.push(cur)
+            }
+            return pre
+        },[])
+    }
+    // console.log(uniqueArr2([1, 2, 2, 4, 8]));
+
+    function flatten(arr) {
+        while (arr.some(item => Array.isArray(item))) {
+            arr = [].concat(...arr);
+        }
+        return arr;
+    }
+
+    console.log(flatten([1, [2, [3]]]));
 
 </script>
 

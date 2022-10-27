@@ -9,24 +9,73 @@
 </body>
 
 <script>
-    let myPromise = function () {
 
+    class myPromise {
+        constructor(executor) {
+            this.status = 'pending'// pending fulfilled rejected
+            this.value = '' // 成功的value
+            this.reason = '' // 失败的原因
 
-        function resolve() {
+            // 发布订阅模式
+            this.onFulfilledCallbacks = [] // 成功态回调函数队列
+            this.onRejectedCallbacks = [] // 失败态回调函数队列
 
+            let resolved = (value) => {
+                if(this.status === 'pending') {
+                    this.status = 'fulfilled';
+                    this.value = value;
+
+                    // 成功态回调函数依次执行
+                    this.onFulfilledCallbacks.forEach(fn => fn(this.value))
+                }
+            }
+
+            let rejected = (reason) => {
+                if(this.status === 'pending') {
+                    this.status = 'rejected';
+                    this.reason = reason;
+                    // 失败态回调函数依次执行
+                    this.onRejectedCallbacks.forEach(fn => fn(this.reason))
+                }
+            }
+
+            try {
+                // 执行器 立即执行一遍
+                executor(resolved,rejected)
+            }catch (e) {
+                rejected(e)
+            }
         }
 
-        function reject() {
+        then(onFulfilled,onRejected) {
+            // 解决 onFulfilled，onRejected 没有传值的问题
+            onFulfilled = typeof onFulfilled === "function" ? onFulfilled : (value) => value;
+            // 因为错误的值要让后面访问到，所以这里也要抛出错误，不然会在之后 then 的 resolve 中捕获
+            onRejected = typeof onRejected === "function" ? onRejected : (err) => {
+                throw err;
+            };
 
+            if(this.status === 'pending') {
+                this.onFulfilledCallbacks.push(onFulfilled)
+                this.onRejectedCallbacks.push(onRejected)
+            }
+
+            // A+规范，todo 链式调用需要返回一个新的promise
         }
-    }
 
-    myPromise.prototype.then = function () {
+        // todo .all .race .any .finally
+        // todo 并行限制
 
     }
 
     let a = new myPromise((res,rej) => {
-
+        console.log('promise init');
+        setTimeout(() => {
+            res('promise resolved')
+        },5000)
+    })
+    a.then(res => {
+        console.log(res);
     })
 </script>
 
