@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+//     Promise.all(promises: Iterable<Promise>): Promise<Array>
+//
+//     Promise.all(iterable) 方法返回一个 Promise 实例，此实例在 iterable 参数内所有的 promise 都“完成（resolved）”或参数中不包含 promise 时回调完成（resolve）；如果参数中  promise 有一个失败（rejected），此实例回调失败（reject），失败原因的是第一个失败 promise 的结果
+//
+//     Promise.race(promises: Iterable<Promise>): Promise
+//
+//     Promise.race(iterable) 方法返回一个 promise，一旦迭代器中的某个promise解决或拒绝，返回的 promise就会解决或拒绝。
+//
+// Promise.allSettled(promises: Iterable<Promise>): Promise<Array<SettlementObject>>
+//
+//     **Promise.allSettled()**方法返回一个promise，该promise在所有给定的promise已被解析或被拒绝后解析，并且每个对象都描述每个promise的结果。
+
+  const p1 = Promise.resolve('p1 resolved')
+
+  const p2 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('p2 resolved 延时一秒')
+    }, 1000)
+  })
+
+  const p3 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('p3 resolved 延时两秒')
+    }, 2000)
+  })
+
+  const p4 = Promise.reject('p4 rejected')
+
+  const p5 = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      reject('p5 rejected 延时1.5秒')
+    }, 1500)
+  })
+
+  // 所有Promise实例都成功 // 2秒后打印 [ 'p1', 'p2 延时一秒', 'p3 延时两秒' ]
+  // Promise.all([p1, p2, p3])
+  //         .then(res => {
+  //           console.log("所有Promise实例都成功-",res)
+  //         })
+  //         .catch(err => console.log(err))
+
+  // 一个Promise实例失败  // p4 rejected
+  // Promise.all([p1, p2, p4])
+  //         .then(res => {
+  //           console.log("一个Promise实例失败-",res)
+  //         })
+  //         .catch(err => {
+  //             // 这里会返回失败原因
+  //             console.log("err-",err)
+  //         })
+
+  // 一个延时失败的Promise // 1.5秒后打印 p5 rejected
+  // Promise.all([p1, p2, p5])
+  //         .then(res => {
+  //           console.log(res)
+  //         })
+  //         .catch(err => console.log(err))
+  //
+  // // 两个Promise实例失败 // p4 rejected
+  p4.catch(err => {
+      console.log("p4 err-", err);
+  })
+  Promise.all([p1, p4, p5])
+          .then(res => {
+            console.log(res)
+          })
+          .catch(err => console.log(err))
+
+
+</script>
+
+</html>

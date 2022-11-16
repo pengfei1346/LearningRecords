@@ -21,7 +21,7 @@
             this.onRejectedCallbacks = [] // 失败态回调函数队列
 
             let resolved = (value) => {
-                if(this.status === 'pending') {
+                if (this.status === 'pending') {
                     this.status = 'fulfilled';
                     this.value = value;
 
@@ -31,7 +31,7 @@
             }
 
             let rejected = (reason) => {
-                if(this.status === 'pending') {
+                if (this.status === 'pending') {
                     this.status = 'rejected';
                     this.reason = reason;
                     // 失败态回调函数依次执行
@@ -41,13 +41,13 @@
 
             try {
                 // 执行器 立即执行一遍
-                executor(resolved,rejected)
-            }catch (e) {
+                executor(resolved, rejected)
+            } catch (e) {
                 rejected(e)
             }
         }
 
-        then(onFulfilled,onRejected) {
+        then(onFulfilled, onRejected) {
             // 解决 onFulfilled，onRejected 没有传值的问题
             onFulfilled = typeof onFulfilled === "function" ? onFulfilled : (value) => value;
             // 因为错误的值要让后面访问到，所以这里也要抛出错误，不然会在之后 then 的 resolve 中捕获
@@ -55,28 +55,132 @@
                 throw err;
             };
 
-            if(this.status === 'pending') {
-                this.onFulfilledCallbacks.push(onFulfilled)
-                this.onRejectedCallbacks.push(onRejected)
-            }
+            // A+规范 链式调用需要返回一个新的promise
+            return new myPromise((resolve,reject) => {
+                // pending状态
+                // 把成功回调函数和失败回调函数推进 成功态回调函数队列 、失败态回调函数队列
+                if (this.status === 'pending') {
+                    this.onFulfilledCallbacks.push(() => {
+                        try{
+                            //  执行回调函数
+                            const result = onFulfilled(this.value);
+                            // 分两种情况：
+                            // 1. 回调函数返回值是Promise，执行then操作
+                            // 2. 如果不是Promise，调用新Promise的resolve函数
+                            // 理解： 首先需要了解 promise是支持链式调用的
+                            //  // 如果回调函数结果是普通值 那么就resolve出去给下一个then链式调用
+                            //   如果是一个promise对象（代表又是一个异步） 那么调用x的then方法 将resolve和reject传进去 等到x内部的异步 执行完毕的时候（状态完成）就会自动执行传入的resolve 这样就控制了链式调用的顺序
+                            result instanceof myPromise ? result.then(resolve, reject) : resolve(result)
+                        }catch (e) {
+                            reject(e);
+                        }
+                    })
 
-            // A+规范，todo 链式调用需要返回一个新的promise
+                    // 同理
+                    this.onRejectedCallbacks.push(() => {
+                        try {
+                            const result = onRejected(this.reason);
+                            // 不同点：此时是reject
+                            result instanceof Promise ? result.then(resolve, reject) : resolve(result);
+                        } catch(e) {
+                            reject(e);
+                        }
+                    })
+                }
+            })
         }
 
         // todo .all .race .any .finally
         // todo 并行限制
 
+        /*
+        * all: 一个失败就失败，都成功才成功
+        * race： 跑的快的失败就是失败，成功就成功
+        * any：一个成功就成功，都失败才失败
+        * finally： 执行完毕就触发，不论成功与否
+        * */
+
+        /**
+         * all
+         * @desc:
+         * Promise.all 的返回值是一个新的 Promise 实例。
+         * Promise.all 接受一个可遍历的数据容器，容器中每个元素都应是 Promise 实例。
+         * 数组中每个 Promise 实例都成功时（由pendding状态转化为fulfilled状态），Promise.all 才成功。这些 Promise 实例所有的 resolve 结果会按照原来的顺序集合在一个数组中作为 Promise.all 的 resolve 的结果。
+         * 数组中只要有一个 Promise 实例失败（由pendding状态转化为rejected状态），Promise.all 就失败。Promise.all 的 .catch() 会捕获到这个 reject。
+         *
+         * */
+
+        static all(promiseArr) {
+            let result = [];
+            //声明一个计数器 每一个promise返回就加一
+            let count = 0;
+            return new myPromise((resolve, reject) => {
+                for (let i = 0; i < promiseArr.length; i++) {
+                    //这里用 Promise.resolve包装一下 防止不是Promise类型传进来
+                    Promise.resolve(promiseArr[i]).then(
+                        (res) => {
+                            //这里不能直接push数组  因为要控制顺序一一对应(感谢评论区指正)
+                            result[i] = res;
+                            count++;
+                            //只有全部的promise执行成功之后才resolve出去
+                            if (count === promiseArr.length) {
+                                resolve(result);
+                            }
+                        }
+                    ).catch(reject)
+                }
+            });
+        }
+
+        // static all1(promiseArr) {
+        //     let arr = [],
+        //         count = 0
+        //     return new Promise((resolve, reject) => {
+        //         promiseArr.forEach((item, i) => {
+        //             Promise.resolve(item).then(res => {
+        //                 arr[i] = res
+        //                 count += 1
+        //                 if (count === promiseArr.length) resolve(arr)
+        //             }).catch(reject)
+        //         })
+        //     })
+        // }
+
+        catch(onRejected) {
+            return this.then(null, onRejected);
+        }
     }
 
-    let a = new myPromise((res,rej) => {
-        console.log('promise init');
+    // let a = new myPromise((res,rej) => {
+    //     console.log('promise init');
+    //     setTimeout(() => {
+    //         res('promise resolved')
+    //     },5000)
+    // })
+    // a.then(res => {
+    //     console.log(res);
+    // })
+
+    let promise1 = new myPromise((resolve, reject) => {
         setTimeout(() => {
-            res('promise resolved')
-        },5000)
-    })
-    a.then(res => {
+            resolve("promise1");
+        }, 2000);
+    });
+    let promise2 = new myPromise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("promise2");
+        }, 1000);
+    });
+
+    myPromise.all([promise1, promise2])
+        .then(res  => {
         console.log(res);
     })
+    .catch(err => {
+        console.log(err);
+    })
+
+
 </script>
 
 </html>
