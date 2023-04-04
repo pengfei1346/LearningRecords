@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+    // 虚拟dom的好处
+    // 1、 频繁操作dom引发性能问题，减少重绘和回流
+    // 2、 省略手动操作dom可以大大提高开发效率
+    // 3、跨平台，比如ssr
+
+    /*******/
+    /**
+     * 生成 vnode
+     * @param  {String} type     类型，如 'div'
+     * @param  {String} key      key vnode的唯一id
+     * @param  {Object} data     data，包括属性，事件等等
+     * @param  {Array} children  子 vnode
+     * @param  {String} text     文本
+     * @param  {Element} elm     对应的 dom
+     * @return {Object}          vnode
+     */
+    function vnode(type, key, data, children, text, elm) {
+        const element = {
+            __type: VNODE_TYPE,
+            type, key, data, children, text, elm
+        }
+
+        return element
+    }
+</script>
+
+</html>

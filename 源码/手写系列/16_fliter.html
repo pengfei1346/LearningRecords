@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+    let arr = [1,2,3,4]
+    arr.filter(item => item.name === 1) // cur,index,arr
+    Array.prototype.myFilter = function (callback,ins) {
+        // 判断callback是不是函数
+        if (typeof fn !== 'function') {
+            throw new Error(`${fn} 不是一个函数`)
+        }
+
+        //  判断this是不是null或者unified
+        if ([null, undefined].includes(this)) {
+            throw new Error(`this 是null 或者 undefined`)
+        }
+
+        // 返回值是一个新数组，存储处理结果
+        const result = []
+
+        // 遍历开始
+        for (let i = 0; i < this.length; i++) {
+
+            // 执行回调函数，如果满足条件，存储进结果数组里
+            if(callback.call(ins, this[i], i, this)) {
+                result.push(this[i])
+            }
+        }
+
+        // 返回结果
+        return result
+    }
+    console.log(arr.myFilter((item) => item > 2));
+</script>
+
+</html>

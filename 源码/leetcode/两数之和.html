@@ -45,5 +45,25 @@
             prevNum[curNum] = i
         }
     }
+
+    const twoSum1 = function (nums,target) {
+        // 回溯
+        let prevNum = {}
+
+        for (let i = 0; i < nums.length; i++) {
+            // 当前元素
+            let curNum = nums[i]
+            // 要找的数
+            let curTarget = target - curNum
+            // 尝试取出回溯对象的元素
+            const index = prevNum[curTarget]
+            // 根据index 找到目标值没有
+            if(index !== undefined) {
+                return [i,index]
+            }
+            // 没找到的情况 回溯对象记录编辑过的元素
+            prevNum[curNum] = i
+        }
+    }
 </script>
 </html>

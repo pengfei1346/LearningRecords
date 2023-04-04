@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="test"></div>
+
+</body>
+
+<script>
+    import { init } from "../../../snabbdom-master/build/package/init.js";
+    import { classModule } from "../../../snabbdom-master/build/package/modules/class.js";
+    import { heroModule } from "../../../snabbdom-master/build/package/modules/hero.js";
+    import { styleModule } from "../../../snabbdom-master/build/package/modules/style.js";
+    import { eventListenersModule } from "../../../snabbdom-master/build/package/modules/eventlisteners.js";
+    import { h } from "../../../snabbdom-master/build/package/h.js";
+
+    let patch = init([classModule, heroModule, styleModule, eventListenersModule]);
+    let oldVnode = null;
+    let app = document.querySelector("#test");
+    let vnode = h("ul.father", [
+        h("li.children", { key: 1, style: { color: "red" } }, "A"),
+        h("li.children", { key: 2 }, "B"),
+        h("li.children", { key: 3 }, "C"),
+        h("li.children", { key: 4 }, "D"),
+        h("li.children", { key: 5, style: { color: "blue" } }, "E"),
+    ]);
+    oldVnode = patch(app, vnode);
+</script>
+
+</html>
