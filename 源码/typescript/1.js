@@ -54,6 +54,9 @@ var Student = /** @class */ (function () {
     Student.a = 1;
     return Student;
 }());
+// @ts-ignore
+var myStudent = new Student('1--', '2');
+console.log(myStudent);
 // interface Person {
 //     firstName: string;
 //     lastName: string;
