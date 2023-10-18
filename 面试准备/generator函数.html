@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function *fn() {
+        yield 'yi'
+        yield 'er'
+        return 'end'
+        yield 'san'
+        yield 'si'
+    }
+    var fn1 = fn()
+    console.log(fn1);
+    console.log(fn1.next());
+    console.log(fn1.next());
+    console.log(fn1.next());
+    console.log(fn1.next());
+    console.log(fn1.next());
+//    调用generator函数后，函数并不执行，返回的的不是函数执行后的结果，而是一个指向内部状态的指针对象
+//    每次调用next方法，内部指针从函数头部或者上一次停下来的地方开始执行，直到遇见下一个yield表达式或者return语句
+
+//    yield是暂停标志，调用next方法时，该条语句才执行
+//    使用yield需注意：
+    // （1）yield语句只能用于function* 的作用域，如果function* 的内部还定义了其他的普通函数，则函数内部不允许使用yield语句
+    // （2）yield语句如果参与运算，必须用括号括起来
+
+    // return 和next 区别
+    // 1）return 终止遍历后，之后的1yield语句都失效,next返回本次yield语句的返回值
+    // 2）return没有参数时， 返回{value:undefined,done:true},next没有参数时返回本次yield语句的返回值
+    // 3）return有参数时，覆盖本次yield语句的返回值。{value:参数，done:true}
+
+
+</script>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    class EventEmitter {
+        constructor() {
+            this.events = {};
+        }
+
+        // 添加订阅
+        // name 订阅名 callback 回调函数
+        on(name,callback) {
+            if(!this.events[name]) {
+                this.events[name] =  [callback]
+            }else {
+                this.events[name].push(callback)
+            }
+        }
+
+        // 删除订阅
+        off(name,callback) {
+            if(!this.events[name])return
+            let task = this.events[name]
+            this.events[name] = task.filter(item => item !== callback)
+        }
+
+        // 只执行一次的事件
+        once(name,callback) {
+            function fn() {
+                callback();
+                this.off(name, fn);
+            }
+            this.on(name, fn);
+        }
+
+        // 触发事件
+        emit(type, ...rest) {
+            this.events[type] &&
+            this.events[type].forEach((fn) => fn.apply(this, rest));
+        }
+    }
+
+    // 使用如下
+
+    let eventBus = new EventEmitter()
+
+    let fn1 = function(name, age) {
+        console.log(`${name} ${age}`)
+    }
+
+    let fn2 = function(name, age) {
+        console.log(`hello, ${name} ${age}`)
+    }
+    // eventBus.on('aaa', fn1)
+    // eventBus.on('aaa', fn2)
+    // eventBus.emit('aaa', false, '布兰', 12)
+
+
+    const handle = (...rest) => {
+      console.log(rest);
+    };
+
+    // eventBus.on("click", handle);
+    //
+    // eventBus.emit("click", 1, 2, 3, 4);
+
+    eventBus.once("dbClick", () => {
+      console.log(123456);
+    });
+    eventBus.emit("dbClick");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    class EventCenter {
+        // 通过事件类型作为属性来管理不通的事件回调
+        eventStack = {}
+
+        constructor() {
+            this.eventStack = {}
+        }
+
+        on(eventName, cb) {
+            const { eventStack } = this
+            const eventValue = eventStack[eventName]
+
+            eventValue ? eventValue.push(cb) : eventStack[eventName] = [cb]
+        }
+
+        once(eventName, cb) {
+            const { eventStack } = this
+            const eventValue = eventStack[eventName]
+            // 利用闭包的形式 来模拟一次性监听的功能函数
+            const tempCb = () => {
+                let isOutOfDate = false
+
+                return () => {
+                    if (isOutOfDate) return
+                    cb()
+                    isOutOfDate = true
+                }
+            }
+
+            eventValue ? eventValue.push(tempCb()) : eventStack[eventName] = [tempCb()]
+        }
+
+        off(eventName, cb) {
+            const { eventStack } = this
+            const eventValue = eventStack[eventName]
+
+            if (!eventValue) return
+
+            (eventValue || []).forEach((eventCb, index) => {
+                if (eventCb === cb) {
+                    eventValue.splice(index, 1)
+                }
+            })
+        }
+
+        emit(eventName, data) {
+            const { eventStack } = this
+            const eventValue = eventStack[eventName]
+
+            if (!eventValue) return
+
+            (eventValue || []).forEach(eventCb => {
+                eventCb(data)
+            })
+        }
+    }
+
+
+
+
+
+
+
+
+
+    class EventEmitter {
+        constructor() {
+            this.cache = {}
+        }
+
+        on(name, fn) {
+            if (this.cache[name]) {
+                this.cache[name].push(fn)
+            } else {
+                this.cache[name] = [fn]
+            }
+        }
+
+        off(name, fn) {
+            const tasks = this.cache[name]
+            if (tasks) {
+                const index = tasks.findIndex((f) => f === fn || f.callback === fn)
+                if (index >= 0) {
+                    tasks.splice(index, 1)
+                }
+            }
+        }
+
+        emit(name, once = false) {
+            if (this.cache[name]) {
+                // 创建副本，如果回调函数内继续注册相同事件，会造成死循环
+                const tasks = this.cache[name].slice()
+                for (let fn of tasks) {
+                    fn();
+                }
+                if (once) {
+                    delete this.cache[name]
+                }
+            }
+        }
+    }
+
+    // 测试
+    const eventBus = new EventEmitter()
+    const task1 = () => { console.log('task1'); }
+    const task2 = () => { console.log('task2'); }
+    eventBus.on('task', task1)
+    eventBus.on('task', task2)
+
+    setTimeout(() => {
+        eventBus.emit('task')
+    }, 1000)
+
+</script>
+
+</html>

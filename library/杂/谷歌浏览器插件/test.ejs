@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>首页</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        position: relative;
+        margin: 50px auto;
+        width: 500px;
+        height: 50px;
+        background: #f1f1f1;
+        border: 1px solid #000;
+      }
+
+      .slider {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: #f00;
+        cursor: move;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider"></div>
+    </div>
+  </body>
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script>
+    let $box = $('.container')
+    let $boxWidth = $box.width()
+
+    $('.slider').mousedown(function (event) {
+        console.log('鼠标按钮');
+        let nX = event.clientX;
+        console.log(event.clientX);
+        $(document).mousemove(function (ev) {
+            let left = $('.slider').get(0).offsetLeft
+            console.log(left);
+            if(ev.clientX - $box.offset().left -25 < 0) {
+                $('.slider').css({left: 0})
+                return
+                // return
+            } else if (ev.clientX - $box.offset().left -25 > $boxWidth -50){
+                $('.slider').css({left: $boxWidth - 50})
+                return
+            } else {
+                $('.slider').css({left: ev.clientX - $box.offset().left -25})
+            }
+        })
+        $(document).mouseup(function () {
+            $(document).off('mousemove')
+            $(document).off('mouseup')
+        })
+    })
+
+    let mouseDown = document.createEvent('Events') // 新建一个模拟事件
+    mouseDown.initEvent('mousedown', true, false) // 指定事件为鼠标按下，冒泡流，允许冒泡
+
+
+    setTimeout(() => {
+        $('.slider').get(0).dispatchEvent(mouseDown) // 触发鼠标按下事件
+
+        let mouseLeft = $box.offset().left + 25 // 计算事件发生时鼠标clientX的起始坐标
+        let mouseTop = $box.offset().top + 25   // 计算事件发生时鼠标clientY的起始坐标
+
+
+        let timer = setInterval(() => {
+            mouseLeft+=2 // 每次mouseMove的X坐标加2，然模拟事件出现滑动
+            let mouseMove = document.createEvent('MouseEvents') // 创造一个鼠标事件
+            mouseMove.initMouseEvent(
+                'mousemove',  // 指定模拟事件的类型为mouseMove
+                true,         // 冒泡流
+                false,        // 允许冒泡
+                window,       // 填window 即可
+                0,            // 点击次数  1为单机 2 为双击 0为不用点击
+                0,            // screenX坐标，填0即可
+                0,            // screen坐标，填0即可
+                mouseLeft,    // 触发鼠标事件的坐标，clientX
+                mouseTop,     // 触发鼠标事件的坐标, clientY
+                false,        // 是否按下ctrlKey
+                false,       // 是否按下shiftKey
+                false,        // 是否按下enterKey
+                null          // 填null即可
+            )
+            document.dispatchEvent(mouseMove)
+            if(mouseLeft > $box.offset().left + 500 -25){
+                clearInterval(timer) // 到达终点结束定时器
+            }
+        }, 16)
+
+
+    }, 2000)
+  </script>
+</html>

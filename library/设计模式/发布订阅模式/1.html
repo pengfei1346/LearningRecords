@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    // class EventEmitter {
+    //     constructor() {
+    //         this.events = {};
+    //     }
+    //     // 实现订阅
+    //     on(type, callBack) {
+    //         if (!this.events[type]) {
+    //             this.events[type] = [callBack];
+    //         } else {
+    //             this.events[type].push(callBack);
+    //         }
+    //     }
+    //     // 删除订阅
+    //     off(type, callBack) {
+    //         if (!this.events[type]) return;
+    //         this.events[type] = this.events[type].filter((item) => {
+    //             return item !== callBack;
+    //         });
+    //     }
+    //     // 只执行一次订阅事件
+    //     once(type, callBack) {
+    //         function fn() {
+    //             callBack();
+    //             this.off(type, fn);
+    //         }
+    //         this.on(type, fn);
+    //     }
+    //     // 触发事件
+    //     emit(type, ...rest) {
+    //         this.events[type] &&
+    //         this.events[type].forEach((fn) => fn.apply(this, rest));
+    //     }
+    // }
+    // 使用如下
+    // const event = new EventEmitter();
+
+    // const handle = (...rest) => {
+    //   console.log(rest);
+    // };
+
+    // event.on("click", handle);
+
+    // event.emit("click", 1, 2, 3, 4);
+
+    // event.off("click", handle);
+
+    // event.emit("click", 1, 2);
+
+    // event.once("dbClick", () => {
+    //   console.log(123456);
+    // });
+    // event.emit("dbClick");
+    // event.emit("dbClick")
+
+
+    ////////////////////////////////////
+
+    // let eventEmitter = {
+    //     // 缓存列表
+    //     list: {},
+    //     // 订阅
+    //     on (event, fn) {
+    //         let _this = this;
+    //         // 如果对象中没有对应的 event 值，也就是说明没有订阅过，就给 event 创建个缓存列表
+    //         // 如有对象中有相应的 event 值，把 fn 添加到对应 event 的缓存列表里
+    //         (_this.list[event] || (_this.list[event] = [])).push(fn);
+    //         return _this;
+    //     },
+    //     // 监听一次
+    //     once (event, fn) {
+    //         // 先绑定，调用后删除
+    //         let _this = this;
+    //         function on () {
+    //             _this.off(event, on);
+    //             fn.apply(_this, arguments);
+    //         }
+    //         on.fn = fn;
+    //         _this.on(event, on);
+    //         return _this;
+    //     },
+    //     // 取消订阅
+    //     off (event, fn) {
+    //         let _this = this;
+    //         let fns = _this.list[event];
+    //         // 如果缓存列表中没有相应的 fn，返回false
+    //         if (!fns) return false;
+    //         if (!fn) {
+    //             // 如果没有传 fn 的话，就会将 event 值对应缓存列表中的 fn 都清空
+    //             fns && (fns.length = 0);
+    //         } else {
+    //             // 若有 fn，遍历缓存列表，看看传入的 fn 与哪个函数相同，如果相同就直接从缓存列表中删掉即可
+    //             let cb;
+    //             for (let i = 0, cbLen = fns.length; i < cbLen; i++) {
+    //                 cb = fns[i];
+    //                 if (cb === fn || cb.fn === fn) {
+    //                     fns.splice(i, 1);
+    //                     break
+    //                 }
+    //             }
+    //         }
+    //         return _this;
+    //     },
+    //     // 发布
+    //     emit () {
+    //         let _this = this;
+    //         // 第一个参数是对应的 event 值，直接用数组的 shift 方法取出
+    //         let event = [].shift.call(arguments),
+    //             fns = [..._this.list[event]];
+    //         // 如果缓存列表里没有 fn 就返回 false
+    //         if (!fns || fns.length === 0) {
+    //             return false;
+    //         }
+    //         // 遍历 event 值对应的缓存列表，依次执行 fn
+    //         fns.forEach(fn => {
+    //             fn.apply(_this, arguments);
+    //         });
+    //         return _this;
+    //     }
+    // };
+    //
+    // function user1 (content) {
+    //     console.log('用户1订阅了:', content);
+    // }
+    //
+    // function user2 (content) {
+    //     console.log('用户2订阅了:', content);
+    // }
+    //
+    // function user3 (content) {
+    //     console.log('用户3订阅了:', content);
+    // }
+    //
+    // function user4 (content) {
+    //     console.log('用户4订阅了:', content);
+    // }
+    //
+    // // 订阅
+    // eventEmitter.on('article1', user1);
+    // eventEmitter.on('article1', user2);
+    // eventEmitter.on('article1', user3);
+    //
+    // console.log(eventEmitter);
+    // // 取消user2方法的订阅
+    // eventEmitter.off('article1', user2);
+    //
+    // eventEmitter.once('article2', user4)
+    //
+    // // 发布
+    // eventEmitter.emit('article1', 'Javascript 发布-订阅模式');
+    // eventEmitter.emit('article1', 'Javascript 发布-订阅模式');
+    // eventEmitter.emit('article2', 'Javascript 观察者模式');
+    // eventEmitter.emit('article2', 'Javascript 观察者模式');
+    //
+    // // eventEmitter.on('article1', user3).emit('article1', 'test111');
+    //
+    // /*
+    //     用户1订阅了: Javascript 发布-订阅模式
+    //     用户3订阅了: Javascript 发布-订阅模式
+    //     用户1订阅了: Javascript 发布-订阅模式
+    //     用户3订阅了: Javascript 发布-订阅模式
+    //     用户4订阅了: Javascript 观察者模式
+    // */
+
+
+    // class PubSubTopics {//调度中心
+    //     constructor() {
+    //         this.subscribers = [] //用于存储所有的订阅者回调函数
+    //     }
+    //     subscrible(message, callback) { //订阅
+    //         let callbacks = this.subscribers[message]
+    //         if (!callbacks) { //不存在
+    //             this.subscribers[message] = [callback]
+    //         } else {
+    //             callbacks.push(callback)
+    //         }
+    //     }
+    //     publish(message, ...args) { //发布
+    //         let callbacks = this.subscribers[message] || []
+    //         callbacks.forEach(callback => callback(...args))
+    //     }
+    //     once(message, callback) { //只订阅一次
+    //         let onceFn = (...args) => {
+    //             callback.apply(this, args) //当场执行，不进入缓存列表
+    //             this.remove(message) //再取消订阅
+    //         }
+    //         this.subscrible(message, onceFn)
+    //     }
+    //     remove(message, callback) { //取消订阅
+    //         let callbacks = this.subscribers[message] || []
+    //         if (!callback) { //没有传入具体的回调函数，则取消对应的所有订阅
+    //             callbacks && (callbacks = [])
+    //         } else {
+    //             callbacks.forEach((cb, index) => {
+    //                 if (cb == callback) { //具名函数
+    //                     callbacks.splice(index, 1)//删除
+    //                 }
+    //             })
+    //         }
+    //     }
+    // }
+    // //测试
+    // let subscriberA = new PubSubTopics()
+    // subscriberA.subscrible('song', (song) => {
+    //     console.log('new song=', song);
+    // })
+    // subscriberA.subscrible('teleplay', userA = (teleplay) => {
+    //     console.log('new teleplay=', teleplay);
+    // })
+    // subscriberA.subscrible('teleplay', userB = (teleplay) => {
+    //     console.log('new teleplay=', teleplay);
+    // })
+    // subscriberA.subscrible('teleplay', userC = (teleplay) => {
+    //     console.log('new teleplay=', teleplay);
+    // })
+    // subscriberA.subscrible('movie', (movie) => {
+    //     console.log('new movie=', movie);
+    // })
+    // // 取消订阅
+    // subscriberA.remove('teleplay', userA)
+    // subscriberA.remove('teleplay', userC)
+    // // 只订阅一次
+    // subscriberA.once('movie', (...args) => {
+    //     console.log('我只订阅一次：', args);
+    // })
+    // subscriberA.publish('song', '李荣浩 乌梅子酱')
+    // subscriberA.publish('teleplay', '张译 他是谁')
+    // subscriberA.publish('movie', '易烊千玺 满江红')
+
+    //new song= 李荣浩 乌梅子酱
+    //new teleplay= 张译 他是谁
+    //new movie= 易烊千玺 满江红
+    //我只订阅一次： [ '易烊千玺 满江红' ]
+
+
+    // 发布者  调度中心  订阅者
+
+    //
+    class PubSubTopics {
+
+        constructor() {
+            // 事件中心
+            this.eventMap = {}
+        }
+
+
+        // 订阅
+        subscribe (name, event) {
+            // name 事件名称、event 要执行的事件函数
+            (this.eventMap[name] || (this.eventMap[name] = [])).push(event);
+        }
+
+        // 发布
+        publish(name,...args) {
+            if(this.eventMap[name]) {
+                this.eventMap[name].forEach(fn => fn(...args))
+            }
+        }
+
+        // 移除
+        remove(name) {
+            this.eventMap[name] = null
+        }
+
+        // 移除
+        removeAll() {
+            this.eventMap = {}
+        }
+    }
+
+    const pubSub = new PubSubTopics()
+    // 用户在订阅中心订阅消息
+    pubSub.subscribe('kaipan',(msg) => {
+        console.log(`我是用户1，${msg},新楼盘开盘了！`);
+    })
+    pubSub.subscribe('ershoufang',(msg) => {
+        console.log(`${msg}有一套二手房急需出售！`);
+    })
+    console.log(pubSub);
+    // 中介通过调度中心发布信息
+    pubSub.publish('kaipan','世纪花园')
+    //
+    pubSub.publish('ershoufang','三塘北村')
+
+</script>
+
+</html>

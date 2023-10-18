@@ -1,0 +1,20 @@
+官方文档地址 http://echarts.baidu.com/tutorial.html#5%20%E5%88%86%E9%92%9F%E4%B8%8A%E6%89%8B%20ECharts
+详细文档   http://echarts.baidu.com/echarts2/doc/doc.html#ItemStyle
+
+引入echaerts.js
+echarts.common.min.js  常用  包含常用的图表组件折 柱 饼 散点 图例 工具栏 标注/线/域数据区域缩放
+echarts.js    源代码 包含所有图表组件的源码，常见的警告和错误提示
+echarts.min.js 完整版 包含所有图表组件
+echarts.simple.min.js 精简版  只包含基础图表折 柱 饼
+
+
+<div id="main" style="width: 600px;height:400px;"></div>
+var myChart = echarts.init(document.getElementById('main'));
+var option = {
+	配置根据需求查看文档
+	https://www.cnblogs.com/benmumu/p/8316652.html    完整配置说明
+}
+
+ myChart.setOption(option);
+
+

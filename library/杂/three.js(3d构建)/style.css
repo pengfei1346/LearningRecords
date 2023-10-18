@@ -1,0 +1,25 @@
+﻿body {
+	background:#FFF;
+	font-family:'宋体';
+	font-size:12px;
+}
+#div1 {
+	height:500px;
+	width:550px;
+	position:relative;
+	margin:10px auto; 
+}
+#div1 a {
+	position:absolute;
+	top:0px;
+	left:0px;
+	color:#666;
+	font-weight:bold;
+	padding:3px 6px;
+}
+#div1 a:hover {
+	border:1px solid #FFF;
+	background:#666;
+	color:#FFF;
+	border-radius:5px;
+}

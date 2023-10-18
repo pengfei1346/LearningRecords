@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+    // reduce 方法
+
+    function reduce(arr,callback,initValue) {
+        let flag = !Array.isArray(arr) || !arr.length || typeof callback !=='function'
+        if(flag){
+            return []
+        }else{
+            //  判断有没有初始值
+            let isValue = initValue ===0?(!initValue):(!!initValue)
+            let reduceValue = isValue?initValue:arr[0]
+//  判断其实相加的值
+            for (let index =isValue?0:1; index < arr.length; index++) {
+                reduceValue = callback(reduceValue, arr[index],index, arr)
+            }
+            return reduceValue
+
+        }
+
+    }
+    console.log(reduce(allArr,(x,y)=>x+y))  //15
+
+</script>
+
+</html>

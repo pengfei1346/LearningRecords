@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Title</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overscroll-behavior: contain;
+        }
+        .box{
+            width: 100%;
+            padding-top: 40px;
+            text-align: center;
+        }
+        .box img{
+            width: 100%;
+            /*width: 260px;*/
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 10px;height: 120%">1</div>
+    <div class="box">
+        <img id="img1" src="./img1.jpg" data-li="./img2.jpg">
+    </div>
+</body>
+<script>
+    let img = document.querySelector('img');
+
+    // 查询 DOM 对象的 CSS 值
+    const getStyle = (target, style) => {
+        let styles = window.getComputedStyle(target, null)
+        return styles.getPropertyValue(style)
+    }
+
+    // 获取并解析元素当前的位移量
+    const getTranslate = (target) => {
+        let matrix = getStyle(target, 'transform')
+        let nums = matrix.substring(7, matrix.length - 1).split(', ')
+        let left = parseInt(nums[4]) || 0
+        let top = parseInt(nums[5]) || 0
+        return { left: left, top: top }
+    }
+
+    // 记录前一次触摸点的位置
+    let preTouchPosition = {};
+    const recordPreTouchPosition = (touch) => {
+        preTouchPosition = {
+            x: touch.clientX,
+            y: touch.clientY
+        }
+    }
+    // 应用样式变换
+    const setStyle = (key, value) => { img.style[key] = value; }
+
+    // 添加触摸移动的响应事件
+    img.addEventListener('touchmove', e => {
+        let touch = e.touches[0]
+        let translated = getTranslate(touch.target);
+        // 移动后的位置 = 当前位置 + （此刻触摸点位置 - 上一次触摸点位置）
+        let translateX = translated.left + (touch.clientX - preTouchPosition.x)
+        let translateY = translated.top + (touch.clientY - preTouchPosition.y)
+
+        let matrix = `matrix(1, 0, 0, 1, ${translateX}, ${translateY})`
+        setStyle('transform', matrix)
+
+        // 完成一次移动后，要及时更新前一次触摸点的位置
+        recordPreTouchPosition(touch)
+    })
+
+    // 开始触摸时记录触摸点的位置
+    img.addEventListener('touchstart', e => { recordPreTouchPosition(e.touches['0'])})
+
+</script>
+</html>

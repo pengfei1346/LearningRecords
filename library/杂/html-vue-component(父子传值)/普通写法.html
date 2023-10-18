@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="main">
+    <div>我是爸爸，我对儿子说:{{fatherData}}</div>
+    <my-header @returnback="turnBack" :give="sthGiveChild"></my-header>
+    <!--<my-header v-model="subData.sthGiveChild"></my-header>-->
+</div>
+
+<script src="vue.js"></script>
+<script src="普通写法.js"></script>
+<script>
+    var app = new Vue({
+        el: '#main',
+        data:function() {
+            return{
+                fatherData:'给你一百块',
+                sthGiveChild:{
+                    title: '我是爸爸',
+                    val: '给你一百块'
+                }
+            }
+        },
+        methods:{
+            turnBack:function(val) {
+                this.sthGiveChild = val
+            }
+        },
+        computed:{
+
+        }
+    })
+</script>
+</body>
+</html>

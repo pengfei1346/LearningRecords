@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="../mui/css/mui.min.css">
+</head>
+<body>
+    <div>
+        <button type="button" class="mui-btn">默认</button>
+        <button type="button" class="mui-btn mui-btn-primary">蓝色</button>
+        <button type="button" class="mui-btn mui-btn-success">绿色</button>
+        <button type="button" class="mui-btn mui-btn-warning">黄色</button>
+        <button type="button" class="mui-btn mui-btn-danger">红色</button>
+        <button type="button" class="mui-btn mui-btn-royal">紫色</button>
+    </div>
+</body>
+<script src="../mui/js/mui.min.js"></script>
+<script>
+    // mui('#sheet1').popover('toggle');
+    // mui.toast('登陆成功',{ duration:'long', type:'div' })
+    mui.alert('登陆成功','欢迎使用','确定',function callback(re) {
+        console.log(re);
+    })
+</script>
+</html>

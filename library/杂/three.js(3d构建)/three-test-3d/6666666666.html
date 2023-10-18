@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.min.js"></script>
+<script>
+    var scene, camera, renderer;
+    var sphere;
+    var lastDate = new Date();
+
+    init();
+    animate();
+
+    function init() {
+
+        scene = new THREE.Scene();
+
+        camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 1, 13.9);
+        camera.position.set(0, 0, 15);
+        scene.add(camera);
+
+        var geometry = new THREE.SphereGeometry(5, 20, 20);
+        var material = new THREE.MeshBasicMaterial({
+            color: 0x0077aa,
+            wireframe: true
+        });
+
+        sphere = new THREE.Mesh(geometry, material);
+        scene.add(sphere);
+
+        renderer = new THREE.WebGLRenderer({
+            antialias: true
+        });
+        renderer.setClearColor(0x000000);
+        renderer.setSize(innerWidth, innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+    }
+
+    function animate() {
+
+        var now = new Date();
+        var delay = now - lastDate;
+        lastDate = now;
+
+        sphere.rotation.y += delay * 0.0001;
+
+        requestAnimationFrame(animate);
+        renderer.render(scene, camera);
+
+    }
+</script>
+</html>

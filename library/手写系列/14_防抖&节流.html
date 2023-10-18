@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+    // 防抖，只执行最后一次
+    let debounce = (func, delay) => {
+        let timer = null;
+        return function () {
+            let args = arguments;
+            if (timer) {
+                clearTimeout(timer)
+            }
+
+            timer = setTimeout(() => {
+                func.call(this, args)
+            }, delay)
+        }
+    }
+
+    // 节流
+
+    // 时间戳版本 - 首节流
+    //  触发事件时立即执行，以后每过delay秒之后才执行一次，并且最后一次触发事件若不满足要求不会被执行
+    let throttle1 = (func, delay) => {
+
+        // 记录上一次调用的时间
+        let prev = null
+
+        return function () {
+            // 记录事件参数
+            let args = arguments;
+
+            let now = new Date().getTime()
+
+            if(now - prev > delay) {
+                func.call(this, args)
+                prev = now
+            }
+
+        }
+    }
+
+
+
+    // 定时器版本 - 尾节流
+    //第一次触发时不会执行，而是在delay秒之后才执行，当最后一次停止触发后，还会再执行一次函数。
+    let throttle2 = (func, delay) => {
+        let timer = null
+
+        return function () {
+            // 记录事件参数
+            let args = arguments;
+
+            if(!timer) {
+                timer = setTimeout(() => {
+                    func.apply(this, args);
+                    timer = null
+                })
+            }
+        }
+    }
+
+
+    //
+
+    let throttle3 = (fn,delay) => {
+        let timer = null
+        // 记录上一次调用的时间
+        let prev = null
+
+        return function () {
+            // 现在触发事件时间
+            let now = Date.now();
+            // 触发间隔是否大于delay
+            let remaining = delay - (now - prev);
+            // 保存事件参数
+            const args = arguments;
+
+            clearTimeout(timer);
+
+            if(remaining <= 0) {
+                fn.apply(this, args);
+                prev = now
+            }else {
+                timer = setTimeout(() => {
+                    fn.apply(this, args)
+                }, delay);
+            }
+        }
+    }
+</script>
+
+</html>

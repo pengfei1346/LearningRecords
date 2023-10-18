@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script>
+    var w = new ActiveXObject('Word.Application');
+    var docText;
+    var obj;
+    if(w != null) {
+      w.Visible = true;
+      obj = w.Documents.Open("D:\\word\\go.doc");
+      docText = obj.Content;
+      w.Selection.TypeText("Hello");
+      w.Documents.Save();
+      document.write(docText);//Print on webpage
+      /*The Above Code Opens existing Document
+       set w.Visible=false
+       */
+      /*Below code will create doc file and add data to it and will close*/
+      w.Documents.Add();
+      w.Selection.TypeText("Writing This Message ....");
+      w.Documents.Save("D:\\word\\go.doc");
+      w.Quit();
+      /*Don't forget
+       set w.Visible=false */
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>

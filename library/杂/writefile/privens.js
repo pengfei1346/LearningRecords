@@ -1,0 +1,32001 @@
+var allData = [{
+    "": "1",
+    "DETAIL_PROVID": "130826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "丰宁满族自治县",
+    "CDATE": ""
+}, {
+    "": "2",
+    "DETAIL_PROVID": "130827",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "宽城满族自治县",
+    "CDATE": ""
+}, {
+    "": "3",
+    "DETAIL_PROVID": "130828",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "围场满族蒙古族自治县",
+    "CDATE": ""
+}, {
+    "": "4",
+    "DETAIL_PROVID": "130881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "平泉市",
+    "CDATE": ""
+}, {
+    "": "5",
+    "DETAIL_PROVID": "130900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "6",
+    "DETAIL_PROVID": "130902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "新华区",
+    "CDATE": ""
+}, {
+    "": "7",
+    "DETAIL_PROVID": "130903",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "运河区",
+    "CDATE": ""
+}, {
+    "": "8",
+    "DETAIL_PROVID": "130921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "沧县",
+    "CDATE": ""
+}, {
+    "": "9",
+    "DETAIL_PROVID": "130922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "青县",
+    "CDATE": ""
+}, {
+    "": "10",
+    "DETAIL_PROVID": "130923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "东光县",
+    "CDATE": ""
+}, {
+    "": "11",
+    "DETAIL_PROVID": "130924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "海兴县",
+    "CDATE": ""
+}, {
+    "": "12",
+    "DETAIL_PROVID": "130925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "盐山县",
+    "CDATE": ""
+}, {
+    "": "13",
+    "DETAIL_PROVID": "130926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "肃宁县",
+    "CDATE": ""
+}, {
+    "": "14",
+    "DETAIL_PROVID": "130927",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "南皮县",
+    "CDATE": ""
+}, {
+    "": "15",
+    "DETAIL_PROVID": "130928",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "吴桥县",
+    "CDATE": ""
+}, {
+    "": "16",
+    "DETAIL_PROVID": "130929",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "献县",
+    "CDATE": ""
+}, {
+    "": "17",
+    "DETAIL_PROVID": "130930",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "孟村回族自治县",
+    "CDATE": ""
+}, {
+    "": "18",
+    "DETAIL_PROVID": "130981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "泊头市",
+    "CDATE": ""
+}, {
+    "": "19",
+    "DETAIL_PROVID": "130982",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "任丘市",
+    "CDATE": ""
+}, {
+    "": "20",
+    "DETAIL_PROVID": "130983",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "黄骅市",
+    "CDATE": ""
+}, {
+    "": "21",
+    "DETAIL_PROVID": "130984",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130900",
+    "CITY_NAME": "沧州市",
+    "COUNTY_NAME": "河间市",
+    "CDATE": ""
+}, {
+    "": "22",
+    "DETAIL_PROVID": "131000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "23",
+    "DETAIL_PROVID": "131002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "安次区",
+    "CDATE": ""
+}, {
+    "": "24",
+    "DETAIL_PROVID": "131003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "广阳区",
+    "CDATE": ""
+}, {
+    "": "25",
+    "DETAIL_PROVID": "131022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "固安县",
+    "CDATE": ""
+}, {
+    "": "26",
+    "DETAIL_PROVID": "131023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "永清县",
+    "CDATE": ""
+}, {
+    "": "27",
+    "DETAIL_PROVID": "131024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "香河县",
+    "CDATE": ""
+}, {
+    "": "28",
+    "DETAIL_PROVID": "131025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "大城县",
+    "CDATE": ""
+}, {
+    "": "29",
+    "DETAIL_PROVID": "131026",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "文安县",
+    "CDATE": ""
+}, {
+    "": "30",
+    "DETAIL_PROVID": "131028",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "大厂回族自治县",
+    "CDATE": ""
+}, {
+    "": "31",
+    "DETAIL_PROVID": "131081",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "霸州市",
+    "CDATE": ""
+}, {
+    "": "32",
+    "DETAIL_PROVID": "131082",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131000",
+    "CITY_NAME": "廊坊市",
+    "COUNTY_NAME": "三河市",
+    "CDATE": ""
+}, {
+    "": "33",
+    "DETAIL_PROVID": "131100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "34",
+    "DETAIL_PROVID": "131102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "桃城区",
+    "CDATE": ""
+}, {
+    "": "35",
+    "DETAIL_PROVID": "131103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "冀州区",
+    "CDATE": ""
+}, {
+    "": "36",
+    "DETAIL_PROVID": "131121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "枣强县",
+    "CDATE": ""
+}, {
+    "": "37",
+    "DETAIL_PROVID": "131122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "武邑县",
+    "CDATE": ""
+}, {
+    "": "38",
+    "DETAIL_PROVID": "131123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "武强县",
+    "CDATE": ""
+}, {
+    "": "39",
+    "DETAIL_PROVID": "131124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "饶阳县",
+    "CDATE": ""
+}, {
+    "": "40",
+    "DETAIL_PROVID": "131125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "安平县",
+    "CDATE": ""
+}, {
+    "": "41",
+    "DETAIL_PROVID": "131126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "故城县",
+    "CDATE": ""
+}, {
+    "": "42",
+    "DETAIL_PROVID": "131127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "景县",
+    "CDATE": ""
+}, {
+    "": "43",
+    "DETAIL_PROVID": "131128",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "阜城县",
+    "CDATE": ""
+}, {
+    "": "44",
+    "DETAIL_PROVID": "131182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "131100",
+    "CITY_NAME": "衡水市",
+    "COUNTY_NAME": "深州市",
+    "CDATE": ""
+}, {
+    "": "45",
+    "DETAIL_PROVID": "139001",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "139001",
+    "CITY_NAME": "定州市",
+    "COUNTY_NAME": "定州市",
+    "CDATE": ""
+}, {
+    "": "46",
+    "DETAIL_PROVID": "139002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "139002",
+    "CITY_NAME": "辛集市",
+    "COUNTY_NAME": "辛集市",
+    "CDATE": ""
+}, {
+    "": "47",
+    "DETAIL_PROVID": "140100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "48",
+    "DETAIL_PROVID": "140105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "小店区",
+    "CDATE": ""
+}, {
+    "": "49",
+    "DETAIL_PROVID": "140106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "迎泽区",
+    "CDATE": ""
+}, {
+    "": "50",
+    "DETAIL_PROVID": "140107",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "杏花岭区",
+    "CDATE": ""
+}, {
+    "": "51",
+    "DETAIL_PROVID": "140108",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "尖草坪区",
+    "CDATE": ""
+}, {
+    "": "52",
+    "DETAIL_PROVID": "140109",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "万柏林区",
+    "CDATE": ""
+}, {
+    "": "53",
+    "DETAIL_PROVID": "140110",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "晋源区",
+    "CDATE": ""
+}, {
+    "": "54",
+    "DETAIL_PROVID": "140121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "清徐县",
+    "CDATE": ""
+}, {
+    "": "55",
+    "DETAIL_PROVID": "140122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "阳曲县",
+    "CDATE": ""
+}, {
+    "": "56",
+    "DETAIL_PROVID": "140123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "娄烦县",
+    "CDATE": ""
+}, {
+    "": "57",
+    "DETAIL_PROVID": "140181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140100",
+    "CITY_NAME": "太原市",
+    "COUNTY_NAME": "古交市",
+    "CDATE": ""
+}, {
+    "": "58",
+    "DETAIL_PROVID": "140200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "59",
+    "DETAIL_PROVID": "140202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "城区",
+    "CDATE": ""
+}, {
+    "": "60",
+    "DETAIL_PROVID": "140203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "矿区",
+    "CDATE": ""
+}, {
+    "": "61",
+    "DETAIL_PROVID": "140211",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "南郊区",
+    "CDATE": ""
+}, {
+    "": "62",
+    "DETAIL_PROVID": "140212",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "新荣区",
+    "CDATE": ""
+}, {
+    "": "63",
+    "DETAIL_PROVID": "140221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "阳高县",
+    "CDATE": ""
+}, {
+    "": "64",
+    "DETAIL_PROVID": "140222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "天镇县",
+    "CDATE": ""
+}, {
+    "": "65",
+    "DETAIL_PROVID": "140223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "广灵县",
+    "CDATE": ""
+}, {
+    "": "66",
+    "DETAIL_PROVID": "140224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "灵丘县",
+    "CDATE": ""
+}, {
+    "": "67",
+    "DETAIL_PROVID": "140225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "浑源县",
+    "CDATE": ""
+}, {
+    "": "68",
+    "DETAIL_PROVID": "140226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "左云县",
+    "CDATE": ""
+}, {
+    "": "69",
+    "DETAIL_PROVID": "140227",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140200",
+    "CITY_NAME": "大同市",
+    "COUNTY_NAME": "大同县",
+    "CDATE": ""
+}, {
+    "": "70",
+    "DETAIL_PROVID": "140300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140300",
+    "CITY_NAME": "阳泉市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "71",
+    "DETAIL_PROVID": "140302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140300",
+    "CITY_NAME": "阳泉市",
+    "COUNTY_NAME": "城区",
+    "CDATE": ""
+}, {
+    "": "72",
+    "DETAIL_PROVID": "140303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140300",
+    "CITY_NAME": "阳泉市",
+    "COUNTY_NAME": "矿区",
+    "CDATE": ""
+}, {
+    "": "73",
+    "DETAIL_PROVID": "140311",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140300",
+    "CITY_NAME": "阳泉市",
+    "COUNTY_NAME": "郊区",
+    "CDATE": ""
+}, {
+    "": "74",
+    "DETAIL_PROVID": "140321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140300",
+    "CITY_NAME": "阳泉市",
+    "COUNTY_NAME": "平定县",
+    "CDATE": ""
+}, {
+    "": "75",
+    "DETAIL_PROVID": "140322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140300",
+    "CITY_NAME": "阳泉市",
+    "COUNTY_NAME": "盂县",
+    "CDATE": ""
+}, {
+    "": "76",
+    "DETAIL_PROVID": "140400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "77",
+    "DETAIL_PROVID": "140402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "城区",
+    "CDATE": ""
+}, {
+    "": "78",
+    "DETAIL_PROVID": "140411",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "郊区",
+    "CDATE": ""
+}, {
+    "": "79",
+    "DETAIL_PROVID": "140421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "长治县",
+    "CDATE": ""
+}, {
+    "": "80",
+    "DETAIL_PROVID": "140423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "襄垣县",
+    "CDATE": ""
+}, {
+    "": "81",
+    "DETAIL_PROVID": "140424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "屯留县",
+    "CDATE": ""
+}, {
+    "": "82",
+    "DETAIL_PROVID": "140425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "平顺县",
+    "CDATE": ""
+}, {
+    "": "83",
+    "DETAIL_PROVID": "140426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "黎城县",
+    "CDATE": ""
+}, {
+    "": "84",
+    "DETAIL_PROVID": "140427",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "壶关县",
+    "CDATE": ""
+}, {
+    "": "85",
+    "DETAIL_PROVID": "140428",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "长子县",
+    "CDATE": ""
+}, {
+    "": "86",
+    "DETAIL_PROVID": "140429",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "武乡县",
+    "CDATE": ""
+}, {
+    "": "87",
+    "DETAIL_PROVID": "140430",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "沁县",
+    "CDATE": ""
+}, {
+    "": "88",
+    "DETAIL_PROVID": "140431",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "沁源县",
+    "CDATE": ""
+}, {
+    "": "89",
+    "DETAIL_PROVID": "140481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140400",
+    "CITY_NAME": "长治市",
+    "COUNTY_NAME": "潞城市",
+    "CDATE": ""
+}, {
+    "": "90",
+    "DETAIL_PROVID": "140500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140500",
+    "CITY_NAME": "晋城市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "91",
+    "DETAIL_PROVID": "140502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140500",
+    "CITY_NAME": "晋城市",
+    "COUNTY_NAME": "城区",
+    "CDATE": ""
+}, {
+    "": "92",
+    "DETAIL_PROVID": "140521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140500",
+    "CITY_NAME": "晋城市",
+    "COUNTY_NAME": "沁水县",
+    "CDATE": ""
+}, {
+    "": "93",
+    "DETAIL_PROVID": "140522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140500",
+    "CITY_NAME": "晋城市",
+    "COUNTY_NAME": "阳城县",
+    "CDATE": ""
+}, {
+    "": "94",
+    "DETAIL_PROVID": "140524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140500",
+    "CITY_NAME": "晋城市",
+    "COUNTY_NAME": "陵川县",
+    "CDATE": ""
+}, {
+    "": "95",
+    "DETAIL_PROVID": "140525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140500",
+    "CITY_NAME": "晋城市",
+    "COUNTY_NAME": "泽州县",
+    "CDATE": ""
+}, {
+    "": "96",
+    "DETAIL_PROVID": "140581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140500",
+    "CITY_NAME": "晋城市",
+    "COUNTY_NAME": "高平市",
+    "CDATE": ""
+}, {
+    "": "97",
+    "DETAIL_PROVID": "140600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140600",
+    "CITY_NAME": "朔州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "98",
+    "DETAIL_PROVID": "140602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140600",
+    "CITY_NAME": "朔州市",
+    "COUNTY_NAME": "朔城区",
+    "CDATE": ""
+}, {
+    "": "99",
+    "DETAIL_PROVID": "140603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140600",
+    "CITY_NAME": "朔州市",
+    "COUNTY_NAME": "平鲁区",
+    "CDATE": ""
+}, {
+    "": "100",
+    "DETAIL_PROVID": "140621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140600",
+    "CITY_NAME": "朔州市",
+    "COUNTY_NAME": "山阴县",
+    "CDATE": ""
+}, {
+    "": "101",
+    "DETAIL_PROVID": "140622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140600",
+    "CITY_NAME": "朔州市",
+    "COUNTY_NAME": "应县",
+    "CDATE": ""
+}, {
+    "": "102",
+    "DETAIL_PROVID": "140623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140600",
+    "CITY_NAME": "朔州市",
+    "COUNTY_NAME": "右玉县",
+    "CDATE": ""
+}, {
+    "": "103",
+    "DETAIL_PROVID": "140624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140600",
+    "CITY_NAME": "朔州市",
+    "COUNTY_NAME": "怀仁县",
+    "CDATE": ""
+}, {
+    "": "104",
+    "DETAIL_PROVID": "140700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "105",
+    "DETAIL_PROVID": "140702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "榆次区",
+    "CDATE": ""
+}, {
+    "": "106",
+    "DETAIL_PROVID": "140721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "榆社县",
+    "CDATE": ""
+}, {
+    "": "107",
+    "DETAIL_PROVID": "140722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "左权县",
+    "CDATE": ""
+}, {
+    "": "108",
+    "DETAIL_PROVID": "140723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "和顺县",
+    "CDATE": ""
+}, {
+    "": "109",
+    "DETAIL_PROVID": "140724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "昔阳县",
+    "CDATE": ""
+}, {
+    "": "110",
+    "DETAIL_PROVID": "140725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "寿阳县",
+    "CDATE": ""
+}, {
+    "": "111",
+    "DETAIL_PROVID": "140726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "太谷县",
+    "CDATE": ""
+}, {
+    "": "112",
+    "DETAIL_PROVID": "140727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "祁县",
+    "CDATE": ""
+}, {
+    "": "113",
+    "DETAIL_PROVID": "140728",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "平遥县",
+    "CDATE": ""
+}, {
+    "": "114",
+    "DETAIL_PROVID": "140729",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "灵石县",
+    "CDATE": ""
+}, {
+    "": "115",
+    "DETAIL_PROVID": "140781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140700",
+    "CITY_NAME": "晋中市",
+    "COUNTY_NAME": "介休市",
+    "CDATE": ""
+}, {
+    "": "116",
+    "DETAIL_PROVID": "140800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "117",
+    "DETAIL_PROVID": "140802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "盐湖区",
+    "CDATE": ""
+}, {
+    "": "118",
+    "DETAIL_PROVID": "140821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "临猗县",
+    "CDATE": ""
+}, {
+    "": "119",
+    "DETAIL_PROVID": "140822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "万荣县",
+    "CDATE": ""
+}, {
+    "": "120",
+    "DETAIL_PROVID": "140823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "闻喜县",
+    "CDATE": ""
+}, {
+    "": "121",
+    "DETAIL_PROVID": "140824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "稷山县",
+    "CDATE": ""
+}, {
+    "": "122",
+    "DETAIL_PROVID": "140825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "新绛县",
+    "CDATE": ""
+}, {
+    "": "123",
+    "DETAIL_PROVID": "140826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "绛县",
+    "CDATE": ""
+}, {
+    "": "124",
+    "DETAIL_PROVID": "140827",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "垣曲县",
+    "CDATE": ""
+}, {
+    "": "125",
+    "DETAIL_PROVID": "140828",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "夏县",
+    "CDATE": ""
+}, {
+    "": "126",
+    "DETAIL_PROVID": "140829",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "平陆县",
+    "CDATE": ""
+}, {
+    "": "127",
+    "DETAIL_PROVID": "140830",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "芮城县",
+    "CDATE": ""
+}, {
+    "": "128",
+    "DETAIL_PROVID": "140881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "永济市",
+    "CDATE": ""
+}, {
+    "": "129",
+    "DETAIL_PROVID": "140882",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140800",
+    "CITY_NAME": "运城市",
+    "COUNTY_NAME": "河津市",
+    "CDATE": ""
+}, {
+    "": "130",
+    "DETAIL_PROVID": "140900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "131",
+    "DETAIL_PROVID": "140902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "忻府区",
+    "CDATE": ""
+}, {
+    "": "132",
+    "DETAIL_PROVID": "140921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "定襄县",
+    "CDATE": ""
+}, {
+    "": "133",
+    "DETAIL_PROVID": "140922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "五台县",
+    "CDATE": ""
+}, {
+    "": "134",
+    "DETAIL_PROVID": "140923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "代县",
+    "CDATE": ""
+}, {
+    "": "135",
+    "DETAIL_PROVID": "140924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "繁峙县",
+    "CDATE": ""
+}, {
+    "": "136",
+    "DETAIL_PROVID": "140925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "宁武县",
+    "CDATE": ""
+}, {
+    "": "137",
+    "DETAIL_PROVID": "140926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "静乐县",
+    "CDATE": ""
+}, {
+    "": "138",
+    "DETAIL_PROVID": "140927",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "神池县",
+    "CDATE": ""
+}, {
+    "": "139",
+    "DETAIL_PROVID": "140928",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "五寨县",
+    "CDATE": ""
+}, {
+    "": "140",
+    "DETAIL_PROVID": "140929",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "岢岚县",
+    "CDATE": ""
+}, {
+    "": "141",
+    "DETAIL_PROVID": "140930",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "河曲县",
+    "CDATE": ""
+}, {
+    "": "142",
+    "DETAIL_PROVID": "140931",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "保德县",
+    "CDATE": ""
+}, {
+    "": "143",
+    "DETAIL_PROVID": "140932",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "偏关县",
+    "CDATE": ""
+}, {
+    "": "144",
+    "DETAIL_PROVID": "140981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "140900",
+    "CITY_NAME": "忻州市",
+    "COUNTY_NAME": "原平市",
+    "CDATE": ""
+}, {
+    "": "145",
+    "DETAIL_PROVID": "141000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "146",
+    "DETAIL_PROVID": "141002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "尧都区",
+    "CDATE": ""
+}, {
+    "": "147",
+    "DETAIL_PROVID": "141021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "曲沃县",
+    "CDATE": ""
+}, {
+    "": "148",
+    "DETAIL_PROVID": "141022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "翼城县",
+    "CDATE": ""
+}, {
+    "": "149",
+    "DETAIL_PROVID": "141023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "襄汾县",
+    "CDATE": ""
+}, {
+    "": "150",
+    "DETAIL_PROVID": "141024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "洪洞县",
+    "CDATE": ""
+}, {
+    "": "151",
+    "DETAIL_PROVID": "141025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "古县",
+    "CDATE": ""
+}, {
+    "": "152",
+    "DETAIL_PROVID": "141026",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "安泽县",
+    "CDATE": ""
+}, {
+    "": "153",
+    "DETAIL_PROVID": "141027",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "浮山县",
+    "CDATE": ""
+}, {
+    "": "154",
+    "DETAIL_PROVID": "141028",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "吉县",
+    "CDATE": ""
+}, {
+    "": "155",
+    "DETAIL_PROVID": "141029",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "乡宁县",
+    "CDATE": ""
+}, {
+    "": "156",
+    "DETAIL_PROVID": "141030",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "大宁县",
+    "CDATE": ""
+}, {
+    "": "157",
+    "DETAIL_PROVID": "141031",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "隰县",
+    "CDATE": ""
+}, {
+    "": "158",
+    "DETAIL_PROVID": "141032",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "永和县",
+    "CDATE": ""
+}, {
+    "": "159",
+    "DETAIL_PROVID": "141033",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "蒲县",
+    "CDATE": ""
+}, {
+    "": "160",
+    "DETAIL_PROVID": "141034",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "汾西县",
+    "CDATE": ""
+}, {
+    "": "161",
+    "DETAIL_PROVID": "141081",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "侯马市",
+    "CDATE": ""
+}, {
+    "": "162",
+    "DETAIL_PROVID": "141082",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141000",
+    "CITY_NAME": "临汾市",
+    "COUNTY_NAME": "霍州市",
+    "CDATE": ""
+}, {
+    "": "163",
+    "DETAIL_PROVID": "141100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "164",
+    "DETAIL_PROVID": "141102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "离石区",
+    "CDATE": ""
+}, {
+    "": "165",
+    "DETAIL_PROVID": "141121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "文水县",
+    "CDATE": ""
+}, {
+    "": "166",
+    "DETAIL_PROVID": "141122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "交城县",
+    "CDATE": ""
+}, {
+    "": "167",
+    "DETAIL_PROVID": "141123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "兴县",
+    "CDATE": ""
+}, {
+    "": "168",
+    "DETAIL_PROVID": "141124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "临县",
+    "CDATE": ""
+}, {
+    "": "169",
+    "DETAIL_PROVID": "141125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "柳林县",
+    "CDATE": ""
+}, {
+    "": "170",
+    "DETAIL_PROVID": "141126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "石楼县",
+    "CDATE": ""
+}, {
+    "": "171",
+    "DETAIL_PROVID": "141127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "岚县",
+    "CDATE": ""
+}, {
+    "": "172",
+    "DETAIL_PROVID": "141128",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "方山县",
+    "CDATE": ""
+}, {
+    "": "173",
+    "DETAIL_PROVID": "210400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210400",
+    "CITY_NAME": "抚顺市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "174",
+    "DETAIL_PROVID": "210402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210400",
+    "CITY_NAME": "抚顺市",
+    "COUNTY_NAME": "新抚区",
+    "CDATE": ""
+}, {
+    "": "175",
+    "DETAIL_PROVID": "210403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210400",
+    "CITY_NAME": "抚顺市",
+    "COUNTY_NAME": "东洲区",
+    "CDATE": ""
+}, {
+    "": "176",
+    "DETAIL_PROVID": "210404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210400",
+    "CITY_NAME": "抚顺市",
+    "COUNTY_NAME": "望花区",
+    "CDATE": ""
+}, {
+    "": "177",
+    "DETAIL_PROVID": "210411",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210400",
+    "CITY_NAME": "抚顺市",
+    "COUNTY_NAME": "顺城区",
+    "CDATE": ""
+}, {
+    "": "178",
+    "DETAIL_PROVID": "210421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210400",
+    "CITY_NAME": "抚顺市",
+    "COUNTY_NAME": "抚顺县",
+    "CDATE": ""
+}, {
+    "": "179",
+    "DETAIL_PROVID": "210422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210400",
+    "CITY_NAME": "抚顺市",
+    "COUNTY_NAME": "新宾满族自治县",
+    "CDATE": ""
+}, {
+    "": "180",
+    "DETAIL_PROVID": "210423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210400",
+    "CITY_NAME": "抚顺市",
+    "COUNTY_NAME": "清原满族自治县",
+    "CDATE": ""
+}, {
+    "": "181",
+    "DETAIL_PROVID": "210500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210500",
+    "CITY_NAME": "本溪市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "182",
+    "DETAIL_PROVID": "210502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210500",
+    "CITY_NAME": "本溪市",
+    "COUNTY_NAME": "平山区",
+    "CDATE": ""
+}, {
+    "": "183",
+    "DETAIL_PROVID": "210503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210500",
+    "CITY_NAME": "本溪市",
+    "COUNTY_NAME": "溪湖区",
+    "CDATE": ""
+}, {
+    "": "184",
+    "DETAIL_PROVID": "210504",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210500",
+    "CITY_NAME": "本溪市",
+    "COUNTY_NAME": "明山区",
+    "CDATE": ""
+}, {
+    "": "185",
+    "DETAIL_PROVID": "210505",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210500",
+    "CITY_NAME": "本溪市",
+    "COUNTY_NAME": "南芬区",
+    "CDATE": ""
+}, {
+    "": "186",
+    "DETAIL_PROVID": "210521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210500",
+    "CITY_NAME": "本溪市",
+    "COUNTY_NAME": "本溪满族自治县",
+    "CDATE": ""
+}, {
+    "": "187",
+    "DETAIL_PROVID": "210522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210500",
+    "CITY_NAME": "本溪市",
+    "COUNTY_NAME": "桓仁满族自治县",
+    "CDATE": ""
+}, {
+    "": "188",
+    "DETAIL_PROVID": "210600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210600",
+    "CITY_NAME": "丹东市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "189",
+    "DETAIL_PROVID": "210602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210600",
+    "CITY_NAME": "丹东市",
+    "COUNTY_NAME": "元宝区",
+    "CDATE": ""
+}, {
+    "": "190",
+    "DETAIL_PROVID": "210603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210600",
+    "CITY_NAME": "丹东市",
+    "COUNTY_NAME": "振兴区",
+    "CDATE": ""
+}, {
+    "": "191",
+    "DETAIL_PROVID": "210604",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210600",
+    "CITY_NAME": "丹东市",
+    "COUNTY_NAME": "振安区",
+    "CDATE": ""
+}, {
+    "": "192",
+    "DETAIL_PROVID": "210624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210600",
+    "CITY_NAME": "丹东市",
+    "COUNTY_NAME": "宽甸满族自治县",
+    "CDATE": ""
+}, {
+    "": "193",
+    "DETAIL_PROVID": "210681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210600",
+    "CITY_NAME": "丹东市",
+    "COUNTY_NAME": "东港市",
+    "CDATE": ""
+}, {
+    "": "194",
+    "DETAIL_PROVID": "210682",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210600",
+    "CITY_NAME": "丹东市",
+    "COUNTY_NAME": "凤城市",
+    "CDATE": ""
+}, {
+    "": "195",
+    "DETAIL_PROVID": "210700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210700",
+    "CITY_NAME": "锦州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "196",
+    "DETAIL_PROVID": "210702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210700",
+    "CITY_NAME": "锦州市",
+    "COUNTY_NAME": "古塔区",
+    "CDATE": ""
+}, {
+    "": "197",
+    "DETAIL_PROVID": "210703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210700",
+    "CITY_NAME": "锦州市",
+    "COUNTY_NAME": "凌河区",
+    "CDATE": ""
+}, {
+    "": "198",
+    "DETAIL_PROVID": "210711",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210700",
+    "CITY_NAME": "锦州市",
+    "COUNTY_NAME": "太和区",
+    "CDATE": ""
+}, {
+    "": "199",
+    "DETAIL_PROVID": "210726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210700",
+    "CITY_NAME": "锦州市",
+    "COUNTY_NAME": "黑山县",
+    "CDATE": ""
+}, {
+    "": "200",
+    "DETAIL_PROVID": "210727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210700",
+    "CITY_NAME": "锦州市",
+    "COUNTY_NAME": "义县",
+    "CDATE": ""
+}, {
+    "": "201",
+    "DETAIL_PROVID": "210781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210700",
+    "CITY_NAME": "锦州市",
+    "COUNTY_NAME": "凌海市",
+    "CDATE": ""
+}, {
+    "": "202",
+    "DETAIL_PROVID": "210782",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210700",
+    "CITY_NAME": "锦州市",
+    "COUNTY_NAME": "北镇市",
+    "CDATE": ""
+}, {
+    "": "203",
+    "DETAIL_PROVID": "210800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210800",
+    "CITY_NAME": "营口市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "204",
+    "DETAIL_PROVID": "210802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210800",
+    "CITY_NAME": "营口市",
+    "COUNTY_NAME": "站前区",
+    "CDATE": ""
+}, {
+    "": "205",
+    "DETAIL_PROVID": "210803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210800",
+    "CITY_NAME": "营口市",
+    "COUNTY_NAME": "西市区",
+    "CDATE": ""
+}, {
+    "": "206",
+    "DETAIL_PROVID": "210804",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210800",
+    "CITY_NAME": "营口市",
+    "COUNTY_NAME": "鲅鱼圈区",
+    "CDATE": ""
+}, {
+    "": "207",
+    "DETAIL_PROVID": "210811",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210800",
+    "CITY_NAME": "营口市",
+    "COUNTY_NAME": "老边区",
+    "CDATE": ""
+}, {
+    "": "208",
+    "DETAIL_PROVID": "210881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210800",
+    "CITY_NAME": "营口市",
+    "COUNTY_NAME": "盖州市",
+    "CDATE": ""
+}, {
+    "": "209",
+    "DETAIL_PROVID": "210882",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210800",
+    "CITY_NAME": "营口市",
+    "COUNTY_NAME": "大石桥市",
+    "CDATE": ""
+}, {
+    "": "210",
+    "DETAIL_PROVID": "210900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210900",
+    "CITY_NAME": "阜新市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "211",
+    "DETAIL_PROVID": "210902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210900",
+    "CITY_NAME": "阜新市",
+    "COUNTY_NAME": "海州区",
+    "CDATE": ""
+}, {
+    "": "212",
+    "DETAIL_PROVID": "210903",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210900",
+    "CITY_NAME": "阜新市",
+    "COUNTY_NAME": "新邱区",
+    "CDATE": ""
+}, {
+    "": "213",
+    "DETAIL_PROVID": "210904",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210900",
+    "CITY_NAME": "阜新市",
+    "COUNTY_NAME": "太平区",
+    "CDATE": ""
+}, {
+    "": "214",
+    "DETAIL_PROVID": "210905",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210900",
+    "CITY_NAME": "阜新市",
+    "COUNTY_NAME": "清河门区",
+    "CDATE": ""
+}, {
+    "": "215",
+    "DETAIL_PROVID": "210911",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210900",
+    "CITY_NAME": "阜新市",
+    "COUNTY_NAME": "细河区",
+    "CDATE": ""
+}, {
+    "": "216",
+    "DETAIL_PROVID": "210921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210900",
+    "CITY_NAME": "阜新市",
+    "COUNTY_NAME": "阜新蒙古族自治县",
+    "CDATE": ""
+}, {
+    "": "217",
+    "DETAIL_PROVID": "210922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210900",
+    "CITY_NAME": "阜新市",
+    "COUNTY_NAME": "彰武县",
+    "CDATE": ""
+}, {
+    "": "218",
+    "DETAIL_PROVID": "211000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211000",
+    "CITY_NAME": "辽阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "219",
+    "DETAIL_PROVID": "211002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211000",
+    "CITY_NAME": "辽阳市",
+    "COUNTY_NAME": "白塔区",
+    "CDATE": ""
+}, {
+    "": "220",
+    "DETAIL_PROVID": "211003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211000",
+    "CITY_NAME": "辽阳市",
+    "COUNTY_NAME": "文圣区",
+    "CDATE": ""
+}, {
+    "": "221",
+    "DETAIL_PROVID": "211004",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211000",
+    "CITY_NAME": "辽阳市",
+    "COUNTY_NAME": "宏伟区",
+    "CDATE": ""
+}, {
+    "": "222",
+    "DETAIL_PROVID": "211005",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211000",
+    "CITY_NAME": "辽阳市",
+    "COUNTY_NAME": "弓长岭区",
+    "CDATE": ""
+}, {
+    "": "223",
+    "DETAIL_PROVID": "211011",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211000",
+    "CITY_NAME": "辽阳市",
+    "COUNTY_NAME": "太子河区",
+    "CDATE": ""
+}, {
+    "": "224",
+    "DETAIL_PROVID": "211021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211000",
+    "CITY_NAME": "辽阳市",
+    "COUNTY_NAME": "辽阳县",
+    "CDATE": ""
+}, {
+    "": "225",
+    "DETAIL_PROVID": "211081",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211000",
+    "CITY_NAME": "辽阳市",
+    "COUNTY_NAME": "灯塔市",
+    "CDATE": ""
+}, {
+    "": "226",
+    "DETAIL_PROVID": "211100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211100",
+    "CITY_NAME": "盘锦市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "227",
+    "DETAIL_PROVID": "211102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211100",
+    "CITY_NAME": "盘锦市",
+    "COUNTY_NAME": "双台子区",
+    "CDATE": ""
+}, {
+    "": "228",
+    "DETAIL_PROVID": "211103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211100",
+    "CITY_NAME": "盘锦市",
+    "COUNTY_NAME": "兴隆台区",
+    "CDATE": ""
+}, {
+    "": "229",
+    "DETAIL_PROVID": "211104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211100",
+    "CITY_NAME": "盘锦市",
+    "COUNTY_NAME": "大洼区",
+    "CDATE": ""
+}, {
+    "": "230",
+    "DETAIL_PROVID": "211122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211100",
+    "CITY_NAME": "盘锦市",
+    "COUNTY_NAME": "盘山县",
+    "CDATE": ""
+}, {
+    "": "231",
+    "DETAIL_PROVID": "211200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211200",
+    "CITY_NAME": "铁岭市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "232",
+    "DETAIL_PROVID": "211202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211200",
+    "CITY_NAME": "铁岭市",
+    "COUNTY_NAME": "银州区",
+    "CDATE": ""
+}, {
+    "": "233",
+    "DETAIL_PROVID": "211204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211200",
+    "CITY_NAME": "铁岭市",
+    "COUNTY_NAME": "清河区",
+    "CDATE": ""
+}, {
+    "": "234",
+    "DETAIL_PROVID": "211221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211200",
+    "CITY_NAME": "铁岭市",
+    "COUNTY_NAME": "铁岭县",
+    "CDATE": ""
+}, {
+    "": "235",
+    "DETAIL_PROVID": "211223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211200",
+    "CITY_NAME": "铁岭市",
+    "COUNTY_NAME": "西丰县",
+    "CDATE": ""
+}, {
+    "": "236",
+    "DETAIL_PROVID": "211224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211200",
+    "CITY_NAME": "铁岭市",
+    "COUNTY_NAME": "昌图县",
+    "CDATE": ""
+}, {
+    "": "237",
+    "DETAIL_PROVID": "211281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211200",
+    "CITY_NAME": "铁岭市",
+    "COUNTY_NAME": "调兵山市",
+    "CDATE": ""
+}, {
+    "": "238",
+    "DETAIL_PROVID": "211282",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211200",
+    "CITY_NAME": "铁岭市",
+    "COUNTY_NAME": "开原市",
+    "CDATE": ""
+}, {
+    "": "239",
+    "DETAIL_PROVID": "211300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211300",
+    "CITY_NAME": "朝阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "240",
+    "DETAIL_PROVID": "211302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211300",
+    "CITY_NAME": "朝阳市",
+    "COUNTY_NAME": "双塔区",
+    "CDATE": ""
+}, {
+    "": "241",
+    "DETAIL_PROVID": "211303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211300",
+    "CITY_NAME": "朝阳市",
+    "COUNTY_NAME": "龙城区",
+    "CDATE": ""
+}, {
+    "": "242",
+    "DETAIL_PROVID": "211321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211300",
+    "CITY_NAME": "朝阳市",
+    "COUNTY_NAME": "朝阳县",
+    "CDATE": ""
+}, {
+    "": "243",
+    "DETAIL_PROVID": "211322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211300",
+    "CITY_NAME": "朝阳市",
+    "COUNTY_NAME": "建平县",
+    "CDATE": ""
+}, {
+    "": "244",
+    "DETAIL_PROVID": "211324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211300",
+    "CITY_NAME": "朝阳市",
+    "COUNTY_NAME": "喀喇沁左翼蒙古族自治县",
+    "CDATE": ""
+}, {
+    "": "245",
+    "DETAIL_PROVID": "211381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211300",
+    "CITY_NAME": "朝阳市",
+    "COUNTY_NAME": "北票市",
+    "CDATE": ""
+}, {
+    "": "246",
+    "DETAIL_PROVID": "211382",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211300",
+    "CITY_NAME": "朝阳市",
+    "COUNTY_NAME": "凌源市",
+    "CDATE": ""
+}, {
+    "": "247",
+    "DETAIL_PROVID": "211400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211400",
+    "CITY_NAME": "葫芦岛市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "248",
+    "DETAIL_PROVID": "211402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211400",
+    "CITY_NAME": "葫芦岛市",
+    "COUNTY_NAME": "连山区",
+    "CDATE": ""
+}, {
+    "": "249",
+    "DETAIL_PROVID": "211403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211400",
+    "CITY_NAME": "葫芦岛市",
+    "COUNTY_NAME": "龙港区",
+    "CDATE": ""
+}, {
+    "": "250",
+    "DETAIL_PROVID": "211404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211400",
+    "CITY_NAME": "葫芦岛市",
+    "COUNTY_NAME": "南票区",
+    "CDATE": ""
+}, {
+    "": "251",
+    "DETAIL_PROVID": "211421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211400",
+    "CITY_NAME": "葫芦岛市",
+    "COUNTY_NAME": "绥中县",
+    "CDATE": ""
+}, {
+    "": "252",
+    "DETAIL_PROVID": "211422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211400",
+    "CITY_NAME": "葫芦岛市",
+    "COUNTY_NAME": "建昌县",
+    "CDATE": ""
+}, {
+    "": "253",
+    "DETAIL_PROVID": "211481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "211400",
+    "CITY_NAME": "葫芦岛市",
+    "COUNTY_NAME": "兴城市",
+    "CDATE": ""
+}, {
+    "": "254",
+    "DETAIL_PROVID": "220100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "255",
+    "DETAIL_PROVID": "220102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "南关区",
+    "CDATE": ""
+}, {
+    "": "256",
+    "DETAIL_PROVID": "220103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "宽城区",
+    "CDATE": ""
+}, {
+    "": "257",
+    "DETAIL_PROVID": "220104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "朝阳区",
+    "CDATE": ""
+}, {
+    "": "258",
+    "DETAIL_PROVID": "220105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "二道区",
+    "CDATE": ""
+}, {
+    "": "259",
+    "DETAIL_PROVID": "220106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "绿园区",
+    "CDATE": ""
+}, {
+    "": "260",
+    "DETAIL_PROVID": "220112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "双阳区",
+    "CDATE": ""
+}, {
+    "": "261",
+    "DETAIL_PROVID": "220113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "九台区",
+    "CDATE": ""
+}, {
+    "": "262",
+    "DETAIL_PROVID": "220122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "农安县",
+    "CDATE": ""
+}, {
+    "": "263",
+    "DETAIL_PROVID": "220182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "榆树市",
+    "CDATE": ""
+}, {
+    "": "264",
+    "DETAIL_PROVID": "220183",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220100",
+    "CITY_NAME": "长春市",
+    "COUNTY_NAME": "德惠市",
+    "CDATE": ""
+}, {
+    "": "265",
+    "DETAIL_PROVID": "220200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220200",
+    "CITY_NAME": "吉林市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "266",
+    "DETAIL_PROVID": "220202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220200",
+    "CITY_NAME": "吉林市",
+    "COUNTY_NAME": "昌邑区",
+    "CDATE": ""
+}, {
+    "": "267",
+    "DETAIL_PROVID": "220203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220200",
+    "CITY_NAME": "吉林市",
+    "COUNTY_NAME": "龙潭区",
+    "CDATE": ""
+}, {
+    "": "268",
+    "DETAIL_PROVID": "220204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220200",
+    "CITY_NAME": "吉林市",
+    "COUNTY_NAME": "船营区",
+    "CDATE": ""
+}, {
+    "": "269",
+    "DETAIL_PROVID": "220211",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220200",
+    "CITY_NAME": "吉林市",
+    "COUNTY_NAME": "丰满区",
+    "CDATE": ""
+}, {
+    "": "270",
+    "DETAIL_PROVID": "220221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220200",
+    "CITY_NAME": "吉林市",
+    "COUNTY_NAME": "永吉县",
+    "CDATE": ""
+}, {
+    "": "271",
+    "DETAIL_PROVID": "220281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220200",
+    "CITY_NAME": "吉林市",
+    "COUNTY_NAME": "蛟河市",
+    "CDATE": ""
+}, {
+    "": "272",
+    "DETAIL_PROVID": "220282",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220200",
+    "CITY_NAME": "吉林市",
+    "COUNTY_NAME": "桦甸市",
+    "CDATE": ""
+}, {
+    "": "273",
+    "DETAIL_PROVID": "220283",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220200",
+    "CITY_NAME": "吉林市",
+    "COUNTY_NAME": "舒兰市",
+    "CDATE": ""
+}, {
+    "": "274",
+    "DETAIL_PROVID": "220284",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220200",
+    "CITY_NAME": "吉林市",
+    "COUNTY_NAME": "磐石市",
+    "CDATE": ""
+}, {
+    "": "275",
+    "DETAIL_PROVID": "220300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220300",
+    "CITY_NAME": "四平市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "276",
+    "DETAIL_PROVID": "220302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220300",
+    "CITY_NAME": "四平市",
+    "COUNTY_NAME": "铁西区",
+    "CDATE": ""
+}, {
+    "": "277",
+    "DETAIL_PROVID": "220303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220300",
+    "CITY_NAME": "四平市",
+    "COUNTY_NAME": "铁东区",
+    "CDATE": ""
+}, {
+    "": "278",
+    "DETAIL_PROVID": "220322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220300",
+    "CITY_NAME": "四平市",
+    "COUNTY_NAME": "梨树县",
+    "CDATE": ""
+}, {
+    "": "279",
+    "DETAIL_PROVID": "220323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220300",
+    "CITY_NAME": "四平市",
+    "COUNTY_NAME": "伊通满族自治县",
+    "CDATE": ""
+}, {
+    "": "280",
+    "DETAIL_PROVID": "220381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220300",
+    "CITY_NAME": "四平市",
+    "COUNTY_NAME": "公主岭市",
+    "CDATE": ""
+}, {
+    "": "281",
+    "DETAIL_PROVID": "220382",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220300",
+    "CITY_NAME": "四平市",
+    "COUNTY_NAME": "双辽市",
+    "CDATE": ""
+}, {
+    "": "282",
+    "DETAIL_PROVID": "220400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220400",
+    "CITY_NAME": "辽源市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "283",
+    "DETAIL_PROVID": "220402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220400",
+    "CITY_NAME": "辽源市",
+    "COUNTY_NAME": "龙山区",
+    "CDATE": ""
+}, {
+    "": "284",
+    "DETAIL_PROVID": "220403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220400",
+    "CITY_NAME": "辽源市",
+    "COUNTY_NAME": "西安区",
+    "CDATE": ""
+}, {
+    "": "285",
+    "DETAIL_PROVID": "220421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220400",
+    "CITY_NAME": "辽源市",
+    "COUNTY_NAME": "东丰县",
+    "CDATE": ""
+}, {
+    "": "286",
+    "DETAIL_PROVID": "220422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220400",
+    "CITY_NAME": "辽源市",
+    "COUNTY_NAME": "东辽县",
+    "CDATE": ""
+}, {
+    "": "287",
+    "DETAIL_PROVID": "220500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220500",
+    "CITY_NAME": "通化市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "288",
+    "DETAIL_PROVID": "220502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220500",
+    "CITY_NAME": "通化市",
+    "COUNTY_NAME": "东昌区",
+    "CDATE": ""
+}, {
+    "": "289",
+    "DETAIL_PROVID": "220503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220500",
+    "CITY_NAME": "通化市",
+    "COUNTY_NAME": "二道江区",
+    "CDATE": ""
+}, {
+    "": "290",
+    "DETAIL_PROVID": "220521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220500",
+    "CITY_NAME": "通化市",
+    "COUNTY_NAME": "通化县",
+    "CDATE": ""
+}, {
+    "": "291",
+    "DETAIL_PROVID": "220523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220500",
+    "CITY_NAME": "通化市",
+    "COUNTY_NAME": "辉南县",
+    "CDATE": ""
+}, {
+    "": "292",
+    "DETAIL_PROVID": "220524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220500",
+    "CITY_NAME": "通化市",
+    "COUNTY_NAME": "柳河县",
+    "CDATE": ""
+}, {
+    "": "293",
+    "DETAIL_PROVID": "220581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220500",
+    "CITY_NAME": "通化市",
+    "COUNTY_NAME": "梅河口市",
+    "CDATE": ""
+}, {
+    "": "294",
+    "DETAIL_PROVID": "220582",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220500",
+    "CITY_NAME": "通化市",
+    "COUNTY_NAME": "集安市",
+    "CDATE": ""
+}, {
+    "": "295",
+    "DETAIL_PROVID": "220600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220600",
+    "CITY_NAME": "白山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "296",
+    "DETAIL_PROVID": "220602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220600",
+    "CITY_NAME": "白山市",
+    "COUNTY_NAME": "浑江区",
+    "CDATE": ""
+}, {
+    "": "297",
+    "DETAIL_PROVID": "220605",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220600",
+    "CITY_NAME": "白山市",
+    "COUNTY_NAME": "江源区",
+    "CDATE": ""
+}, {
+    "": "298",
+    "DETAIL_PROVID": "220621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220600",
+    "CITY_NAME": "白山市",
+    "COUNTY_NAME": "抚松县",
+    "CDATE": ""
+}, {
+    "": "299",
+    "DETAIL_PROVID": "220622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220600",
+    "CITY_NAME": "白山市",
+    "COUNTY_NAME": "靖宇县",
+    "CDATE": ""
+}, {
+    "": "300",
+    "DETAIL_PROVID": "220623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220600",
+    "CITY_NAME": "白山市",
+    "COUNTY_NAME": "长白朝鲜族自治县",
+    "CDATE": ""
+}, {
+    "": "301",
+    "DETAIL_PROVID": "220681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220600",
+    "CITY_NAME": "白山市",
+    "COUNTY_NAME": "临江市",
+    "CDATE": ""
+}, {
+    "": "302",
+    "DETAIL_PROVID": "220700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220700",
+    "CITY_NAME": "松原市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "303",
+    "DETAIL_PROVID": "220702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220700",
+    "CITY_NAME": "松原市",
+    "COUNTY_NAME": "宁江区",
+    "CDATE": ""
+}, {
+    "": "304",
+    "DETAIL_PROVID": "220721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220700",
+    "CITY_NAME": "松原市",
+    "COUNTY_NAME": "前郭尔罗斯蒙古族自治县",
+    "CDATE": ""
+}, {
+    "": "305",
+    "DETAIL_PROVID": "220722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220700",
+    "CITY_NAME": "松原市",
+    "COUNTY_NAME": "长岭县",
+    "CDATE": ""
+}, {
+    "": "306",
+    "DETAIL_PROVID": "220723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220700",
+    "CITY_NAME": "松原市",
+    "COUNTY_NAME": "乾安县",
+    "CDATE": ""
+}, {
+    "": "307",
+    "DETAIL_PROVID": "220781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220700",
+    "CITY_NAME": "松原市",
+    "COUNTY_NAME": "扶余市",
+    "CDATE": ""
+}, {
+    "": "308",
+    "DETAIL_PROVID": "220800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220800",
+    "CITY_NAME": "白城市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "309",
+    "DETAIL_PROVID": "220802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220800",
+    "CITY_NAME": "白城市",
+    "COUNTY_NAME": "洮北区",
+    "CDATE": ""
+}, {
+    "": "310",
+    "DETAIL_PROVID": "220821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220800",
+    "CITY_NAME": "白城市",
+    "COUNTY_NAME": "镇赉县",
+    "CDATE": ""
+}, {
+    "": "311",
+    "DETAIL_PROVID": "220822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220800",
+    "CITY_NAME": "白城市",
+    "COUNTY_NAME": "通榆县",
+    "CDATE": ""
+}, {
+    "": "312",
+    "DETAIL_PROVID": "220881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220800",
+    "CITY_NAME": "白城市",
+    "COUNTY_NAME": "洮南市",
+    "CDATE": ""
+}, {
+    "": "313",
+    "DETAIL_PROVID": "220882",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "220800",
+    "CITY_NAME": "白城市",
+    "COUNTY_NAME": "大安市",
+    "CDATE": ""
+}, {
+    "": "314",
+    "DETAIL_PROVID": "222400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "222400",
+    "CITY_NAME": "延边朝鲜族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "315",
+    "DETAIL_PROVID": "222401",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "222400",
+    "CITY_NAME": "延边朝鲜族自治州",
+    "COUNTY_NAME": "延吉市",
+    "CDATE": ""
+}, {
+    "": "316",
+    "DETAIL_PROVID": "222402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "222400",
+    "CITY_NAME": "延边朝鲜族自治州",
+    "COUNTY_NAME": "图们市",
+    "CDATE": ""
+}, {
+    "": "317",
+    "DETAIL_PROVID": "222403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "222400",
+    "CITY_NAME": "延边朝鲜族自治州",
+    "COUNTY_NAME": "敦化市",
+    "CDATE": ""
+}, {
+    "": "318",
+    "DETAIL_PROVID": "222404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "222400",
+    "CITY_NAME": "延边朝鲜族自治州",
+    "COUNTY_NAME": "珲春市",
+    "CDATE": ""
+}, {
+    "": "319",
+    "DETAIL_PROVID": "222405",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "222400",
+    "CITY_NAME": "延边朝鲜族自治州",
+    "COUNTY_NAME": "龙井市",
+    "CDATE": ""
+}, {
+    "": "320",
+    "DETAIL_PROVID": "222406",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "222400",
+    "CITY_NAME": "延边朝鲜族自治州",
+    "COUNTY_NAME": "和龙市",
+    "CDATE": ""
+}, {
+    "": "321",
+    "DETAIL_PROVID": "222424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "222400",
+    "CITY_NAME": "延边朝鲜族自治州",
+    "COUNTY_NAME": "汪清县",
+    "CDATE": ""
+}, {
+    "": "322",
+    "DETAIL_PROVID": "222426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "22",
+    "PROV_NAME": "吉林",
+    "CITY_CODE": "222400",
+    "CITY_NAME": "延边朝鲜族自治州",
+    "COUNTY_NAME": "安图县",
+    "CDATE": ""
+}, {
+    "": "323",
+    "DETAIL_PROVID": "230100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "324",
+    "DETAIL_PROVID": "230102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "道里区",
+    "CDATE": ""
+}, {
+    "": "325",
+    "DETAIL_PROVID": "230103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "南岗区",
+    "CDATE": ""
+}, {
+    "": "326",
+    "DETAIL_PROVID": "230104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "道外区",
+    "CDATE": ""
+}, {
+    "": "327",
+    "DETAIL_PROVID": "230108",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "平房区",
+    "CDATE": ""
+}, {
+    "": "328",
+    "DETAIL_PROVID": "230109",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "松北区",
+    "CDATE": ""
+}, {
+    "": "329",
+    "DETAIL_PROVID": "230110",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "香坊区",
+    "CDATE": ""
+}, {
+    "": "330",
+    "DETAIL_PROVID": "230111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "呼兰区",
+    "CDATE": ""
+}, {
+    "": "331",
+    "DETAIL_PROVID": "230112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "阿城区",
+    "CDATE": ""
+}, {
+    "": "332",
+    "DETAIL_PROVID": "230113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "双城区",
+    "CDATE": ""
+}, {
+    "": "333",
+    "DETAIL_PROVID": "230123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "依兰县",
+    "CDATE": ""
+}, {
+    "": "334",
+    "DETAIL_PROVID": "230124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "方正县",
+    "CDATE": ""
+}, {
+    "": "335",
+    "DETAIL_PROVID": "230125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "宾县",
+    "CDATE": ""
+}, {
+    "": "336",
+    "DETAIL_PROVID": "230126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "巴彦县",
+    "CDATE": ""
+}, {
+    "": "337",
+    "DETAIL_PROVID": "141129",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "中阳县",
+    "CDATE": ""
+}, {
+    "": "338",
+    "DETAIL_PROVID": "141130",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "交口县",
+    "CDATE": ""
+}, {
+    "": "339",
+    "DETAIL_PROVID": "141181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "孝义市",
+    "CDATE": ""
+}, {
+    "": "340",
+    "DETAIL_PROVID": "141182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "14",
+    "PROV_NAME": "山西",
+    "CITY_CODE": "141100",
+    "CITY_NAME": "吕梁市",
+    "COUNTY_NAME": "汾阳市",
+    "CDATE": ""
+}, {
+    "": "341",
+    "DETAIL_PROVID": "150100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150100",
+    "CITY_NAME": "呼和浩特市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "342",
+    "DETAIL_PROVID": "150102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150100",
+    "CITY_NAME": "呼和浩特市",
+    "COUNTY_NAME": "新城区",
+    "CDATE": ""
+}, {
+    "": "343",
+    "DETAIL_PROVID": "150103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150100",
+    "CITY_NAME": "呼和浩特市",
+    "COUNTY_NAME": "回民区",
+    "CDATE": ""
+}, {
+    "": "344",
+    "DETAIL_PROVID": "150104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150100",
+    "CITY_NAME": "呼和浩特市",
+    "COUNTY_NAME": "玉泉区",
+    "CDATE": ""
+}, {
+    "": "345",
+    "DETAIL_PROVID": "150105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150100",
+    "CITY_NAME": "呼和浩特市",
+    "COUNTY_NAME": "赛罕区",
+    "CDATE": ""
+}, {
+    "": "346",
+    "DETAIL_PROVID": "150121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150100",
+    "CITY_NAME": "呼和浩特市",
+    "COUNTY_NAME": "土默特左旗",
+    "CDATE": ""
+}, {
+    "": "347",
+    "DETAIL_PROVID": "150122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150100",
+    "CITY_NAME": "呼和浩特市",
+    "COUNTY_NAME": "托克托县",
+    "CDATE": ""
+}, {
+    "": "348",
+    "DETAIL_PROVID": "150123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150100",
+    "CITY_NAME": "呼和浩特市",
+    "COUNTY_NAME": "和林格尔县",
+    "CDATE": ""
+}, {
+    "": "349",
+    "DETAIL_PROVID": "150124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150100",
+    "CITY_NAME": "呼和浩特市",
+    "COUNTY_NAME": "清水河县",
+    "CDATE": ""
+}, {
+    "": "350",
+    "DETAIL_PROVID": "150125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150100",
+    "CITY_NAME": "呼和浩特市",
+    "COUNTY_NAME": "武川县",
+    "CDATE": ""
+}, {
+    "": "351",
+    "DETAIL_PROVID": "150200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150200",
+    "CITY_NAME": "包头市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "352",
+    "DETAIL_PROVID": "150202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150200",
+    "CITY_NAME": "包头市",
+    "COUNTY_NAME": "东河区",
+    "CDATE": ""
+}, {
+    "": "353",
+    "DETAIL_PROVID": "150203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150200",
+    "CITY_NAME": "包头市",
+    "COUNTY_NAME": "昆都仑区",
+    "CDATE": ""
+}, {
+    "": "354",
+    "DETAIL_PROVID": "150204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150200",
+    "CITY_NAME": "包头市",
+    "COUNTY_NAME": "青山区",
+    "CDATE": ""
+}, {
+    "": "355",
+    "DETAIL_PROVID": "150205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150200",
+    "CITY_NAME": "包头市",
+    "COUNTY_NAME": "石拐区",
+    "CDATE": ""
+}, {
+    "": "356",
+    "DETAIL_PROVID": "150206",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150200",
+    "CITY_NAME": "包头市",
+    "COUNTY_NAME": "白云鄂博矿区",
+    "CDATE": ""
+}, {
+    "": "357",
+    "DETAIL_PROVID": "150207",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150200",
+    "CITY_NAME": "包头市",
+    "COUNTY_NAME": "九原区",
+    "CDATE": ""
+}, {
+    "": "358",
+    "DETAIL_PROVID": "150221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150200",
+    "CITY_NAME": "包头市",
+    "COUNTY_NAME": "土默特右旗",
+    "CDATE": ""
+}, {
+    "": "359",
+    "DETAIL_PROVID": "150222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150200",
+    "CITY_NAME": "包头市",
+    "COUNTY_NAME": "固阳县",
+    "CDATE": ""
+}, {
+    "": "360",
+    "DETAIL_PROVID": "150223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150200",
+    "CITY_NAME": "包头市",
+    "COUNTY_NAME": "达尔罕茂明安联合旗",
+    "CDATE": ""
+}, {
+    "": "361",
+    "DETAIL_PROVID": "150300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150300",
+    "CITY_NAME": "乌海市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "362",
+    "DETAIL_PROVID": "150302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150300",
+    "CITY_NAME": "乌海市",
+    "COUNTY_NAME": "海勃湾区",
+    "CDATE": ""
+}, {
+    "": "363",
+    "DETAIL_PROVID": "150303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150300",
+    "CITY_NAME": "乌海市",
+    "COUNTY_NAME": "海南区",
+    "CDATE": ""
+}, {
+    "": "364",
+    "DETAIL_PROVID": "150304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150300",
+    "CITY_NAME": "乌海市",
+    "COUNTY_NAME": "乌达区",
+    "CDATE": ""
+}, {
+    "": "365",
+    "DETAIL_PROVID": "150400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "366",
+    "DETAIL_PROVID": "150402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "红山区",
+    "CDATE": ""
+}, {
+    "": "367",
+    "DETAIL_PROVID": "150403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "元宝山区",
+    "CDATE": ""
+}, {
+    "": "368",
+    "DETAIL_PROVID": "150404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "松山区",
+    "CDATE": ""
+}, {
+    "": "369",
+    "DETAIL_PROVID": "150421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "阿鲁科尔沁旗",
+    "CDATE": ""
+}, {
+    "": "370",
+    "DETAIL_PROVID": "150422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "巴林左旗",
+    "CDATE": ""
+}, {
+    "": "371",
+    "DETAIL_PROVID": "150423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "巴林右旗",
+    "CDATE": ""
+}, {
+    "": "372",
+    "DETAIL_PROVID": "150424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "林西县",
+    "CDATE": ""
+}, {
+    "": "373",
+    "DETAIL_PROVID": "150425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "克什克腾旗",
+    "CDATE": ""
+}, {
+    "": "374",
+    "DETAIL_PROVID": "150426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "翁牛特旗",
+    "CDATE": ""
+}, {
+    "": "375",
+    "DETAIL_PROVID": "150428",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "喀喇沁旗",
+    "CDATE": ""
+}, {
+    "": "376",
+    "DETAIL_PROVID": "150429",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "宁城县",
+    "CDATE": ""
+}, {
+    "": "377",
+    "DETAIL_PROVID": "150430",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150400",
+    "CITY_NAME": "赤峰市",
+    "COUNTY_NAME": "敖汉旗",
+    "CDATE": ""
+}, {
+    "": "378",
+    "DETAIL_PROVID": "150500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150500",
+    "CITY_NAME": "通辽市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "379",
+    "DETAIL_PROVID": "150502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150500",
+    "CITY_NAME": "通辽市",
+    "COUNTY_NAME": "科尔沁区",
+    "CDATE": ""
+}, {
+    "": "380",
+    "DETAIL_PROVID": "150521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150500",
+    "CITY_NAME": "通辽市",
+    "COUNTY_NAME": "科尔沁左翼中旗",
+    "CDATE": ""
+}, {
+    "": "381",
+    "DETAIL_PROVID": "150522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150500",
+    "CITY_NAME": "通辽市",
+    "COUNTY_NAME": "科尔沁左翼后旗",
+    "CDATE": ""
+}, {
+    "": "382",
+    "DETAIL_PROVID": "150523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150500",
+    "CITY_NAME": "通辽市",
+    "COUNTY_NAME": "开鲁县",
+    "CDATE": ""
+}, {
+    "": "383",
+    "DETAIL_PROVID": "150524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150500",
+    "CITY_NAME": "通辽市",
+    "COUNTY_NAME": "库伦旗",
+    "CDATE": ""
+}, {
+    "": "384",
+    "DETAIL_PROVID": "150525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150500",
+    "CITY_NAME": "通辽市",
+    "COUNTY_NAME": "奈曼旗",
+    "CDATE": ""
+}, {
+    "": "385",
+    "DETAIL_PROVID": "150526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150500",
+    "CITY_NAME": "通辽市",
+    "COUNTY_NAME": "扎鲁特旗",
+    "CDATE": ""
+}, {
+    "": "386",
+    "DETAIL_PROVID": "150581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150500",
+    "CITY_NAME": "通辽市",
+    "COUNTY_NAME": "霍林郭勒市",
+    "CDATE": ""
+}, {
+    "": "387",
+    "DETAIL_PROVID": "150600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150600",
+    "CITY_NAME": "鄂尔多斯市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "388",
+    "DETAIL_PROVID": "150602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150600",
+    "CITY_NAME": "鄂尔多斯市",
+    "COUNTY_NAME": "东胜区",
+    "CDATE": ""
+}, {
+    "": "389",
+    "DETAIL_PROVID": "150603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150600",
+    "CITY_NAME": "鄂尔多斯市",
+    "COUNTY_NAME": "康巴什区",
+    "CDATE": ""
+}, {
+    "": "390",
+    "DETAIL_PROVID": "150621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150600",
+    "CITY_NAME": "鄂尔多斯市",
+    "COUNTY_NAME": "达拉特旗",
+    "CDATE": ""
+}, {
+    "": "391",
+    "DETAIL_PROVID": "150622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150600",
+    "CITY_NAME": "鄂尔多斯市",
+    "COUNTY_NAME": "准格尔旗",
+    "CDATE": ""
+}, {
+    "": "392",
+    "DETAIL_PROVID": "150623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150600",
+    "CITY_NAME": "鄂尔多斯市",
+    "COUNTY_NAME": "鄂托克前旗",
+    "CDATE": ""
+}, {
+    "": "393",
+    "DETAIL_PROVID": "150624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150600",
+    "CITY_NAME": "鄂尔多斯市",
+    "COUNTY_NAME": "鄂托克旗",
+    "CDATE": ""
+}, {
+    "": "394",
+    "DETAIL_PROVID": "150625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150600",
+    "CITY_NAME": "鄂尔多斯市",
+    "COUNTY_NAME": "杭锦旗",
+    "CDATE": ""
+}, {
+    "": "395",
+    "DETAIL_PROVID": "150626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150600",
+    "CITY_NAME": "鄂尔多斯市",
+    "COUNTY_NAME": "乌审旗",
+    "CDATE": ""
+}, {
+    "": "396",
+    "DETAIL_PROVID": "150627",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150600",
+    "CITY_NAME": "鄂尔多斯市",
+    "COUNTY_NAME": "伊金霍洛旗",
+    "CDATE": ""
+}, {
+    "": "397",
+    "DETAIL_PROVID": "150700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "398",
+    "DETAIL_PROVID": "150702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "海拉尔区",
+    "CDATE": ""
+}, {
+    "": "399",
+    "DETAIL_PROVID": "150703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "扎赉诺尔区",
+    "CDATE": ""
+}, {
+    "": "400",
+    "DETAIL_PROVID": "150721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "阿荣旗",
+    "CDATE": ""
+}, {
+    "": "401",
+    "DETAIL_PROVID": "150722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "莫力达瓦达斡尔族自治旗",
+    "CDATE": ""
+}, {
+    "": "402",
+    "DETAIL_PROVID": "150723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "鄂伦春自治旗",
+    "CDATE": ""
+}, {
+    "": "403",
+    "DETAIL_PROVID": "150724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "鄂温克族自治旗",
+    "CDATE": ""
+}, {
+    "": "404",
+    "DETAIL_PROVID": "150725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "陈巴尔虎旗",
+    "CDATE": ""
+}, {
+    "": "405",
+    "DETAIL_PROVID": "150726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "新巴尔虎左旗",
+    "CDATE": ""
+}, {
+    "": "406",
+    "DETAIL_PROVID": "150727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "新巴尔虎右旗",
+    "CDATE": ""
+}, {
+    "": "407",
+    "DETAIL_PROVID": "150781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "满洲里市",
+    "CDATE": ""
+}, {
+    "": "408",
+    "DETAIL_PROVID": "150782",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "牙克石市",
+    "CDATE": ""
+}, {
+    "": "409",
+    "DETAIL_PROVID": "150783",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "扎兰屯市",
+    "CDATE": ""
+}, {
+    "": "410",
+    "DETAIL_PROVID": "150784",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "额尔古纳市",
+    "CDATE": ""
+}, {
+    "": "411",
+    "DETAIL_PROVID": "150785",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150700",
+    "CITY_NAME": "呼伦贝尔市",
+    "COUNTY_NAME": "根河市",
+    "CDATE": ""
+}, {
+    "": "412",
+    "DETAIL_PROVID": "150800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150800",
+    "CITY_NAME": "巴彦淖尔市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "413",
+    "DETAIL_PROVID": "150802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150800",
+    "CITY_NAME": "巴彦淖尔市",
+    "COUNTY_NAME": "临河区",
+    "CDATE": ""
+}, {
+    "": "414",
+    "DETAIL_PROVID": "150821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150800",
+    "CITY_NAME": "巴彦淖尔市",
+    "COUNTY_NAME": "五原县",
+    "CDATE": ""
+}, {
+    "": "415",
+    "DETAIL_PROVID": "150822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150800",
+    "CITY_NAME": "巴彦淖尔市",
+    "COUNTY_NAME": "磴口县",
+    "CDATE": ""
+}, {
+    "": "416",
+    "DETAIL_PROVID": "150823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150800",
+    "CITY_NAME": "巴彦淖尔市",
+    "COUNTY_NAME": "乌拉特前旗",
+    "CDATE": ""
+}, {
+    "": "417",
+    "DETAIL_PROVID": "150824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150800",
+    "CITY_NAME": "巴彦淖尔市",
+    "COUNTY_NAME": "乌拉特中旗",
+    "CDATE": ""
+}, {
+    "": "418",
+    "DETAIL_PROVID": "150825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150800",
+    "CITY_NAME": "巴彦淖尔市",
+    "COUNTY_NAME": "乌拉特后旗",
+    "CDATE": ""
+}, {
+    "": "419",
+    "DETAIL_PROVID": "150826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150800",
+    "CITY_NAME": "巴彦淖尔市",
+    "COUNTY_NAME": "杭锦后旗",
+    "CDATE": ""
+}, {
+    "": "420",
+    "DETAIL_PROVID": "150900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "421",
+    "DETAIL_PROVID": "150902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "集宁区",
+    "CDATE": ""
+}, {
+    "": "422",
+    "DETAIL_PROVID": "150921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "卓资县",
+    "CDATE": ""
+}, {
+    "": "423",
+    "DETAIL_PROVID": "150922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "化德县",
+    "CDATE": ""
+}, {
+    "": "424",
+    "DETAIL_PROVID": "150923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "商都县",
+    "CDATE": ""
+}, {
+    "": "425",
+    "DETAIL_PROVID": "150924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "兴和县",
+    "CDATE": ""
+}, {
+    "": "426",
+    "DETAIL_PROVID": "150925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "凉城县",
+    "CDATE": ""
+}, {
+    "": "427",
+    "DETAIL_PROVID": "150926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "察哈尔右翼前旗",
+    "CDATE": ""
+}, {
+    "": "428",
+    "DETAIL_PROVID": "150927",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "察哈尔右翼中旗",
+    "CDATE": ""
+}, {
+    "": "429",
+    "DETAIL_PROVID": "150928",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "察哈尔右翼后旗",
+    "CDATE": ""
+}, {
+    "": "430",
+    "DETAIL_PROVID": "150929",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "四子王旗",
+    "CDATE": ""
+}, {
+    "": "431",
+    "DETAIL_PROVID": "150981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "150900",
+    "CITY_NAME": "乌兰察布市",
+    "COUNTY_NAME": "丰镇市",
+    "CDATE": ""
+}, {
+    "": "432",
+    "DETAIL_PROVID": "152200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152200",
+    "CITY_NAME": "兴安盟",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "433",
+    "DETAIL_PROVID": "152201",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152200",
+    "CITY_NAME": "兴安盟",
+    "COUNTY_NAME": "乌兰浩特市",
+    "CDATE": ""
+}, {
+    "": "434",
+    "DETAIL_PROVID": "152202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152200",
+    "CITY_NAME": "兴安盟",
+    "COUNTY_NAME": "阿尔山市",
+    "CDATE": ""
+}, {
+    "": "435",
+    "DETAIL_PROVID": "152221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152200",
+    "CITY_NAME": "兴安盟",
+    "COUNTY_NAME": "科尔沁右翼前旗",
+    "CDATE": ""
+}, {
+    "": "436",
+    "DETAIL_PROVID": "152222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152200",
+    "CITY_NAME": "兴安盟",
+    "COUNTY_NAME": "科尔沁右翼中旗",
+    "CDATE": ""
+}, {
+    "": "437",
+    "DETAIL_PROVID": "152223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152200",
+    "CITY_NAME": "兴安盟",
+    "COUNTY_NAME": "扎赉特旗",
+    "CDATE": ""
+}, {
+    "": "438",
+    "DETAIL_PROVID": "152224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152200",
+    "CITY_NAME": "兴安盟",
+    "COUNTY_NAME": "突泉县",
+    "CDATE": ""
+}, {
+    "": "439",
+    "DETAIL_PROVID": "152500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "440",
+    "DETAIL_PROVID": "152501",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "二连浩特市",
+    "CDATE": ""
+}, {
+    "": "441",
+    "DETAIL_PROVID": "152502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "锡林浩特市",
+    "CDATE": ""
+}, {
+    "": "442",
+    "DETAIL_PROVID": "152522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "阿巴嘎旗",
+    "CDATE": ""
+}, {
+    "": "443",
+    "DETAIL_PROVID": "152523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "苏尼特左旗",
+    "CDATE": ""
+}, {
+    "": "444",
+    "DETAIL_PROVID": "152524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "苏尼特右旗",
+    "CDATE": ""
+}, {
+    "": "445",
+    "DETAIL_PROVID": "152525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "东乌珠穆沁旗",
+    "CDATE": ""
+}, {
+    "": "446",
+    "DETAIL_PROVID": "152526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "西乌珠穆沁旗",
+    "CDATE": ""
+}, {
+    "": "447",
+    "DETAIL_PROVID": "152527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "太仆寺旗",
+    "CDATE": ""
+}, {
+    "": "448",
+    "DETAIL_PROVID": "152528",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "镶黄旗",
+    "CDATE": ""
+}, {
+    "": "449",
+    "DETAIL_PROVID": "152529",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "正镶白旗",
+    "CDATE": ""
+}, {
+    "": "450",
+    "DETAIL_PROVID": "152530",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "正蓝旗",
+    "CDATE": ""
+}, {
+    "": "451",
+    "DETAIL_PROVID": "152531",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152500",
+    "CITY_NAME": "锡林郭勒盟",
+    "COUNTY_NAME": "多伦县",
+    "CDATE": ""
+}, {
+    "": "452",
+    "DETAIL_PROVID": "152900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152900",
+    "CITY_NAME": "阿拉善盟",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "453",
+    "DETAIL_PROVID": "152921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152900",
+    "CITY_NAME": "阿拉善盟",
+    "COUNTY_NAME": "阿拉善左旗",
+    "CDATE": ""
+}, {
+    "": "454",
+    "DETAIL_PROVID": "152922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152900",
+    "CITY_NAME": "阿拉善盟",
+    "COUNTY_NAME": "阿拉善右旗",
+    "CDATE": ""
+}, {
+    "": "455",
+    "DETAIL_PROVID": "152923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "15",
+    "PROV_NAME": "内蒙古",
+    "CITY_CODE": "152900",
+    "CITY_NAME": "阿拉善盟",
+    "COUNTY_NAME": "额济纳旗",
+    "CDATE": ""
+}, {
+    "": "456",
+    "DETAIL_PROVID": "210100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "457",
+    "DETAIL_PROVID": "210102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "和平区",
+    "CDATE": ""
+}, {
+    "": "458",
+    "DETAIL_PROVID": "210103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "沈河区",
+    "CDATE": ""
+}, {
+    "": "459",
+    "DETAIL_PROVID": "210104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "大东区",
+    "CDATE": ""
+}, {
+    "": "460",
+    "DETAIL_PROVID": "210105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "皇姑区",
+    "CDATE": ""
+}, {
+    "": "461",
+    "DETAIL_PROVID": "210106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "铁西区",
+    "CDATE": ""
+}, {
+    "": "462",
+    "DETAIL_PROVID": "210111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "苏家屯区",
+    "CDATE": ""
+}, {
+    "": "463",
+    "DETAIL_PROVID": "210112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "浑南区",
+    "CDATE": ""
+}, {
+    "": "464",
+    "DETAIL_PROVID": "210113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "沈北新区",
+    "CDATE": ""
+}, {
+    "": "465",
+    "DETAIL_PROVID": "210114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "于洪区",
+    "CDATE": ""
+}, {
+    "": "466",
+    "DETAIL_PROVID": "210115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "辽中区",
+    "CDATE": ""
+}, {
+    "": "467",
+    "DETAIL_PROVID": "210123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "康平县",
+    "CDATE": ""
+}, {
+    "": "468",
+    "DETAIL_PROVID": "210124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "法库县",
+    "CDATE": ""
+}, {
+    "": "469",
+    "DETAIL_PROVID": "210181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210100",
+    "CITY_NAME": "沈阳市",
+    "COUNTY_NAME": "新民市",
+    "CDATE": ""
+}, {
+    "": "470",
+    "DETAIL_PROVID": "210200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "471",
+    "DETAIL_PROVID": "210202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "中山区",
+    "CDATE": ""
+}, {
+    "": "472",
+    "DETAIL_PROVID": "210203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "西岗区",
+    "CDATE": ""
+}, {
+    "": "473",
+    "DETAIL_PROVID": "210204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "沙河口区",
+    "CDATE": ""
+}, {
+    "": "474",
+    "DETAIL_PROVID": "210211",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "甘井子区",
+    "CDATE": ""
+}, {
+    "": "475",
+    "DETAIL_PROVID": "210212",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "旅顺口区",
+    "CDATE": ""
+}, {
+    "": "476",
+    "DETAIL_PROVID": "210213",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "金州区",
+    "CDATE": ""
+}, {
+    "": "477",
+    "DETAIL_PROVID": "210214",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "普兰店区",
+    "CDATE": ""
+}, {
+    "": "478",
+    "DETAIL_PROVID": "210224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "长海县",
+    "CDATE": ""
+}, {
+    "": "479",
+    "DETAIL_PROVID": "210281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "瓦房店市",
+    "CDATE": ""
+}, {
+    "": "480",
+    "DETAIL_PROVID": "210283",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210200",
+    "CITY_NAME": "大连市",
+    "COUNTY_NAME": "庄河市",
+    "CDATE": ""
+}, {
+    "": "481",
+    "DETAIL_PROVID": "210300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210300",
+    "CITY_NAME": "鞍山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "482",
+    "DETAIL_PROVID": "210302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210300",
+    "CITY_NAME": "鞍山市",
+    "COUNTY_NAME": "铁东区",
+    "CDATE": ""
+}, {
+    "": "483",
+    "DETAIL_PROVID": "210303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210300",
+    "CITY_NAME": "鞍山市",
+    "COUNTY_NAME": "铁西区",
+    "CDATE": ""
+}, {
+    "": "484",
+    "DETAIL_PROVID": "210304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210300",
+    "CITY_NAME": "鞍山市",
+    "COUNTY_NAME": "立山区",
+    "CDATE": ""
+}, {
+    "": "485",
+    "DETAIL_PROVID": "210311",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210300",
+    "CITY_NAME": "鞍山市",
+    "COUNTY_NAME": "千山区",
+    "CDATE": ""
+}, {
+    "": "486",
+    "DETAIL_PROVID": "210321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210300",
+    "CITY_NAME": "鞍山市",
+    "COUNTY_NAME": "台安县",
+    "CDATE": ""
+}, {
+    "": "487",
+    "DETAIL_PROVID": "210323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210300",
+    "CITY_NAME": "鞍山市",
+    "COUNTY_NAME": "岫岩满族自治县",
+    "CDATE": ""
+}, {
+    "": "488",
+    "DETAIL_PROVID": "210381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "21",
+    "PROV_NAME": "辽宁",
+    "CITY_CODE": "210300",
+    "CITY_NAME": "鞍山市",
+    "COUNTY_NAME": "海城市",
+    "CDATE": ""
+}, {
+    "": "489",
+    "DETAIL_PROVID": "230127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "木兰县",
+    "CDATE": ""
+}, {
+    "": "490",
+    "DETAIL_PROVID": "230128",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "通河县",
+    "CDATE": ""
+}, {
+    "": "491",
+    "DETAIL_PROVID": "230129",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "延寿县",
+    "CDATE": ""
+}, {
+    "": "492",
+    "DETAIL_PROVID": "230183",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "尚志市",
+    "CDATE": ""
+}, {
+    "": "493",
+    "DETAIL_PROVID": "230184",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230100",
+    "CITY_NAME": "哈尔滨市",
+    "COUNTY_NAME": "五常市",
+    "CDATE": ""
+}, {
+    "": "494",
+    "DETAIL_PROVID": "230200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "495",
+    "DETAIL_PROVID": "230202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "龙沙区",
+    "CDATE": ""
+}, {
+    "": "496",
+    "DETAIL_PROVID": "230203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "建华区",
+    "CDATE": ""
+}, {
+    "": "497",
+    "DETAIL_PROVID": "230204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "铁锋区",
+    "CDATE": ""
+}, {
+    "": "498",
+    "DETAIL_PROVID": "230205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "昂昂溪区",
+    "CDATE": ""
+}, {
+    "": "499",
+    "DETAIL_PROVID": "230206",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "富拉尔基区",
+    "CDATE": ""
+}, {
+    "": "500",
+    "DETAIL_PROVID": "230207",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "碾子山区",
+    "CDATE": ""
+}, {
+    "": "501",
+    "DETAIL_PROVID": "230208",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "梅里斯达斡尔族区",
+    "CDATE": ""
+}, {
+    "": "502",
+    "DETAIL_PROVID": "230221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "龙江县",
+    "CDATE": ""
+}, {
+    "": "503",
+    "DETAIL_PROVID": "230223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "依安县",
+    "CDATE": ""
+}, {
+    "": "504",
+    "DETAIL_PROVID": "230224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "泰来县",
+    "CDATE": ""
+}, {
+    "": "505",
+    "DETAIL_PROVID": "230225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "甘南县",
+    "CDATE": ""
+}, {
+    "": "506",
+    "DETAIL_PROVID": "230227",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "富裕县",
+    "CDATE": ""
+}, {
+    "": "507",
+    "DETAIL_PROVID": "230229",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "克山县",
+    "CDATE": ""
+}, {
+    "": "508",
+    "DETAIL_PROVID": "230230",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "克东县",
+    "CDATE": ""
+}, {
+    "": "509",
+    "DETAIL_PROVID": "230231",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "拜泉县",
+    "CDATE": ""
+}, {
+    "": "510",
+    "DETAIL_PROVID": "230281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230200",
+    "CITY_NAME": "齐齐哈尔市",
+    "COUNTY_NAME": "讷河市",
+    "CDATE": ""
+}, {
+    "": "511",
+    "DETAIL_PROVID": "230300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230300",
+    "CITY_NAME": "鸡西市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "512",
+    "DETAIL_PROVID": "230302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230300",
+    "CITY_NAME": "鸡西市",
+    "COUNTY_NAME": "鸡冠区",
+    "CDATE": ""
+}, {
+    "": "513",
+    "DETAIL_PROVID": "230303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230300",
+    "CITY_NAME": "鸡西市",
+    "COUNTY_NAME": "恒山区",
+    "CDATE": ""
+}, {
+    "": "514",
+    "DETAIL_PROVID": "230304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230300",
+    "CITY_NAME": "鸡西市",
+    "COUNTY_NAME": "滴道区",
+    "CDATE": ""
+}, {
+    "": "515",
+    "DETAIL_PROVID": "230305",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230300",
+    "CITY_NAME": "鸡西市",
+    "COUNTY_NAME": "梨树区",
+    "CDATE": ""
+}, {
+    "": "516",
+    "DETAIL_PROVID": "230306",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230300",
+    "CITY_NAME": "鸡西市",
+    "COUNTY_NAME": "城子河区",
+    "CDATE": ""
+}, {
+    "": "517",
+    "DETAIL_PROVID": "230307",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230300",
+    "CITY_NAME": "鸡西市",
+    "COUNTY_NAME": "麻山区",
+    "CDATE": ""
+}, {
+    "": "518",
+    "DETAIL_PROVID": "230321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230300",
+    "CITY_NAME": "鸡西市",
+    "COUNTY_NAME": "鸡东县",
+    "CDATE": ""
+}, {
+    "": "519",
+    "DETAIL_PROVID": "230381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230300",
+    "CITY_NAME": "鸡西市",
+    "COUNTY_NAME": "虎林市",
+    "CDATE": ""
+}, {
+    "": "520",
+    "DETAIL_PROVID": "230382",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230300",
+    "CITY_NAME": "鸡西市",
+    "COUNTY_NAME": "密山市",
+    "CDATE": ""
+}, {
+    "": "521",
+    "DETAIL_PROVID": "230400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230400",
+    "CITY_NAME": "鹤岗市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "522",
+    "DETAIL_PROVID": "230402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230400",
+    "CITY_NAME": "鹤岗市",
+    "COUNTY_NAME": "向阳区",
+    "CDATE": ""
+}, {
+    "": "523",
+    "DETAIL_PROVID": "230403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230400",
+    "CITY_NAME": "鹤岗市",
+    "COUNTY_NAME": "工农区",
+    "CDATE": ""
+}, {
+    "": "524",
+    "DETAIL_PROVID": "230404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230400",
+    "CITY_NAME": "鹤岗市",
+    "COUNTY_NAME": "南山区",
+    "CDATE": ""
+}, {
+    "": "525",
+    "DETAIL_PROVID": "230405",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230400",
+    "CITY_NAME": "鹤岗市",
+    "COUNTY_NAME": "兴安区",
+    "CDATE": ""
+}, {
+    "": "526",
+    "DETAIL_PROVID": "230406",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230400",
+    "CITY_NAME": "鹤岗市",
+    "COUNTY_NAME": "东山区",
+    "CDATE": ""
+}, {
+    "": "527",
+    "DETAIL_PROVID": "230407",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230400",
+    "CITY_NAME": "鹤岗市",
+    "COUNTY_NAME": "兴山区",
+    "CDATE": ""
+}, {
+    "": "528",
+    "DETAIL_PROVID": "230421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230400",
+    "CITY_NAME": "鹤岗市",
+    "COUNTY_NAME": "萝北县",
+    "CDATE": ""
+}, {
+    "": "529",
+    "DETAIL_PROVID": "230422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230400",
+    "CITY_NAME": "鹤岗市",
+    "COUNTY_NAME": "绥滨县",
+    "CDATE": ""
+}, {
+    "": "530",
+    "DETAIL_PROVID": "230500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230500",
+    "CITY_NAME": "双鸭山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "531",
+    "DETAIL_PROVID": "230502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230500",
+    "CITY_NAME": "双鸭山市",
+    "COUNTY_NAME": "尖山区",
+    "CDATE": ""
+}, {
+    "": "532",
+    "DETAIL_PROVID": "230503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230500",
+    "CITY_NAME": "双鸭山市",
+    "COUNTY_NAME": "岭东区",
+    "CDATE": ""
+}, {
+    "": "533",
+    "DETAIL_PROVID": "230505",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230500",
+    "CITY_NAME": "双鸭山市",
+    "COUNTY_NAME": "四方台区",
+    "CDATE": ""
+}, {
+    "": "534",
+    "DETAIL_PROVID": "230506",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230500",
+    "CITY_NAME": "双鸭山市",
+    "COUNTY_NAME": "宝山区",
+    "CDATE": ""
+}, {
+    "": "535",
+    "DETAIL_PROVID": "230521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230500",
+    "CITY_NAME": "双鸭山市",
+    "COUNTY_NAME": "集贤县",
+    "CDATE": ""
+}, {
+    "": "536",
+    "DETAIL_PROVID": "230522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230500",
+    "CITY_NAME": "双鸭山市",
+    "COUNTY_NAME": "友谊县",
+    "CDATE": ""
+}, {
+    "": "537",
+    "DETAIL_PROVID": "230523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230500",
+    "CITY_NAME": "双鸭山市",
+    "COUNTY_NAME": "宝清县",
+    "CDATE": ""
+}, {
+    "": "538",
+    "DETAIL_PROVID": "230524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230500",
+    "CITY_NAME": "双鸭山市",
+    "COUNTY_NAME": "饶河县",
+    "CDATE": ""
+}, {
+    "": "539",
+    "DETAIL_PROVID": "230600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230600",
+    "CITY_NAME": "大庆市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "540",
+    "DETAIL_PROVID": "230602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230600",
+    "CITY_NAME": "大庆市",
+    "COUNTY_NAME": "萨尔图区",
+    "CDATE": ""
+}, {
+    "": "541",
+    "DETAIL_PROVID": "230603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230600",
+    "CITY_NAME": "大庆市",
+    "COUNTY_NAME": "龙凤区",
+    "CDATE": ""
+}, {
+    "": "542",
+    "DETAIL_PROVID": "230604",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230600",
+    "CITY_NAME": "大庆市",
+    "COUNTY_NAME": "让胡路区",
+    "CDATE": ""
+}, {
+    "": "543",
+    "DETAIL_PROVID": "230605",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230600",
+    "CITY_NAME": "大庆市",
+    "COUNTY_NAME": "红岗区",
+    "CDATE": ""
+}, {
+    "": "544",
+    "DETAIL_PROVID": "230606",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230600",
+    "CITY_NAME": "大庆市",
+    "COUNTY_NAME": "大同区",
+    "CDATE": ""
+}, {
+    "": "545",
+    "DETAIL_PROVID": "230621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230600",
+    "CITY_NAME": "大庆市",
+    "COUNTY_NAME": "肇州县",
+    "CDATE": ""
+}, {
+    "": "546",
+    "DETAIL_PROVID": "230622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230600",
+    "CITY_NAME": "大庆市",
+    "COUNTY_NAME": "肇源县",
+    "CDATE": ""
+}, {
+    "": "547",
+    "DETAIL_PROVID": "230623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230600",
+    "CITY_NAME": "大庆市",
+    "COUNTY_NAME": "林甸县",
+    "CDATE": ""
+}, {
+    "": "548",
+    "DETAIL_PROVID": "230624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230600",
+    "CITY_NAME": "大庆市",
+    "COUNTY_NAME": "杜尔伯特蒙古族自治县",
+    "CDATE": ""
+}, {
+    "": "549",
+    "DETAIL_PROVID": "230700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "550",
+    "DETAIL_PROVID": "230702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "伊春区",
+    "CDATE": ""
+}, {
+    "": "551",
+    "DETAIL_PROVID": "230703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "南岔区",
+    "CDATE": ""
+}, {
+    "": "552",
+    "DETAIL_PROVID": "230704",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "友好区",
+    "CDATE": ""
+}, {
+    "": "553",
+    "DETAIL_PROVID": "230705",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "西林区",
+    "CDATE": ""
+}, {
+    "": "554",
+    "DETAIL_PROVID": "230706",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "翠峦区",
+    "CDATE": ""
+}, {
+    "": "555",
+    "DETAIL_PROVID": "230707",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "新青区",
+    "CDATE": ""
+}, {
+    "": "556",
+    "DETAIL_PROVID": "230708",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "美溪区",
+    "CDATE": ""
+}, {
+    "": "557",
+    "DETAIL_PROVID": "230709",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "金山屯区",
+    "CDATE": ""
+}, {
+    "": "558",
+    "DETAIL_PROVID": "230710",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "五营区",
+    "CDATE": ""
+}, {
+    "": "559",
+    "DETAIL_PROVID": "230711",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "乌马河区",
+    "CDATE": ""
+}, {
+    "": "560",
+    "DETAIL_PROVID": "230712",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "汤旺河区",
+    "CDATE": ""
+}, {
+    "": "561",
+    "DETAIL_PROVID": "230713",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "带岭区",
+    "CDATE": ""
+}, {
+    "": "562",
+    "DETAIL_PROVID": "230714",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "乌伊岭区",
+    "CDATE": ""
+}, {
+    "": "563",
+    "DETAIL_PROVID": "230715",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "红星区",
+    "CDATE": ""
+}, {
+    "": "564",
+    "DETAIL_PROVID": "230716",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "上甘岭区",
+    "CDATE": ""
+}, {
+    "": "565",
+    "DETAIL_PROVID": "230722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "嘉荫县",
+    "CDATE": ""
+}, {
+    "": "566",
+    "DETAIL_PROVID": "230781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230700",
+    "CITY_NAME": "伊春市",
+    "COUNTY_NAME": "铁力市",
+    "CDATE": ""
+}, {
+    "": "567",
+    "DETAIL_PROVID": "230800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "568",
+    "DETAIL_PROVID": "230803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "向阳区",
+    "CDATE": ""
+}, {
+    "": "569",
+    "DETAIL_PROVID": "230804",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "前进区",
+    "CDATE": ""
+}, {
+    "": "570",
+    "DETAIL_PROVID": "230805",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "东风区",
+    "CDATE": ""
+}, {
+    "": "571",
+    "DETAIL_PROVID": "230811",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "郊区",
+    "CDATE": ""
+}, {
+    "": "572",
+    "DETAIL_PROVID": "230822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "桦南县",
+    "CDATE": ""
+}, {
+    "": "573",
+    "DETAIL_PROVID": "230826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "桦川县",
+    "CDATE": ""
+}, {
+    "": "574",
+    "DETAIL_PROVID": "230828",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "汤原县",
+    "CDATE": ""
+}, {
+    "": "575",
+    "DETAIL_PROVID": "230881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "同江市",
+    "CDATE": ""
+}, {
+    "": "576",
+    "DETAIL_PROVID": "230882",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "富锦市",
+    "CDATE": ""
+}, {
+    "": "577",
+    "DETAIL_PROVID": "230883",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230800",
+    "CITY_NAME": "佳木斯市",
+    "COUNTY_NAME": "抚远市",
+    "CDATE": ""
+}, {
+    "": "578",
+    "DETAIL_PROVID": "230900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230900",
+    "CITY_NAME": "七台河市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "579",
+    "DETAIL_PROVID": "230902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230900",
+    "CITY_NAME": "七台河市",
+    "COUNTY_NAME": "新兴区",
+    "CDATE": ""
+}, {
+    "": "580",
+    "DETAIL_PROVID": "230903",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230900",
+    "CITY_NAME": "七台河市",
+    "COUNTY_NAME": "桃山区",
+    "CDATE": ""
+}, {
+    "": "581",
+    "DETAIL_PROVID": "230904",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230900",
+    "CITY_NAME": "七台河市",
+    "COUNTY_NAME": "茄子河区",
+    "CDATE": ""
+}, {
+    "": "582",
+    "DETAIL_PROVID": "230921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "230900",
+    "CITY_NAME": "七台河市",
+    "COUNTY_NAME": "勃利县",
+    "CDATE": ""
+}, {
+    "": "583",
+    "DETAIL_PROVID": "231000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "584",
+    "DETAIL_PROVID": "231002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "东安区",
+    "CDATE": ""
+}, {
+    "": "585",
+    "DETAIL_PROVID": "231003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "阳明区",
+    "CDATE": ""
+}, {
+    "": "586",
+    "DETAIL_PROVID": "231004",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "爱民区",
+    "CDATE": ""
+}, {
+    "": "587",
+    "DETAIL_PROVID": "231005",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "西安区",
+    "CDATE": ""
+}, {
+    "": "588",
+    "DETAIL_PROVID": "231025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "林口县",
+    "CDATE": ""
+}, {
+    "": "589",
+    "DETAIL_PROVID": "231081",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "绥芬河市",
+    "CDATE": ""
+}, {
+    "": "590",
+    "DETAIL_PROVID": "231083",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "海林市",
+    "CDATE": ""
+}, {
+    "": "591",
+    "DETAIL_PROVID": "231084",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "宁安市",
+    "CDATE": ""
+}, {
+    "": "592",
+    "DETAIL_PROVID": "231085",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "穆棱市",
+    "CDATE": ""
+}, {
+    "": "593",
+    "DETAIL_PROVID": "231086",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231000",
+    "CITY_NAME": "牡丹江市",
+    "COUNTY_NAME": "东宁市",
+    "CDATE": ""
+}, {
+    "": "594",
+    "DETAIL_PROVID": "231100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231100",
+    "CITY_NAME": "黑河市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "595",
+    "DETAIL_PROVID": "231102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231100",
+    "CITY_NAME": "黑河市",
+    "COUNTY_NAME": "爱辉区",
+    "CDATE": ""
+}, {
+    "": "596",
+    "DETAIL_PROVID": "231121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231100",
+    "CITY_NAME": "黑河市",
+    "COUNTY_NAME": "嫩江县",
+    "CDATE": ""
+}, {
+    "": "597",
+    "DETAIL_PROVID": "231123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231100",
+    "CITY_NAME": "黑河市",
+    "COUNTY_NAME": "逊克县",
+    "CDATE": ""
+}, {
+    "": "598",
+    "DETAIL_PROVID": "231124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231100",
+    "CITY_NAME": "黑河市",
+    "COUNTY_NAME": "孙吴县",
+    "CDATE": ""
+}, {
+    "": "599",
+    "DETAIL_PROVID": "231181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231100",
+    "CITY_NAME": "黑河市",
+    "COUNTY_NAME": "北安市",
+    "CDATE": ""
+}, {
+    "": "600",
+    "DETAIL_PROVID": "231182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231100",
+    "CITY_NAME": "黑河市",
+    "COUNTY_NAME": "五大连池市",
+    "CDATE": ""
+}, {
+    "": "601",
+    "DETAIL_PROVID": "231200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "602",
+    "DETAIL_PROVID": "231202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "北林区",
+    "CDATE": ""
+}, {
+    "": "603",
+    "DETAIL_PROVID": "231221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "望奎县",
+    "CDATE": ""
+}, {
+    "": "604",
+    "DETAIL_PROVID": "231222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "兰西县",
+    "CDATE": ""
+}, {
+    "": "605",
+    "DETAIL_PROVID": "231223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "青冈县",
+    "CDATE": ""
+}, {
+    "": "606",
+    "DETAIL_PROVID": "231224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "庆安县",
+    "CDATE": ""
+}, {
+    "": "607",
+    "DETAIL_PROVID": "231225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "明水县",
+    "CDATE": ""
+}, {
+    "": "608",
+    "DETAIL_PROVID": "231226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "绥棱县",
+    "CDATE": ""
+}, {
+    "": "609",
+    "DETAIL_PROVID": "231281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "安达市",
+    "CDATE": ""
+}, {
+    "": "610",
+    "DETAIL_PROVID": "231282",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "肇东市",
+    "CDATE": ""
+}, {
+    "": "611",
+    "DETAIL_PROVID": "231283",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "231200",
+    "CITY_NAME": "绥化市",
+    "COUNTY_NAME": "海伦市",
+    "CDATE": ""
+}, {
+    "": "612",
+    "DETAIL_PROVID": "232700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "232700",
+    "CITY_NAME": "大兴安岭地区",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "613",
+    "DETAIL_PROVID": "232701",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "232700",
+    "CITY_NAME": "大兴安岭地区",
+    "COUNTY_NAME": "加格达奇区",
+    "CDATE": ""
+}, {
+    "": "614",
+    "DETAIL_PROVID": "232721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "232700",
+    "CITY_NAME": "大兴安岭地区",
+    "COUNTY_NAME": "呼玛县",
+    "CDATE": ""
+}, {
+    "": "615",
+    "DETAIL_PROVID": "232722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "232700",
+    "CITY_NAME": "大兴安岭地区",
+    "COUNTY_NAME": "塔河县",
+    "CDATE": ""
+}, {
+    "": "616",
+    "DETAIL_PROVID": "232723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "23",
+    "PROV_NAME": "黑龙江",
+    "CITY_CODE": "232700",
+    "CITY_NAME": "大兴安岭地区",
+    "COUNTY_NAME": "漠河县",
+    "CDATE": ""
+}, {
+    "": "617",
+    "DETAIL_PROVID": "310000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "618",
+    "DETAIL_PROVID": "310101",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "黄浦区",
+    "CDATE": ""
+}, {
+    "": "619",
+    "DETAIL_PROVID": "310104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "徐汇区",
+    "CDATE": ""
+}, {
+    "": "620",
+    "DETAIL_PROVID": "310105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "长宁区",
+    "CDATE": ""
+}, {
+    "": "621",
+    "DETAIL_PROVID": "310106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "静安区",
+    "CDATE": ""
+}, {
+    "": "622",
+    "DETAIL_PROVID": "310107",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "普陀区",
+    "CDATE": ""
+}, {
+    "": "623",
+    "DETAIL_PROVID": "310109",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "虹口区",
+    "CDATE": ""
+}, {
+    "": "624",
+    "DETAIL_PROVID": "310110",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "杨浦区",
+    "CDATE": ""
+}, {
+    "": "625",
+    "DETAIL_PROVID": "310112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "闵行区",
+    "CDATE": ""
+}, {
+    "": "626",
+    "DETAIL_PROVID": "310113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "宝山区",
+    "CDATE": ""
+}, {
+    "": "627",
+    "DETAIL_PROVID": "310114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "嘉定区",
+    "CDATE": ""
+}, {
+    "": "628",
+    "DETAIL_PROVID": "310115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "浦东新区",
+    "CDATE": ""
+}, {
+    "": "629",
+    "DETAIL_PROVID": "310116",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "金山区",
+    "CDATE": ""
+}, {
+    "": "630",
+    "DETAIL_PROVID": "310117",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "松江区",
+    "CDATE": ""
+}, {
+    "": "631",
+    "DETAIL_PROVID": "310118",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "青浦区",
+    "CDATE": ""
+}, {
+    "": "632",
+    "DETAIL_PROVID": "310120",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "奉贤区",
+    "CDATE": ""
+}, {
+    "": "633",
+    "DETAIL_PROVID": "310151",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "31",
+    "PROV_NAME": "上海",
+    "CITY_CODE": "310000",
+    "CITY_NAME": "上海市",
+    "COUNTY_NAME": "崇明区",
+    "CDATE": ""
+}, {
+    "": "634",
+    "DETAIL_PROVID": "320100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "635",
+    "DETAIL_PROVID": "320102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "玄武区",
+    "CDATE": ""
+}, {
+    "": "636",
+    "DETAIL_PROVID": "320104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "秦淮区",
+    "CDATE": ""
+}, {
+    "": "637",
+    "DETAIL_PROVID": "320105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "建邺区",
+    "CDATE": ""
+}, {
+    "": "638",
+    "DETAIL_PROVID": "320106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "鼓楼区",
+    "CDATE": ""
+}, {
+    "": "639",
+    "DETAIL_PROVID": "320111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "浦口区",
+    "CDATE": ""
+}, {
+    "": "640",
+    "DETAIL_PROVID": "320113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "栖霞区",
+    "CDATE": ""
+}, {
+    "": "641",
+    "DETAIL_PROVID": "320114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "雨花台区",
+    "CDATE": ""
+}, {
+    "": "642",
+    "DETAIL_PROVID": "320115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "江宁区",
+    "CDATE": ""
+}, {
+    "": "643",
+    "DETAIL_PROVID": "320116",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "六合区",
+    "CDATE": ""
+}, {
+    "": "644",
+    "DETAIL_PROVID": "320117",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "溧水区",
+    "CDATE": ""
+}, {
+    "": "645",
+    "DETAIL_PROVID": "320118",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320100",
+    "CITY_NAME": "南京市",
+    "COUNTY_NAME": "高淳区",
+    "CDATE": ""
+}, {
+    "": "646",
+    "DETAIL_PROVID": "320200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320200",
+    "CITY_NAME": "无锡市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "647",
+    "DETAIL_PROVID": "320205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320200",
+    "CITY_NAME": "无锡市",
+    "COUNTY_NAME": "锡山区",
+    "CDATE": ""
+}, {
+    "": "648",
+    "DETAIL_PROVID": "110000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "649",
+    "DETAIL_PROVID": "110101",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "东城区",
+    "CDATE": ""
+}, {
+    "": "650",
+    "DETAIL_PROVID": "110102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "西城区",
+    "CDATE": ""
+}, {
+    "": "651",
+    "DETAIL_PROVID": "110105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "朝阳区",
+    "CDATE": ""
+}, {
+    "": "652",
+    "DETAIL_PROVID": "110106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "丰台区",
+    "CDATE": ""
+}, {
+    "": "653",
+    "DETAIL_PROVID": "110107",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "石景山区",
+    "CDATE": ""
+}, {
+    "": "654",
+    "DETAIL_PROVID": "110108",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "海淀区",
+    "CDATE": ""
+}, {
+    "": "655",
+    "DETAIL_PROVID": "110109",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "门头沟区",
+    "CDATE": ""
+}, {
+    "": "656",
+    "DETAIL_PROVID": "110111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "房山区",
+    "CDATE": ""
+}, {
+    "": "657",
+    "DETAIL_PROVID": "110112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "通州区",
+    "CDATE": ""
+}, {
+    "": "658",
+    "DETAIL_PROVID": "110113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "顺义区",
+    "CDATE": ""
+}, {
+    "": "659",
+    "DETAIL_PROVID": "110114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "昌平区",
+    "CDATE": ""
+}, {
+    "": "660",
+    "DETAIL_PROVID": "110115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "大兴区",
+    "CDATE": ""
+}, {
+    "": "661",
+    "DETAIL_PROVID": "110116",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "怀柔区",
+    "CDATE": ""
+}, {
+    "": "662",
+    "DETAIL_PROVID": "110117",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "平谷区",
+    "CDATE": ""
+}, {
+    "": "663",
+    "DETAIL_PROVID": "110118",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "密云区",
+    "CDATE": ""
+}, {
+    "": "664",
+    "DETAIL_PROVID": "110119",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "11",
+    "PROV_NAME": "北京",
+    "CITY_CODE": "110000",
+    "CITY_NAME": "北京市",
+    "COUNTY_NAME": "延庆区",
+    "CDATE": ""
+}, {
+    "": "665",
+    "DETAIL_PROVID": "120000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "666",
+    "DETAIL_PROVID": "120101",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "和平区",
+    "CDATE": ""
+}, {
+    "": "667",
+    "DETAIL_PROVID": "120102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "河东区",
+    "CDATE": ""
+}, {
+    "": "668",
+    "DETAIL_PROVID": "120103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "河西区",
+    "CDATE": ""
+}, {
+    "": "669",
+    "DETAIL_PROVID": "120104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "南开区",
+    "CDATE": ""
+}, {
+    "": "670",
+    "DETAIL_PROVID": "120105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "河北区",
+    "CDATE": ""
+}, {
+    "": "671",
+    "DETAIL_PROVID": "120106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "红桥区",
+    "CDATE": ""
+}, {
+    "": "672",
+    "DETAIL_PROVID": "120110",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "东丽区",
+    "CDATE": ""
+}, {
+    "": "673",
+    "DETAIL_PROVID": "120111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "西青区",
+    "CDATE": ""
+}, {
+    "": "674",
+    "DETAIL_PROVID": "120112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "津南区",
+    "CDATE": ""
+}, {
+    "": "675",
+    "DETAIL_PROVID": "120113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "北辰区",
+    "CDATE": ""
+}, {
+    "": "676",
+    "DETAIL_PROVID": "120114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "武清区",
+    "CDATE": ""
+}, {
+    "": "677",
+    "DETAIL_PROVID": "120115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "宝坻区",
+    "CDATE": ""
+}, {
+    "": "678",
+    "DETAIL_PROVID": "120116",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "滨海新区",
+    "CDATE": ""
+}, {
+    "": "679",
+    "DETAIL_PROVID": "120117",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "宁河区",
+    "CDATE": ""
+}, {
+    "": "680",
+    "DETAIL_PROVID": "120118",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "静海区",
+    "CDATE": ""
+}, {
+    "": "681",
+    "DETAIL_PROVID": "120119",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "12",
+    "PROV_NAME": "天津",
+    "CITY_CODE": "120000",
+    "CITY_NAME": "天津市",
+    "COUNTY_NAME": "蓟州区",
+    "CDATE": ""
+}, {
+    "": "682",
+    "DETAIL_PROVID": "130100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "683",
+    "DETAIL_PROVID": "130102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "长安区",
+    "CDATE": ""
+}, {
+    "": "684",
+    "DETAIL_PROVID": "130104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "桥西区",
+    "CDATE": ""
+}, {
+    "": "685",
+    "DETAIL_PROVID": "130105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "新华区",
+    "CDATE": ""
+}, {
+    "": "686",
+    "DETAIL_PROVID": "130107",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "井陉矿区",
+    "CDATE": ""
+}, {
+    "": "687",
+    "DETAIL_PROVID": "130108",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "裕华区",
+    "CDATE": ""
+}, {
+    "": "688",
+    "DETAIL_PROVID": "130109",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "藁城区",
+    "CDATE": ""
+}, {
+    "": "689",
+    "DETAIL_PROVID": "130110",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "鹿泉区",
+    "CDATE": ""
+}, {
+    "": "690",
+    "DETAIL_PROVID": "130111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "栾城区",
+    "CDATE": ""
+}, {
+    "": "691",
+    "DETAIL_PROVID": "130121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "井陉县",
+    "CDATE": ""
+}, {
+    "": "692",
+    "DETAIL_PROVID": "130123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "正定县",
+    "CDATE": ""
+}, {
+    "": "693",
+    "DETAIL_PROVID": "130125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "行唐县",
+    "CDATE": ""
+}, {
+    "": "694",
+    "DETAIL_PROVID": "130126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "灵寿县",
+    "CDATE": ""
+}, {
+    "": "695",
+    "DETAIL_PROVID": "130127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "高邑县",
+    "CDATE": ""
+}, {
+    "": "696",
+    "DETAIL_PROVID": "130128",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "深泽县",
+    "CDATE": ""
+}, {
+    "": "697",
+    "DETAIL_PROVID": "130129",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "赞皇县",
+    "CDATE": ""
+}, {
+    "": "698",
+    "DETAIL_PROVID": "130130",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "无极县",
+    "CDATE": ""
+}, {
+    "": "699",
+    "DETAIL_PROVID": "130131",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "平山县",
+    "CDATE": ""
+}, {
+    "": "700",
+    "DETAIL_PROVID": "130132",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "元氏县",
+    "CDATE": ""
+}, {
+    "": "701",
+    "DETAIL_PROVID": "130133",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "赵县",
+    "CDATE": ""
+}, {
+    "": "702",
+    "DETAIL_PROVID": "130183",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "晋州市",
+    "CDATE": ""
+}, {
+    "": "703",
+    "DETAIL_PROVID": "130184",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130100",
+    "CITY_NAME": "石家庄市",
+    "COUNTY_NAME": "新乐市",
+    "CDATE": ""
+}, {
+    "": "704",
+    "DETAIL_PROVID": "130200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "705",
+    "DETAIL_PROVID": "130202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "路南区",
+    "CDATE": ""
+}, {
+    "": "706",
+    "DETAIL_PROVID": "130203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "路北区",
+    "CDATE": ""
+}, {
+    "": "707",
+    "DETAIL_PROVID": "130204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "古冶区",
+    "CDATE": ""
+}, {
+    "": "708",
+    "DETAIL_PROVID": "130205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "开平区",
+    "CDATE": ""
+}, {
+    "": "709",
+    "DETAIL_PROVID": "130207",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "丰南区",
+    "CDATE": ""
+}, {
+    "": "710",
+    "DETAIL_PROVID": "130208",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "丰润区",
+    "CDATE": ""
+}, {
+    "": "711",
+    "DETAIL_PROVID": "130209",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "曹妃甸区",
+    "CDATE": ""
+}, {
+    "": "712",
+    "DETAIL_PROVID": "130223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "滦县",
+    "CDATE": ""
+}, {
+    "": "713",
+    "DETAIL_PROVID": "130224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "滦南县",
+    "CDATE": ""
+}, {
+    "": "714",
+    "DETAIL_PROVID": "130225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "乐亭县",
+    "CDATE": ""
+}, {
+    "": "715",
+    "DETAIL_PROVID": "130227",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "迁西县",
+    "CDATE": ""
+}, {
+    "": "716",
+    "DETAIL_PROVID": "130229",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "玉田县",
+    "CDATE": ""
+}, {
+    "": "717",
+    "DETAIL_PROVID": "130281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "遵化市",
+    "CDATE": ""
+}, {
+    "": "718",
+    "DETAIL_PROVID": "130283",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130200",
+    "CITY_NAME": "唐山市",
+    "COUNTY_NAME": "迁安市",
+    "CDATE": ""
+}, {
+    "": "719",
+    "DETAIL_PROVID": "130300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130300",
+    "CITY_NAME": "秦皇岛市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "720",
+    "DETAIL_PROVID": "130302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130300",
+    "CITY_NAME": "秦皇岛市",
+    "COUNTY_NAME": "海港区",
+    "CDATE": ""
+}, {
+    "": "721",
+    "DETAIL_PROVID": "130303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130300",
+    "CITY_NAME": "秦皇岛市",
+    "COUNTY_NAME": "山海关区",
+    "CDATE": ""
+}, {
+    "": "722",
+    "DETAIL_PROVID": "130304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130300",
+    "CITY_NAME": "秦皇岛市",
+    "COUNTY_NAME": "北戴河区",
+    "CDATE": ""
+}, {
+    "": "723",
+    "DETAIL_PROVID": "130306",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130300",
+    "CITY_NAME": "秦皇岛市",
+    "COUNTY_NAME": "抚宁区",
+    "CDATE": ""
+}, {
+    "": "724",
+    "DETAIL_PROVID": "130321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130300",
+    "CITY_NAME": "秦皇岛市",
+    "COUNTY_NAME": "青龙满族自治县",
+    "CDATE": ""
+}, {
+    "": "725",
+    "DETAIL_PROVID": "130322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130300",
+    "CITY_NAME": "秦皇岛市",
+    "COUNTY_NAME": "昌黎县",
+    "CDATE": ""
+}, {
+    "": "726",
+    "DETAIL_PROVID": "130324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130300",
+    "CITY_NAME": "秦皇岛市",
+    "COUNTY_NAME": "卢龙县",
+    "CDATE": ""
+}, {
+    "": "727",
+    "DETAIL_PROVID": "130400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "728",
+    "DETAIL_PROVID": "130402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "邯山区",
+    "CDATE": ""
+}, {
+    "": "729",
+    "DETAIL_PROVID": "130403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "丛台区",
+    "CDATE": ""
+}, {
+    "": "730",
+    "DETAIL_PROVID": "130404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "复兴区",
+    "CDATE": ""
+}, {
+    "": "731",
+    "DETAIL_PROVID": "130406",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "峰峰矿区",
+    "CDATE": ""
+}, {
+    "": "732",
+    "DETAIL_PROVID": "130407",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "肥乡区",
+    "CDATE": ""
+}, {
+    "": "733",
+    "DETAIL_PROVID": "130408",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "永年区",
+    "CDATE": ""
+}, {
+    "": "734",
+    "DETAIL_PROVID": "130423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "临漳县",
+    "CDATE": ""
+}, {
+    "": "735",
+    "DETAIL_PROVID": "130424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "成安县",
+    "CDATE": ""
+}, {
+    "": "736",
+    "DETAIL_PROVID": "130425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "大名县",
+    "CDATE": ""
+}, {
+    "": "737",
+    "DETAIL_PROVID": "130426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "涉县",
+    "CDATE": ""
+}, {
+    "": "738",
+    "DETAIL_PROVID": "130427",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "磁县",
+    "CDATE": ""
+}, {
+    "": "739",
+    "DETAIL_PROVID": "130430",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "邱县",
+    "CDATE": ""
+}, {
+    "": "740",
+    "DETAIL_PROVID": "130431",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "鸡泽县",
+    "CDATE": ""
+}, {
+    "": "741",
+    "DETAIL_PROVID": "130432",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "广平县",
+    "CDATE": ""
+}, {
+    "": "742",
+    "DETAIL_PROVID": "130433",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "馆陶县",
+    "CDATE": ""
+}, {
+    "": "743",
+    "DETAIL_PROVID": "130434",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "魏县",
+    "CDATE": ""
+}, {
+    "": "744",
+    "DETAIL_PROVID": "130435",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "曲周县",
+    "CDATE": ""
+}, {
+    "": "745",
+    "DETAIL_PROVID": "130481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130400",
+    "CITY_NAME": "邯郸市",
+    "COUNTY_NAME": "武安市",
+    "CDATE": ""
+}, {
+    "": "746",
+    "DETAIL_PROVID": "130500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "747",
+    "DETAIL_PROVID": "130502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "桥东区",
+    "CDATE": ""
+}, {
+    "": "748",
+    "DETAIL_PROVID": "130503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "桥西区",
+    "CDATE": ""
+}, {
+    "": "749",
+    "DETAIL_PROVID": "130521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "邢台县",
+    "CDATE": ""
+}, {
+    "": "750",
+    "DETAIL_PROVID": "130522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "临城县",
+    "CDATE": ""
+}, {
+    "": "751",
+    "DETAIL_PROVID": "130523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "内丘县",
+    "CDATE": ""
+}, {
+    "": "752",
+    "DETAIL_PROVID": "130524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "柏乡县",
+    "CDATE": ""
+}, {
+    "": "753",
+    "DETAIL_PROVID": "130525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "隆尧县",
+    "CDATE": ""
+}, {
+    "": "754",
+    "DETAIL_PROVID": "130526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "任县",
+    "CDATE": ""
+}, {
+    "": "755",
+    "DETAIL_PROVID": "130527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "南和县",
+    "CDATE": ""
+}, {
+    "": "756",
+    "DETAIL_PROVID": "130528",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "宁晋县",
+    "CDATE": ""
+}, {
+    "": "757",
+    "DETAIL_PROVID": "130529",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "巨鹿县",
+    "CDATE": ""
+}, {
+    "": "758",
+    "DETAIL_PROVID": "130530",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "新河县",
+    "CDATE": ""
+}, {
+    "": "759",
+    "DETAIL_PROVID": "130531",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "广宗县",
+    "CDATE": ""
+}, {
+    "": "760",
+    "DETAIL_PROVID": "130532",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "平乡县",
+    "CDATE": ""
+}, {
+    "": "761",
+    "DETAIL_PROVID": "130533",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "威县",
+    "CDATE": ""
+}, {
+    "": "762",
+    "DETAIL_PROVID": "130534",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "清河县",
+    "CDATE": ""
+}, {
+    "": "763",
+    "DETAIL_PROVID": "130535",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "临西县",
+    "CDATE": ""
+}, {
+    "": "764",
+    "DETAIL_PROVID": "130581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "南宫市",
+    "CDATE": ""
+}, {
+    "": "765",
+    "DETAIL_PROVID": "130582",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130500",
+    "CITY_NAME": "邢台市",
+    "COUNTY_NAME": "沙河市",
+    "CDATE": ""
+}, {
+    "": "766",
+    "DETAIL_PROVID": "130600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "767",
+    "DETAIL_PROVID": "130602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "竞秀区",
+    "CDATE": ""
+}, {
+    "": "768",
+    "DETAIL_PROVID": "130606",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "莲池区",
+    "CDATE": ""
+}, {
+    "": "769",
+    "DETAIL_PROVID": "130607",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "满城区",
+    "CDATE": ""
+}, {
+    "": "770",
+    "DETAIL_PROVID": "130608",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "清苑区",
+    "CDATE": ""
+}, {
+    "": "771",
+    "DETAIL_PROVID": "130609",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "徐水区",
+    "CDATE": ""
+}, {
+    "": "772",
+    "DETAIL_PROVID": "130623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "涞水县",
+    "CDATE": ""
+}, {
+    "": "773",
+    "DETAIL_PROVID": "130624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "阜平县",
+    "CDATE": ""
+}, {
+    "": "774",
+    "DETAIL_PROVID": "130626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "定兴县",
+    "CDATE": ""
+}, {
+    "": "775",
+    "DETAIL_PROVID": "130627",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "唐县",
+    "CDATE": ""
+}, {
+    "": "776",
+    "DETAIL_PROVID": "130628",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "高阳县",
+    "CDATE": ""
+}, {
+    "": "777",
+    "DETAIL_PROVID": "130629",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "容城县",
+    "CDATE": ""
+}, {
+    "": "778",
+    "DETAIL_PROVID": "130630",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "涞源县",
+    "CDATE": ""
+}, {
+    "": "779",
+    "DETAIL_PROVID": "130631",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "望都县",
+    "CDATE": ""
+}, {
+    "": "780",
+    "DETAIL_PROVID": "130632",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "安新县",
+    "CDATE": ""
+}, {
+    "": "781",
+    "DETAIL_PROVID": "130633",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "易县",
+    "CDATE": ""
+}, {
+    "": "782",
+    "DETAIL_PROVID": "130634",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "曲阳县",
+    "CDATE": ""
+}, {
+    "": "783",
+    "DETAIL_PROVID": "130635",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "蠡县",
+    "CDATE": ""
+}, {
+    "": "784",
+    "DETAIL_PROVID": "130636",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "顺平县",
+    "CDATE": ""
+}, {
+    "": "785",
+    "DETAIL_PROVID": "130637",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "博野县",
+    "CDATE": ""
+}, {
+    "": "786",
+    "DETAIL_PROVID": "130638",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "雄县",
+    "CDATE": ""
+}, {
+    "": "787",
+    "DETAIL_PROVID": "130681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "涿州市",
+    "CDATE": ""
+}, {
+    "": "788",
+    "DETAIL_PROVID": "130683",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "安国市",
+    "CDATE": ""
+}, {
+    "": "789",
+    "DETAIL_PROVID": "130684",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130600",
+    "CITY_NAME": "保定市",
+    "COUNTY_NAME": "高碑店市",
+    "CDATE": ""
+}, {
+    "": "790",
+    "DETAIL_PROVID": "130700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "791",
+    "DETAIL_PROVID": "130702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "桥东区",
+    "CDATE": ""
+}, {
+    "": "792",
+    "DETAIL_PROVID": "130703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "桥西区",
+    "CDATE": ""
+}, {
+    "": "793",
+    "DETAIL_PROVID": "130705",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "宣化区",
+    "CDATE": ""
+}, {
+    "": "794",
+    "DETAIL_PROVID": "130706",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "下花园区",
+    "CDATE": ""
+}, {
+    "": "795",
+    "DETAIL_PROVID": "130708",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "万全区",
+    "CDATE": ""
+}, {
+    "": "796",
+    "DETAIL_PROVID": "130709",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "崇礼区",
+    "CDATE": ""
+}, {
+    "": "797",
+    "DETAIL_PROVID": "130722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "张北县",
+    "CDATE": ""
+}, {
+    "": "798",
+    "DETAIL_PROVID": "130723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "康保县",
+    "CDATE": ""
+}, {
+    "": "799",
+    "DETAIL_PROVID": "130724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "沽源县",
+    "CDATE": ""
+}, {
+    "": "800",
+    "DETAIL_PROVID": "130725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "尚义县",
+    "CDATE": ""
+}, {
+    "": "801",
+    "DETAIL_PROVID": "130726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "蔚县",
+    "CDATE": ""
+}, {
+    "": "802",
+    "DETAIL_PROVID": "130727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "阳原县",
+    "CDATE": ""
+}, {
+    "": "803",
+    "DETAIL_PROVID": "130728",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "怀安县",
+    "CDATE": ""
+}, {
+    "": "804",
+    "DETAIL_PROVID": "130730",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "怀来县",
+    "CDATE": ""
+}, {
+    "": "805",
+    "DETAIL_PROVID": "130731",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "涿鹿县",
+    "CDATE": ""
+}, {
+    "": "806",
+    "DETAIL_PROVID": "130732",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130700",
+    "CITY_NAME": "张家口市",
+    "COUNTY_NAME": "赤城县",
+    "CDATE": ""
+}, {
+    "": "807",
+    "DETAIL_PROVID": "130800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "808",
+    "DETAIL_PROVID": "130802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "双桥区",
+    "CDATE": ""
+}, {
+    "": "809",
+    "DETAIL_PROVID": "130803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "双滦区",
+    "CDATE": ""
+}, {
+    "": "810",
+    "DETAIL_PROVID": "130804",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "鹰手营子矿区",
+    "CDATE": ""
+}, {
+    "": "811",
+    "DETAIL_PROVID": "130821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "承德县",
+    "CDATE": ""
+}, {
+    "": "812",
+    "DETAIL_PROVID": "130822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "兴隆县",
+    "CDATE": ""
+}, {
+    "": "813",
+    "DETAIL_PROVID": "130824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "滦平县",
+    "CDATE": ""
+}, {
+    "": "814",
+    "DETAIL_PROVID": "130825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "13",
+    "PROV_NAME": "河北",
+    "CITY_CODE": "130800",
+    "CITY_NAME": "承德市",
+    "COUNTY_NAME": "隆化县",
+    "CDATE": ""
+}, {
+    "": "815",
+    "DETAIL_PROVID": "320206",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320200",
+    "CITY_NAME": "无锡市",
+    "COUNTY_NAME": "惠山区",
+    "CDATE": ""
+}, {
+    "": "816",
+    "DETAIL_PROVID": "320211",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320200",
+    "CITY_NAME": "无锡市",
+    "COUNTY_NAME": "滨湖区",
+    "CDATE": ""
+}, {
+    "": "817",
+    "DETAIL_PROVID": "320213",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320200",
+    "CITY_NAME": "无锡市",
+    "COUNTY_NAME": "梁溪区",
+    "CDATE": ""
+}, {
+    "": "818",
+    "DETAIL_PROVID": "320214",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320200",
+    "CITY_NAME": "无锡市",
+    "COUNTY_NAME": "新吴区",
+    "CDATE": ""
+}, {
+    "": "819",
+    "DETAIL_PROVID": "320281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320200",
+    "CITY_NAME": "无锡市",
+    "COUNTY_NAME": "江阴市",
+    "CDATE": ""
+}, {
+    "": "820",
+    "DETAIL_PROVID": "320282",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320200",
+    "CITY_NAME": "无锡市",
+    "COUNTY_NAME": "宜兴市",
+    "CDATE": ""
+}, {
+    "": "821",
+    "DETAIL_PROVID": "320300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "822",
+    "DETAIL_PROVID": "320302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "鼓楼区",
+    "CDATE": ""
+}, {
+    "": "823",
+    "DETAIL_PROVID": "320303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "云龙区",
+    "CDATE": ""
+}, {
+    "": "824",
+    "DETAIL_PROVID": "320305",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "贾汪区",
+    "CDATE": ""
+}, {
+    "": "825",
+    "DETAIL_PROVID": "320311",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "泉山区",
+    "CDATE": ""
+}, {
+    "": "826",
+    "DETAIL_PROVID": "320312",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "铜山区",
+    "CDATE": ""
+}, {
+    "": "827",
+    "DETAIL_PROVID": "320321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "丰县",
+    "CDATE": ""
+}, {
+    "": "828",
+    "DETAIL_PROVID": "320322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "沛县",
+    "CDATE": ""
+}, {
+    "": "829",
+    "DETAIL_PROVID": "320324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "睢宁县",
+    "CDATE": ""
+}, {
+    "": "830",
+    "DETAIL_PROVID": "320381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "新沂市",
+    "CDATE": ""
+}, {
+    "": "831",
+    "DETAIL_PROVID": "320382",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320300",
+    "CITY_NAME": "徐州市",
+    "COUNTY_NAME": "邳州市",
+    "CDATE": ""
+}, {
+    "": "832",
+    "DETAIL_PROVID": "320400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320400",
+    "CITY_NAME": "常州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "833",
+    "DETAIL_PROVID": "320402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320400",
+    "CITY_NAME": "常州市",
+    "COUNTY_NAME": "天宁区",
+    "CDATE": ""
+}, {
+    "": "834",
+    "DETAIL_PROVID": "320404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320400",
+    "CITY_NAME": "常州市",
+    "COUNTY_NAME": "钟楼区",
+    "CDATE": ""
+}, {
+    "": "835",
+    "DETAIL_PROVID": "320411",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320400",
+    "CITY_NAME": "常州市",
+    "COUNTY_NAME": "新北区",
+    "CDATE": ""
+}, {
+    "": "836",
+    "DETAIL_PROVID": "320412",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320400",
+    "CITY_NAME": "常州市",
+    "COUNTY_NAME": "武进区",
+    "CDATE": ""
+}, {
+    "": "837",
+    "DETAIL_PROVID": "320413",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320400",
+    "CITY_NAME": "常州市",
+    "COUNTY_NAME": "金坛区",
+    "CDATE": ""
+}, {
+    "": "838",
+    "DETAIL_PROVID": "320481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320400",
+    "CITY_NAME": "常州市",
+    "COUNTY_NAME": "溧阳市",
+    "CDATE": ""
+}, {
+    "": "839",
+    "DETAIL_PROVID": "320500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320500",
+    "CITY_NAME": "苏州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "840",
+    "DETAIL_PROVID": "320505",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320500",
+    "CITY_NAME": "苏州市",
+    "COUNTY_NAME": "虎丘区",
+    "CDATE": ""
+}, {
+    "": "841",
+    "DETAIL_PROVID": "320506",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320500",
+    "CITY_NAME": "苏州市",
+    "COUNTY_NAME": "吴中区",
+    "CDATE": ""
+}, {
+    "": "842",
+    "DETAIL_PROVID": "320507",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320500",
+    "CITY_NAME": "苏州市",
+    "COUNTY_NAME": "相城区",
+    "CDATE": ""
+}, {
+    "": "843",
+    "DETAIL_PROVID": "320508",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320500",
+    "CITY_NAME": "苏州市",
+    "COUNTY_NAME": "姑苏区",
+    "CDATE": ""
+}, {
+    "": "844",
+    "DETAIL_PROVID": "320509",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320500",
+    "CITY_NAME": "苏州市",
+    "COUNTY_NAME": "吴江区",
+    "CDATE": ""
+}, {
+    "": "845",
+    "DETAIL_PROVID": "320581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320500",
+    "CITY_NAME": "苏州市",
+    "COUNTY_NAME": "常熟市",
+    "CDATE": ""
+}, {
+    "": "846",
+    "DETAIL_PROVID": "320582",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320500",
+    "CITY_NAME": "苏州市",
+    "COUNTY_NAME": "张家港市",
+    "CDATE": ""
+}, {
+    "": "847",
+    "DETAIL_PROVID": "320583",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320500",
+    "CITY_NAME": "苏州市",
+    "COUNTY_NAME": "昆山市",
+    "CDATE": ""
+}, {
+    "": "848",
+    "DETAIL_PROVID": "320585",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320500",
+    "CITY_NAME": "苏州市",
+    "COUNTY_NAME": "太仓市",
+    "CDATE": ""
+}, {
+    "": "849",
+    "DETAIL_PROVID": "320600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320600",
+    "CITY_NAME": "南通市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "850",
+    "DETAIL_PROVID": "320602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320600",
+    "CITY_NAME": "南通市",
+    "COUNTY_NAME": "崇川区",
+    "CDATE": ""
+}, {
+    "": "851",
+    "DETAIL_PROVID": "320611",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320600",
+    "CITY_NAME": "南通市",
+    "COUNTY_NAME": "港闸区",
+    "CDATE": ""
+}, {
+    "": "852",
+    "DETAIL_PROVID": "320612",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320600",
+    "CITY_NAME": "南通市",
+    "COUNTY_NAME": "通州区",
+    "CDATE": ""
+}, {
+    "": "853",
+    "DETAIL_PROVID": "320621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320600",
+    "CITY_NAME": "南通市",
+    "COUNTY_NAME": "海安县",
+    "CDATE": ""
+}, {
+    "": "854",
+    "DETAIL_PROVID": "320623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320600",
+    "CITY_NAME": "南通市",
+    "COUNTY_NAME": "如东县",
+    "CDATE": ""
+}, {
+    "": "855",
+    "DETAIL_PROVID": "320681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320600",
+    "CITY_NAME": "南通市",
+    "COUNTY_NAME": "启东市",
+    "CDATE": ""
+}, {
+    "": "856",
+    "DETAIL_PROVID": "320682",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320600",
+    "CITY_NAME": "南通市",
+    "COUNTY_NAME": "如皋市",
+    "CDATE": ""
+}, {
+    "": "857",
+    "DETAIL_PROVID": "320684",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320600",
+    "CITY_NAME": "南通市",
+    "COUNTY_NAME": "海门市",
+    "CDATE": ""
+}, {
+    "": "858",
+    "DETAIL_PROVID": "320700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320700",
+    "CITY_NAME": "连云港市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "859",
+    "DETAIL_PROVID": "320703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320700",
+    "CITY_NAME": "连云港市",
+    "COUNTY_NAME": "连云区",
+    "CDATE": ""
+}, {
+    "": "860",
+    "DETAIL_PROVID": "320706",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320700",
+    "CITY_NAME": "连云港市",
+    "COUNTY_NAME": "海州区",
+    "CDATE": ""
+}, {
+    "": "861",
+    "DETAIL_PROVID": "320707",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320700",
+    "CITY_NAME": "连云港市",
+    "COUNTY_NAME": "赣榆区",
+    "CDATE": ""
+}, {
+    "": "862",
+    "DETAIL_PROVID": "320722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320700",
+    "CITY_NAME": "连云港市",
+    "COUNTY_NAME": "东海县",
+    "CDATE": ""
+}, {
+    "": "863",
+    "DETAIL_PROVID": "320723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320700",
+    "CITY_NAME": "连云港市",
+    "COUNTY_NAME": "灌云县",
+    "CDATE": ""
+}, {
+    "": "864",
+    "DETAIL_PROVID": "320724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320700",
+    "CITY_NAME": "连云港市",
+    "COUNTY_NAME": "灌南县",
+    "CDATE": ""
+}, {
+    "": "865",
+    "DETAIL_PROVID": "320800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320800",
+    "CITY_NAME": "淮安市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "866",
+    "DETAIL_PROVID": "320803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320800",
+    "CITY_NAME": "淮安市",
+    "COUNTY_NAME": "淮安区",
+    "CDATE": ""
+}, {
+    "": "867",
+    "DETAIL_PROVID": "320804",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320800",
+    "CITY_NAME": "淮安市",
+    "COUNTY_NAME": "淮阴区",
+    "CDATE": ""
+}, {
+    "": "868",
+    "DETAIL_PROVID": "320812",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320800",
+    "CITY_NAME": "淮安市",
+    "COUNTY_NAME": "清江浦区",
+    "CDATE": ""
+}, {
+    "": "869",
+    "DETAIL_PROVID": "320813",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320800",
+    "CITY_NAME": "淮安市",
+    "COUNTY_NAME": "洪泽区",
+    "CDATE": ""
+}, {
+    "": "870",
+    "DETAIL_PROVID": "320826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320800",
+    "CITY_NAME": "淮安市",
+    "COUNTY_NAME": "涟水县",
+    "CDATE": ""
+}, {
+    "": "871",
+    "DETAIL_PROVID": "320830",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320800",
+    "CITY_NAME": "淮安市",
+    "COUNTY_NAME": "盱眙县",
+    "CDATE": ""
+}, {
+    "": "872",
+    "DETAIL_PROVID": "320831",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320800",
+    "CITY_NAME": "淮安市",
+    "COUNTY_NAME": "金湖县",
+    "CDATE": ""
+}, {
+    "": "873",
+    "DETAIL_PROVID": "320900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320900",
+    "CITY_NAME": "盐城市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "874",
+    "DETAIL_PROVID": "320902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320900",
+    "CITY_NAME": "盐城市",
+    "COUNTY_NAME": "亭湖区",
+    "CDATE": ""
+}, {
+    "": "875",
+    "DETAIL_PROVID": "320903",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320900",
+    "CITY_NAME": "盐城市",
+    "COUNTY_NAME": "盐都区",
+    "CDATE": ""
+}, {
+    "": "876",
+    "DETAIL_PROVID": "320904",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320900",
+    "CITY_NAME": "盐城市",
+    "COUNTY_NAME": "大丰区",
+    "CDATE": ""
+}, {
+    "": "877",
+    "DETAIL_PROVID": "320921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320900",
+    "CITY_NAME": "盐城市",
+    "COUNTY_NAME": "响水县",
+    "CDATE": ""
+}, {
+    "": "878",
+    "DETAIL_PROVID": "320922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320900",
+    "CITY_NAME": "盐城市",
+    "COUNTY_NAME": "滨海县",
+    "CDATE": ""
+}, {
+    "": "879",
+    "DETAIL_PROVID": "320923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320900",
+    "CITY_NAME": "盐城市",
+    "COUNTY_NAME": "阜宁县",
+    "CDATE": ""
+}, {
+    "": "880",
+    "DETAIL_PROVID": "320924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320900",
+    "CITY_NAME": "盐城市",
+    "COUNTY_NAME": "射阳县",
+    "CDATE": ""
+}, {
+    "": "881",
+    "DETAIL_PROVID": "320925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320900",
+    "CITY_NAME": "盐城市",
+    "COUNTY_NAME": "建湖县",
+    "CDATE": ""
+}, {
+    "": "882",
+    "DETAIL_PROVID": "320981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "320900",
+    "CITY_NAME": "盐城市",
+    "COUNTY_NAME": "东台市",
+    "CDATE": ""
+}, {
+    "": "883",
+    "DETAIL_PROVID": "321000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321000",
+    "CITY_NAME": "扬州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "884",
+    "DETAIL_PROVID": "321002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321000",
+    "CITY_NAME": "扬州市",
+    "COUNTY_NAME": "广陵区",
+    "CDATE": ""
+}, {
+    "": "885",
+    "DETAIL_PROVID": "321003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321000",
+    "CITY_NAME": "扬州市",
+    "COUNTY_NAME": "邗江区",
+    "CDATE": ""
+}, {
+    "": "886",
+    "DETAIL_PROVID": "321012",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321000",
+    "CITY_NAME": "扬州市",
+    "COUNTY_NAME": "江都区",
+    "CDATE": ""
+}, {
+    "": "887",
+    "DETAIL_PROVID": "321023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321000",
+    "CITY_NAME": "扬州市",
+    "COUNTY_NAME": "宝应县",
+    "CDATE": ""
+}, {
+    "": "888",
+    "DETAIL_PROVID": "321081",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321000",
+    "CITY_NAME": "扬州市",
+    "COUNTY_NAME": "仪征市",
+    "CDATE": ""
+}, {
+    "": "889",
+    "DETAIL_PROVID": "321084",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321000",
+    "CITY_NAME": "扬州市",
+    "COUNTY_NAME": "高邮市",
+    "CDATE": ""
+}, {
+    "": "890",
+    "DETAIL_PROVID": "321100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321100",
+    "CITY_NAME": "镇江市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "891",
+    "DETAIL_PROVID": "321102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321100",
+    "CITY_NAME": "镇江市",
+    "COUNTY_NAME": "京口区",
+    "CDATE": ""
+}, {
+    "": "892",
+    "DETAIL_PROVID": "321111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321100",
+    "CITY_NAME": "镇江市",
+    "COUNTY_NAME": "润州区",
+    "CDATE": ""
+}, {
+    "": "893",
+    "DETAIL_PROVID": "321112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321100",
+    "CITY_NAME": "镇江市",
+    "COUNTY_NAME": "丹徒区",
+    "CDATE": ""
+}, {
+    "": "894",
+    "DETAIL_PROVID": "321181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321100",
+    "CITY_NAME": "镇江市",
+    "COUNTY_NAME": "丹阳市",
+    "CDATE": ""
+}, {
+    "": "895",
+    "DETAIL_PROVID": "321182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321100",
+    "CITY_NAME": "镇江市",
+    "COUNTY_NAME": "扬中市",
+    "CDATE": ""
+}, {
+    "": "896",
+    "DETAIL_PROVID": "321183",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321100",
+    "CITY_NAME": "镇江市",
+    "COUNTY_NAME": "句容市",
+    "CDATE": ""
+}, {
+    "": "897",
+    "DETAIL_PROVID": "321200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321200",
+    "CITY_NAME": "泰州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "898",
+    "DETAIL_PROVID": "321202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321200",
+    "CITY_NAME": "泰州市",
+    "COUNTY_NAME": "海陵区",
+    "CDATE": ""
+}, {
+    "": "899",
+    "DETAIL_PROVID": "321203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321200",
+    "CITY_NAME": "泰州市",
+    "COUNTY_NAME": "高港区",
+    "CDATE": ""
+}, {
+    "": "900",
+    "DETAIL_PROVID": "321204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321200",
+    "CITY_NAME": "泰州市",
+    "COUNTY_NAME": "姜堰区",
+    "CDATE": ""
+}, {
+    "": "901",
+    "DETAIL_PROVID": "321281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321200",
+    "CITY_NAME": "泰州市",
+    "COUNTY_NAME": "兴化市",
+    "CDATE": ""
+}, {
+    "": "902",
+    "DETAIL_PROVID": "321282",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321200",
+    "CITY_NAME": "泰州市",
+    "COUNTY_NAME": "靖江市",
+    "CDATE": ""
+}, {
+    "": "903",
+    "DETAIL_PROVID": "321283",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321200",
+    "CITY_NAME": "泰州市",
+    "COUNTY_NAME": "泰兴市",
+    "CDATE": ""
+}, {
+    "": "904",
+    "DETAIL_PROVID": "321300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321300",
+    "CITY_NAME": "宿迁市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "905",
+    "DETAIL_PROVID": "321302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321300",
+    "CITY_NAME": "宿迁市",
+    "COUNTY_NAME": "宿城区",
+    "CDATE": ""
+}, {
+    "": "906",
+    "DETAIL_PROVID": "321311",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321300",
+    "CITY_NAME": "宿迁市",
+    "COUNTY_NAME": "宿豫区",
+    "CDATE": ""
+}, {
+    "": "907",
+    "DETAIL_PROVID": "321322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321300",
+    "CITY_NAME": "宿迁市",
+    "COUNTY_NAME": "沭阳县",
+    "CDATE": ""
+}, {
+    "": "908",
+    "DETAIL_PROVID": "321323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321300",
+    "CITY_NAME": "宿迁市",
+    "COUNTY_NAME": "泗阳县",
+    "CDATE": ""
+}, {
+    "": "909",
+    "DETAIL_PROVID": "321324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "32",
+    "PROV_NAME": "江苏",
+    "CITY_CODE": "321300",
+    "CITY_NAME": "宿迁市",
+    "COUNTY_NAME": "泗洪县",
+    "CDATE": ""
+}, {
+    "": "910",
+    "DETAIL_PROVID": "330100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "911",
+    "DETAIL_PROVID": "330102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "上城区",
+    "CDATE": ""
+}, {
+    "": "912",
+    "DETAIL_PROVID": "330103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "下城区",
+    "CDATE": ""
+}, {
+    "": "913",
+    "DETAIL_PROVID": "330104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "江干区",
+    "CDATE": ""
+}, {
+    "": "914",
+    "DETAIL_PROVID": "330105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "拱墅区",
+    "CDATE": ""
+}, {
+    "": "915",
+    "DETAIL_PROVID": "330106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "西湖区",
+    "CDATE": ""
+}, {
+    "": "916",
+    "DETAIL_PROVID": "330108",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "滨江区",
+    "CDATE": ""
+}, {
+    "": "917",
+    "DETAIL_PROVID": "330109",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "萧山区",
+    "CDATE": ""
+}, {
+    "": "918",
+    "DETAIL_PROVID": "330110",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "余杭区",
+    "CDATE": ""
+}, {
+    "": "919",
+    "DETAIL_PROVID": "330111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "富阳区",
+    "CDATE": ""
+}, {
+    "": "920",
+    "DETAIL_PROVID": "330122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "桐庐县",
+    "CDATE": ""
+}, {
+    "": "921",
+    "DETAIL_PROVID": "330127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "淳安县",
+    "CDATE": ""
+}, {
+    "": "922",
+    "DETAIL_PROVID": "330182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "建德市",
+    "CDATE": ""
+}, {
+    "": "923",
+    "DETAIL_PROVID": "330185",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330100",
+    "CITY_NAME": "杭州市",
+    "COUNTY_NAME": "临安市",
+    "CDATE": ""
+}, {
+    "": "924",
+    "DETAIL_PROVID": "330200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "925",
+    "DETAIL_PROVID": "330203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "海曙区",
+    "CDATE": ""
+}, {
+    "": "926",
+    "DETAIL_PROVID": "330205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "江北区",
+    "CDATE": ""
+}, {
+    "": "927",
+    "DETAIL_PROVID": "330206",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "北仑区",
+    "CDATE": ""
+}, {
+    "": "928",
+    "DETAIL_PROVID": "330211",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "镇海区",
+    "CDATE": ""
+}, {
+    "": "929",
+    "DETAIL_PROVID": "330212",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "鄞州区",
+    "CDATE": ""
+}, {
+    "": "930",
+    "DETAIL_PROVID": "330213",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "奉化区",
+    "CDATE": ""
+}, {
+    "": "931",
+    "DETAIL_PROVID": "330225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "象山县",
+    "CDATE": ""
+}, {
+    "": "932",
+    "DETAIL_PROVID": "330226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "宁海县",
+    "CDATE": ""
+}, {
+    "": "933",
+    "DETAIL_PROVID": "330281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "余姚市",
+    "CDATE": ""
+}, {
+    "": "934",
+    "DETAIL_PROVID": "330282",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330200",
+    "CITY_NAME": "宁波市",
+    "COUNTY_NAME": "慈溪市",
+    "CDATE": ""
+}, {
+    "": "935",
+    "DETAIL_PROVID": "330300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "936",
+    "DETAIL_PROVID": "330302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "鹿城区",
+    "CDATE": ""
+}, {
+    "": "937",
+    "DETAIL_PROVID": "330303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "龙湾区",
+    "CDATE": ""
+}, {
+    "": "938",
+    "DETAIL_PROVID": "330304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "瓯海区",
+    "CDATE": ""
+}, {
+    "": "939",
+    "DETAIL_PROVID": "330305",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "洞头区",
+    "CDATE": ""
+}, {
+    "": "940",
+    "DETAIL_PROVID": "330324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "永嘉县",
+    "CDATE": ""
+}, {
+    "": "941",
+    "DETAIL_PROVID": "330326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "平阳县",
+    "CDATE": ""
+}, {
+    "": "942",
+    "DETAIL_PROVID": "330327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "苍南县",
+    "CDATE": ""
+}, {
+    "": "943",
+    "DETAIL_PROVID": "330328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "文成县",
+    "CDATE": ""
+}, {
+    "": "944",
+    "DETAIL_PROVID": "330329",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "泰顺县",
+    "CDATE": ""
+}, {
+    "": "945",
+    "DETAIL_PROVID": "330381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "瑞安市",
+    "CDATE": ""
+}, {
+    "": "946",
+    "DETAIL_PROVID": "330382",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330300",
+    "CITY_NAME": "温州市",
+    "COUNTY_NAME": "乐清市",
+    "CDATE": ""
+}, {
+    "": "947",
+    "DETAIL_PROVID": "330400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330400",
+    "CITY_NAME": "嘉兴市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "948",
+    "DETAIL_PROVID": "330402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330400",
+    "CITY_NAME": "嘉兴市",
+    "COUNTY_NAME": "南湖区",
+    "CDATE": ""
+}, {
+    "": "949",
+    "DETAIL_PROVID": "330411",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330400",
+    "CITY_NAME": "嘉兴市",
+    "COUNTY_NAME": "秀洲区",
+    "CDATE": ""
+}, {
+    "": "950",
+    "DETAIL_PROVID": "330421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330400",
+    "CITY_NAME": "嘉兴市",
+    "COUNTY_NAME": "嘉善县",
+    "CDATE": ""
+}, {
+    "": "951",
+    "DETAIL_PROVID": "330424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330400",
+    "CITY_NAME": "嘉兴市",
+    "COUNTY_NAME": "海盐县",
+    "CDATE": ""
+}, {
+    "": "952",
+    "DETAIL_PROVID": "330481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330400",
+    "CITY_NAME": "嘉兴市",
+    "COUNTY_NAME": "海宁市",
+    "CDATE": ""
+}, {
+    "": "953",
+    "DETAIL_PROVID": "330482",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330400",
+    "CITY_NAME": "嘉兴市",
+    "COUNTY_NAME": "平湖市",
+    "CDATE": ""
+}, {
+    "": "954",
+    "DETAIL_PROVID": "330483",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330400",
+    "CITY_NAME": "嘉兴市",
+    "COUNTY_NAME": "桐乡市",
+    "CDATE": ""
+}, {
+    "": "955",
+    "DETAIL_PROVID": "330500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330500",
+    "CITY_NAME": "湖州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "956",
+    "DETAIL_PROVID": "330502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330500",
+    "CITY_NAME": "湖州市",
+    "COUNTY_NAME": "吴兴区",
+    "CDATE": ""
+}, {
+    "": "957",
+    "DETAIL_PROVID": "330503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330500",
+    "CITY_NAME": "湖州市",
+    "COUNTY_NAME": "南浔区",
+    "CDATE": ""
+}, {
+    "": "958",
+    "DETAIL_PROVID": "330521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330500",
+    "CITY_NAME": "湖州市",
+    "COUNTY_NAME": "德清县",
+    "CDATE": ""
+}, {
+    "": "959",
+    "DETAIL_PROVID": "330522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330500",
+    "CITY_NAME": "湖州市",
+    "COUNTY_NAME": "长兴县",
+    "CDATE": ""
+}, {
+    "": "960",
+    "DETAIL_PROVID": "330523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330500",
+    "CITY_NAME": "湖州市",
+    "COUNTY_NAME": "安吉县",
+    "CDATE": ""
+}, {
+    "": "961",
+    "DETAIL_PROVID": "330600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330600",
+    "CITY_NAME": "绍兴市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "962",
+    "DETAIL_PROVID": "330602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330600",
+    "CITY_NAME": "绍兴市",
+    "COUNTY_NAME": "越城区",
+    "CDATE": ""
+}, {
+    "": "963",
+    "DETAIL_PROVID": "330603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330600",
+    "CITY_NAME": "绍兴市",
+    "COUNTY_NAME": "柯桥区",
+    "CDATE": ""
+}, {
+    "": "964",
+    "DETAIL_PROVID": "330604",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330600",
+    "CITY_NAME": "绍兴市",
+    "COUNTY_NAME": "上虞区",
+    "CDATE": ""
+}, {
+    "": "965",
+    "DETAIL_PROVID": "330624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330600",
+    "CITY_NAME": "绍兴市",
+    "COUNTY_NAME": "新昌县",
+    "CDATE": ""
+}, {
+    "": "966",
+    "DETAIL_PROVID": "330681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330600",
+    "CITY_NAME": "绍兴市",
+    "COUNTY_NAME": "诸暨市",
+    "CDATE": ""
+}, {
+    "": "967",
+    "DETAIL_PROVID": "330683",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330600",
+    "CITY_NAME": "绍兴市",
+    "COUNTY_NAME": "嵊州市",
+    "CDATE": ""
+}, {
+    "": "968",
+    "DETAIL_PROVID": "330700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330700",
+    "CITY_NAME": "金华市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "969",
+    "DETAIL_PROVID": "330702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330700",
+    "CITY_NAME": "金华市",
+    "COUNTY_NAME": "婺城区",
+    "CDATE": ""
+}, {
+    "": "970",
+    "DETAIL_PROVID": "330703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330700",
+    "CITY_NAME": "金华市",
+    "COUNTY_NAME": "金东区",
+    "CDATE": ""
+}, {
+    "": "971",
+    "DETAIL_PROVID": "330723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330700",
+    "CITY_NAME": "金华市",
+    "COUNTY_NAME": "武义县",
+    "CDATE": ""
+}, {
+    "": "972",
+    "DETAIL_PROVID": "330726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330700",
+    "CITY_NAME": "金华市",
+    "COUNTY_NAME": "浦江县",
+    "CDATE": ""
+}, {
+    "": "973",
+    "DETAIL_PROVID": "330727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330700",
+    "CITY_NAME": "金华市",
+    "COUNTY_NAME": "磐安县",
+    "CDATE": ""
+}, {
+    "": "974",
+    "DETAIL_PROVID": "330781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330700",
+    "CITY_NAME": "金华市",
+    "COUNTY_NAME": "兰溪市",
+    "CDATE": ""
+}, {
+    "": "975",
+    "DETAIL_PROVID": "330782",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330700",
+    "CITY_NAME": "金华市",
+    "COUNTY_NAME": "义乌市",
+    "CDATE": ""
+}, {
+    "": "976",
+    "DETAIL_PROVID": "330783",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330700",
+    "CITY_NAME": "金华市",
+    "COUNTY_NAME": "东阳市",
+    "CDATE": ""
+}, {
+    "": "977",
+    "DETAIL_PROVID": "330784",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330700",
+    "CITY_NAME": "金华市",
+    "COUNTY_NAME": "永康市",
+    "CDATE": ""
+}, {
+    "": "978",
+    "DETAIL_PROVID": "330800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330800",
+    "CITY_NAME": "衢州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "979",
+    "DETAIL_PROVID": "330802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330800",
+    "CITY_NAME": "衢州市",
+    "COUNTY_NAME": "柯城区",
+    "CDATE": ""
+}, {
+    "": "980",
+    "DETAIL_PROVID": "330803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330800",
+    "CITY_NAME": "衢州市",
+    "COUNTY_NAME": "衢江区",
+    "CDATE": ""
+}, {
+    "": "981",
+    "DETAIL_PROVID": "330822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330800",
+    "CITY_NAME": "衢州市",
+    "COUNTY_NAME": "常山县",
+    "CDATE": ""
+}, {
+    "": "982",
+    "DETAIL_PROVID": "330824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330800",
+    "CITY_NAME": "衢州市",
+    "COUNTY_NAME": "开化县",
+    "CDATE": ""
+}, {
+    "": "983",
+    "DETAIL_PROVID": "330825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330800",
+    "CITY_NAME": "衢州市",
+    "COUNTY_NAME": "龙游县",
+    "CDATE": ""
+}, {
+    "": "984",
+    "DETAIL_PROVID": "330881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330800",
+    "CITY_NAME": "衢州市",
+    "COUNTY_NAME": "江山市",
+    "CDATE": ""
+}, {
+    "": "985",
+    "DETAIL_PROVID": "330900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330900",
+    "CITY_NAME": "舟山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "986",
+    "DETAIL_PROVID": "330902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330900",
+    "CITY_NAME": "舟山市",
+    "COUNTY_NAME": "定海区",
+    "CDATE": ""
+}, {
+    "": "987",
+    "DETAIL_PROVID": "330903",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330900",
+    "CITY_NAME": "舟山市",
+    "COUNTY_NAME": "普陀区",
+    "CDATE": ""
+}, {
+    "": "988",
+    "DETAIL_PROVID": "330921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330900",
+    "CITY_NAME": "舟山市",
+    "COUNTY_NAME": "岱山县",
+    "CDATE": ""
+}, {
+    "": "989",
+    "DETAIL_PROVID": "330922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "330900",
+    "CITY_NAME": "舟山市",
+    "COUNTY_NAME": "嵊泗县",
+    "CDATE": ""
+}, {
+    "": "990",
+    "DETAIL_PROVID": "331000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331000",
+    "CITY_NAME": "台州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "991",
+    "DETAIL_PROVID": "331002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331000",
+    "CITY_NAME": "台州市",
+    "COUNTY_NAME": "椒江区",
+    "CDATE": ""
+}, {
+    "": "992",
+    "DETAIL_PROVID": "331003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331000",
+    "CITY_NAME": "台州市",
+    "COUNTY_NAME": "黄岩区",
+    "CDATE": ""
+}, {
+    "": "993",
+    "DETAIL_PROVID": "331004",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331000",
+    "CITY_NAME": "台州市",
+    "COUNTY_NAME": "路桥区",
+    "CDATE": ""
+}, {
+    "": "994",
+    "DETAIL_PROVID": "331022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331000",
+    "CITY_NAME": "台州市",
+    "COUNTY_NAME": "三门县",
+    "CDATE": ""
+}, {
+    "": "995",
+    "DETAIL_PROVID": "331023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331000",
+    "CITY_NAME": "台州市",
+    "COUNTY_NAME": "天台县",
+    "CDATE": ""
+}, {
+    "": "996",
+    "DETAIL_PROVID": "331024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331000",
+    "CITY_NAME": "台州市",
+    "COUNTY_NAME": "仙居县",
+    "CDATE": ""
+}, {
+    "": "997",
+    "DETAIL_PROVID": "331081",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331000",
+    "CITY_NAME": "台州市",
+    "COUNTY_NAME": "温岭市",
+    "CDATE": ""
+}, {
+    "": "998",
+    "DETAIL_PROVID": "331082",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331000",
+    "CITY_NAME": "台州市",
+    "COUNTY_NAME": "临海市",
+    "CDATE": ""
+}, {
+    "": "999",
+    "DETAIL_PROVID": "331083",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331000",
+    "CITY_NAME": "台州市",
+    "COUNTY_NAME": "玉环市",
+    "CDATE": ""
+}, {
+    "": "1000",
+    "DETAIL_PROVID": "331100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331100",
+    "CITY_NAME": "丽水市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1001",
+    "DETAIL_PROVID": "331102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331100",
+    "CITY_NAME": "丽水市",
+    "COUNTY_NAME": "莲都区",
+    "CDATE": ""
+}, {
+    "": "1002",
+    "DETAIL_PROVID": "331121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331100",
+    "CITY_NAME": "丽水市",
+    "COUNTY_NAME": "青田县",
+    "CDATE": ""
+}, {
+    "": "1003",
+    "DETAIL_PROVID": "331122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331100",
+    "CITY_NAME": "丽水市",
+    "COUNTY_NAME": "缙云县",
+    "CDATE": ""
+}, {
+    "": "1004",
+    "DETAIL_PROVID": "331123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331100",
+    "CITY_NAME": "丽水市",
+    "COUNTY_NAME": "遂昌县",
+    "CDATE": ""
+}, {
+    "": "1005",
+    "DETAIL_PROVID": "331124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331100",
+    "CITY_NAME": "丽水市",
+    "COUNTY_NAME": "松阳县",
+    "CDATE": ""
+}, {
+    "": "1006",
+    "DETAIL_PROVID": "331125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331100",
+    "CITY_NAME": "丽水市",
+    "COUNTY_NAME": "云和县",
+    "CDATE": ""
+}, {
+    "": "1007",
+    "DETAIL_PROVID": "331126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331100",
+    "CITY_NAME": "丽水市",
+    "COUNTY_NAME": "庆元县",
+    "CDATE": ""
+}, {
+    "": "1008",
+    "DETAIL_PROVID": "331127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331100",
+    "CITY_NAME": "丽水市",
+    "COUNTY_NAME": "景宁畲族自治县",
+    "CDATE": ""
+}, {
+    "": "1009",
+    "DETAIL_PROVID": "331181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "33",
+    "PROV_NAME": "浙江",
+    "CITY_CODE": "331100",
+    "CITY_NAME": "丽水市",
+    "COUNTY_NAME": "龙泉市",
+    "CDATE": ""
+}, {
+    "": "1010",
+    "DETAIL_PROVID": "340100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340100",
+    "CITY_NAME": "合肥市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1011",
+    "DETAIL_PROVID": "340102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340100",
+    "CITY_NAME": "合肥市",
+    "COUNTY_NAME": "瑶海区",
+    "CDATE": ""
+}, {
+    "": "1012",
+    "DETAIL_PROVID": "340103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340100",
+    "CITY_NAME": "合肥市",
+    "COUNTY_NAME": "庐阳区",
+    "CDATE": ""
+}, {
+    "": "1013",
+    "DETAIL_PROVID": "340104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340100",
+    "CITY_NAME": "合肥市",
+    "COUNTY_NAME": "蜀山区",
+    "CDATE": ""
+}, {
+    "": "1014",
+    "DETAIL_PROVID": "340111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340100",
+    "CITY_NAME": "合肥市",
+    "COUNTY_NAME": "包河区",
+    "CDATE": ""
+}, {
+    "": "1015",
+    "DETAIL_PROVID": "340121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340100",
+    "CITY_NAME": "合肥市",
+    "COUNTY_NAME": "长丰县",
+    "CDATE": ""
+}, {
+    "": "1016",
+    "DETAIL_PROVID": "340122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340100",
+    "CITY_NAME": "合肥市",
+    "COUNTY_NAME": "肥东县",
+    "CDATE": ""
+}, {
+    "": "1017",
+    "DETAIL_PROVID": "340123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340100",
+    "CITY_NAME": "合肥市",
+    "COUNTY_NAME": "肥西县",
+    "CDATE": ""
+}, {
+    "": "1018",
+    "DETAIL_PROVID": "340124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340100",
+    "CITY_NAME": "合肥市",
+    "COUNTY_NAME": "庐江县",
+    "CDATE": ""
+}, {
+    "": "1019",
+    "DETAIL_PROVID": "340181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340100",
+    "CITY_NAME": "合肥市",
+    "COUNTY_NAME": "巢湖市",
+    "CDATE": ""
+}, {
+    "": "1020",
+    "DETAIL_PROVID": "340200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340200",
+    "CITY_NAME": "芜湖市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1021",
+    "DETAIL_PROVID": "340202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340200",
+    "CITY_NAME": "芜湖市",
+    "COUNTY_NAME": "镜湖区",
+    "CDATE": ""
+}, {
+    "": "1022",
+    "DETAIL_PROVID": "340203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340200",
+    "CITY_NAME": "芜湖市",
+    "COUNTY_NAME": "弋江区",
+    "CDATE": ""
+}, {
+    "": "1023",
+    "DETAIL_PROVID": "340207",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340200",
+    "CITY_NAME": "芜湖市",
+    "COUNTY_NAME": "鸠江区",
+    "CDATE": ""
+}, {
+    "": "1024",
+    "DETAIL_PROVID": "340208",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340200",
+    "CITY_NAME": "芜湖市",
+    "COUNTY_NAME": "三山区",
+    "CDATE": ""
+}, {
+    "": "1025",
+    "DETAIL_PROVID": "340221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340200",
+    "CITY_NAME": "芜湖市",
+    "COUNTY_NAME": "芜湖县",
+    "CDATE": ""
+}, {
+    "": "1026",
+    "DETAIL_PROVID": "340222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340200",
+    "CITY_NAME": "芜湖市",
+    "COUNTY_NAME": "繁昌县",
+    "CDATE": ""
+}, {
+    "": "1027",
+    "DETAIL_PROVID": "340223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340200",
+    "CITY_NAME": "芜湖市",
+    "COUNTY_NAME": "南陵县",
+    "CDATE": ""
+}, {
+    "": "1028",
+    "DETAIL_PROVID": "340225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340200",
+    "CITY_NAME": "芜湖市",
+    "COUNTY_NAME": "无为县",
+    "CDATE": ""
+}, {
+    "": "1029",
+    "DETAIL_PROVID": "340300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340300",
+    "CITY_NAME": "蚌埠市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1030",
+    "DETAIL_PROVID": "340302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340300",
+    "CITY_NAME": "蚌埠市",
+    "COUNTY_NAME": "龙子湖区",
+    "CDATE": ""
+}, {
+    "": "1031",
+    "DETAIL_PROVID": "340303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340300",
+    "CITY_NAME": "蚌埠市",
+    "COUNTY_NAME": "蚌山区",
+    "CDATE": ""
+}, {
+    "": "1032",
+    "DETAIL_PROVID": "340304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340300",
+    "CITY_NAME": "蚌埠市",
+    "COUNTY_NAME": "禹会区",
+    "CDATE": ""
+}, {
+    "": "1033",
+    "DETAIL_PROVID": "340311",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340300",
+    "CITY_NAME": "蚌埠市",
+    "COUNTY_NAME": "淮上区",
+    "CDATE": ""
+}, {
+    "": "1034",
+    "DETAIL_PROVID": "340321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340300",
+    "CITY_NAME": "蚌埠市",
+    "COUNTY_NAME": "怀远县",
+    "CDATE": ""
+}, {
+    "": "1035",
+    "DETAIL_PROVID": "340322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340300",
+    "CITY_NAME": "蚌埠市",
+    "COUNTY_NAME": "五河县",
+    "CDATE": ""
+}, {
+    "": "1036",
+    "DETAIL_PROVID": "340323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340300",
+    "CITY_NAME": "蚌埠市",
+    "COUNTY_NAME": "固镇县",
+    "CDATE": ""
+}, {
+    "": "1037",
+    "DETAIL_PROVID": "340400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340400",
+    "CITY_NAME": "淮南市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1038",
+    "DETAIL_PROVID": "340402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340400",
+    "CITY_NAME": "淮南市",
+    "COUNTY_NAME": "大通区",
+    "CDATE": ""
+}, {
+    "": "1039",
+    "DETAIL_PROVID": "340403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340400",
+    "CITY_NAME": "淮南市",
+    "COUNTY_NAME": "田家庵区",
+    "CDATE": ""
+}, {
+    "": "1040",
+    "DETAIL_PROVID": "340404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340400",
+    "CITY_NAME": "淮南市",
+    "COUNTY_NAME": "谢家集区",
+    "CDATE": ""
+}, {
+    "": "1041",
+    "DETAIL_PROVID": "340405",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340400",
+    "CITY_NAME": "淮南市",
+    "COUNTY_NAME": "八公山区",
+    "CDATE": ""
+}, {
+    "": "1042",
+    "DETAIL_PROVID": "340406",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340400",
+    "CITY_NAME": "淮南市",
+    "COUNTY_NAME": "潘集区",
+    "CDATE": ""
+}, {
+    "": "1043",
+    "DETAIL_PROVID": "340421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340400",
+    "CITY_NAME": "淮南市",
+    "COUNTY_NAME": "凤台县",
+    "CDATE": ""
+}, {
+    "": "1044",
+    "DETAIL_PROVID": "340422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340400",
+    "CITY_NAME": "淮南市",
+    "COUNTY_NAME": "寿县",
+    "CDATE": ""
+}, {
+    "": "1045",
+    "DETAIL_PROVID": "340500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340500",
+    "CITY_NAME": "马鞍山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1046",
+    "DETAIL_PROVID": "340503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340500",
+    "CITY_NAME": "马鞍山市",
+    "COUNTY_NAME": "花山区",
+    "CDATE": ""
+}, {
+    "": "1047",
+    "DETAIL_PROVID": "340504",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340500",
+    "CITY_NAME": "马鞍山市",
+    "COUNTY_NAME": "雨山区",
+    "CDATE": ""
+}, {
+    "": "1048",
+    "DETAIL_PROVID": "340506",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340500",
+    "CITY_NAME": "马鞍山市",
+    "COUNTY_NAME": "博望区",
+    "CDATE": ""
+}, {
+    "": "1049",
+    "DETAIL_PROVID": "340521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340500",
+    "CITY_NAME": "马鞍山市",
+    "COUNTY_NAME": "当涂县",
+    "CDATE": ""
+}, {
+    "": "1050",
+    "DETAIL_PROVID": "340522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340500",
+    "CITY_NAME": "马鞍山市",
+    "COUNTY_NAME": "含山县",
+    "CDATE": ""
+}, {
+    "": "1051",
+    "DETAIL_PROVID": "340523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340500",
+    "CITY_NAME": "马鞍山市",
+    "COUNTY_NAME": "和县",
+    "CDATE": ""
+}, {
+    "": "1052",
+    "DETAIL_PROVID": "340600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340600",
+    "CITY_NAME": "淮北市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1053",
+    "DETAIL_PROVID": "340602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340600",
+    "CITY_NAME": "淮北市",
+    "COUNTY_NAME": "杜集区",
+    "CDATE": ""
+}, {
+    "": "1054",
+    "DETAIL_PROVID": "340603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340600",
+    "CITY_NAME": "淮北市",
+    "COUNTY_NAME": "相山区",
+    "CDATE": ""
+}, {
+    "": "1055",
+    "DETAIL_PROVID": "340604",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340600",
+    "CITY_NAME": "淮北市",
+    "COUNTY_NAME": "烈山区",
+    "CDATE": ""
+}, {
+    "": "1056",
+    "DETAIL_PROVID": "340621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340600",
+    "CITY_NAME": "淮北市",
+    "COUNTY_NAME": "濉溪县",
+    "CDATE": ""
+}, {
+    "": "1057",
+    "DETAIL_PROVID": "340700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340700",
+    "CITY_NAME": "铜陵市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1058",
+    "DETAIL_PROVID": "340705",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340700",
+    "CITY_NAME": "铜陵市",
+    "COUNTY_NAME": "铜官区",
+    "CDATE": ""
+}, {
+    "": "1059",
+    "DETAIL_PROVID": "340706",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340700",
+    "CITY_NAME": "铜陵市",
+    "COUNTY_NAME": "义安区",
+    "CDATE": ""
+}, {
+    "": "1060",
+    "DETAIL_PROVID": "340711",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340700",
+    "CITY_NAME": "铜陵市",
+    "COUNTY_NAME": "郊区",
+    "CDATE": ""
+}, {
+    "": "1061",
+    "DETAIL_PROVID": "340722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340700",
+    "CITY_NAME": "铜陵市",
+    "COUNTY_NAME": "枞阳县",
+    "CDATE": ""
+}, {
+    "": "1062",
+    "DETAIL_PROVID": "340800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1063",
+    "DETAIL_PROVID": "340802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "迎江区",
+    "CDATE": ""
+}, {
+    "": "1064",
+    "DETAIL_PROVID": "340803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "大观区",
+    "CDATE": ""
+}, {
+    "": "1065",
+    "DETAIL_PROVID": "340811",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "宜秀区",
+    "CDATE": ""
+}, {
+    "": "1066",
+    "DETAIL_PROVID": "340822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "怀宁县",
+    "CDATE": ""
+}, {
+    "": "1067",
+    "DETAIL_PROVID": "340824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "潜山县",
+    "CDATE": ""
+}, {
+    "": "1068",
+    "DETAIL_PROVID": "340825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "太湖县",
+    "CDATE": ""
+}, {
+    "": "1069",
+    "DETAIL_PROVID": "340826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "宿松县",
+    "CDATE": ""
+}, {
+    "": "1070",
+    "DETAIL_PROVID": "340827",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "望江县",
+    "CDATE": ""
+}, {
+    "": "1071",
+    "DETAIL_PROVID": "340828",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "岳西县",
+    "CDATE": ""
+}, {
+    "": "1072",
+    "DETAIL_PROVID": "340881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "340800",
+    "CITY_NAME": "安庆市",
+    "COUNTY_NAME": "桐城市",
+    "CDATE": ""
+}, {
+    "": "1073",
+    "DETAIL_PROVID": "341000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341000",
+    "CITY_NAME": "黄山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1074",
+    "DETAIL_PROVID": "341002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341000",
+    "CITY_NAME": "黄山市",
+    "COUNTY_NAME": "屯溪区",
+    "CDATE": ""
+}, {
+    "": "1075",
+    "DETAIL_PROVID": "341003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341000",
+    "CITY_NAME": "黄山市",
+    "COUNTY_NAME": "黄山区",
+    "CDATE": ""
+}, {
+    "": "1076",
+    "DETAIL_PROVID": "341004",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341000",
+    "CITY_NAME": "黄山市",
+    "COUNTY_NAME": "徽州区",
+    "CDATE": ""
+}, {
+    "": "1077",
+    "DETAIL_PROVID": "341021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341000",
+    "CITY_NAME": "黄山市",
+    "COUNTY_NAME": "歙县",
+    "CDATE": ""
+}, {
+    "": "1078",
+    "DETAIL_PROVID": "341022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341000",
+    "CITY_NAME": "黄山市",
+    "COUNTY_NAME": "休宁县",
+    "CDATE": ""
+}, {
+    "": "1079",
+    "DETAIL_PROVID": "341023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341000",
+    "CITY_NAME": "黄山市",
+    "COUNTY_NAME": "黟县",
+    "CDATE": ""
+}, {
+    "": "1080",
+    "DETAIL_PROVID": "341024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341000",
+    "CITY_NAME": "黄山市",
+    "COUNTY_NAME": "祁门县",
+    "CDATE": ""
+}, {
+    "": "1081",
+    "DETAIL_PROVID": "341100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341100",
+    "CITY_NAME": "滁州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1082",
+    "DETAIL_PROVID": "341102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341100",
+    "CITY_NAME": "滁州市",
+    "COUNTY_NAME": "琅琊区",
+    "CDATE": ""
+}, {
+    "": "1083",
+    "DETAIL_PROVID": "341103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341100",
+    "CITY_NAME": "滁州市",
+    "COUNTY_NAME": "南谯区",
+    "CDATE": ""
+}, {
+    "": "1084",
+    "DETAIL_PROVID": "341122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341100",
+    "CITY_NAME": "滁州市",
+    "COUNTY_NAME": "来安县",
+    "CDATE": ""
+}, {
+    "": "1085",
+    "DETAIL_PROVID": "341124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341100",
+    "CITY_NAME": "滁州市",
+    "COUNTY_NAME": "全椒县",
+    "CDATE": ""
+}, {
+    "": "1086",
+    "DETAIL_PROVID": "341125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341100",
+    "CITY_NAME": "滁州市",
+    "COUNTY_NAME": "定远县",
+    "CDATE": ""
+}, {
+    "": "1087",
+    "DETAIL_PROVID": "341126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341100",
+    "CITY_NAME": "滁州市",
+    "COUNTY_NAME": "凤阳县",
+    "CDATE": ""
+}, {
+    "": "1088",
+    "DETAIL_PROVID": "341181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341100",
+    "CITY_NAME": "滁州市",
+    "COUNTY_NAME": "天长市",
+    "CDATE": ""
+}, {
+    "": "1089",
+    "DETAIL_PROVID": "341182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341100",
+    "CITY_NAME": "滁州市",
+    "COUNTY_NAME": "明光市",
+    "CDATE": ""
+}, {
+    "": "1090",
+    "DETAIL_PROVID": "341200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341200",
+    "CITY_NAME": "阜阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1091",
+    "DETAIL_PROVID": "341202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341200",
+    "CITY_NAME": "阜阳市",
+    "COUNTY_NAME": "颍州区",
+    "CDATE": ""
+}, {
+    "": "1092",
+    "DETAIL_PROVID": "341203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341200",
+    "CITY_NAME": "阜阳市",
+    "COUNTY_NAME": "颍东区",
+    "CDATE": ""
+}, {
+    "": "1093",
+    "DETAIL_PROVID": "341204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341200",
+    "CITY_NAME": "阜阳市",
+    "COUNTY_NAME": "颍泉区",
+    "CDATE": ""
+}, {
+    "": "1094",
+    "DETAIL_PROVID": "341221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341200",
+    "CITY_NAME": "阜阳市",
+    "COUNTY_NAME": "临泉县",
+    "CDATE": ""
+}, {
+    "": "1095",
+    "DETAIL_PROVID": "341222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341200",
+    "CITY_NAME": "阜阳市",
+    "COUNTY_NAME": "太和县",
+    "CDATE": ""
+}, {
+    "": "1096",
+    "DETAIL_PROVID": "341225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341200",
+    "CITY_NAME": "阜阳市",
+    "COUNTY_NAME": "阜南县",
+    "CDATE": ""
+}, {
+    "": "1097",
+    "DETAIL_PROVID": "341226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341200",
+    "CITY_NAME": "阜阳市",
+    "COUNTY_NAME": "颍上县",
+    "CDATE": ""
+}, {
+    "": "1098",
+    "DETAIL_PROVID": "341282",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341200",
+    "CITY_NAME": "阜阳市",
+    "COUNTY_NAME": "界首市",
+    "CDATE": ""
+}, {
+    "": "1099",
+    "DETAIL_PROVID": "341300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341300",
+    "CITY_NAME": "宿州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1100",
+    "DETAIL_PROVID": "341302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341300",
+    "CITY_NAME": "宿州市",
+    "COUNTY_NAME": "埇桥区",
+    "CDATE": ""
+}, {
+    "": "1101",
+    "DETAIL_PROVID": "341321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341300",
+    "CITY_NAME": "宿州市",
+    "COUNTY_NAME": "砀山县",
+    "CDATE": ""
+}, {
+    "": "1102",
+    "DETAIL_PROVID": "341322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341300",
+    "CITY_NAME": "宿州市",
+    "COUNTY_NAME": "萧县",
+    "CDATE": ""
+}, {
+    "": "1103",
+    "DETAIL_PROVID": "341323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341300",
+    "CITY_NAME": "宿州市",
+    "COUNTY_NAME": "灵璧县",
+    "CDATE": ""
+}, {
+    "": "1104",
+    "DETAIL_PROVID": "341324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341300",
+    "CITY_NAME": "宿州市",
+    "COUNTY_NAME": "泗县",
+    "CDATE": ""
+}, {
+    "": "1105",
+    "DETAIL_PROVID": "341500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341500",
+    "CITY_NAME": "六安市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1106",
+    "DETAIL_PROVID": "341502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341500",
+    "CITY_NAME": "六安市",
+    "COUNTY_NAME": "金安区",
+    "CDATE": ""
+}, {
+    "": "1107",
+    "DETAIL_PROVID": "341503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341500",
+    "CITY_NAME": "六安市",
+    "COUNTY_NAME": "裕安区",
+    "CDATE": ""
+}, {
+    "": "1108",
+    "DETAIL_PROVID": "341504",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341500",
+    "CITY_NAME": "六安市",
+    "COUNTY_NAME": "叶集区",
+    "CDATE": ""
+}, {
+    "": "1109",
+    "DETAIL_PROVID": "341522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341500",
+    "CITY_NAME": "六安市",
+    "COUNTY_NAME": "霍邱县",
+    "CDATE": ""
+}, {
+    "": "1110",
+    "DETAIL_PROVID": "341523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341500",
+    "CITY_NAME": "六安市",
+    "COUNTY_NAME": "舒城县",
+    "CDATE": ""
+}, {
+    "": "1111",
+    "DETAIL_PROVID": "341524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341500",
+    "CITY_NAME": "六安市",
+    "COUNTY_NAME": "金寨县",
+    "CDATE": ""
+}, {
+    "": "1112",
+    "DETAIL_PROVID": "341525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341500",
+    "CITY_NAME": "六安市",
+    "COUNTY_NAME": "霍山县",
+    "CDATE": ""
+}, {
+    "": "1113",
+    "DETAIL_PROVID": "341600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341600",
+    "CITY_NAME": "亳州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1114",
+    "DETAIL_PROVID": "341602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341600",
+    "CITY_NAME": "亳州市",
+    "COUNTY_NAME": "谯城区",
+    "CDATE": ""
+}, {
+    "": "1115",
+    "DETAIL_PROVID": "341621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341600",
+    "CITY_NAME": "亳州市",
+    "COUNTY_NAME": "涡阳县",
+    "CDATE": ""
+}, {
+    "": "1116",
+    "DETAIL_PROVID": "341622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341600",
+    "CITY_NAME": "亳州市",
+    "COUNTY_NAME": "蒙城县",
+    "CDATE": ""
+}, {
+    "": "1117",
+    "DETAIL_PROVID": "341623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341600",
+    "CITY_NAME": "亳州市",
+    "COUNTY_NAME": "利辛县",
+    "CDATE": ""
+}, {
+    "": "1118",
+    "DETAIL_PROVID": "341700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341700",
+    "CITY_NAME": "池州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1119",
+    "DETAIL_PROVID": "341702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341700",
+    "CITY_NAME": "池州市",
+    "COUNTY_NAME": "贵池区",
+    "CDATE": ""
+}, {
+    "": "1120",
+    "DETAIL_PROVID": "341721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341700",
+    "CITY_NAME": "池州市",
+    "COUNTY_NAME": "东至县",
+    "CDATE": ""
+}, {
+    "": "1121",
+    "DETAIL_PROVID": "341722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341700",
+    "CITY_NAME": "池州市",
+    "COUNTY_NAME": "石台县",
+    "CDATE": ""
+}, {
+    "": "1122",
+    "DETAIL_PROVID": "341723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341700",
+    "CITY_NAME": "池州市",
+    "COUNTY_NAME": "青阳县",
+    "CDATE": ""
+}, {
+    "": "1123",
+    "DETAIL_PROVID": "341800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341800",
+    "CITY_NAME": "宣城市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1124",
+    "DETAIL_PROVID": "341802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341800",
+    "CITY_NAME": "宣城市",
+    "COUNTY_NAME": "宣州区",
+    "CDATE": ""
+}, {
+    "": "1125",
+    "DETAIL_PROVID": "341821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341800",
+    "CITY_NAME": "宣城市",
+    "COUNTY_NAME": "郎溪县",
+    "CDATE": ""
+}, {
+    "": "1126",
+    "DETAIL_PROVID": "341822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341800",
+    "CITY_NAME": "宣城市",
+    "COUNTY_NAME": "广德县",
+    "CDATE": ""
+}, {
+    "": "1127",
+    "DETAIL_PROVID": "341823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341800",
+    "CITY_NAME": "宣城市",
+    "COUNTY_NAME": "泾县",
+    "CDATE": ""
+}, {
+    "": "1128",
+    "DETAIL_PROVID": "341824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341800",
+    "CITY_NAME": "宣城市",
+    "COUNTY_NAME": "绩溪县",
+    "CDATE": ""
+}, {
+    "": "1129",
+    "DETAIL_PROVID": "341825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341800",
+    "CITY_NAME": "宣城市",
+    "COUNTY_NAME": "旌德县",
+    "CDATE": ""
+}, {
+    "": "1130",
+    "DETAIL_PROVID": "341881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "34",
+    "PROV_NAME": "安徽",
+    "CITY_CODE": "341800",
+    "CITY_NAME": "宣城市",
+    "COUNTY_NAME": "宁国市",
+    "CDATE": ""
+}, {
+    "": "1131",
+    "DETAIL_PROVID": "350100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1132",
+    "DETAIL_PROVID": "350102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "鼓楼区",
+    "CDATE": ""
+}, {
+    "": "1133",
+    "DETAIL_PROVID": "350103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "台江区",
+    "CDATE": ""
+}, {
+    "": "1134",
+    "DETAIL_PROVID": "350104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "仓山区",
+    "CDATE": ""
+}, {
+    "": "1135",
+    "DETAIL_PROVID": "350105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "马尾区",
+    "CDATE": ""
+}, {
+    "": "1136",
+    "DETAIL_PROVID": "350111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "晋安区",
+    "CDATE": ""
+}, {
+    "": "1137",
+    "DETAIL_PROVID": "350121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "闽侯县",
+    "CDATE": ""
+}, {
+    "": "1138",
+    "DETAIL_PROVID": "350122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "连江县",
+    "CDATE": ""
+}, {
+    "": "1139",
+    "DETAIL_PROVID": "350123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "罗源县",
+    "CDATE": ""
+}, {
+    "": "1140",
+    "DETAIL_PROVID": "350124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "闽清县",
+    "CDATE": ""
+}, {
+    "": "1141",
+    "DETAIL_PROVID": "350125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "永泰县",
+    "CDATE": ""
+}, {
+    "": "1142",
+    "DETAIL_PROVID": "350128",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "平潭县",
+    "CDATE": ""
+}, {
+    "": "1143",
+    "DETAIL_PROVID": "350181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "福清市",
+    "CDATE": ""
+}, {
+    "": "1144",
+    "DETAIL_PROVID": "350182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350100",
+    "CITY_NAME": "福州市",
+    "COUNTY_NAME": "长乐市",
+    "CDATE": ""
+}, {
+    "": "1145",
+    "DETAIL_PROVID": "350200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350200",
+    "CITY_NAME": "厦门市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1146",
+    "DETAIL_PROVID": "350203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350200",
+    "CITY_NAME": "厦门市",
+    "COUNTY_NAME": "思明区",
+    "CDATE": ""
+}, {
+    "": "1147",
+    "DETAIL_PROVID": "350205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350200",
+    "CITY_NAME": "厦门市",
+    "COUNTY_NAME": "海沧区",
+    "CDATE": ""
+}, {
+    "": "1148",
+    "DETAIL_PROVID": "350206",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350200",
+    "CITY_NAME": "厦门市",
+    "COUNTY_NAME": "湖里区",
+    "CDATE": ""
+}, {
+    "": "1149",
+    "DETAIL_PROVID": "350211",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350200",
+    "CITY_NAME": "厦门市",
+    "COUNTY_NAME": "集美区",
+    "CDATE": ""
+}, {
+    "": "1150",
+    "DETAIL_PROVID": "350212",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350200",
+    "CITY_NAME": "厦门市",
+    "COUNTY_NAME": "同安区",
+    "CDATE": ""
+}, {
+    "": "1151",
+    "DETAIL_PROVID": "350213",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350200",
+    "CITY_NAME": "厦门市",
+    "COUNTY_NAME": "翔安区",
+    "CDATE": ""
+}, {
+    "": "1152",
+    "DETAIL_PROVID": "350300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350300",
+    "CITY_NAME": "莆田市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1153",
+    "DETAIL_PROVID": "350302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350300",
+    "CITY_NAME": "莆田市",
+    "COUNTY_NAME": "城厢区",
+    "CDATE": ""
+}, {
+    "": "1154",
+    "DETAIL_PROVID": "350303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350300",
+    "CITY_NAME": "莆田市",
+    "COUNTY_NAME": "涵江区",
+    "CDATE": ""
+}, {
+    "": "1155",
+    "DETAIL_PROVID": "350304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350300",
+    "CITY_NAME": "莆田市",
+    "COUNTY_NAME": "荔城区",
+    "CDATE": ""
+}, {
+    "": "1156",
+    "DETAIL_PROVID": "350305",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350300",
+    "CITY_NAME": "莆田市",
+    "COUNTY_NAME": "秀屿区",
+    "CDATE": ""
+}, {
+    "": "1157",
+    "DETAIL_PROVID": "350322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350300",
+    "CITY_NAME": "莆田市",
+    "COUNTY_NAME": "仙游县",
+    "CDATE": ""
+}, {
+    "": "1158",
+    "DETAIL_PROVID": "350400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1159",
+    "DETAIL_PROVID": "420107",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "青山区",
+    "CDATE": ""
+}, {
+    "": "1160",
+    "DETAIL_PROVID": "420111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "洪山区",
+    "CDATE": ""
+}, {
+    "": "1161",
+    "DETAIL_PROVID": "420112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "东西湖区",
+    "CDATE": ""
+}, {
+    "": "1162",
+    "DETAIL_PROVID": "420113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "汉南区",
+    "CDATE": ""
+}, {
+    "": "1163",
+    "DETAIL_PROVID": "420114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "蔡甸区",
+    "CDATE": ""
+}, {
+    "": "1164",
+    "DETAIL_PROVID": "420115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "江夏区",
+    "CDATE": ""
+}, {
+    "": "1165",
+    "DETAIL_PROVID": "420116",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "黄陂区",
+    "CDATE": ""
+}, {
+    "": "1166",
+    "DETAIL_PROVID": "420117",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "新洲区",
+    "CDATE": ""
+}, {
+    "": "1167",
+    "DETAIL_PROVID": "420200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420200",
+    "CITY_NAME": "黄石市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1168",
+    "DETAIL_PROVID": "420202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420200",
+    "CITY_NAME": "黄石市",
+    "COUNTY_NAME": "黄石港区",
+    "CDATE": ""
+}, {
+    "": "1169",
+    "DETAIL_PROVID": "420203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420200",
+    "CITY_NAME": "黄石市",
+    "COUNTY_NAME": "西塞山区",
+    "CDATE": ""
+}, {
+    "": "1170",
+    "DETAIL_PROVID": "420204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420200",
+    "CITY_NAME": "黄石市",
+    "COUNTY_NAME": "下陆区",
+    "CDATE": ""
+}, {
+    "": "1171",
+    "DETAIL_PROVID": "420205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420200",
+    "CITY_NAME": "黄石市",
+    "COUNTY_NAME": "铁山区",
+    "CDATE": ""
+}, {
+    "": "1172",
+    "DETAIL_PROVID": "420222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420200",
+    "CITY_NAME": "黄石市",
+    "COUNTY_NAME": "阳新县",
+    "CDATE": ""
+}, {
+    "": "1173",
+    "DETAIL_PROVID": "420281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420200",
+    "CITY_NAME": "黄石市",
+    "COUNTY_NAME": "大冶市",
+    "CDATE": ""
+}, {
+    "": "1174",
+    "DETAIL_PROVID": "420300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420300",
+    "CITY_NAME": "十堰市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1175",
+    "DETAIL_PROVID": "420302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420300",
+    "CITY_NAME": "十堰市",
+    "COUNTY_NAME": "茅箭区",
+    "CDATE": ""
+}, {
+    "": "1176",
+    "DETAIL_PROVID": "420303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420300",
+    "CITY_NAME": "十堰市",
+    "COUNTY_NAME": "张湾区",
+    "CDATE": ""
+}, {
+    "": "1177",
+    "DETAIL_PROVID": "420304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420300",
+    "CITY_NAME": "十堰市",
+    "COUNTY_NAME": "郧阳区",
+    "CDATE": ""
+}, {
+    "": "1178",
+    "DETAIL_PROVID": "420322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420300",
+    "CITY_NAME": "十堰市",
+    "COUNTY_NAME": "郧西县",
+    "CDATE": ""
+}, {
+    "": "1179",
+    "DETAIL_PROVID": "420323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420300",
+    "CITY_NAME": "十堰市",
+    "COUNTY_NAME": "竹山县",
+    "CDATE": ""
+}, {
+    "": "1180",
+    "DETAIL_PROVID": "420324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420300",
+    "CITY_NAME": "十堰市",
+    "COUNTY_NAME": "竹溪县",
+    "CDATE": ""
+}, {
+    "": "1181",
+    "DETAIL_PROVID": "420325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420300",
+    "CITY_NAME": "十堰市",
+    "COUNTY_NAME": "房县",
+    "CDATE": ""
+}, {
+    "": "1182",
+    "DETAIL_PROVID": "420381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420300",
+    "CITY_NAME": "十堰市",
+    "COUNTY_NAME": "丹江口市",
+    "CDATE": ""
+}, {
+    "": "1183",
+    "DETAIL_PROVID": "420500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1184",
+    "DETAIL_PROVID": "420502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "西陵区",
+    "CDATE": ""
+}, {
+    "": "1185",
+    "DETAIL_PROVID": "420503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "伍家岗区",
+    "CDATE": ""
+}, {
+    "": "1186",
+    "DETAIL_PROVID": "420504",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "点军区",
+    "CDATE": ""
+}, {
+    "": "1187",
+    "DETAIL_PROVID": "420505",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "猇亭区",
+    "CDATE": ""
+}, {
+    "": "1188",
+    "DETAIL_PROVID": "420506",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "夷陵区",
+    "CDATE": ""
+}, {
+    "": "1189",
+    "DETAIL_PROVID": "420525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "远安县",
+    "CDATE": ""
+}, {
+    "": "1190",
+    "DETAIL_PROVID": "420526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "兴山县",
+    "CDATE": ""
+}, {
+    "": "1191",
+    "DETAIL_PROVID": "420527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "秭归县",
+    "CDATE": ""
+}, {
+    "": "1192",
+    "DETAIL_PROVID": "420528",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "长阳土家族自治县",
+    "CDATE": ""
+}, {
+    "": "1193",
+    "DETAIL_PROVID": "420529",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "五峰土家族自治县",
+    "CDATE": ""
+}, {
+    "": "1194",
+    "DETAIL_PROVID": "420581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "宜都市",
+    "CDATE": ""
+}, {
+    "": "1195",
+    "DETAIL_PROVID": "420582",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "当阳市",
+    "CDATE": ""
+}, {
+    "": "1196",
+    "DETAIL_PROVID": "420583",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420500",
+    "CITY_NAME": "宜昌市",
+    "COUNTY_NAME": "枝江市",
+    "CDATE": ""
+}, {
+    "": "1197",
+    "DETAIL_PROVID": "420600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420600",
+    "CITY_NAME": "襄阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1198",
+    "DETAIL_PROVID": "420602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420600",
+    "CITY_NAME": "襄阳市",
+    "COUNTY_NAME": "襄城区",
+    "CDATE": ""
+}, {
+    "": "1199",
+    "DETAIL_PROVID": "420606",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420600",
+    "CITY_NAME": "襄阳市",
+    "COUNTY_NAME": "樊城区",
+    "CDATE": ""
+}, {
+    "": "1200",
+    "DETAIL_PROVID": "420607",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420600",
+    "CITY_NAME": "襄阳市",
+    "COUNTY_NAME": "襄州区",
+    "CDATE": ""
+}, {
+    "": "1201",
+    "DETAIL_PROVID": "420624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420600",
+    "CITY_NAME": "襄阳市",
+    "COUNTY_NAME": "南漳县",
+    "CDATE": ""
+}, {
+    "": "1202",
+    "DETAIL_PROVID": "420625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420600",
+    "CITY_NAME": "襄阳市",
+    "COUNTY_NAME": "谷城县",
+    "CDATE": ""
+}, {
+    "": "1203",
+    "DETAIL_PROVID": "420626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420600",
+    "CITY_NAME": "襄阳市",
+    "COUNTY_NAME": "保康县",
+    "CDATE": ""
+}, {
+    "": "1204",
+    "DETAIL_PROVID": "420682",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420600",
+    "CITY_NAME": "襄阳市",
+    "COUNTY_NAME": "老河口市",
+    "CDATE": ""
+}, {
+    "": "1205",
+    "DETAIL_PROVID": "420683",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420600",
+    "CITY_NAME": "襄阳市",
+    "COUNTY_NAME": "枣阳市",
+    "CDATE": ""
+}, {
+    "": "1206",
+    "DETAIL_PROVID": "420684",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420600",
+    "CITY_NAME": "襄阳市",
+    "COUNTY_NAME": "宜城市",
+    "CDATE": ""
+}, {
+    "": "1207",
+    "DETAIL_PROVID": "420700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420700",
+    "CITY_NAME": "鄂州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1208",
+    "DETAIL_PROVID": "420702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420700",
+    "CITY_NAME": "鄂州市",
+    "COUNTY_NAME": "梁子湖区",
+    "CDATE": ""
+}, {
+    "": "1209",
+    "DETAIL_PROVID": "420703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420700",
+    "CITY_NAME": "鄂州市",
+    "COUNTY_NAME": "华容区",
+    "CDATE": ""
+}, {
+    "": "1210",
+    "DETAIL_PROVID": "420704",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420700",
+    "CITY_NAME": "鄂州市",
+    "COUNTY_NAME": "鄂城区",
+    "CDATE": ""
+}, {
+    "": "1211",
+    "DETAIL_PROVID": "420800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420800",
+    "CITY_NAME": "荆门市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1212",
+    "DETAIL_PROVID": "420802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420800",
+    "CITY_NAME": "荆门市",
+    "COUNTY_NAME": "东宝区",
+    "CDATE": ""
+}, {
+    "": "1213",
+    "DETAIL_PROVID": "420804",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420800",
+    "CITY_NAME": "荆门市",
+    "COUNTY_NAME": "掇刀区",
+    "CDATE": ""
+}, {
+    "": "1214",
+    "DETAIL_PROVID": "420821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420800",
+    "CITY_NAME": "荆门市",
+    "COUNTY_NAME": "京山县",
+    "CDATE": ""
+}, {
+    "": "1215",
+    "DETAIL_PROVID": "420822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420800",
+    "CITY_NAME": "荆门市",
+    "COUNTY_NAME": "沙洋县",
+    "CDATE": ""
+}, {
+    "": "1216",
+    "DETAIL_PROVID": "420881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420800",
+    "CITY_NAME": "荆门市",
+    "COUNTY_NAME": "钟祥市",
+    "CDATE": ""
+}, {
+    "": "1217",
+    "DETAIL_PROVID": "420900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420900",
+    "CITY_NAME": "孝感市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1218",
+    "DETAIL_PROVID": "420902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420900",
+    "CITY_NAME": "孝感市",
+    "COUNTY_NAME": "孝南区",
+    "CDATE": ""
+}, {
+    "": "1219",
+    "DETAIL_PROVID": "420921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420900",
+    "CITY_NAME": "孝感市",
+    "COUNTY_NAME": "孝昌县",
+    "CDATE": ""
+}, {
+    "": "1220",
+    "DETAIL_PROVID": "420922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420900",
+    "CITY_NAME": "孝感市",
+    "COUNTY_NAME": "大悟县",
+    "CDATE": ""
+}, {
+    "": "1221",
+    "DETAIL_PROVID": "420923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420900",
+    "CITY_NAME": "孝感市",
+    "COUNTY_NAME": "云梦县",
+    "CDATE": ""
+}, {
+    "": "1222",
+    "DETAIL_PROVID": "420981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420900",
+    "CITY_NAME": "孝感市",
+    "COUNTY_NAME": "应城市",
+    "CDATE": ""
+}, {
+    "": "1223",
+    "DETAIL_PROVID": "420982",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420900",
+    "CITY_NAME": "孝感市",
+    "COUNTY_NAME": "安陆市",
+    "CDATE": ""
+}, {
+    "": "1224",
+    "DETAIL_PROVID": "420984",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420900",
+    "CITY_NAME": "孝感市",
+    "COUNTY_NAME": "汉川市",
+    "CDATE": ""
+}, {
+    "": "1225",
+    "DETAIL_PROVID": "421000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421000",
+    "CITY_NAME": "荆州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1226",
+    "DETAIL_PROVID": "421002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421000",
+    "CITY_NAME": "荆州市",
+    "COUNTY_NAME": "沙市区",
+    "CDATE": ""
+}, {
+    "": "1227",
+    "DETAIL_PROVID": "421003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421000",
+    "CITY_NAME": "荆州市",
+    "COUNTY_NAME": "荆州区",
+    "CDATE": ""
+}, {
+    "": "1228",
+    "DETAIL_PROVID": "421022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421000",
+    "CITY_NAME": "荆州市",
+    "COUNTY_NAME": "公安县",
+    "CDATE": ""
+}, {
+    "": "1229",
+    "DETAIL_PROVID": "421023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421000",
+    "CITY_NAME": "荆州市",
+    "COUNTY_NAME": "监利县",
+    "CDATE": ""
+}, {
+    "": "1230",
+    "DETAIL_PROVID": "421024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421000",
+    "CITY_NAME": "荆州市",
+    "COUNTY_NAME": "江陵县",
+    "CDATE": ""
+}, {
+    "": "1231",
+    "DETAIL_PROVID": "421081",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421000",
+    "CITY_NAME": "荆州市",
+    "COUNTY_NAME": "石首市",
+    "CDATE": ""
+}, {
+    "": "1232",
+    "DETAIL_PROVID": "421083",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421000",
+    "CITY_NAME": "荆州市",
+    "COUNTY_NAME": "洪湖市",
+    "CDATE": ""
+}, {
+    "": "1233",
+    "DETAIL_PROVID": "421087",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421000",
+    "CITY_NAME": "荆州市",
+    "COUNTY_NAME": "松滋市",
+    "CDATE": ""
+}, {
+    "": "1234",
+    "DETAIL_PROVID": "421100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1235",
+    "DETAIL_PROVID": "421102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "黄州区",
+    "CDATE": ""
+}, {
+    "": "1236",
+    "DETAIL_PROVID": "421121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "团风县",
+    "CDATE": ""
+}, {
+    "": "1237",
+    "DETAIL_PROVID": "421122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "红安县",
+    "CDATE": ""
+}, {
+    "": "1238",
+    "DETAIL_PROVID": "421123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "罗田县",
+    "CDATE": ""
+}, {
+    "": "1239",
+    "DETAIL_PROVID": "421124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "英山县",
+    "CDATE": ""
+}, {
+    "": "1240",
+    "DETAIL_PROVID": "421125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "浠水县",
+    "CDATE": ""
+}, {
+    "": "1241",
+    "DETAIL_PROVID": "421126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "蕲春县",
+    "CDATE": ""
+}, {
+    "": "1242",
+    "DETAIL_PROVID": "421127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "黄梅县",
+    "CDATE": ""
+}, {
+    "": "1243",
+    "DETAIL_PROVID": "421181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "麻城市",
+    "CDATE": ""
+}, {
+    "": "1244",
+    "DETAIL_PROVID": "421182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421100",
+    "CITY_NAME": "黄冈市",
+    "COUNTY_NAME": "武穴市",
+    "CDATE": ""
+}, {
+    "": "1245",
+    "DETAIL_PROVID": "421200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421200",
+    "CITY_NAME": "咸宁市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1246",
+    "DETAIL_PROVID": "421202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421200",
+    "CITY_NAME": "咸宁市",
+    "COUNTY_NAME": "咸安区",
+    "CDATE": ""
+}, {
+    "": "1247",
+    "DETAIL_PROVID": "421221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421200",
+    "CITY_NAME": "咸宁市",
+    "COUNTY_NAME": "嘉鱼县",
+    "CDATE": ""
+}, {
+    "": "1248",
+    "DETAIL_PROVID": "421222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421200",
+    "CITY_NAME": "咸宁市",
+    "COUNTY_NAME": "通城县",
+    "CDATE": ""
+}, {
+    "": "1249",
+    "DETAIL_PROVID": "421223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421200",
+    "CITY_NAME": "咸宁市",
+    "COUNTY_NAME": "崇阳县",
+    "CDATE": ""
+}, {
+    "": "1250",
+    "DETAIL_PROVID": "421224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421200",
+    "CITY_NAME": "咸宁市",
+    "COUNTY_NAME": "通山县",
+    "CDATE": ""
+}, {
+    "": "1251",
+    "DETAIL_PROVID": "421281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421200",
+    "CITY_NAME": "咸宁市",
+    "COUNTY_NAME": "赤壁市",
+    "CDATE": ""
+}, {
+    "": "1252",
+    "DETAIL_PROVID": "421300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421300",
+    "CITY_NAME": "随州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1253",
+    "DETAIL_PROVID": "421303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421300",
+    "CITY_NAME": "随州市",
+    "COUNTY_NAME": "曾都区",
+    "CDATE": ""
+}, {
+    "": "1254",
+    "DETAIL_PROVID": "421321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421300",
+    "CITY_NAME": "随州市",
+    "COUNTY_NAME": "随县",
+    "CDATE": ""
+}, {
+    "": "1255",
+    "DETAIL_PROVID": "421381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "421300",
+    "CITY_NAME": "随州市",
+    "COUNTY_NAME": "广水市",
+    "CDATE": ""
+}, {
+    "": "1256",
+    "DETAIL_PROVID": "422800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "422800",
+    "CITY_NAME": "恩施土家族苗族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1257",
+    "DETAIL_PROVID": "422801",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "422800",
+    "CITY_NAME": "恩施土家族苗族自治州",
+    "COUNTY_NAME": "恩施市",
+    "CDATE": ""
+}, {
+    "": "1258",
+    "DETAIL_PROVID": "422802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "422800",
+    "CITY_NAME": "恩施土家族苗族自治州",
+    "COUNTY_NAME": "利川市",
+    "CDATE": ""
+}, {
+    "": "1259",
+    "DETAIL_PROVID": "422822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "422800",
+    "CITY_NAME": "恩施土家族苗族自治州",
+    "COUNTY_NAME": "建始县",
+    "CDATE": ""
+}, {
+    "": "1260",
+    "DETAIL_PROVID": "422823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "422800",
+    "CITY_NAME": "恩施土家族苗族自治州",
+    "COUNTY_NAME": "巴东县",
+    "CDATE": ""
+}, {
+    "": "1261",
+    "DETAIL_PROVID": "422825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "422800",
+    "CITY_NAME": "恩施土家族苗族自治州",
+    "COUNTY_NAME": "宣恩县",
+    "CDATE": ""
+}, {
+    "": "1262",
+    "DETAIL_PROVID": "422826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "422800",
+    "CITY_NAME": "恩施土家族苗族自治州",
+    "COUNTY_NAME": "咸丰县",
+    "CDATE": ""
+}, {
+    "": "1263",
+    "DETAIL_PROVID": "422827",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "422800",
+    "CITY_NAME": "恩施土家族苗族自治州",
+    "COUNTY_NAME": "来凤县",
+    "CDATE": ""
+}, {
+    "": "1264",
+    "DETAIL_PROVID": "422828",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "422800",
+    "CITY_NAME": "恩施土家族苗族自治州",
+    "COUNTY_NAME": "鹤峰县",
+    "CDATE": ""
+}, {
+    "": "1265",
+    "DETAIL_PROVID": "429004",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "429004",
+    "CITY_NAME": "仙桃市",
+    "COUNTY_NAME": "仙桃市",
+    "CDATE": ""
+}, {
+    "": "1266",
+    "DETAIL_PROVID": "429005",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "429005",
+    "CITY_NAME": "潜江市",
+    "COUNTY_NAME": "潜江市",
+    "CDATE": ""
+}, {
+    "": "1267",
+    "DETAIL_PROVID": "429006",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "429006",
+    "CITY_NAME": "天门市",
+    "COUNTY_NAME": "天门市",
+    "CDATE": ""
+}, {
+    "": "1268",
+    "DETAIL_PROVID": "429021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "429021",
+    "CITY_NAME": "神农架林区",
+    "COUNTY_NAME": "神农架林区",
+    "CDATE": ""
+}, {
+    "": "1269",
+    "DETAIL_PROVID": "430100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430100",
+    "CITY_NAME": "长沙市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1270",
+    "DETAIL_PROVID": "430102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430100",
+    "CITY_NAME": "长沙市",
+    "COUNTY_NAME": "芙蓉区",
+    "CDATE": ""
+}, {
+    "": "1271",
+    "DETAIL_PROVID": "430103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430100",
+    "CITY_NAME": "长沙市",
+    "COUNTY_NAME": "天心区",
+    "CDATE": ""
+}, {
+    "": "1272",
+    "DETAIL_PROVID": "430104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430100",
+    "CITY_NAME": "长沙市",
+    "COUNTY_NAME": "岳麓区",
+    "CDATE": ""
+}, {
+    "": "1273",
+    "DETAIL_PROVID": "430105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430100",
+    "CITY_NAME": "长沙市",
+    "COUNTY_NAME": "开福区",
+    "CDATE": ""
+}, {
+    "": "1274",
+    "DETAIL_PROVID": "430111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430100",
+    "CITY_NAME": "长沙市",
+    "COUNTY_NAME": "雨花区",
+    "CDATE": ""
+}, {
+    "": "1275",
+    "DETAIL_PROVID": "430112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430100",
+    "CITY_NAME": "长沙市",
+    "COUNTY_NAME": "望城区",
+    "CDATE": ""
+}, {
+    "": "1276",
+    "DETAIL_PROVID": "430121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430100",
+    "CITY_NAME": "长沙市",
+    "COUNTY_NAME": "长沙县",
+    "CDATE": ""
+}, {
+    "": "1277",
+    "DETAIL_PROVID": "430181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430100",
+    "CITY_NAME": "长沙市",
+    "COUNTY_NAME": "浏阳市",
+    "CDATE": ""
+}, {
+    "": "1278",
+    "DETAIL_PROVID": "430182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430100",
+    "CITY_NAME": "长沙市",
+    "COUNTY_NAME": "宁乡市",
+    "CDATE": ""
+}, {
+    "": "1279",
+    "DETAIL_PROVID": "430200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430200",
+    "CITY_NAME": "株洲市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1280",
+    "DETAIL_PROVID": "430202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430200",
+    "CITY_NAME": "株洲市",
+    "COUNTY_NAME": "荷塘区",
+    "CDATE": ""
+}, {
+    "": "1281",
+    "DETAIL_PROVID": "430203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430200",
+    "CITY_NAME": "株洲市",
+    "COUNTY_NAME": "芦淞区",
+    "CDATE": ""
+}, {
+    "": "1282",
+    "DETAIL_PROVID": "430204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430200",
+    "CITY_NAME": "株洲市",
+    "COUNTY_NAME": "石峰区",
+    "CDATE": ""
+}, {
+    "": "1283",
+    "DETAIL_PROVID": "430211",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430200",
+    "CITY_NAME": "株洲市",
+    "COUNTY_NAME": "天元区",
+    "CDATE": ""
+}, {
+    "": "1284",
+    "DETAIL_PROVID": "430221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430200",
+    "CITY_NAME": "株洲市",
+    "COUNTY_NAME": "株洲县",
+    "CDATE": ""
+}, {
+    "": "1285",
+    "DETAIL_PROVID": "430223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430200",
+    "CITY_NAME": "株洲市",
+    "COUNTY_NAME": "攸县",
+    "CDATE": ""
+}, {
+    "": "1286",
+    "DETAIL_PROVID": "430224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430200",
+    "CITY_NAME": "株洲市",
+    "COUNTY_NAME": "茶陵县",
+    "CDATE": ""
+}, {
+    "": "1287",
+    "DETAIL_PROVID": "430225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430200",
+    "CITY_NAME": "株洲市",
+    "COUNTY_NAME": "炎陵县",
+    "CDATE": ""
+}, {
+    "": "1288",
+    "DETAIL_PROVID": "430281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430200",
+    "CITY_NAME": "株洲市",
+    "COUNTY_NAME": "醴陵市",
+    "CDATE": ""
+}, {
+    "": "1289",
+    "DETAIL_PROVID": "430300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430300",
+    "CITY_NAME": "湘潭市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1290",
+    "DETAIL_PROVID": "430302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430300",
+    "CITY_NAME": "湘潭市",
+    "COUNTY_NAME": "雨湖区",
+    "CDATE": ""
+}, {
+    "": "1291",
+    "DETAIL_PROVID": "430304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430300",
+    "CITY_NAME": "湘潭市",
+    "COUNTY_NAME": "岳塘区",
+    "CDATE": ""
+}, {
+    "": "1292",
+    "DETAIL_PROVID": "430321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430300",
+    "CITY_NAME": "湘潭市",
+    "COUNTY_NAME": "湘潭县",
+    "CDATE": ""
+}, {
+    "": "1293",
+    "DETAIL_PROVID": "430381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430300",
+    "CITY_NAME": "湘潭市",
+    "COUNTY_NAME": "湘乡市",
+    "CDATE": ""
+}, {
+    "": "1294",
+    "DETAIL_PROVID": "430382",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430300",
+    "CITY_NAME": "湘潭市",
+    "COUNTY_NAME": "韶山市",
+    "CDATE": ""
+}, {
+    "": "1295",
+    "DETAIL_PROVID": "430400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1296",
+    "DETAIL_PROVID": "430405",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "珠晖区",
+    "CDATE": ""
+}, {
+    "": "1297",
+    "DETAIL_PROVID": "430406",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "雁峰区",
+    "CDATE": ""
+}, {
+    "": "1298",
+    "DETAIL_PROVID": "430407",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "石鼓区",
+    "CDATE": ""
+}, {
+    "": "1299",
+    "DETAIL_PROVID": "430408",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "蒸湘区",
+    "CDATE": ""
+}, {
+    "": "1300",
+    "DETAIL_PROVID": "430412",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "南岳区",
+    "CDATE": ""
+}, {
+    "": "1301",
+    "DETAIL_PROVID": "430421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "衡阳县",
+    "CDATE": ""
+}, {
+    "": "1302",
+    "DETAIL_PROVID": "430422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "衡南县",
+    "CDATE": ""
+}, {
+    "": "1303",
+    "DETAIL_PROVID": "430423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "衡山县",
+    "CDATE": ""
+}, {
+    "": "1304",
+    "DETAIL_PROVID": "430424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "衡东县",
+    "CDATE": ""
+}, {
+    "": "1305",
+    "DETAIL_PROVID": "430426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "祁东县",
+    "CDATE": ""
+}, {
+    "": "1306",
+    "DETAIL_PROVID": "430481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "耒阳市",
+    "CDATE": ""
+}, {
+    "": "1307",
+    "DETAIL_PROVID": "430482",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430400",
+    "CITY_NAME": "衡阳市",
+    "COUNTY_NAME": "常宁市",
+    "CDATE": ""
+}, {
+    "": "1308",
+    "DETAIL_PROVID": "430500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1309",
+    "DETAIL_PROVID": "430502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "双清区",
+    "CDATE": ""
+}, {
+    "": "1310",
+    "DETAIL_PROVID": "430503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "大祥区",
+    "CDATE": ""
+}, {
+    "": "1311",
+    "DETAIL_PROVID": "430511",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "北塔区",
+    "CDATE": ""
+}, {
+    "": "1312",
+    "DETAIL_PROVID": "430521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "邵东县",
+    "CDATE": ""
+}, {
+    "": "1313",
+    "DETAIL_PROVID": "430522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "新邵县",
+    "CDATE": ""
+}, {
+    "": "1314",
+    "DETAIL_PROVID": "430523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "邵阳县",
+    "CDATE": ""
+}, {
+    "": "1315",
+    "DETAIL_PROVID": "430524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "隆回县",
+    "CDATE": ""
+}, {
+    "": "1316",
+    "DETAIL_PROVID": "430525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "洞口县",
+    "CDATE": ""
+}, {
+    "": "1317",
+    "DETAIL_PROVID": "430527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "绥宁县",
+    "CDATE": ""
+}, {
+    "": "1318",
+    "DETAIL_PROVID": "430528",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "新宁县",
+    "CDATE": ""
+}, {
+    "": "1319",
+    "DETAIL_PROVID": "430529",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "城步苗族自治县",
+    "CDATE": ""
+}, {
+    "": "1320",
+    "DETAIL_PROVID": "430581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430500",
+    "CITY_NAME": "邵阳市",
+    "COUNTY_NAME": "武冈市",
+    "CDATE": ""
+}, {
+    "": "1321",
+    "DETAIL_PROVID": "430600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430600",
+    "CITY_NAME": "岳阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1322",
+    "DETAIL_PROVID": "430602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430600",
+    "CITY_NAME": "岳阳市",
+    "COUNTY_NAME": "岳阳楼区",
+    "CDATE": ""
+}, {
+    "": "1323",
+    "DETAIL_PROVID": "430603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430600",
+    "CITY_NAME": "岳阳市",
+    "COUNTY_NAME": "云溪区",
+    "CDATE": ""
+}, {
+    "": "1324",
+    "DETAIL_PROVID": "430611",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430600",
+    "CITY_NAME": "岳阳市",
+    "COUNTY_NAME": "君山区",
+    "CDATE": ""
+}, {
+    "": "1325",
+    "DETAIL_PROVID": "430621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430600",
+    "CITY_NAME": "岳阳市",
+    "COUNTY_NAME": "岳阳县",
+    "CDATE": ""
+}, {
+    "": "1326",
+    "DETAIL_PROVID": "430623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430600",
+    "CITY_NAME": "岳阳市",
+    "COUNTY_NAME": "华容县",
+    "CDATE": ""
+}, {
+    "": "1327",
+    "DETAIL_PROVID": "441323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441300",
+    "CITY_NAME": "惠州市",
+    "COUNTY_NAME": "惠东县",
+    "CDATE": ""
+}, {
+    "": "1328",
+    "DETAIL_PROVID": "441324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441300",
+    "CITY_NAME": "惠州市",
+    "COUNTY_NAME": "龙门县",
+    "CDATE": ""
+}, {
+    "": "1329",
+    "DETAIL_PROVID": "441400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441400",
+    "CITY_NAME": "梅州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1330",
+    "DETAIL_PROVID": "441402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441400",
+    "CITY_NAME": "梅州市",
+    "COUNTY_NAME": "梅江区",
+    "CDATE": ""
+}, {
+    "": "1331",
+    "DETAIL_PROVID": "441403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441400",
+    "CITY_NAME": "梅州市",
+    "COUNTY_NAME": "梅县区",
+    "CDATE": ""
+}, {
+    "": "1332",
+    "DETAIL_PROVID": "441422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441400",
+    "CITY_NAME": "梅州市",
+    "COUNTY_NAME": "大埔县",
+    "CDATE": ""
+}, {
+    "": "1333",
+    "DETAIL_PROVID": "441423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441400",
+    "CITY_NAME": "梅州市",
+    "COUNTY_NAME": "丰顺县",
+    "CDATE": ""
+}, {
+    "": "1334",
+    "DETAIL_PROVID": "441424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441400",
+    "CITY_NAME": "梅州市",
+    "COUNTY_NAME": "五华县",
+    "CDATE": ""
+}, {
+    "": "1335",
+    "DETAIL_PROVID": "441426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441400",
+    "CITY_NAME": "梅州市",
+    "COUNTY_NAME": "平远县",
+    "CDATE": ""
+}, {
+    "": "1336",
+    "DETAIL_PROVID": "441427",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441400",
+    "CITY_NAME": "梅州市",
+    "COUNTY_NAME": "蕉岭县",
+    "CDATE": ""
+}, {
+    "": "1337",
+    "DETAIL_PROVID": "441481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441400",
+    "CITY_NAME": "梅州市",
+    "COUNTY_NAME": "兴宁市",
+    "CDATE": ""
+}, {
+    "": "1338",
+    "DETAIL_PROVID": "441500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441500",
+    "CITY_NAME": "汕尾市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1339",
+    "DETAIL_PROVID": "441502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441500",
+    "CITY_NAME": "汕尾市",
+    "COUNTY_NAME": "城区",
+    "CDATE": ""
+}, {
+    "": "1340",
+    "DETAIL_PROVID": "441521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441500",
+    "CITY_NAME": "汕尾市",
+    "COUNTY_NAME": "海丰县",
+    "CDATE": ""
+}, {
+    "": "1341",
+    "DETAIL_PROVID": "441523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441500",
+    "CITY_NAME": "汕尾市",
+    "COUNTY_NAME": "陆河县",
+    "CDATE": ""
+}, {
+    "": "1342",
+    "DETAIL_PROVID": "441581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441500",
+    "CITY_NAME": "汕尾市",
+    "COUNTY_NAME": "陆丰市",
+    "CDATE": ""
+}, {
+    "": "1343",
+    "DETAIL_PROVID": "441600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441600",
+    "CITY_NAME": "河源市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1344",
+    "DETAIL_PROVID": "441602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441600",
+    "CITY_NAME": "河源市",
+    "COUNTY_NAME": "源城区",
+    "CDATE": ""
+}, {
+    "": "1345",
+    "DETAIL_PROVID": "441621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441600",
+    "CITY_NAME": "河源市",
+    "COUNTY_NAME": "紫金县",
+    "CDATE": ""
+}, {
+    "": "1346",
+    "DETAIL_PROVID": "441622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441600",
+    "CITY_NAME": "河源市",
+    "COUNTY_NAME": "龙川县",
+    "CDATE": ""
+}, {
+    "": "1347",
+    "DETAIL_PROVID": "441623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441600",
+    "CITY_NAME": "河源市",
+    "COUNTY_NAME": "连平县",
+    "CDATE": ""
+}, {
+    "": "1348",
+    "DETAIL_PROVID": "441624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441600",
+    "CITY_NAME": "河源市",
+    "COUNTY_NAME": "和平县",
+    "CDATE": ""
+}, {
+    "": "1349",
+    "DETAIL_PROVID": "441625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441600",
+    "CITY_NAME": "河源市",
+    "COUNTY_NAME": "东源县",
+    "CDATE": ""
+}, {
+    "": "1350",
+    "DETAIL_PROVID": "441700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441700",
+    "CITY_NAME": "阳江市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1351",
+    "DETAIL_PROVID": "441702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441700",
+    "CITY_NAME": "阳江市",
+    "COUNTY_NAME": "江城区",
+    "CDATE": ""
+}, {
+    "": "1352",
+    "DETAIL_PROVID": "441704",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441700",
+    "CITY_NAME": "阳江市",
+    "COUNTY_NAME": "阳东区",
+    "CDATE": ""
+}, {
+    "": "1353",
+    "DETAIL_PROVID": "441721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441700",
+    "CITY_NAME": "阳江市",
+    "COUNTY_NAME": "阳西县",
+    "CDATE": ""
+}, {
+    "": "1354",
+    "DETAIL_PROVID": "441781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441700",
+    "CITY_NAME": "阳江市",
+    "COUNTY_NAME": "阳春市",
+    "CDATE": ""
+}, {
+    "": "1355",
+    "DETAIL_PROVID": "441800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441800",
+    "CITY_NAME": "清远市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1356",
+    "DETAIL_PROVID": "441802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441800",
+    "CITY_NAME": "清远市",
+    "COUNTY_NAME": "清城区",
+    "CDATE": ""
+}, {
+    "": "1357",
+    "DETAIL_PROVID": "441803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441800",
+    "CITY_NAME": "清远市",
+    "COUNTY_NAME": "清新区",
+    "CDATE": ""
+}, {
+    "": "1358",
+    "DETAIL_PROVID": "441821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441800",
+    "CITY_NAME": "清远市",
+    "COUNTY_NAME": "佛冈县",
+    "CDATE": ""
+}, {
+    "": "1359",
+    "DETAIL_PROVID": "441823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441800",
+    "CITY_NAME": "清远市",
+    "COUNTY_NAME": "阳山县",
+    "CDATE": ""
+}, {
+    "": "1360",
+    "DETAIL_PROVID": "441825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441800",
+    "CITY_NAME": "清远市",
+    "COUNTY_NAME": "连山壮族瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "1361",
+    "DETAIL_PROVID": "441826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441800",
+    "CITY_NAME": "清远市",
+    "COUNTY_NAME": "连南瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "1362",
+    "DETAIL_PROVID": "441881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441800",
+    "CITY_NAME": "清远市",
+    "COUNTY_NAME": "英德市",
+    "CDATE": ""
+}, {
+    "": "1363",
+    "DETAIL_PROVID": "441882",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441800",
+    "CITY_NAME": "清远市",
+    "COUNTY_NAME": "连州市",
+    "CDATE": ""
+}, {
+    "": "1364",
+    "DETAIL_PROVID": "441901",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441900",
+    "CITY_NAME": "东莞市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1365",
+    "DETAIL_PROVID": "442000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "442000",
+    "CITY_NAME": "中山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1366",
+    "DETAIL_PROVID": "445100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445100",
+    "CITY_NAME": "潮州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1367",
+    "DETAIL_PROVID": "445102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445100",
+    "CITY_NAME": "潮州市",
+    "COUNTY_NAME": "湘桥区",
+    "CDATE": ""
+}, {
+    "": "1368",
+    "DETAIL_PROVID": "445103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445100",
+    "CITY_NAME": "潮州市",
+    "COUNTY_NAME": "潮安区",
+    "CDATE": ""
+}, {
+    "": "1369",
+    "DETAIL_PROVID": "445122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445100",
+    "CITY_NAME": "潮州市",
+    "COUNTY_NAME": "饶平县",
+    "CDATE": ""
+}, {
+    "": "1370",
+    "DETAIL_PROVID": "445200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445200",
+    "CITY_NAME": "揭阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1371",
+    "DETAIL_PROVID": "445202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445200",
+    "CITY_NAME": "揭阳市",
+    "COUNTY_NAME": "榕城区",
+    "CDATE": ""
+}, {
+    "": "1372",
+    "DETAIL_PROVID": "445203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445200",
+    "CITY_NAME": "揭阳市",
+    "COUNTY_NAME": "揭东区",
+    "CDATE": ""
+}, {
+    "": "1373",
+    "DETAIL_PROVID": "445222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445200",
+    "CITY_NAME": "揭阳市",
+    "COUNTY_NAME": "揭西县",
+    "CDATE": ""
+}, {
+    "": "1374",
+    "DETAIL_PROVID": "445224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445200",
+    "CITY_NAME": "揭阳市",
+    "COUNTY_NAME": "惠来县",
+    "CDATE": ""
+}, {
+    "": "1375",
+    "DETAIL_PROVID": "445281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445200",
+    "CITY_NAME": "揭阳市",
+    "COUNTY_NAME": "普宁市",
+    "CDATE": ""
+}, {
+    "": "1376",
+    "DETAIL_PROVID": "445300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445300",
+    "CITY_NAME": "云浮市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1377",
+    "DETAIL_PROVID": "445302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445300",
+    "CITY_NAME": "云浮市",
+    "COUNTY_NAME": "云城区",
+    "CDATE": ""
+}, {
+    "": "1378",
+    "DETAIL_PROVID": "445303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445300",
+    "CITY_NAME": "云浮市",
+    "COUNTY_NAME": "云安区",
+    "CDATE": ""
+}, {
+    "": "1379",
+    "DETAIL_PROVID": "445321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445300",
+    "CITY_NAME": "云浮市",
+    "COUNTY_NAME": "新兴县",
+    "CDATE": ""
+}, {
+    "": "1380",
+    "DETAIL_PROVID": "445322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445300",
+    "CITY_NAME": "云浮市",
+    "COUNTY_NAME": "郁南县",
+    "CDATE": ""
+}, {
+    "": "1381",
+    "DETAIL_PROVID": "445381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "445300",
+    "CITY_NAME": "云浮市",
+    "COUNTY_NAME": "罗定市",
+    "CDATE": ""
+}, {
+    "": "1382",
+    "DETAIL_PROVID": "450100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1383",
+    "DETAIL_PROVID": "450102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "兴宁区",
+    "CDATE": ""
+}, {
+    "": "1384",
+    "DETAIL_PROVID": "450103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "青秀区",
+    "CDATE": ""
+}, {
+    "": "1385",
+    "DETAIL_PROVID": "450105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "江南区",
+    "CDATE": ""
+}, {
+    "": "1386",
+    "DETAIL_PROVID": "450107",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "西乡塘区",
+    "CDATE": ""
+}, {
+    "": "1387",
+    "DETAIL_PROVID": "450108",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "良庆区",
+    "CDATE": ""
+}, {
+    "": "1388",
+    "DETAIL_PROVID": "450109",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "邕宁区",
+    "CDATE": ""
+}, {
+    "": "1389",
+    "DETAIL_PROVID": "450110",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "武鸣区",
+    "CDATE": ""
+}, {
+    "": "1390",
+    "DETAIL_PROVID": "450123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "隆安县",
+    "CDATE": ""
+}, {
+    "": "1391",
+    "DETAIL_PROVID": "450124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "马山县",
+    "CDATE": ""
+}, {
+    "": "1392",
+    "DETAIL_PROVID": "450125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "上林县",
+    "CDATE": ""
+}, {
+    "": "1393",
+    "DETAIL_PROVID": "450126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "宾阳县",
+    "CDATE": ""
+}, {
+    "": "1394",
+    "DETAIL_PROVID": "450127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450100",
+    "CITY_NAME": "南宁市",
+    "COUNTY_NAME": "横县",
+    "CDATE": ""
+}, {
+    "": "1395",
+    "DETAIL_PROVID": "450200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1396",
+    "DETAIL_PROVID": "450202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "城中区",
+    "CDATE": ""
+}, {
+    "": "1397",
+    "DETAIL_PROVID": "450203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "鱼峰区",
+    "CDATE": ""
+}, {
+    "": "1398",
+    "DETAIL_PROVID": "450204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "柳南区",
+    "CDATE": ""
+}, {
+    "": "1399",
+    "DETAIL_PROVID": "450205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "柳北区",
+    "CDATE": ""
+}, {
+    "": "1400",
+    "DETAIL_PROVID": "450206",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "柳江区",
+    "CDATE": ""
+}, {
+    "": "1401",
+    "DETAIL_PROVID": "450222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "柳城县",
+    "CDATE": ""
+}, {
+    "": "1402",
+    "DETAIL_PROVID": "450223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "鹿寨县",
+    "CDATE": ""
+}, {
+    "": "1403",
+    "DETAIL_PROVID": "450224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "融安县",
+    "CDATE": ""
+}, {
+    "": "1404",
+    "DETAIL_PROVID": "450225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "融水苗族自治县",
+    "CDATE": ""
+}, {
+    "": "1405",
+    "DETAIL_PROVID": "450226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450200",
+    "CITY_NAME": "柳州市",
+    "COUNTY_NAME": "三江侗族自治县",
+    "CDATE": ""
+}, {
+    "": "1406",
+    "DETAIL_PROVID": "450300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1407",
+    "DETAIL_PROVID": "450302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "秀峰区",
+    "CDATE": ""
+}, {
+    "": "1408",
+    "DETAIL_PROVID": "450303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "叠彩区",
+    "CDATE": ""
+}, {
+    "": "1409",
+    "DETAIL_PROVID": "450304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "象山区",
+    "CDATE": ""
+}, {
+    "": "1410",
+    "DETAIL_PROVID": "450305",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "七星区",
+    "CDATE": ""
+}, {
+    "": "1411",
+    "DETAIL_PROVID": "450311",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "雁山区",
+    "CDATE": ""
+}, {
+    "": "1412",
+    "DETAIL_PROVID": "450312",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "临桂区",
+    "CDATE": ""
+}, {
+    "": "1413",
+    "DETAIL_PROVID": "450321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "阳朔县",
+    "CDATE": ""
+}, {
+    "": "1414",
+    "DETAIL_PROVID": "450323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "灵川县",
+    "CDATE": ""
+}, {
+    "": "1415",
+    "DETAIL_PROVID": "450324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "全州县",
+    "CDATE": ""
+}, {
+    "": "1416",
+    "DETAIL_PROVID": "450325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "兴安县",
+    "CDATE": ""
+}, {
+    "": "1417",
+    "DETAIL_PROVID": "450326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "永福县",
+    "CDATE": ""
+}, {
+    "": "1418",
+    "DETAIL_PROVID": "450327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "灌阳县",
+    "CDATE": ""
+}, {
+    "": "1419",
+    "DETAIL_PROVID": "450328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "龙胜各族自治县",
+    "CDATE": ""
+}, {
+    "": "1420",
+    "DETAIL_PROVID": "450329",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "资源县",
+    "CDATE": ""
+}, {
+    "": "1421",
+    "DETAIL_PROVID": "450330",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "平乐县",
+    "CDATE": ""
+}, {
+    "": "1422",
+    "DETAIL_PROVID": "450331",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "荔浦县",
+    "CDATE": ""
+}, {
+    "": "1423",
+    "DETAIL_PROVID": "450332",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450300",
+    "CITY_NAME": "桂林市",
+    "COUNTY_NAME": "恭城瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "1424",
+    "DETAIL_PROVID": "450400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450400",
+    "CITY_NAME": "梧州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1425",
+    "DETAIL_PROVID": "450403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450400",
+    "CITY_NAME": "梧州市",
+    "COUNTY_NAME": "万秀区",
+    "CDATE": ""
+}, {
+    "": "1426",
+    "DETAIL_PROVID": "450405",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450400",
+    "CITY_NAME": "梧州市",
+    "COUNTY_NAME": "长洲区",
+    "CDATE": ""
+}, {
+    "": "1427",
+    "DETAIL_PROVID": "450406",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450400",
+    "CITY_NAME": "梧州市",
+    "COUNTY_NAME": "龙圩区",
+    "CDATE": ""
+}, {
+    "": "1428",
+    "DETAIL_PROVID": "450421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450400",
+    "CITY_NAME": "梧州市",
+    "COUNTY_NAME": "苍梧县",
+    "CDATE": ""
+}, {
+    "": "1429",
+    "DETAIL_PROVID": "450422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450400",
+    "CITY_NAME": "梧州市",
+    "COUNTY_NAME": "藤县",
+    "CDATE": ""
+}, {
+    "": "1430",
+    "DETAIL_PROVID": "450423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450400",
+    "CITY_NAME": "梧州市",
+    "COUNTY_NAME": "蒙山县",
+    "CDATE": ""
+}, {
+    "": "1431",
+    "DETAIL_PROVID": "450481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450400",
+    "CITY_NAME": "梧州市",
+    "COUNTY_NAME": "岑溪市",
+    "CDATE": ""
+}, {
+    "": "1432",
+    "DETAIL_PROVID": "450500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450500",
+    "CITY_NAME": "北海市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1433",
+    "DETAIL_PROVID": "450502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450500",
+    "CITY_NAME": "北海市",
+    "COUNTY_NAME": "海城区",
+    "CDATE": ""
+}, {
+    "": "1434",
+    "DETAIL_PROVID": "450503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450500",
+    "CITY_NAME": "北海市",
+    "COUNTY_NAME": "银海区",
+    "CDATE": ""
+}, {
+    "": "1435",
+    "DETAIL_PROVID": "450512",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450500",
+    "CITY_NAME": "北海市",
+    "COUNTY_NAME": "铁山港区",
+    "CDATE": ""
+}, {
+    "": "1436",
+    "DETAIL_PROVID": "450521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450500",
+    "CITY_NAME": "北海市",
+    "COUNTY_NAME": "合浦县",
+    "CDATE": ""
+}, {
+    "": "1437",
+    "DETAIL_PROVID": "450600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450600",
+    "CITY_NAME": "防城港市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1438",
+    "DETAIL_PROVID": "450602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450600",
+    "CITY_NAME": "防城港市",
+    "COUNTY_NAME": "港口区",
+    "CDATE": ""
+}, {
+    "": "1439",
+    "DETAIL_PROVID": "450603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450600",
+    "CITY_NAME": "防城港市",
+    "COUNTY_NAME": "防城区",
+    "CDATE": ""
+}, {
+    "": "1440",
+    "DETAIL_PROVID": "450621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450600",
+    "CITY_NAME": "防城港市",
+    "COUNTY_NAME": "上思县",
+    "CDATE": ""
+}, {
+    "": "1441",
+    "DETAIL_PROVID": "450681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450600",
+    "CITY_NAME": "防城港市",
+    "COUNTY_NAME": "东兴市",
+    "CDATE": ""
+}, {
+    "": "1442",
+    "DETAIL_PROVID": "450700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450700",
+    "CITY_NAME": "钦州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1443",
+    "DETAIL_PROVID": "450702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450700",
+    "CITY_NAME": "钦州市",
+    "COUNTY_NAME": "钦南区",
+    "CDATE": ""
+}, {
+    "": "1444",
+    "DETAIL_PROVID": "450703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450700",
+    "CITY_NAME": "钦州市",
+    "COUNTY_NAME": "钦北区",
+    "CDATE": ""
+}, {
+    "": "1445",
+    "DETAIL_PROVID": "450721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450700",
+    "CITY_NAME": "钦州市",
+    "COUNTY_NAME": "灵山县",
+    "CDATE": ""
+}, {
+    "": "1446",
+    "DETAIL_PROVID": "450722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450700",
+    "CITY_NAME": "钦州市",
+    "COUNTY_NAME": "浦北县",
+    "CDATE": ""
+}, {
+    "": "1447",
+    "DETAIL_PROVID": "450800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450800",
+    "CITY_NAME": "贵港市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1448",
+    "DETAIL_PROVID": "450802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450800",
+    "CITY_NAME": "贵港市",
+    "COUNTY_NAME": "港北区",
+    "CDATE": ""
+}, {
+    "": "1449",
+    "DETAIL_PROVID": "450803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450800",
+    "CITY_NAME": "贵港市",
+    "COUNTY_NAME": "港南区",
+    "CDATE": ""
+}, {
+    "": "1450",
+    "DETAIL_PROVID": "450804",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450800",
+    "CITY_NAME": "贵港市",
+    "COUNTY_NAME": "覃塘区",
+    "CDATE": ""
+}, {
+    "": "1451",
+    "DETAIL_PROVID": "450821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450800",
+    "CITY_NAME": "贵港市",
+    "COUNTY_NAME": "平南县",
+    "CDATE": ""
+}, {
+    "": "1452",
+    "DETAIL_PROVID": "450881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450800",
+    "CITY_NAME": "贵港市",
+    "COUNTY_NAME": "桂平市",
+    "CDATE": ""
+}, {
+    "": "1453",
+    "DETAIL_PROVID": "450900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450900",
+    "CITY_NAME": "玉林市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1454",
+    "DETAIL_PROVID": "450902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450900",
+    "CITY_NAME": "玉林市",
+    "COUNTY_NAME": "玉州区",
+    "CDATE": ""
+}, {
+    "": "1455",
+    "DETAIL_PROVID": "450903",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450900",
+    "CITY_NAME": "玉林市",
+    "COUNTY_NAME": "福绵区",
+    "CDATE": ""
+}, {
+    "": "1456",
+    "DETAIL_PROVID": "450921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450900",
+    "CITY_NAME": "玉林市",
+    "COUNTY_NAME": "容县",
+    "CDATE": ""
+}, {
+    "": "1457",
+    "DETAIL_PROVID": "450922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450900",
+    "CITY_NAME": "玉林市",
+    "COUNTY_NAME": "陆川县",
+    "CDATE": ""
+}, {
+    "": "1458",
+    "DETAIL_PROVID": "450923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450900",
+    "CITY_NAME": "玉林市",
+    "COUNTY_NAME": "博白县",
+    "CDATE": ""
+}, {
+    "": "1459",
+    "DETAIL_PROVID": "450924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450900",
+    "CITY_NAME": "玉林市",
+    "COUNTY_NAME": "兴业县",
+    "CDATE": ""
+}, {
+    "": "1460",
+    "DETAIL_PROVID": "450981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "450900",
+    "CITY_NAME": "玉林市",
+    "COUNTY_NAME": "北流市",
+    "CDATE": ""
+}, {
+    "": "1461",
+    "DETAIL_PROVID": "451000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1462",
+    "DETAIL_PROVID": "451002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "右江区",
+    "CDATE": ""
+}, {
+    "": "1463",
+    "DETAIL_PROVID": "451021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "田阳县",
+    "CDATE": ""
+}, {
+    "": "1464",
+    "DETAIL_PROVID": "451022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "田东县",
+    "CDATE": ""
+}, {
+    "": "1465",
+    "DETAIL_PROVID": "451023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "平果县",
+    "CDATE": ""
+}, {
+    "": "1466",
+    "DETAIL_PROVID": "451024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "德保县",
+    "CDATE": ""
+}, {
+    "": "1467",
+    "DETAIL_PROVID": "451026",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "那坡县",
+    "CDATE": ""
+}, {
+    "": "1468",
+    "DETAIL_PROVID": "451027",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "凌云县",
+    "CDATE": ""
+}, {
+    "": "1469",
+    "DETAIL_PROVID": "451028",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "乐业县",
+    "CDATE": ""
+}, {
+    "": "1470",
+    "DETAIL_PROVID": "451029",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "田林县",
+    "CDATE": ""
+}, {
+    "": "1471",
+    "DETAIL_PROVID": "451030",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "西林县",
+    "CDATE": ""
+}, {
+    "": "1472",
+    "DETAIL_PROVID": "451031",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "隆林各族自治县",
+    "CDATE": ""
+}, {
+    "": "1473",
+    "DETAIL_PROVID": "451081",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451000",
+    "CITY_NAME": "百色市",
+    "COUNTY_NAME": "靖西市",
+    "CDATE": ""
+}, {
+    "": "1474",
+    "DETAIL_PROVID": "451100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451100",
+    "CITY_NAME": "贺州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1475",
+    "DETAIL_PROVID": "451102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451100",
+    "CITY_NAME": "贺州市",
+    "COUNTY_NAME": "八步区",
+    "CDATE": ""
+}, {
+    "": "1476",
+    "DETAIL_PROVID": "451103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451100",
+    "CITY_NAME": "贺州市",
+    "COUNTY_NAME": "平桂区",
+    "CDATE": ""
+}, {
+    "": "1477",
+    "DETAIL_PROVID": "451121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451100",
+    "CITY_NAME": "贺州市",
+    "COUNTY_NAME": "昭平县",
+    "CDATE": ""
+}, {
+    "": "1478",
+    "DETAIL_PROVID": "451122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451100",
+    "CITY_NAME": "贺州市",
+    "COUNTY_NAME": "钟山县",
+    "CDATE": ""
+}, {
+    "": "1479",
+    "DETAIL_PROVID": "451123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451100",
+    "CITY_NAME": "贺州市",
+    "COUNTY_NAME": "富川瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "1480",
+    "DETAIL_PROVID": "451200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1481",
+    "DETAIL_PROVID": "451202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "金城江区",
+    "CDATE": ""
+}, {
+    "": "1482",
+    "DETAIL_PROVID": "451203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "宜州区",
+    "CDATE": ""
+}, {
+    "": "1483",
+    "DETAIL_PROVID": "451221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "南丹县",
+    "CDATE": ""
+}, {
+    "": "1484",
+    "DETAIL_PROVID": "451222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "天峨县",
+    "CDATE": ""
+}, {
+    "": "1485",
+    "DETAIL_PROVID": "451223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "凤山县",
+    "CDATE": ""
+}, {
+    "": "1486",
+    "DETAIL_PROVID": "451224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "东兰县",
+    "CDATE": ""
+}, {
+    "": "1487",
+    "DETAIL_PROVID": "451225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "罗城仫佬族自治县",
+    "CDATE": ""
+}, {
+    "": "1488",
+    "DETAIL_PROVID": "451226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "环江毛南族自治县",
+    "CDATE": ""
+}, {
+    "": "1489",
+    "DETAIL_PROVID": "451227",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "巴马瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "1490",
+    "DETAIL_PROVID": "451228",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "都安瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "1491",
+    "DETAIL_PROVID": "451229",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451200",
+    "CITY_NAME": "河池市",
+    "COUNTY_NAME": "大化瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "1492",
+    "DETAIL_PROVID": "451300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451300",
+    "CITY_NAME": "来宾市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1493",
+    "DETAIL_PROVID": "451302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451300",
+    "CITY_NAME": "来宾市",
+    "COUNTY_NAME": "兴宾区",
+    "CDATE": ""
+}, {
+    "": "1494",
+    "DETAIL_PROVID": "451321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451300",
+    "CITY_NAME": "来宾市",
+    "COUNTY_NAME": "忻城县",
+    "CDATE": ""
+}, {
+    "": "1495",
+    "DETAIL_PROVID": "430624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430600",
+    "CITY_NAME": "岳阳市",
+    "COUNTY_NAME": "湘阴县",
+    "CDATE": ""
+}, {
+    "": "1496",
+    "DETAIL_PROVID": "430626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430600",
+    "CITY_NAME": "岳阳市",
+    "COUNTY_NAME": "平江县",
+    "CDATE": ""
+}, {
+    "": "1497",
+    "DETAIL_PROVID": "430681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430600",
+    "CITY_NAME": "岳阳市",
+    "COUNTY_NAME": "汨罗市",
+    "CDATE": ""
+}, {
+    "": "1498",
+    "DETAIL_PROVID": "430682",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430600",
+    "CITY_NAME": "岳阳市",
+    "COUNTY_NAME": "临湘市",
+    "CDATE": ""
+}, {
+    "": "1499",
+    "DETAIL_PROVID": "430700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430700",
+    "CITY_NAME": "常德市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1500",
+    "DETAIL_PROVID": "430702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430700",
+    "CITY_NAME": "常德市",
+    "COUNTY_NAME": "武陵区",
+    "CDATE": ""
+}, {
+    "": "1501",
+    "DETAIL_PROVID": "430703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430700",
+    "CITY_NAME": "常德市",
+    "COUNTY_NAME": "鼎城区",
+    "CDATE": ""
+}, {
+    "": "1502",
+    "DETAIL_PROVID": "430721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430700",
+    "CITY_NAME": "常德市",
+    "COUNTY_NAME": "安乡县",
+    "CDATE": ""
+}, {
+    "": "1503",
+    "DETAIL_PROVID": "430722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430700",
+    "CITY_NAME": "常德市",
+    "COUNTY_NAME": "汉寿县",
+    "CDATE": ""
+}, {
+    "": "1504",
+    "DETAIL_PROVID": "430723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430700",
+    "CITY_NAME": "常德市",
+    "COUNTY_NAME": "澧县",
+    "CDATE": ""
+}, {
+    "": "1505",
+    "DETAIL_PROVID": "430724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430700",
+    "CITY_NAME": "常德市",
+    "COUNTY_NAME": "临澧县",
+    "CDATE": ""
+}, {
+    "": "1506",
+    "DETAIL_PROVID": "430725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430700",
+    "CITY_NAME": "常德市",
+    "COUNTY_NAME": "桃源县",
+    "CDATE": ""
+}, {
+    "": "1507",
+    "DETAIL_PROVID": "430726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430700",
+    "CITY_NAME": "常德市",
+    "COUNTY_NAME": "石门县",
+    "CDATE": ""
+}, {
+    "": "1508",
+    "DETAIL_PROVID": "430781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430700",
+    "CITY_NAME": "常德市",
+    "COUNTY_NAME": "津市市",
+    "CDATE": ""
+}, {
+    "": "1509",
+    "DETAIL_PROVID": "430800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430800",
+    "CITY_NAME": "张家界市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1510",
+    "DETAIL_PROVID": "430802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430800",
+    "CITY_NAME": "张家界市",
+    "COUNTY_NAME": "永定区",
+    "CDATE": ""
+}, {
+    "": "1511",
+    "DETAIL_PROVID": "430811",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430800",
+    "CITY_NAME": "张家界市",
+    "COUNTY_NAME": "武陵源区",
+    "CDATE": ""
+}, {
+    "": "1512",
+    "DETAIL_PROVID": "430821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430800",
+    "CITY_NAME": "张家界市",
+    "COUNTY_NAME": "慈利县",
+    "CDATE": ""
+}, {
+    "": "1513",
+    "DETAIL_PROVID": "430822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430800",
+    "CITY_NAME": "张家界市",
+    "COUNTY_NAME": "桑植县",
+    "CDATE": ""
+}, {
+    "": "1514",
+    "DETAIL_PROVID": "430900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430900",
+    "CITY_NAME": "益阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1515",
+    "DETAIL_PROVID": "430902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430900",
+    "CITY_NAME": "益阳市",
+    "COUNTY_NAME": "资阳区",
+    "CDATE": ""
+}, {
+    "": "1516",
+    "DETAIL_PROVID": "430903",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430900",
+    "CITY_NAME": "益阳市",
+    "COUNTY_NAME": "赫山区",
+    "CDATE": ""
+}, {
+    "": "1517",
+    "DETAIL_PROVID": "430921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430900",
+    "CITY_NAME": "益阳市",
+    "COUNTY_NAME": "南县",
+    "CDATE": ""
+}, {
+    "": "1518",
+    "DETAIL_PROVID": "430922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430900",
+    "CITY_NAME": "益阳市",
+    "COUNTY_NAME": "桃江县",
+    "CDATE": ""
+}, {
+    "": "1519",
+    "DETAIL_PROVID": "430923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430900",
+    "CITY_NAME": "益阳市",
+    "COUNTY_NAME": "安化县",
+    "CDATE": ""
+}, {
+    "": "1520",
+    "DETAIL_PROVID": "430981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "430900",
+    "CITY_NAME": "益阳市",
+    "COUNTY_NAME": "沅江市",
+    "CDATE": ""
+}, {
+    "": "1521",
+    "DETAIL_PROVID": "431000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1522",
+    "DETAIL_PROVID": "431002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "北湖区",
+    "CDATE": ""
+}, {
+    "": "1523",
+    "DETAIL_PROVID": "431003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "苏仙区",
+    "CDATE": ""
+}, {
+    "": "1524",
+    "DETAIL_PROVID": "431021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "桂阳县",
+    "CDATE": ""
+}, {
+    "": "1525",
+    "DETAIL_PROVID": "431022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "宜章县",
+    "CDATE": ""
+}, {
+    "": "1526",
+    "DETAIL_PROVID": "431023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "永兴县",
+    "CDATE": ""
+}, {
+    "": "1527",
+    "DETAIL_PROVID": "431024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "嘉禾县",
+    "CDATE": ""
+}, {
+    "": "1528",
+    "DETAIL_PROVID": "431025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "临武县",
+    "CDATE": ""
+}, {
+    "": "1529",
+    "DETAIL_PROVID": "431026",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "汝城县",
+    "CDATE": ""
+}, {
+    "": "1530",
+    "DETAIL_PROVID": "431027",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "桂东县",
+    "CDATE": ""
+}, {
+    "": "1531",
+    "DETAIL_PROVID": "431028",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "安仁县",
+    "CDATE": ""
+}, {
+    "": "1532",
+    "DETAIL_PROVID": "431081",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431000",
+    "CITY_NAME": "郴州市",
+    "COUNTY_NAME": "资兴市",
+    "CDATE": ""
+}, {
+    "": "1533",
+    "DETAIL_PROVID": "431100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1534",
+    "DETAIL_PROVID": "431102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "零陵区",
+    "CDATE": ""
+}, {
+    "": "1535",
+    "DETAIL_PROVID": "431103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "冷水滩区",
+    "CDATE": ""
+}, {
+    "": "1536",
+    "DETAIL_PROVID": "431121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "祁阳县",
+    "CDATE": ""
+}, {
+    "": "1537",
+    "DETAIL_PROVID": "431122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "东安县",
+    "CDATE": ""
+}, {
+    "": "1538",
+    "DETAIL_PROVID": "431123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "双牌县",
+    "CDATE": ""
+}, {
+    "": "1539",
+    "DETAIL_PROVID": "431124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "道县",
+    "CDATE": ""
+}, {
+    "": "1540",
+    "DETAIL_PROVID": "431125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "江永县",
+    "CDATE": ""
+}, {
+    "": "1541",
+    "DETAIL_PROVID": "431126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "宁远县",
+    "CDATE": ""
+}, {
+    "": "1542",
+    "DETAIL_PROVID": "431127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "蓝山县",
+    "CDATE": ""
+}, {
+    "": "1543",
+    "DETAIL_PROVID": "431128",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "新田县",
+    "CDATE": ""
+}, {
+    "": "1544",
+    "DETAIL_PROVID": "431129",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431100",
+    "CITY_NAME": "永州市",
+    "COUNTY_NAME": "江华瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "1545",
+    "DETAIL_PROVID": "431200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1546",
+    "DETAIL_PROVID": "431202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "鹤城区",
+    "CDATE": ""
+}, {
+    "": "1547",
+    "DETAIL_PROVID": "431221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "中方县",
+    "CDATE": ""
+}, {
+    "": "1548",
+    "DETAIL_PROVID": "431222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "沅陵县",
+    "CDATE": ""
+}, {
+    "": "1549",
+    "DETAIL_PROVID": "431223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "辰溪县",
+    "CDATE": ""
+}, {
+    "": "1550",
+    "DETAIL_PROVID": "431224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "溆浦县",
+    "CDATE": ""
+}, {
+    "": "1551",
+    "DETAIL_PROVID": "431225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "会同县",
+    "CDATE": ""
+}, {
+    "": "1552",
+    "DETAIL_PROVID": "431226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "麻阳苗族自治县",
+    "CDATE": ""
+}, {
+    "": "1553",
+    "DETAIL_PROVID": "431227",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "新晃侗族自治县",
+    "CDATE": ""
+}, {
+    "": "1554",
+    "DETAIL_PROVID": "431228",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "芷江侗族自治县",
+    "CDATE": ""
+}, {
+    "": "1555",
+    "DETAIL_PROVID": "431229",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "靖州苗族侗族自治县",
+    "CDATE": ""
+}, {
+    "": "1556",
+    "DETAIL_PROVID": "431230",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "通道侗族自治县",
+    "CDATE": ""
+}, {
+    "": "1557",
+    "DETAIL_PROVID": "431281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431200",
+    "CITY_NAME": "怀化市",
+    "COUNTY_NAME": "洪江市",
+    "CDATE": ""
+}, {
+    "": "1558",
+    "DETAIL_PROVID": "431300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431300",
+    "CITY_NAME": "娄底市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1559",
+    "DETAIL_PROVID": "431302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431300",
+    "CITY_NAME": "娄底市",
+    "COUNTY_NAME": "娄星区",
+    "CDATE": ""
+}, {
+    "": "1560",
+    "DETAIL_PROVID": "431321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431300",
+    "CITY_NAME": "娄底市",
+    "COUNTY_NAME": "双峰县",
+    "CDATE": ""
+}, {
+    "": "1561",
+    "DETAIL_PROVID": "431322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431300",
+    "CITY_NAME": "娄底市",
+    "COUNTY_NAME": "新化县",
+    "CDATE": ""
+}, {
+    "": "1562",
+    "DETAIL_PROVID": "431381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431300",
+    "CITY_NAME": "娄底市",
+    "COUNTY_NAME": "冷水江市",
+    "CDATE": ""
+}, {
+    "": "1563",
+    "DETAIL_PROVID": "431382",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "431300",
+    "CITY_NAME": "娄底市",
+    "COUNTY_NAME": "涟源市",
+    "CDATE": ""
+}, {
+    "": "1564",
+    "DETAIL_PROVID": "433100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "433100",
+    "CITY_NAME": "湘西土家族苗族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1565",
+    "DETAIL_PROVID": "433101",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "433100",
+    "CITY_NAME": "湘西土家族苗族自治州",
+    "COUNTY_NAME": "吉首市",
+    "CDATE": ""
+}, {
+    "": "1566",
+    "DETAIL_PROVID": "433122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "433100",
+    "CITY_NAME": "湘西土家族苗族自治州",
+    "COUNTY_NAME": "泸溪县",
+    "CDATE": ""
+}, {
+    "": "1567",
+    "DETAIL_PROVID": "433123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "433100",
+    "CITY_NAME": "湘西土家族苗族自治州",
+    "COUNTY_NAME": "凤凰县",
+    "CDATE": ""
+}, {
+    "": "1568",
+    "DETAIL_PROVID": "433124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "433100",
+    "CITY_NAME": "湘西土家族苗族自治州",
+    "COUNTY_NAME": "花垣县",
+    "CDATE": ""
+}, {
+    "": "1569",
+    "DETAIL_PROVID": "433125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "433100",
+    "CITY_NAME": "湘西土家族苗族自治州",
+    "COUNTY_NAME": "保靖县",
+    "CDATE": ""
+}, {
+    "": "1570",
+    "DETAIL_PROVID": "433126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "433100",
+    "CITY_NAME": "湘西土家族苗族自治州",
+    "COUNTY_NAME": "古丈县",
+    "CDATE": ""
+}, {
+    "": "1571",
+    "DETAIL_PROVID": "433127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "433100",
+    "CITY_NAME": "湘西土家族苗族自治州",
+    "COUNTY_NAME": "永顺县",
+    "CDATE": ""
+}, {
+    "": "1572",
+    "DETAIL_PROVID": "433130",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "43",
+    "PROV_NAME": "湖南",
+    "CITY_CODE": "433100",
+    "CITY_NAME": "湘西土家族苗族自治州",
+    "COUNTY_NAME": "龙山县",
+    "CDATE": ""
+}, {
+    "": "1573",
+    "DETAIL_PROVID": "440100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1574",
+    "DETAIL_PROVID": "440103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "荔湾区",
+    "CDATE": ""
+}, {
+    "": "1575",
+    "DETAIL_PROVID": "440104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "越秀区",
+    "CDATE": ""
+}, {
+    "": "1576",
+    "DETAIL_PROVID": "440105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "海珠区",
+    "CDATE": ""
+}, {
+    "": "1577",
+    "DETAIL_PROVID": "440106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "天河区",
+    "CDATE": ""
+}, {
+    "": "1578",
+    "DETAIL_PROVID": "440111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "白云区",
+    "CDATE": ""
+}, {
+    "": "1579",
+    "DETAIL_PROVID": "440112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "黄埔区",
+    "CDATE": ""
+}, {
+    "": "1580",
+    "DETAIL_PROVID": "440113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "番禺区",
+    "CDATE": ""
+}, {
+    "": "1581",
+    "DETAIL_PROVID": "440114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "花都区",
+    "CDATE": ""
+}, {
+    "": "1582",
+    "DETAIL_PROVID": "440115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "南沙区",
+    "CDATE": ""
+}, {
+    "": "1583",
+    "DETAIL_PROVID": "440117",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "从化区",
+    "CDATE": ""
+}, {
+    "": "1584",
+    "DETAIL_PROVID": "440118",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440100",
+    "CITY_NAME": "广州市",
+    "COUNTY_NAME": "增城区",
+    "CDATE": ""
+}, {
+    "": "1585",
+    "DETAIL_PROVID": "440200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1586",
+    "DETAIL_PROVID": "440203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "武江区",
+    "CDATE": ""
+}, {
+    "": "1587",
+    "DETAIL_PROVID": "440204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "浈江区",
+    "CDATE": ""
+}, {
+    "": "1588",
+    "DETAIL_PROVID": "440205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "曲江区",
+    "CDATE": ""
+}, {
+    "": "1589",
+    "DETAIL_PROVID": "440222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "始兴县",
+    "CDATE": ""
+}, {
+    "": "1590",
+    "DETAIL_PROVID": "440224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "仁化县",
+    "CDATE": ""
+}, {
+    "": "1591",
+    "DETAIL_PROVID": "440229",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "翁源县",
+    "CDATE": ""
+}, {
+    "": "1592",
+    "DETAIL_PROVID": "440232",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "乳源瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "1593",
+    "DETAIL_PROVID": "440233",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "新丰县",
+    "CDATE": ""
+}, {
+    "": "1594",
+    "DETAIL_PROVID": "440281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "乐昌市",
+    "CDATE": ""
+}, {
+    "": "1595",
+    "DETAIL_PROVID": "440282",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440200",
+    "CITY_NAME": "韶关市",
+    "COUNTY_NAME": "南雄市",
+    "CDATE": ""
+}, {
+    "": "1596",
+    "DETAIL_PROVID": "440300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440300",
+    "CITY_NAME": "深圳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1597",
+    "DETAIL_PROVID": "440303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440300",
+    "CITY_NAME": "深圳市",
+    "COUNTY_NAME": "罗湖区",
+    "CDATE": ""
+}, {
+    "": "1598",
+    "DETAIL_PROVID": "440304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440300",
+    "CITY_NAME": "深圳市",
+    "COUNTY_NAME": "福田区",
+    "CDATE": ""
+}, {
+    "": "1599",
+    "DETAIL_PROVID": "440305",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440300",
+    "CITY_NAME": "深圳市",
+    "COUNTY_NAME": "南山区",
+    "CDATE": ""
+}, {
+    "": "1600",
+    "DETAIL_PROVID": "440306",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440300",
+    "CITY_NAME": "深圳市",
+    "COUNTY_NAME": "宝安区",
+    "CDATE": ""
+}, {
+    "": "1601",
+    "DETAIL_PROVID": "440307",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440300",
+    "CITY_NAME": "深圳市",
+    "COUNTY_NAME": "龙岗区",
+    "CDATE": ""
+}, {
+    "": "1602",
+    "DETAIL_PROVID": "440308",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440300",
+    "CITY_NAME": "深圳市",
+    "COUNTY_NAME": "盐田区",
+    "CDATE": ""
+}, {
+    "": "1603",
+    "DETAIL_PROVID": "440309",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440300",
+    "CITY_NAME": "深圳市",
+    "COUNTY_NAME": "龙华区",
+    "CDATE": ""
+}, {
+    "": "1604",
+    "DETAIL_PROVID": "440310",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440300",
+    "CITY_NAME": "深圳市",
+    "COUNTY_NAME": "坪山区",
+    "CDATE": ""
+}, {
+    "": "1605",
+    "DETAIL_PROVID": "440400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440400",
+    "CITY_NAME": "珠海市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1606",
+    "DETAIL_PROVID": "440402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440400",
+    "CITY_NAME": "珠海市",
+    "COUNTY_NAME": "香洲区",
+    "CDATE": ""
+}, {
+    "": "1607",
+    "DETAIL_PROVID": "440403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440400",
+    "CITY_NAME": "珠海市",
+    "COUNTY_NAME": "斗门区",
+    "CDATE": ""
+}, {
+    "": "1608",
+    "DETAIL_PROVID": "440404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440400",
+    "CITY_NAME": "珠海市",
+    "COUNTY_NAME": "金湾区",
+    "CDATE": ""
+}, {
+    "": "1609",
+    "DETAIL_PROVID": "440499",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440400",
+    "CITY_NAME": "珠海市",
+    "COUNTY_NAME": "香洲区(由澳门特别行政区实施",
+    "CDATE": ""
+}, {
+    "": "1610",
+    "DETAIL_PROVID": "440500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440500",
+    "CITY_NAME": "汕头市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1611",
+    "DETAIL_PROVID": "440507",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440500",
+    "CITY_NAME": "汕头市",
+    "COUNTY_NAME": "龙湖区",
+    "CDATE": ""
+}, {
+    "": "1612",
+    "DETAIL_PROVID": "440511",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440500",
+    "CITY_NAME": "汕头市",
+    "COUNTY_NAME": "金平区",
+    "CDATE": ""
+}, {
+    "": "1613",
+    "DETAIL_PROVID": "440512",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440500",
+    "CITY_NAME": "汕头市",
+    "COUNTY_NAME": "濠江区",
+    "CDATE": ""
+}, {
+    "": "1614",
+    "DETAIL_PROVID": "440513",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440500",
+    "CITY_NAME": "汕头市",
+    "COUNTY_NAME": "潮阳区",
+    "CDATE": ""
+}, {
+    "": "1615",
+    "DETAIL_PROVID": "440514",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440500",
+    "CITY_NAME": "汕头市",
+    "COUNTY_NAME": "潮南区",
+    "CDATE": ""
+}, {
+    "": "1616",
+    "DETAIL_PROVID": "440515",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440500",
+    "CITY_NAME": "汕头市",
+    "COUNTY_NAME": "澄海区",
+    "CDATE": ""
+}, {
+    "": "1617",
+    "DETAIL_PROVID": "440523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440500",
+    "CITY_NAME": "汕头市",
+    "COUNTY_NAME": "南澳县",
+    "CDATE": ""
+}, {
+    "": "1618",
+    "DETAIL_PROVID": "440600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440600",
+    "CITY_NAME": "佛山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1619",
+    "DETAIL_PROVID": "440604",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440600",
+    "CITY_NAME": "佛山市",
+    "COUNTY_NAME": "禅城区",
+    "CDATE": ""
+}, {
+    "": "1620",
+    "DETAIL_PROVID": "440605",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440600",
+    "CITY_NAME": "佛山市",
+    "COUNTY_NAME": "南海区",
+    "CDATE": ""
+}, {
+    "": "1621",
+    "DETAIL_PROVID": "440606",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440600",
+    "CITY_NAME": "佛山市",
+    "COUNTY_NAME": "顺德区",
+    "CDATE": ""
+}, {
+    "": "1622",
+    "DETAIL_PROVID": "440607",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440600",
+    "CITY_NAME": "佛山市",
+    "COUNTY_NAME": "三水区",
+    "CDATE": ""
+}, {
+    "": "1623",
+    "DETAIL_PROVID": "440608",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440600",
+    "CITY_NAME": "佛山市",
+    "COUNTY_NAME": "高明区",
+    "CDATE": ""
+}, {
+    "": "1624",
+    "DETAIL_PROVID": "440700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440700",
+    "CITY_NAME": "江门市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1625",
+    "DETAIL_PROVID": "440703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440700",
+    "CITY_NAME": "江门市",
+    "COUNTY_NAME": "蓬江区",
+    "CDATE": ""
+}, {
+    "": "1626",
+    "DETAIL_PROVID": "440704",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440700",
+    "CITY_NAME": "江门市",
+    "COUNTY_NAME": "江海区",
+    "CDATE": ""
+}, {
+    "": "1627",
+    "DETAIL_PROVID": "440705",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440700",
+    "CITY_NAME": "江门市",
+    "COUNTY_NAME": "新会区",
+    "CDATE": ""
+}, {
+    "": "1628",
+    "DETAIL_PROVID": "440781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440700",
+    "CITY_NAME": "江门市",
+    "COUNTY_NAME": "台山市",
+    "CDATE": ""
+}, {
+    "": "1629",
+    "DETAIL_PROVID": "440783",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440700",
+    "CITY_NAME": "江门市",
+    "COUNTY_NAME": "开平市",
+    "CDATE": ""
+}, {
+    "": "1630",
+    "DETAIL_PROVID": "440784",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440700",
+    "CITY_NAME": "江门市",
+    "COUNTY_NAME": "鹤山市",
+    "CDATE": ""
+}, {
+    "": "1631",
+    "DETAIL_PROVID": "440785",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440700",
+    "CITY_NAME": "江门市",
+    "COUNTY_NAME": "恩平市",
+    "CDATE": ""
+}, {
+    "": "1632",
+    "DETAIL_PROVID": "440800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440800",
+    "CITY_NAME": "湛江市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1633",
+    "DETAIL_PROVID": "440802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440800",
+    "CITY_NAME": "湛江市",
+    "COUNTY_NAME": "赤坎区",
+    "CDATE": ""
+}, {
+    "": "1634",
+    "DETAIL_PROVID": "440803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440800",
+    "CITY_NAME": "湛江市",
+    "COUNTY_NAME": "霞山区",
+    "CDATE": ""
+}, {
+    "": "1635",
+    "DETAIL_PROVID": "440804",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440800",
+    "CITY_NAME": "湛江市",
+    "COUNTY_NAME": "坡头区",
+    "CDATE": ""
+}, {
+    "": "1636",
+    "DETAIL_PROVID": "440811",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440800",
+    "CITY_NAME": "湛江市",
+    "COUNTY_NAME": "麻章区",
+    "CDATE": ""
+}, {
+    "": "1637",
+    "DETAIL_PROVID": "440823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440800",
+    "CITY_NAME": "湛江市",
+    "COUNTY_NAME": "遂溪县",
+    "CDATE": ""
+}, {
+    "": "1638",
+    "DETAIL_PROVID": "440825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440800",
+    "CITY_NAME": "湛江市",
+    "COUNTY_NAME": "徐闻县",
+    "CDATE": ""
+}, {
+    "": "1639",
+    "DETAIL_PROVID": "440881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440800",
+    "CITY_NAME": "湛江市",
+    "COUNTY_NAME": "廉江市",
+    "CDATE": ""
+}, {
+    "": "1640",
+    "DETAIL_PROVID": "440882",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440800",
+    "CITY_NAME": "湛江市",
+    "COUNTY_NAME": "雷州市",
+    "CDATE": ""
+}, {
+    "": "1641",
+    "DETAIL_PROVID": "440883",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440800",
+    "CITY_NAME": "湛江市",
+    "COUNTY_NAME": "吴川市",
+    "CDATE": ""
+}, {
+    "": "1642",
+    "DETAIL_PROVID": "440900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440900",
+    "CITY_NAME": "茂名市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1643",
+    "DETAIL_PROVID": "440902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440900",
+    "CITY_NAME": "茂名市",
+    "COUNTY_NAME": "茂南区",
+    "CDATE": ""
+}, {
+    "": "1644",
+    "DETAIL_PROVID": "440904",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440900",
+    "CITY_NAME": "茂名市",
+    "COUNTY_NAME": "电白区",
+    "CDATE": ""
+}, {
+    "": "1645",
+    "DETAIL_PROVID": "440981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440900",
+    "CITY_NAME": "茂名市",
+    "COUNTY_NAME": "高州市",
+    "CDATE": ""
+}, {
+    "": "1646",
+    "DETAIL_PROVID": "440982",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440900",
+    "CITY_NAME": "茂名市",
+    "COUNTY_NAME": "化州市",
+    "CDATE": ""
+}, {
+    "": "1647",
+    "DETAIL_PROVID": "440983",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "440900",
+    "CITY_NAME": "茂名市",
+    "COUNTY_NAME": "信宜市",
+    "CDATE": ""
+}, {
+    "": "1648",
+    "DETAIL_PROVID": "441200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441200",
+    "CITY_NAME": "肇庆市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1649",
+    "DETAIL_PROVID": "441202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441200",
+    "CITY_NAME": "肇庆市",
+    "COUNTY_NAME": "端州区",
+    "CDATE": ""
+}, {
+    "": "1650",
+    "DETAIL_PROVID": "441203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441200",
+    "CITY_NAME": "肇庆市",
+    "COUNTY_NAME": "鼎湖区",
+    "CDATE": ""
+}, {
+    "": "1651",
+    "DETAIL_PROVID": "441204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441200",
+    "CITY_NAME": "肇庆市",
+    "COUNTY_NAME": "高要区",
+    "CDATE": ""
+}, {
+    "": "1652",
+    "DETAIL_PROVID": "441223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441200",
+    "CITY_NAME": "肇庆市",
+    "COUNTY_NAME": "广宁县",
+    "CDATE": ""
+}, {
+    "": "1653",
+    "DETAIL_PROVID": "441224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441200",
+    "CITY_NAME": "肇庆市",
+    "COUNTY_NAME": "怀集县",
+    "CDATE": ""
+}, {
+    "": "1654",
+    "DETAIL_PROVID": "441225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441200",
+    "CITY_NAME": "肇庆市",
+    "COUNTY_NAME": "封开县",
+    "CDATE": ""
+}, {
+    "": "1655",
+    "DETAIL_PROVID": "441226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441200",
+    "CITY_NAME": "肇庆市",
+    "COUNTY_NAME": "德庆县",
+    "CDATE": ""
+}, {
+    "": "1656",
+    "DETAIL_PROVID": "441284",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441200",
+    "CITY_NAME": "肇庆市",
+    "COUNTY_NAME": "四会市",
+    "CDATE": ""
+}, {
+    "": "1657",
+    "DETAIL_PROVID": "441300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441300",
+    "CITY_NAME": "惠州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1658",
+    "DETAIL_PROVID": "441302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441300",
+    "CITY_NAME": "惠州市",
+    "COUNTY_NAME": "惠城区",
+    "CDATE": ""
+}, {
+    "": "1659",
+    "DETAIL_PROVID": "441303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441300",
+    "CITY_NAME": "惠州市",
+    "COUNTY_NAME": "惠阳区",
+    "CDATE": ""
+}, {
+    "": "1660",
+    "DETAIL_PROVID": "441322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441300",
+    "CITY_NAME": "惠州市",
+    "COUNTY_NAME": "博罗县",
+    "CDATE": ""
+}, {
+    "": "1661",
+    "DETAIL_PROVID": "350402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "梅列区",
+    "CDATE": ""
+}, {
+    "": "1662",
+    "DETAIL_PROVID": "350403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "三元区",
+    "CDATE": ""
+}, {
+    "": "1663",
+    "DETAIL_PROVID": "350421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "明溪县",
+    "CDATE": ""
+}, {
+    "": "1664",
+    "DETAIL_PROVID": "350423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "清流县",
+    "CDATE": ""
+}, {
+    "": "1665",
+    "DETAIL_PROVID": "350424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "宁化县",
+    "CDATE": ""
+}, {
+    "": "1666",
+    "DETAIL_PROVID": "350425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "大田县",
+    "CDATE": ""
+}, {
+    "": "1667",
+    "DETAIL_PROVID": "350426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "尤溪县",
+    "CDATE": ""
+}, {
+    "": "1668",
+    "DETAIL_PROVID": "350427",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "沙县",
+    "CDATE": ""
+}, {
+    "": "1669",
+    "DETAIL_PROVID": "350428",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "将乐县",
+    "CDATE": ""
+}, {
+    "": "1670",
+    "DETAIL_PROVID": "350429",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "泰宁县",
+    "CDATE": ""
+}, {
+    "": "1671",
+    "DETAIL_PROVID": "350430",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "建宁县",
+    "CDATE": ""
+}, {
+    "": "1672",
+    "DETAIL_PROVID": "350481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350400",
+    "CITY_NAME": "三明市",
+    "COUNTY_NAME": "永安市",
+    "CDATE": ""
+}, {
+    "": "1673",
+    "DETAIL_PROVID": "350500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1674",
+    "DETAIL_PROVID": "350502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "鲤城区",
+    "CDATE": ""
+}, {
+    "": "1675",
+    "DETAIL_PROVID": "350503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "丰泽区",
+    "CDATE": ""
+}, {
+    "": "1676",
+    "DETAIL_PROVID": "350504",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "洛江区",
+    "CDATE": ""
+}, {
+    "": "1677",
+    "DETAIL_PROVID": "350505",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "泉港区",
+    "CDATE": ""
+}, {
+    "": "1678",
+    "DETAIL_PROVID": "350521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "惠安县",
+    "CDATE": ""
+}, {
+    "": "1679",
+    "DETAIL_PROVID": "350524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "安溪县",
+    "CDATE": ""
+}, {
+    "": "1680",
+    "DETAIL_PROVID": "350525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "永春县",
+    "CDATE": ""
+}, {
+    "": "1681",
+    "DETAIL_PROVID": "350526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "德化县",
+    "CDATE": ""
+}, {
+    "": "1682",
+    "DETAIL_PROVID": "350527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "金门县",
+    "CDATE": ""
+}, {
+    "": "1683",
+    "DETAIL_PROVID": "350581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "石狮市",
+    "CDATE": ""
+}, {
+    "": "1684",
+    "DETAIL_PROVID": "350582",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "晋江市",
+    "CDATE": ""
+}, {
+    "": "1685",
+    "DETAIL_PROVID": "350583",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350500",
+    "CITY_NAME": "泉州市",
+    "COUNTY_NAME": "南安市",
+    "CDATE": ""
+}, {
+    "": "1686",
+    "DETAIL_PROVID": "350600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1687",
+    "DETAIL_PROVID": "350602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "芗城区",
+    "CDATE": ""
+}, {
+    "": "1688",
+    "DETAIL_PROVID": "350603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "龙文区",
+    "CDATE": ""
+}, {
+    "": "1689",
+    "DETAIL_PROVID": "350622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "云霄县",
+    "CDATE": ""
+}, {
+    "": "1690",
+    "DETAIL_PROVID": "350623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "漳浦县",
+    "CDATE": ""
+}, {
+    "": "1691",
+    "DETAIL_PROVID": "350624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "诏安县",
+    "CDATE": ""
+}, {
+    "": "1692",
+    "DETAIL_PROVID": "350625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "长泰县",
+    "CDATE": ""
+}, {
+    "": "1693",
+    "DETAIL_PROVID": "350626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "东山县",
+    "CDATE": ""
+}, {
+    "": "1694",
+    "DETAIL_PROVID": "350627",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "南靖县",
+    "CDATE": ""
+}, {
+    "": "1695",
+    "DETAIL_PROVID": "350628",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "平和县",
+    "CDATE": ""
+}, {
+    "": "1696",
+    "DETAIL_PROVID": "350629",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "华安县",
+    "CDATE": ""
+}, {
+    "": "1697",
+    "DETAIL_PROVID": "350681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350600",
+    "CITY_NAME": "漳州市",
+    "COUNTY_NAME": "龙海市",
+    "CDATE": ""
+}, {
+    "": "1698",
+    "DETAIL_PROVID": "350700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1699",
+    "DETAIL_PROVID": "350702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "延平区",
+    "CDATE": ""
+}, {
+    "": "1700",
+    "DETAIL_PROVID": "350703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "建阳区",
+    "CDATE": ""
+}, {
+    "": "1701",
+    "DETAIL_PROVID": "350721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "顺昌县",
+    "CDATE": ""
+}, {
+    "": "1702",
+    "DETAIL_PROVID": "350722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "浦城县",
+    "CDATE": ""
+}, {
+    "": "1703",
+    "DETAIL_PROVID": "350723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "光泽县",
+    "CDATE": ""
+}, {
+    "": "1704",
+    "DETAIL_PROVID": "350724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "松溪县",
+    "CDATE": ""
+}, {
+    "": "1705",
+    "DETAIL_PROVID": "350725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "政和县",
+    "CDATE": ""
+}, {
+    "": "1706",
+    "DETAIL_PROVID": "350781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "邵武市",
+    "CDATE": ""
+}, {
+    "": "1707",
+    "DETAIL_PROVID": "350782",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "武夷山市",
+    "CDATE": ""
+}, {
+    "": "1708",
+    "DETAIL_PROVID": "350783",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350700",
+    "CITY_NAME": "南平市",
+    "COUNTY_NAME": "建瓯市",
+    "CDATE": ""
+}, {
+    "": "1709",
+    "DETAIL_PROVID": "350800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350800",
+    "CITY_NAME": "龙岩市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1710",
+    "DETAIL_PROVID": "350802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350800",
+    "CITY_NAME": "龙岩市",
+    "COUNTY_NAME": "新罗区",
+    "CDATE": ""
+}, {
+    "": "1711",
+    "DETAIL_PROVID": "350803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350800",
+    "CITY_NAME": "龙岩市",
+    "COUNTY_NAME": "永定区",
+    "CDATE": ""
+}, {
+    "": "1712",
+    "DETAIL_PROVID": "350821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350800",
+    "CITY_NAME": "龙岩市",
+    "COUNTY_NAME": "长汀县",
+    "CDATE": ""
+}, {
+    "": "1713",
+    "DETAIL_PROVID": "350823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350800",
+    "CITY_NAME": "龙岩市",
+    "COUNTY_NAME": "上杭县",
+    "CDATE": ""
+}, {
+    "": "1714",
+    "DETAIL_PROVID": "350824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350800",
+    "CITY_NAME": "龙岩市",
+    "COUNTY_NAME": "武平县",
+    "CDATE": ""
+}, {
+    "": "1715",
+    "DETAIL_PROVID": "350825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350800",
+    "CITY_NAME": "龙岩市",
+    "COUNTY_NAME": "连城县",
+    "CDATE": ""
+}, {
+    "": "1716",
+    "DETAIL_PROVID": "350881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350800",
+    "CITY_NAME": "龙岩市",
+    "COUNTY_NAME": "漳平市",
+    "CDATE": ""
+}, {
+    "": "1717",
+    "DETAIL_PROVID": "350900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350900",
+    "CITY_NAME": "宁德市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1718",
+    "DETAIL_PROVID": "350902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350900",
+    "CITY_NAME": "宁德市",
+    "COUNTY_NAME": "蕉城区",
+    "CDATE": ""
+}, {
+    "": "1719",
+    "DETAIL_PROVID": "350921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350900",
+    "CITY_NAME": "宁德市",
+    "COUNTY_NAME": "霞浦县",
+    "CDATE": ""
+}, {
+    "": "1720",
+    "DETAIL_PROVID": "350922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350900",
+    "CITY_NAME": "宁德市",
+    "COUNTY_NAME": "古田县",
+    "CDATE": ""
+}, {
+    "": "1721",
+    "DETAIL_PROVID": "350923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350900",
+    "CITY_NAME": "宁德市",
+    "COUNTY_NAME": "屏南县",
+    "CDATE": ""
+}, {
+    "": "1722",
+    "DETAIL_PROVID": "350924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350900",
+    "CITY_NAME": "宁德市",
+    "COUNTY_NAME": "寿宁县",
+    "CDATE": ""
+}, {
+    "": "1723",
+    "DETAIL_PROVID": "350925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350900",
+    "CITY_NAME": "宁德市",
+    "COUNTY_NAME": "周宁县",
+    "CDATE": ""
+}, {
+    "": "1724",
+    "DETAIL_PROVID": "350926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350900",
+    "CITY_NAME": "宁德市",
+    "COUNTY_NAME": "柘荣县",
+    "CDATE": ""
+}, {
+    "": "1725",
+    "DETAIL_PROVID": "350981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350900",
+    "CITY_NAME": "宁德市",
+    "COUNTY_NAME": "福安市",
+    "CDATE": ""
+}, {
+    "": "1726",
+    "DETAIL_PROVID": "350982",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "35",
+    "PROV_NAME": "福建",
+    "CITY_CODE": "350900",
+    "CITY_NAME": "宁德市",
+    "COUNTY_NAME": "福鼎市",
+    "CDATE": ""
+}, {
+    "": "1727",
+    "DETAIL_PROVID": "360100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360100",
+    "CITY_NAME": "南昌市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1728",
+    "DETAIL_PROVID": "360102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360100",
+    "CITY_NAME": "南昌市",
+    "COUNTY_NAME": "东湖区",
+    "CDATE": ""
+}, {
+    "": "1729",
+    "DETAIL_PROVID": "360103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360100",
+    "CITY_NAME": "南昌市",
+    "COUNTY_NAME": "西湖区",
+    "CDATE": ""
+}, {
+    "": "1730",
+    "DETAIL_PROVID": "360104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360100",
+    "CITY_NAME": "南昌市",
+    "COUNTY_NAME": "青云谱区",
+    "CDATE": ""
+}, {
+    "": "1731",
+    "DETAIL_PROVID": "360105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360100",
+    "CITY_NAME": "南昌市",
+    "COUNTY_NAME": "湾里区",
+    "CDATE": ""
+}, {
+    "": "1732",
+    "DETAIL_PROVID": "360111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360100",
+    "CITY_NAME": "南昌市",
+    "COUNTY_NAME": "青山湖区",
+    "CDATE": ""
+}, {
+    "": "1733",
+    "DETAIL_PROVID": "360112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360100",
+    "CITY_NAME": "南昌市",
+    "COUNTY_NAME": "新建区",
+    "CDATE": ""
+}, {
+    "": "1734",
+    "DETAIL_PROVID": "360121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360100",
+    "CITY_NAME": "南昌市",
+    "COUNTY_NAME": "南昌县",
+    "CDATE": ""
+}, {
+    "": "1735",
+    "DETAIL_PROVID": "360123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360100",
+    "CITY_NAME": "南昌市",
+    "COUNTY_NAME": "安义县",
+    "CDATE": ""
+}, {
+    "": "1736",
+    "DETAIL_PROVID": "360124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360100",
+    "CITY_NAME": "南昌市",
+    "COUNTY_NAME": "进贤县",
+    "CDATE": ""
+}, {
+    "": "1737",
+    "DETAIL_PROVID": "360200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360200",
+    "CITY_NAME": "景德镇市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1738",
+    "DETAIL_PROVID": "360202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360200",
+    "CITY_NAME": "景德镇市",
+    "COUNTY_NAME": "昌江区",
+    "CDATE": ""
+}, {
+    "": "1739",
+    "DETAIL_PROVID": "360203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360200",
+    "CITY_NAME": "景德镇市",
+    "COUNTY_NAME": "珠山区",
+    "CDATE": ""
+}, {
+    "": "1740",
+    "DETAIL_PROVID": "360222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360200",
+    "CITY_NAME": "景德镇市",
+    "COUNTY_NAME": "浮梁县",
+    "CDATE": ""
+}, {
+    "": "1741",
+    "DETAIL_PROVID": "360281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360200",
+    "CITY_NAME": "景德镇市",
+    "COUNTY_NAME": "乐平市",
+    "CDATE": ""
+}, {
+    "": "1742",
+    "DETAIL_PROVID": "360300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360300",
+    "CITY_NAME": "萍乡市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1743",
+    "DETAIL_PROVID": "360302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360300",
+    "CITY_NAME": "萍乡市",
+    "COUNTY_NAME": "安源区",
+    "CDATE": ""
+}, {
+    "": "1744",
+    "DETAIL_PROVID": "360313",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360300",
+    "CITY_NAME": "萍乡市",
+    "COUNTY_NAME": "湘东区",
+    "CDATE": ""
+}, {
+    "": "1745",
+    "DETAIL_PROVID": "360321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360300",
+    "CITY_NAME": "萍乡市",
+    "COUNTY_NAME": "莲花县",
+    "CDATE": ""
+}, {
+    "": "1746",
+    "DETAIL_PROVID": "360322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360300",
+    "CITY_NAME": "萍乡市",
+    "COUNTY_NAME": "上栗县",
+    "CDATE": ""
+}, {
+    "": "1747",
+    "DETAIL_PROVID": "360323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360300",
+    "CITY_NAME": "萍乡市",
+    "COUNTY_NAME": "芦溪县",
+    "CDATE": ""
+}, {
+    "": "1748",
+    "DETAIL_PROVID": "360400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1749",
+    "DETAIL_PROVID": "360402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "濂溪区",
+    "CDATE": ""
+}, {
+    "": "1750",
+    "DETAIL_PROVID": "360403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "浔阳区",
+    "CDATE": ""
+}, {
+    "": "1751",
+    "DETAIL_PROVID": "360421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "九江县",
+    "CDATE": ""
+}, {
+    "": "1752",
+    "DETAIL_PROVID": "360423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "武宁县",
+    "CDATE": ""
+}, {
+    "": "1753",
+    "DETAIL_PROVID": "360424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "修水县",
+    "CDATE": ""
+}, {
+    "": "1754",
+    "DETAIL_PROVID": "360425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "永修县",
+    "CDATE": ""
+}, {
+    "": "1755",
+    "DETAIL_PROVID": "360426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "德安县",
+    "CDATE": ""
+}, {
+    "": "1756",
+    "DETAIL_PROVID": "360428",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "都昌县",
+    "CDATE": ""
+}, {
+    "": "1757",
+    "DETAIL_PROVID": "360429",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "湖口县",
+    "CDATE": ""
+}, {
+    "": "1758",
+    "DETAIL_PROVID": "360430",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "彭泽县",
+    "CDATE": ""
+}, {
+    "": "1759",
+    "DETAIL_PROVID": "360481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "瑞昌市",
+    "CDATE": ""
+}, {
+    "": "1760",
+    "DETAIL_PROVID": "360482",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "共青城市",
+    "CDATE": ""
+}, {
+    "": "1761",
+    "DETAIL_PROVID": "360483",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360400",
+    "CITY_NAME": "九江市",
+    "COUNTY_NAME": "庐山市",
+    "CDATE": ""
+}, {
+    "": "1762",
+    "DETAIL_PROVID": "360500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360500",
+    "CITY_NAME": "新余市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1763",
+    "DETAIL_PROVID": "360502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360500",
+    "CITY_NAME": "新余市",
+    "COUNTY_NAME": "渝水区",
+    "CDATE": ""
+}, {
+    "": "1764",
+    "DETAIL_PROVID": "360521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360500",
+    "CITY_NAME": "新余市",
+    "COUNTY_NAME": "分宜县",
+    "CDATE": ""
+}, {
+    "": "1765",
+    "DETAIL_PROVID": "360600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360600",
+    "CITY_NAME": "鹰潭市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1766",
+    "DETAIL_PROVID": "360602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360600",
+    "CITY_NAME": "鹰潭市",
+    "COUNTY_NAME": "月湖区",
+    "CDATE": ""
+}, {
+    "": "1767",
+    "DETAIL_PROVID": "360622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360600",
+    "CITY_NAME": "鹰潭市",
+    "COUNTY_NAME": "余江县",
+    "CDATE": ""
+}, {
+    "": "1768",
+    "DETAIL_PROVID": "360681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360600",
+    "CITY_NAME": "鹰潭市",
+    "COUNTY_NAME": "贵溪市",
+    "CDATE": ""
+}, {
+    "": "1769",
+    "DETAIL_PROVID": "360700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1770",
+    "DETAIL_PROVID": "360702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "章贡区",
+    "CDATE": ""
+}, {
+    "": "1771",
+    "DETAIL_PROVID": "360703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "南康区",
+    "CDATE": ""
+}, {
+    "": "1772",
+    "DETAIL_PROVID": "360704",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "赣县区",
+    "CDATE": ""
+}, {
+    "": "1773",
+    "DETAIL_PROVID": "360722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "信丰县",
+    "CDATE": ""
+}, {
+    "": "1774",
+    "DETAIL_PROVID": "360723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "大余县",
+    "CDATE": ""
+}, {
+    "": "1775",
+    "DETAIL_PROVID": "360724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "上犹县",
+    "CDATE": ""
+}, {
+    "": "1776",
+    "DETAIL_PROVID": "360725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "崇义县",
+    "CDATE": ""
+}, {
+    "": "1777",
+    "DETAIL_PROVID": "360726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "安远县",
+    "CDATE": ""
+}, {
+    "": "1778",
+    "DETAIL_PROVID": "360727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "龙南县",
+    "CDATE": ""
+}, {
+    "": "1779",
+    "DETAIL_PROVID": "360728",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "定南县",
+    "CDATE": ""
+}, {
+    "": "1780",
+    "DETAIL_PROVID": "360729",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "全南县",
+    "CDATE": ""
+}, {
+    "": "1781",
+    "DETAIL_PROVID": "360730",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "宁都县",
+    "CDATE": ""
+}, {
+    "": "1782",
+    "DETAIL_PROVID": "360731",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "于都县",
+    "CDATE": ""
+}, {
+    "": "1783",
+    "DETAIL_PROVID": "360732",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "兴国县",
+    "CDATE": ""
+}, {
+    "": "1784",
+    "DETAIL_PROVID": "360733",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "会昌县",
+    "CDATE": ""
+}, {
+    "": "1785",
+    "DETAIL_PROVID": "360734",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "寻乌县",
+    "CDATE": ""
+}, {
+    "": "1786",
+    "DETAIL_PROVID": "360735",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "石城县",
+    "CDATE": ""
+}, {
+    "": "1787",
+    "DETAIL_PROVID": "360781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360700",
+    "CITY_NAME": "赣州市",
+    "COUNTY_NAME": "瑞金市",
+    "CDATE": ""
+}, {
+    "": "1788",
+    "DETAIL_PROVID": "360800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1789",
+    "DETAIL_PROVID": "360802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "吉州区",
+    "CDATE": ""
+}, {
+    "": "1790",
+    "DETAIL_PROVID": "360803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "青原区",
+    "CDATE": ""
+}, {
+    "": "1791",
+    "DETAIL_PROVID": "360821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "吉安县",
+    "CDATE": ""
+}, {
+    "": "1792",
+    "DETAIL_PROVID": "360822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "吉水县",
+    "CDATE": ""
+}, {
+    "": "1793",
+    "DETAIL_PROVID": "360823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "峡江县",
+    "CDATE": ""
+}, {
+    "": "1794",
+    "DETAIL_PROVID": "360824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "新干县",
+    "CDATE": ""
+}, {
+    "": "1795",
+    "DETAIL_PROVID": "360825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "永丰县",
+    "CDATE": ""
+}, {
+    "": "1796",
+    "DETAIL_PROVID": "360826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "泰和县",
+    "CDATE": ""
+}, {
+    "": "1797",
+    "DETAIL_PROVID": "360827",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "遂川县",
+    "CDATE": ""
+}, {
+    "": "1798",
+    "DETAIL_PROVID": "360828",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "万安县",
+    "CDATE": ""
+}, {
+    "": "1799",
+    "DETAIL_PROVID": "360829",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "安福县",
+    "CDATE": ""
+}, {
+    "": "1800",
+    "DETAIL_PROVID": "360830",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "永新县",
+    "CDATE": ""
+}, {
+    "": "1801",
+    "DETAIL_PROVID": "360881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360800",
+    "CITY_NAME": "吉安市",
+    "COUNTY_NAME": "井冈山市",
+    "CDATE": ""
+}, {
+    "": "1802",
+    "DETAIL_PROVID": "360900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1803",
+    "DETAIL_PROVID": "360902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "袁州区",
+    "CDATE": ""
+}, {
+    "": "1804",
+    "DETAIL_PROVID": "360921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "奉新县",
+    "CDATE": ""
+}, {
+    "": "1805",
+    "DETAIL_PROVID": "360922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "万载县",
+    "CDATE": ""
+}, {
+    "": "1806",
+    "DETAIL_PROVID": "360923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "上高县",
+    "CDATE": ""
+}, {
+    "": "1807",
+    "DETAIL_PROVID": "360924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "宜丰县",
+    "CDATE": ""
+}, {
+    "": "1808",
+    "DETAIL_PROVID": "360925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "靖安县",
+    "CDATE": ""
+}, {
+    "": "1809",
+    "DETAIL_PROVID": "360926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "铜鼓县",
+    "CDATE": ""
+}, {
+    "": "1810",
+    "DETAIL_PROVID": "360981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "丰城市",
+    "CDATE": ""
+}, {
+    "": "1811",
+    "DETAIL_PROVID": "360982",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "樟树市",
+    "CDATE": ""
+}, {
+    "": "1812",
+    "DETAIL_PROVID": "360983",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "360900",
+    "CITY_NAME": "宜春市",
+    "COUNTY_NAME": "高安市",
+    "CDATE": ""
+}, {
+    "": "1813",
+    "DETAIL_PROVID": "361000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1814",
+    "DETAIL_PROVID": "361002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "临川区",
+    "CDATE": ""
+}, {
+    "": "1815",
+    "DETAIL_PROVID": "361003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "东乡区",
+    "CDATE": ""
+}, {
+    "": "1816",
+    "DETAIL_PROVID": "361021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "南城县",
+    "CDATE": ""
+}, {
+    "": "1817",
+    "DETAIL_PROVID": "361022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "黎川县",
+    "CDATE": ""
+}, {
+    "": "1818",
+    "DETAIL_PROVID": "361023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "南丰县",
+    "CDATE": ""
+}, {
+    "": "1819",
+    "DETAIL_PROVID": "361024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "崇仁县",
+    "CDATE": ""
+}, {
+    "": "1820",
+    "DETAIL_PROVID": "361025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "乐安县",
+    "CDATE": ""
+}, {
+    "": "1821",
+    "DETAIL_PROVID": "361026",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "宜黄县",
+    "CDATE": ""
+}, {
+    "": "1822",
+    "DETAIL_PROVID": "361027",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "金溪县",
+    "CDATE": ""
+}, {
+    "": "1823",
+    "DETAIL_PROVID": "361028",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "资溪县",
+    "CDATE": ""
+}, {
+    "": "1824",
+    "DETAIL_PROVID": "361030",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361000",
+    "CITY_NAME": "抚州市",
+    "COUNTY_NAME": "广昌县",
+    "CDATE": ""
+}, {
+    "": "1825",
+    "DETAIL_PROVID": "361100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1826",
+    "DETAIL_PROVID": "361102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "信州区",
+    "CDATE": ""
+}, {
+    "": "1827",
+    "DETAIL_PROVID": "361103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "广丰区",
+    "CDATE": ""
+}, {
+    "": "1828",
+    "DETAIL_PROVID": "361121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "上饶县",
+    "CDATE": ""
+}, {
+    "": "1829",
+    "DETAIL_PROVID": "361123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "玉山县",
+    "CDATE": ""
+}, {
+    "": "1830",
+    "DETAIL_PROVID": "361124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "铅山县",
+    "CDATE": ""
+}, {
+    "": "1831",
+    "DETAIL_PROVID": "361125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "横峰县",
+    "CDATE": ""
+}, {
+    "": "1832",
+    "DETAIL_PROVID": "361126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "弋阳县",
+    "CDATE": ""
+}, {
+    "": "1833",
+    "DETAIL_PROVID": "361127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "余干县",
+    "CDATE": ""
+}, {
+    "": "1834",
+    "DETAIL_PROVID": "361128",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "鄱阳县",
+    "CDATE": ""
+}, {
+    "": "1835",
+    "DETAIL_PROVID": "361129",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "万年县",
+    "CDATE": ""
+}, {
+    "": "1836",
+    "DETAIL_PROVID": "361130",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "婺源县",
+    "CDATE": ""
+}, {
+    "": "1837",
+    "DETAIL_PROVID": "361181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "36",
+    "PROV_NAME": "江西",
+    "CITY_CODE": "361100",
+    "CITY_NAME": "上饶市",
+    "COUNTY_NAME": "德兴市",
+    "CDATE": ""
+}, {
+    "": "1838",
+    "DETAIL_PROVID": "370100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1839",
+    "DETAIL_PROVID": "370102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "历下区",
+    "CDATE": ""
+}, {
+    "": "1840",
+    "DETAIL_PROVID": "370103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "市中区",
+    "CDATE": ""
+}, {
+    "": "1841",
+    "DETAIL_PROVID": "370104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "槐荫区",
+    "CDATE": ""
+}, {
+    "": "1842",
+    "DETAIL_PROVID": "370105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "天桥区",
+    "CDATE": ""
+}, {
+    "": "1843",
+    "DETAIL_PROVID": "370112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "历城区",
+    "CDATE": ""
+}, {
+    "": "1844",
+    "DETAIL_PROVID": "370113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "长清区",
+    "CDATE": ""
+}, {
+    "": "1845",
+    "DETAIL_PROVID": "370114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "章丘区",
+    "CDATE": ""
+}, {
+    "": "1846",
+    "DETAIL_PROVID": "370124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "平阴县",
+    "CDATE": ""
+}, {
+    "": "1847",
+    "DETAIL_PROVID": "370125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "济阳县",
+    "CDATE": ""
+}, {
+    "": "1848",
+    "DETAIL_PROVID": "370126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370100",
+    "CITY_NAME": "济南市",
+    "COUNTY_NAME": "商河县",
+    "CDATE": ""
+}, {
+    "": "1849",
+    "DETAIL_PROVID": "370200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1850",
+    "DETAIL_PROVID": "370202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "市南区",
+    "CDATE": ""
+}, {
+    "": "1851",
+    "DETAIL_PROVID": "370203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "市北区",
+    "CDATE": ""
+}, {
+    "": "1852",
+    "DETAIL_PROVID": "370211",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "黄岛区",
+    "CDATE": ""
+}, {
+    "": "1853",
+    "DETAIL_PROVID": "370212",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "崂山区",
+    "CDATE": ""
+}, {
+    "": "1854",
+    "DETAIL_PROVID": "370213",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "李沧区",
+    "CDATE": ""
+}, {
+    "": "1855",
+    "DETAIL_PROVID": "370214",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "城阳区",
+    "CDATE": ""
+}, {
+    "": "1856",
+    "DETAIL_PROVID": "370281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "胶州市",
+    "CDATE": ""
+}, {
+    "": "1857",
+    "DETAIL_PROVID": "370282",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "即墨市",
+    "CDATE": ""
+}, {
+    "": "1858",
+    "DETAIL_PROVID": "370283",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "平度市",
+    "CDATE": ""
+}, {
+    "": "1859",
+    "DETAIL_PROVID": "370285",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370200",
+    "CITY_NAME": "青岛市",
+    "COUNTY_NAME": "莱西市",
+    "CDATE": ""
+}, {
+    "": "1860",
+    "DETAIL_PROVID": "370300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370300",
+    "CITY_NAME": "淄博市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1861",
+    "DETAIL_PROVID": "370302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370300",
+    "CITY_NAME": "淄博市",
+    "COUNTY_NAME": "淄川区",
+    "CDATE": ""
+}, {
+    "": "1862",
+    "DETAIL_PROVID": "370303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370300",
+    "CITY_NAME": "淄博市",
+    "COUNTY_NAME": "张店区",
+    "CDATE": ""
+}, {
+    "": "1863",
+    "DETAIL_PROVID": "370304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370300",
+    "CITY_NAME": "淄博市",
+    "COUNTY_NAME": "博山区",
+    "CDATE": ""
+}, {
+    "": "1864",
+    "DETAIL_PROVID": "370305",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370300",
+    "CITY_NAME": "淄博市",
+    "COUNTY_NAME": "临淄区",
+    "CDATE": ""
+}, {
+    "": "1865",
+    "DETAIL_PROVID": "370306",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370300",
+    "CITY_NAME": "淄博市",
+    "COUNTY_NAME": "周村区",
+    "CDATE": ""
+}, {
+    "": "1866",
+    "DETAIL_PROVID": "370321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370300",
+    "CITY_NAME": "淄博市",
+    "COUNTY_NAME": "桓台县",
+    "CDATE": ""
+}, {
+    "": "1867",
+    "DETAIL_PROVID": "370322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370300",
+    "CITY_NAME": "淄博市",
+    "COUNTY_NAME": "高青县",
+    "CDATE": ""
+}, {
+    "": "1868",
+    "DETAIL_PROVID": "370323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370300",
+    "CITY_NAME": "淄博市",
+    "COUNTY_NAME": "沂源县",
+    "CDATE": ""
+}, {
+    "": "1869",
+    "DETAIL_PROVID": "370400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370400",
+    "CITY_NAME": "枣庄市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1870",
+    "DETAIL_PROVID": "370402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370400",
+    "CITY_NAME": "枣庄市",
+    "COUNTY_NAME": "市中区",
+    "CDATE": ""
+}, {
+    "": "1871",
+    "DETAIL_PROVID": "370403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370400",
+    "CITY_NAME": "枣庄市",
+    "COUNTY_NAME": "薛城区",
+    "CDATE": ""
+}, {
+    "": "1872",
+    "DETAIL_PROVID": "370404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370400",
+    "CITY_NAME": "枣庄市",
+    "COUNTY_NAME": "峄城区",
+    "CDATE": ""
+}, {
+    "": "1873",
+    "DETAIL_PROVID": "370405",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370400",
+    "CITY_NAME": "枣庄市",
+    "COUNTY_NAME": "台儿庄区",
+    "CDATE": ""
+}, {
+    "": "1874",
+    "DETAIL_PROVID": "370406",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370400",
+    "CITY_NAME": "枣庄市",
+    "COUNTY_NAME": "山亭区",
+    "CDATE": ""
+}, {
+    "": "1875",
+    "DETAIL_PROVID": "370481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370400",
+    "CITY_NAME": "枣庄市",
+    "COUNTY_NAME": "滕州市",
+    "CDATE": ""
+}, {
+    "": "1876",
+    "DETAIL_PROVID": "370500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370500",
+    "CITY_NAME": "东营市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1877",
+    "DETAIL_PROVID": "370502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370500",
+    "CITY_NAME": "东营市",
+    "COUNTY_NAME": "东营区",
+    "CDATE": ""
+}, {
+    "": "1878",
+    "DETAIL_PROVID": "370503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370500",
+    "CITY_NAME": "东营市",
+    "COUNTY_NAME": "河口区",
+    "CDATE": ""
+}, {
+    "": "1879",
+    "DETAIL_PROVID": "370505",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370500",
+    "CITY_NAME": "东营市",
+    "COUNTY_NAME": "垦利区",
+    "CDATE": ""
+}, {
+    "": "1880",
+    "DETAIL_PROVID": "370522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370500",
+    "CITY_NAME": "东营市",
+    "COUNTY_NAME": "利津县",
+    "CDATE": ""
+}, {
+    "": "1881",
+    "DETAIL_PROVID": "370523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370500",
+    "CITY_NAME": "东营市",
+    "COUNTY_NAME": "广饶县",
+    "CDATE": ""
+}, {
+    "": "1882",
+    "DETAIL_PROVID": "370600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1883",
+    "DETAIL_PROVID": "370602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "芝罘区",
+    "CDATE": ""
+}, {
+    "": "1884",
+    "DETAIL_PROVID": "370611",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "福山区",
+    "CDATE": ""
+}, {
+    "": "1885",
+    "DETAIL_PROVID": "370612",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "牟平区",
+    "CDATE": ""
+}, {
+    "": "1886",
+    "DETAIL_PROVID": "370613",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "莱山区",
+    "CDATE": ""
+}, {
+    "": "1887",
+    "DETAIL_PROVID": "370634",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "长岛县",
+    "CDATE": ""
+}, {
+    "": "1888",
+    "DETAIL_PROVID": "370681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "龙口市",
+    "CDATE": ""
+}, {
+    "": "1889",
+    "DETAIL_PROVID": "370682",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "莱阳市",
+    "CDATE": ""
+}, {
+    "": "1890",
+    "DETAIL_PROVID": "370683",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "莱州市",
+    "CDATE": ""
+}, {
+    "": "1891",
+    "DETAIL_PROVID": "370684",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "蓬莱市",
+    "CDATE": ""
+}, {
+    "": "1892",
+    "DETAIL_PROVID": "370685",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "招远市",
+    "CDATE": ""
+}, {
+    "": "1893",
+    "DETAIL_PROVID": "370686",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "栖霞市",
+    "CDATE": ""
+}, {
+    "": "1894",
+    "DETAIL_PROVID": "370687",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370600",
+    "CITY_NAME": "烟台市",
+    "COUNTY_NAME": "海阳市",
+    "CDATE": ""
+}, {
+    "": "1895",
+    "DETAIL_PROVID": "370700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1896",
+    "DETAIL_PROVID": "370702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "潍城区",
+    "CDATE": ""
+}, {
+    "": "1897",
+    "DETAIL_PROVID": "370703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "寒亭区",
+    "CDATE": ""
+}, {
+    "": "1898",
+    "DETAIL_PROVID": "370704",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "坊子区",
+    "CDATE": ""
+}, {
+    "": "1899",
+    "DETAIL_PROVID": "370705",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "奎文区",
+    "CDATE": ""
+}, {
+    "": "1900",
+    "DETAIL_PROVID": "370724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "临朐县",
+    "CDATE": ""
+}, {
+    "": "1901",
+    "DETAIL_PROVID": "370725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "昌乐县",
+    "CDATE": ""
+}, {
+    "": "1902",
+    "DETAIL_PROVID": "370781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "青州市",
+    "CDATE": ""
+}, {
+    "": "1903",
+    "DETAIL_PROVID": "370782",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "诸城市",
+    "CDATE": ""
+}, {
+    "": "1904",
+    "DETAIL_PROVID": "370783",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "寿光市",
+    "CDATE": ""
+}, {
+    "": "1905",
+    "DETAIL_PROVID": "370784",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "安丘市",
+    "CDATE": ""
+}, {
+    "": "1906",
+    "DETAIL_PROVID": "370785",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "高密市",
+    "CDATE": ""
+}, {
+    "": "1907",
+    "DETAIL_PROVID": "370786",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370700",
+    "CITY_NAME": "潍坊市",
+    "COUNTY_NAME": "昌邑市",
+    "CDATE": ""
+}, {
+    "": "1908",
+    "DETAIL_PROVID": "370800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1909",
+    "DETAIL_PROVID": "370811",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "任城区",
+    "CDATE": ""
+}, {
+    "": "1910",
+    "DETAIL_PROVID": "370812",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "兖州区",
+    "CDATE": ""
+}, {
+    "": "1911",
+    "DETAIL_PROVID": "370826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "微山县",
+    "CDATE": ""
+}, {
+    "": "1912",
+    "DETAIL_PROVID": "370827",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "鱼台县",
+    "CDATE": ""
+}, {
+    "": "1913",
+    "DETAIL_PROVID": "370828",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "金乡县",
+    "CDATE": ""
+}, {
+    "": "1914",
+    "DETAIL_PROVID": "370829",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "嘉祥县",
+    "CDATE": ""
+}, {
+    "": "1915",
+    "DETAIL_PROVID": "370830",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "汶上县",
+    "CDATE": ""
+}, {
+    "": "1916",
+    "DETAIL_PROVID": "370831",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "泗水县",
+    "CDATE": ""
+}, {
+    "": "1917",
+    "DETAIL_PROVID": "370832",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "梁山县",
+    "CDATE": ""
+}, {
+    "": "1918",
+    "DETAIL_PROVID": "370881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "曲阜市",
+    "CDATE": ""
+}, {
+    "": "1919",
+    "DETAIL_PROVID": "370883",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370800",
+    "CITY_NAME": "济宁市",
+    "COUNTY_NAME": "邹城市",
+    "CDATE": ""
+}, {
+    "": "1920",
+    "DETAIL_PROVID": "370900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370900",
+    "CITY_NAME": "泰安市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1921",
+    "DETAIL_PROVID": "370902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370900",
+    "CITY_NAME": "泰安市",
+    "COUNTY_NAME": "泰山区",
+    "CDATE": ""
+}, {
+    "": "1922",
+    "DETAIL_PROVID": "370911",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370900",
+    "CITY_NAME": "泰安市",
+    "COUNTY_NAME": "岱岳区",
+    "CDATE": ""
+}, {
+    "": "1923",
+    "DETAIL_PROVID": "370921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370900",
+    "CITY_NAME": "泰安市",
+    "COUNTY_NAME": "宁阳县",
+    "CDATE": ""
+}, {
+    "": "1924",
+    "DETAIL_PROVID": "370923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370900",
+    "CITY_NAME": "泰安市",
+    "COUNTY_NAME": "东平县",
+    "CDATE": ""
+}, {
+    "": "1925",
+    "DETAIL_PROVID": "370982",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370900",
+    "CITY_NAME": "泰安市",
+    "COUNTY_NAME": "新泰市",
+    "CDATE": ""
+}, {
+    "": "1926",
+    "DETAIL_PROVID": "370983",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "370900",
+    "CITY_NAME": "泰安市",
+    "COUNTY_NAME": "肥城市",
+    "CDATE": ""
+}, {
+    "": "1927",
+    "DETAIL_PROVID": "371000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371000",
+    "CITY_NAME": "威海市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1928",
+    "DETAIL_PROVID": "371002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371000",
+    "CITY_NAME": "威海市",
+    "COUNTY_NAME": "环翠区",
+    "CDATE": ""
+}, {
+    "": "1929",
+    "DETAIL_PROVID": "371003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371000",
+    "CITY_NAME": "威海市",
+    "COUNTY_NAME": "文登区",
+    "CDATE": ""
+}, {
+    "": "1930",
+    "DETAIL_PROVID": "371082",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371000",
+    "CITY_NAME": "威海市",
+    "COUNTY_NAME": "荣成市",
+    "CDATE": ""
+}, {
+    "": "1931",
+    "DETAIL_PROVID": "371083",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371000",
+    "CITY_NAME": "威海市",
+    "COUNTY_NAME": "乳山市",
+    "CDATE": ""
+}, {
+    "": "1932",
+    "DETAIL_PROVID": "371100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371100",
+    "CITY_NAME": "日照市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1933",
+    "DETAIL_PROVID": "371102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371100",
+    "CITY_NAME": "日照市",
+    "COUNTY_NAME": "东港区",
+    "CDATE": ""
+}, {
+    "": "1934",
+    "DETAIL_PROVID": "371103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371100",
+    "CITY_NAME": "日照市",
+    "COUNTY_NAME": "岚山区",
+    "CDATE": ""
+}, {
+    "": "1935",
+    "DETAIL_PROVID": "371121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371100",
+    "CITY_NAME": "日照市",
+    "COUNTY_NAME": "五莲县",
+    "CDATE": ""
+}, {
+    "": "1936",
+    "DETAIL_PROVID": "371122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371100",
+    "CITY_NAME": "日照市",
+    "COUNTY_NAME": "莒县",
+    "CDATE": ""
+}, {
+    "": "1937",
+    "DETAIL_PROVID": "371200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371200",
+    "CITY_NAME": "莱芜市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1938",
+    "DETAIL_PROVID": "371202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371200",
+    "CITY_NAME": "莱芜市",
+    "COUNTY_NAME": "莱城区",
+    "CDATE": ""
+}, {
+    "": "1939",
+    "DETAIL_PROVID": "371203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371200",
+    "CITY_NAME": "莱芜市",
+    "COUNTY_NAME": "钢城区",
+    "CDATE": ""
+}, {
+    "": "1940",
+    "DETAIL_PROVID": "371300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1941",
+    "DETAIL_PROVID": "371302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "兰山区",
+    "CDATE": ""
+}, {
+    "": "1942",
+    "DETAIL_PROVID": "371311",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "罗庄区",
+    "CDATE": ""
+}, {
+    "": "1943",
+    "DETAIL_PROVID": "371312",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "河东区",
+    "CDATE": ""
+}, {
+    "": "1944",
+    "DETAIL_PROVID": "371321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "沂南县",
+    "CDATE": ""
+}, {
+    "": "1945",
+    "DETAIL_PROVID": "371322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "郯城县",
+    "CDATE": ""
+}, {
+    "": "1946",
+    "DETAIL_PROVID": "371323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "沂水县",
+    "CDATE": ""
+}, {
+    "": "1947",
+    "DETAIL_PROVID": "371324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "兰陵县",
+    "CDATE": ""
+}, {
+    "": "1948",
+    "DETAIL_PROVID": "371325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "费县",
+    "CDATE": ""
+}, {
+    "": "1949",
+    "DETAIL_PROVID": "371326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "平邑县",
+    "CDATE": ""
+}, {
+    "": "1950",
+    "DETAIL_PROVID": "371327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "莒南县",
+    "CDATE": ""
+}, {
+    "": "1951",
+    "DETAIL_PROVID": "371328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "蒙阴县",
+    "CDATE": ""
+}, {
+    "": "1952",
+    "DETAIL_PROVID": "371329",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371300",
+    "CITY_NAME": "临沂市",
+    "COUNTY_NAME": "临沭县",
+    "CDATE": ""
+}, {
+    "": "1953",
+    "DETAIL_PROVID": "371400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1954",
+    "DETAIL_PROVID": "371402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "德城区",
+    "CDATE": ""
+}, {
+    "": "1955",
+    "DETAIL_PROVID": "371403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "陵城区",
+    "CDATE": ""
+}, {
+    "": "1956",
+    "DETAIL_PROVID": "371422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "宁津县",
+    "CDATE": ""
+}, {
+    "": "1957",
+    "DETAIL_PROVID": "371423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "庆云县",
+    "CDATE": ""
+}, {
+    "": "1958",
+    "DETAIL_PROVID": "371424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "临邑县",
+    "CDATE": ""
+}, {
+    "": "1959",
+    "DETAIL_PROVID": "371425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "齐河县",
+    "CDATE": ""
+}, {
+    "": "1960",
+    "DETAIL_PROVID": "371426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "平原县",
+    "CDATE": ""
+}, {
+    "": "1961",
+    "DETAIL_PROVID": "371427",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "夏津县",
+    "CDATE": ""
+}, {
+    "": "1962",
+    "DETAIL_PROVID": "371428",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "武城县",
+    "CDATE": ""
+}, {
+    "": "1963",
+    "DETAIL_PROVID": "371481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "乐陵市",
+    "CDATE": ""
+}, {
+    "": "1964",
+    "DETAIL_PROVID": "371482",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371400",
+    "CITY_NAME": "德州市",
+    "COUNTY_NAME": "禹城市",
+    "CDATE": ""
+}, {
+    "": "1965",
+    "DETAIL_PROVID": "371500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371500",
+    "CITY_NAME": "聊城市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1966",
+    "DETAIL_PROVID": "371502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371500",
+    "CITY_NAME": "聊城市",
+    "COUNTY_NAME": "东昌府区",
+    "CDATE": ""
+}, {
+    "": "1967",
+    "DETAIL_PROVID": "371521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371500",
+    "CITY_NAME": "聊城市",
+    "COUNTY_NAME": "阳谷县",
+    "CDATE": ""
+}, {
+    "": "1968",
+    "DETAIL_PROVID": "371522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371500",
+    "CITY_NAME": "聊城市",
+    "COUNTY_NAME": "莘县",
+    "CDATE": ""
+}, {
+    "": "1969",
+    "DETAIL_PROVID": "371523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371500",
+    "CITY_NAME": "聊城市",
+    "COUNTY_NAME": "茌平县",
+    "CDATE": ""
+}, {
+    "": "1970",
+    "DETAIL_PROVID": "371524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371500",
+    "CITY_NAME": "聊城市",
+    "COUNTY_NAME": "东阿县",
+    "CDATE": ""
+}, {
+    "": "1971",
+    "DETAIL_PROVID": "371525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371500",
+    "CITY_NAME": "聊城市",
+    "COUNTY_NAME": "冠县",
+    "CDATE": ""
+}, {
+    "": "1972",
+    "DETAIL_PROVID": "371526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371500",
+    "CITY_NAME": "聊城市",
+    "COUNTY_NAME": "高唐县",
+    "CDATE": ""
+}, {
+    "": "1973",
+    "DETAIL_PROVID": "371581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371500",
+    "CITY_NAME": "聊城市",
+    "COUNTY_NAME": "临清市",
+    "CDATE": ""
+}, {
+    "": "1974",
+    "DETAIL_PROVID": "371600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371600",
+    "CITY_NAME": "滨州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1975",
+    "DETAIL_PROVID": "371602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371600",
+    "CITY_NAME": "滨州市",
+    "COUNTY_NAME": "滨城区",
+    "CDATE": ""
+}, {
+    "": "1976",
+    "DETAIL_PROVID": "371603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371600",
+    "CITY_NAME": "滨州市",
+    "COUNTY_NAME": "沾化区",
+    "CDATE": ""
+}, {
+    "": "1977",
+    "DETAIL_PROVID": "371621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371600",
+    "CITY_NAME": "滨州市",
+    "COUNTY_NAME": "惠民县",
+    "CDATE": ""
+}, {
+    "": "1978",
+    "DETAIL_PROVID": "371622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371600",
+    "CITY_NAME": "滨州市",
+    "COUNTY_NAME": "阳信县",
+    "CDATE": ""
+}, {
+    "": "1979",
+    "DETAIL_PROVID": "371623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371600",
+    "CITY_NAME": "滨州市",
+    "COUNTY_NAME": "无棣县",
+    "CDATE": ""
+}, {
+    "": "1980",
+    "DETAIL_PROVID": "371625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371600",
+    "CITY_NAME": "滨州市",
+    "COUNTY_NAME": "博兴县",
+    "CDATE": ""
+}, {
+    "": "1981",
+    "DETAIL_PROVID": "371626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371600",
+    "CITY_NAME": "滨州市",
+    "COUNTY_NAME": "邹平县",
+    "CDATE": ""
+}, {
+    "": "1982",
+    "DETAIL_PROVID": "371700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371700",
+    "CITY_NAME": "菏泽市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1983",
+    "DETAIL_PROVID": "371702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371700",
+    "CITY_NAME": "菏泽市",
+    "COUNTY_NAME": "牡丹区",
+    "CDATE": ""
+}, {
+    "": "1984",
+    "DETAIL_PROVID": "371703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371700",
+    "CITY_NAME": "菏泽市",
+    "COUNTY_NAME": "定陶区",
+    "CDATE": ""
+}, {
+    "": "1985",
+    "DETAIL_PROVID": "371721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371700",
+    "CITY_NAME": "菏泽市",
+    "COUNTY_NAME": "曹县",
+    "CDATE": ""
+}, {
+    "": "1986",
+    "DETAIL_PROVID": "371722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371700",
+    "CITY_NAME": "菏泽市",
+    "COUNTY_NAME": "单县",
+    "CDATE": ""
+}, {
+    "": "1987",
+    "DETAIL_PROVID": "371723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371700",
+    "CITY_NAME": "菏泽市",
+    "COUNTY_NAME": "成武县",
+    "CDATE": ""
+}, {
+    "": "1988",
+    "DETAIL_PROVID": "371724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371700",
+    "CITY_NAME": "菏泽市",
+    "COUNTY_NAME": "巨野县",
+    "CDATE": ""
+}, {
+    "": "1989",
+    "DETAIL_PROVID": "371725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371700",
+    "CITY_NAME": "菏泽市",
+    "COUNTY_NAME": "郓城县",
+    "CDATE": ""
+}, {
+    "": "1990",
+    "DETAIL_PROVID": "371726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371700",
+    "CITY_NAME": "菏泽市",
+    "COUNTY_NAME": "鄄城县",
+    "CDATE": ""
+}, {
+    "": "1991",
+    "DETAIL_PROVID": "371728",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "37",
+    "PROV_NAME": "山东",
+    "CITY_CODE": "371700",
+    "CITY_NAME": "菏泽市",
+    "COUNTY_NAME": "东明县",
+    "CDATE": ""
+}, {
+    "": "1992",
+    "DETAIL_PROVID": "410100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "1993",
+    "DETAIL_PROVID": "410102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "中原区",
+    "CDATE": ""
+}, {
+    "": "1994",
+    "DETAIL_PROVID": "410103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "二七区",
+    "CDATE": ""
+}, {
+    "": "1995",
+    "DETAIL_PROVID": "410104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "管城回族区",
+    "CDATE": ""
+}, {
+    "": "1996",
+    "DETAIL_PROVID": "410105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "金水区",
+    "CDATE": ""
+}, {
+    "": "1997",
+    "DETAIL_PROVID": "410106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "上街区",
+    "CDATE": ""
+}, {
+    "": "1998",
+    "DETAIL_PROVID": "410108",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "惠济区",
+    "CDATE": ""
+}, {
+    "": "1999",
+    "DETAIL_PROVID": "410122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "中牟县",
+    "CDATE": ""
+}, {
+    "": "2000",
+    "DETAIL_PROVID": "410181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "巩义市",
+    "CDATE": ""
+}, {
+    "": "2001",
+    "DETAIL_PROVID": "410182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "荥阳市",
+    "CDATE": ""
+}, {
+    "": "2002",
+    "DETAIL_PROVID": "410183",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "新密市",
+    "CDATE": ""
+}, {
+    "": "2003",
+    "DETAIL_PROVID": "410184",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "新郑市",
+    "CDATE": ""
+}, {
+    "": "2004",
+    "DETAIL_PROVID": "410185",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410100",
+    "CITY_NAME": "郑州市",
+    "COUNTY_NAME": "登封市",
+    "CDATE": ""
+}, {
+    "": "2005",
+    "DETAIL_PROVID": "410200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410200",
+    "CITY_NAME": "开封市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2006",
+    "DETAIL_PROVID": "410202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410200",
+    "CITY_NAME": "开封市",
+    "COUNTY_NAME": "龙亭区",
+    "CDATE": ""
+}, {
+    "": "2007",
+    "DETAIL_PROVID": "410203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410200",
+    "CITY_NAME": "开封市",
+    "COUNTY_NAME": "顺河回族区",
+    "CDATE": ""
+}, {
+    "": "2008",
+    "DETAIL_PROVID": "410204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410200",
+    "CITY_NAME": "开封市",
+    "COUNTY_NAME": "鼓楼区",
+    "CDATE": ""
+}, {
+    "": "2009",
+    "DETAIL_PROVID": "410205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410200",
+    "CITY_NAME": "开封市",
+    "COUNTY_NAME": "禹王台区",
+    "CDATE": ""
+}, {
+    "": "2010",
+    "DETAIL_PROVID": "410212",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410200",
+    "CITY_NAME": "开封市",
+    "COUNTY_NAME": "祥符区",
+    "CDATE": ""
+}, {
+    "": "2011",
+    "DETAIL_PROVID": "410221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410200",
+    "CITY_NAME": "开封市",
+    "COUNTY_NAME": "杞县",
+    "CDATE": ""
+}, {
+    "": "2012",
+    "DETAIL_PROVID": "410222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410200",
+    "CITY_NAME": "开封市",
+    "COUNTY_NAME": "通许县",
+    "CDATE": ""
+}, {
+    "": "2013",
+    "DETAIL_PROVID": "410223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410200",
+    "CITY_NAME": "开封市",
+    "COUNTY_NAME": "尉氏县",
+    "CDATE": ""
+}, {
+    "": "2014",
+    "DETAIL_PROVID": "410225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410200",
+    "CITY_NAME": "开封市",
+    "COUNTY_NAME": "兰考县",
+    "CDATE": ""
+}, {
+    "": "2015",
+    "DETAIL_PROVID": "410300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2016",
+    "DETAIL_PROVID": "410302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "老城区",
+    "CDATE": ""
+}, {
+    "": "2017",
+    "DETAIL_PROVID": "410303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "西工区",
+    "CDATE": ""
+}, {
+    "": "2018",
+    "DETAIL_PROVID": "410304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "瀍河回族区",
+    "CDATE": ""
+}, {
+    "": "2019",
+    "DETAIL_PROVID": "410305",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "涧西区",
+    "CDATE": ""
+}, {
+    "": "2020",
+    "DETAIL_PROVID": "410306",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "吉利区",
+    "CDATE": ""
+}, {
+    "": "2021",
+    "DETAIL_PROVID": "410311",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "洛龙区",
+    "CDATE": ""
+}, {
+    "": "2022",
+    "DETAIL_PROVID": "410322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "孟津县",
+    "CDATE": ""
+}, {
+    "": "2023",
+    "DETAIL_PROVID": "410323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "新安县",
+    "CDATE": ""
+}, {
+    "": "2024",
+    "DETAIL_PROVID": "410324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "栾川县",
+    "CDATE": ""
+}, {
+    "": "2025",
+    "DETAIL_PROVID": "410325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "嵩县",
+    "CDATE": ""
+}, {
+    "": "2026",
+    "DETAIL_PROVID": "410326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "汝阳县",
+    "CDATE": ""
+}, {
+    "": "2027",
+    "DETAIL_PROVID": "410327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "宜阳县",
+    "CDATE": ""
+}, {
+    "": "2028",
+    "DETAIL_PROVID": "410328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "洛宁县",
+    "CDATE": ""
+}, {
+    "": "2029",
+    "DETAIL_PROVID": "410329",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "伊川县",
+    "CDATE": ""
+}, {
+    "": "2030",
+    "DETAIL_PROVID": "410381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410300",
+    "CITY_NAME": "洛阳市",
+    "COUNTY_NAME": "偃师市",
+    "CDATE": ""
+}, {
+    "": "2031",
+    "DETAIL_PROVID": "410400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2032",
+    "DETAIL_PROVID": "410402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "新华区",
+    "CDATE": ""
+}, {
+    "": "2033",
+    "DETAIL_PROVID": "410403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "卫东区",
+    "CDATE": ""
+}, {
+    "": "2034",
+    "DETAIL_PROVID": "410404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "石龙区",
+    "CDATE": ""
+}, {
+    "": "2035",
+    "DETAIL_PROVID": "410411",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "湛河区",
+    "CDATE": ""
+}, {
+    "": "2036",
+    "DETAIL_PROVID": "410421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "宝丰县",
+    "CDATE": ""
+}, {
+    "": "2037",
+    "DETAIL_PROVID": "410422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "叶县",
+    "CDATE": ""
+}, {
+    "": "2038",
+    "DETAIL_PROVID": "410423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "鲁山县",
+    "CDATE": ""
+}, {
+    "": "2039",
+    "DETAIL_PROVID": "410425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "郏县",
+    "CDATE": ""
+}, {
+    "": "2040",
+    "DETAIL_PROVID": "410481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "舞钢市",
+    "CDATE": ""
+}, {
+    "": "2041",
+    "DETAIL_PROVID": "410482",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410400",
+    "CITY_NAME": "平顶山市",
+    "COUNTY_NAME": "汝州市",
+    "CDATE": ""
+}, {
+    "": "2042",
+    "DETAIL_PROVID": "410500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410500",
+    "CITY_NAME": "安阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2043",
+    "DETAIL_PROVID": "410502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410500",
+    "CITY_NAME": "安阳市",
+    "COUNTY_NAME": "文峰区",
+    "CDATE": ""
+}, {
+    "": "2044",
+    "DETAIL_PROVID": "410503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410500",
+    "CITY_NAME": "安阳市",
+    "COUNTY_NAME": "北关区",
+    "CDATE": ""
+}, {
+    "": "2045",
+    "DETAIL_PROVID": "410505",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410500",
+    "CITY_NAME": "安阳市",
+    "COUNTY_NAME": "殷都区",
+    "CDATE": ""
+}, {
+    "": "2046",
+    "DETAIL_PROVID": "410506",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410500",
+    "CITY_NAME": "安阳市",
+    "COUNTY_NAME": "龙安区",
+    "CDATE": ""
+}, {
+    "": "2047",
+    "DETAIL_PROVID": "410522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410500",
+    "CITY_NAME": "安阳市",
+    "COUNTY_NAME": "安阳县",
+    "CDATE": ""
+}, {
+    "": "2048",
+    "DETAIL_PROVID": "410523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410500",
+    "CITY_NAME": "安阳市",
+    "COUNTY_NAME": "汤阴县",
+    "CDATE": ""
+}, {
+    "": "2049",
+    "DETAIL_PROVID": "410526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410500",
+    "CITY_NAME": "安阳市",
+    "COUNTY_NAME": "滑县",
+    "CDATE": ""
+}, {
+    "": "2050",
+    "DETAIL_PROVID": "410527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410500",
+    "CITY_NAME": "安阳市",
+    "COUNTY_NAME": "内黄县",
+    "CDATE": ""
+}, {
+    "": "2051",
+    "DETAIL_PROVID": "410581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410500",
+    "CITY_NAME": "安阳市",
+    "COUNTY_NAME": "林州市",
+    "CDATE": ""
+}, {
+    "": "2052",
+    "DETAIL_PROVID": "410600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410600",
+    "CITY_NAME": "鹤壁市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2053",
+    "DETAIL_PROVID": "410602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410600",
+    "CITY_NAME": "鹤壁市",
+    "COUNTY_NAME": "鹤山区",
+    "CDATE": ""
+}, {
+    "": "2054",
+    "DETAIL_PROVID": "410603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410600",
+    "CITY_NAME": "鹤壁市",
+    "COUNTY_NAME": "山城区",
+    "CDATE": ""
+}, {
+    "": "2055",
+    "DETAIL_PROVID": "410611",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410600",
+    "CITY_NAME": "鹤壁市",
+    "COUNTY_NAME": "淇滨区",
+    "CDATE": ""
+}, {
+    "": "2056",
+    "DETAIL_PROVID": "410621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410600",
+    "CITY_NAME": "鹤壁市",
+    "COUNTY_NAME": "浚县",
+    "CDATE": ""
+}, {
+    "": "2057",
+    "DETAIL_PROVID": "410622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410600",
+    "CITY_NAME": "鹤壁市",
+    "COUNTY_NAME": "淇县",
+    "CDATE": ""
+}, {
+    "": "2058",
+    "DETAIL_PROVID": "410700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2059",
+    "DETAIL_PROVID": "410702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "红旗区",
+    "CDATE": ""
+}, {
+    "": "2060",
+    "DETAIL_PROVID": "410703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "卫滨区",
+    "CDATE": ""
+}, {
+    "": "2061",
+    "DETAIL_PROVID": "410704",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "凤泉区",
+    "CDATE": ""
+}, {
+    "": "2062",
+    "DETAIL_PROVID": "410711",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "牧野区",
+    "CDATE": ""
+}, {
+    "": "2063",
+    "DETAIL_PROVID": "410721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "新乡县",
+    "CDATE": ""
+}, {
+    "": "2064",
+    "DETAIL_PROVID": "410724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "获嘉县",
+    "CDATE": ""
+}, {
+    "": "2065",
+    "DETAIL_PROVID": "410725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "原阳县",
+    "CDATE": ""
+}, {
+    "": "2066",
+    "DETAIL_PROVID": "410726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "延津县",
+    "CDATE": ""
+}, {
+    "": "2067",
+    "DETAIL_PROVID": "410727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "封丘县",
+    "CDATE": ""
+}, {
+    "": "2068",
+    "DETAIL_PROVID": "410728",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "长垣县",
+    "CDATE": ""
+}, {
+    "": "2069",
+    "DETAIL_PROVID": "410781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "卫辉市",
+    "CDATE": ""
+}, {
+    "": "2070",
+    "DETAIL_PROVID": "410782",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410700",
+    "CITY_NAME": "新乡市",
+    "COUNTY_NAME": "辉县市",
+    "CDATE": ""
+}, {
+    "": "2071",
+    "DETAIL_PROVID": "410800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2072",
+    "DETAIL_PROVID": "410802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "解放区",
+    "CDATE": ""
+}, {
+    "": "2073",
+    "DETAIL_PROVID": "410803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "中站区",
+    "CDATE": ""
+}, {
+    "": "2074",
+    "DETAIL_PROVID": "410804",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "马村区",
+    "CDATE": ""
+}, {
+    "": "2075",
+    "DETAIL_PROVID": "410811",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "山阳区",
+    "CDATE": ""
+}, {
+    "": "2076",
+    "DETAIL_PROVID": "410821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "修武县",
+    "CDATE": ""
+}, {
+    "": "2077",
+    "DETAIL_PROVID": "410822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "博爱县",
+    "CDATE": ""
+}, {
+    "": "2078",
+    "DETAIL_PROVID": "410823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "武陟县",
+    "CDATE": ""
+}, {
+    "": "2079",
+    "DETAIL_PROVID": "410825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "温县",
+    "CDATE": ""
+}, {
+    "": "2080",
+    "DETAIL_PROVID": "410882",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "沁阳市",
+    "CDATE": ""
+}, {
+    "": "2081",
+    "DETAIL_PROVID": "410883",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410800",
+    "CITY_NAME": "焦作市",
+    "COUNTY_NAME": "孟州市",
+    "CDATE": ""
+}, {
+    "": "2082",
+    "DETAIL_PROVID": "410900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410900",
+    "CITY_NAME": "濮阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2083",
+    "DETAIL_PROVID": "410902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410900",
+    "CITY_NAME": "濮阳市",
+    "COUNTY_NAME": "华龙区",
+    "CDATE": ""
+}, {
+    "": "2084",
+    "DETAIL_PROVID": "410922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410900",
+    "CITY_NAME": "濮阳市",
+    "COUNTY_NAME": "清丰县",
+    "CDATE": ""
+}, {
+    "": "2085",
+    "DETAIL_PROVID": "410923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410900",
+    "CITY_NAME": "濮阳市",
+    "COUNTY_NAME": "南乐县",
+    "CDATE": ""
+}, {
+    "": "2086",
+    "DETAIL_PROVID": "410926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410900",
+    "CITY_NAME": "濮阳市",
+    "COUNTY_NAME": "范县",
+    "CDATE": ""
+}, {
+    "": "2087",
+    "DETAIL_PROVID": "410927",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410900",
+    "CITY_NAME": "濮阳市",
+    "COUNTY_NAME": "台前县",
+    "CDATE": ""
+}, {
+    "": "2088",
+    "DETAIL_PROVID": "410928",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "410900",
+    "CITY_NAME": "濮阳市",
+    "COUNTY_NAME": "濮阳县",
+    "CDATE": ""
+}, {
+    "": "2089",
+    "DETAIL_PROVID": "411000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411000",
+    "CITY_NAME": "许昌市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2090",
+    "DETAIL_PROVID": "411002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411000",
+    "CITY_NAME": "许昌市",
+    "COUNTY_NAME": "魏都区",
+    "CDATE": ""
+}, {
+    "": "2091",
+    "DETAIL_PROVID": "411003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411000",
+    "CITY_NAME": "许昌市",
+    "COUNTY_NAME": "建安区",
+    "CDATE": ""
+}, {
+    "": "2092",
+    "DETAIL_PROVID": "411024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411000",
+    "CITY_NAME": "许昌市",
+    "COUNTY_NAME": "鄢陵县",
+    "CDATE": ""
+}, {
+    "": "2093",
+    "DETAIL_PROVID": "411025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411000",
+    "CITY_NAME": "许昌市",
+    "COUNTY_NAME": "襄城县",
+    "CDATE": ""
+}, {
+    "": "2094",
+    "DETAIL_PROVID": "411081",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411000",
+    "CITY_NAME": "许昌市",
+    "COUNTY_NAME": "禹州市",
+    "CDATE": ""
+}, {
+    "": "2095",
+    "DETAIL_PROVID": "411082",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411000",
+    "CITY_NAME": "许昌市",
+    "COUNTY_NAME": "长葛市",
+    "CDATE": ""
+}, {
+    "": "2096",
+    "DETAIL_PROVID": "411100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411100",
+    "CITY_NAME": "漯河市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2097",
+    "DETAIL_PROVID": "411102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411100",
+    "CITY_NAME": "漯河市",
+    "COUNTY_NAME": "源汇区",
+    "CDATE": ""
+}, {
+    "": "2098",
+    "DETAIL_PROVID": "411103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411100",
+    "CITY_NAME": "漯河市",
+    "COUNTY_NAME": "郾城区",
+    "CDATE": ""
+}, {
+    "": "2099",
+    "DETAIL_PROVID": "411104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411100",
+    "CITY_NAME": "漯河市",
+    "COUNTY_NAME": "召陵区",
+    "CDATE": ""
+}, {
+    "": "2100",
+    "DETAIL_PROVID": "411121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411100",
+    "CITY_NAME": "漯河市",
+    "COUNTY_NAME": "舞阳县",
+    "CDATE": ""
+}, {
+    "": "2101",
+    "DETAIL_PROVID": "411122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411100",
+    "CITY_NAME": "漯河市",
+    "COUNTY_NAME": "临颍县",
+    "CDATE": ""
+}, {
+    "": "2102",
+    "DETAIL_PROVID": "411200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411200",
+    "CITY_NAME": "三门峡市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2103",
+    "DETAIL_PROVID": "411202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411200",
+    "CITY_NAME": "三门峡市",
+    "COUNTY_NAME": "湖滨区",
+    "CDATE": ""
+}, {
+    "": "2104",
+    "DETAIL_PROVID": "411203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411200",
+    "CITY_NAME": "三门峡市",
+    "COUNTY_NAME": "陕州区",
+    "CDATE": ""
+}, {
+    "": "2105",
+    "DETAIL_PROVID": "411221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411200",
+    "CITY_NAME": "三门峡市",
+    "COUNTY_NAME": "渑池县",
+    "CDATE": ""
+}, {
+    "": "2106",
+    "DETAIL_PROVID": "411224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411200",
+    "CITY_NAME": "三门峡市",
+    "COUNTY_NAME": "卢氏县",
+    "CDATE": ""
+}, {
+    "": "2107",
+    "DETAIL_PROVID": "411281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411200",
+    "CITY_NAME": "三门峡市",
+    "COUNTY_NAME": "义马市",
+    "CDATE": ""
+}, {
+    "": "2108",
+    "DETAIL_PROVID": "411282",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411200",
+    "CITY_NAME": "三门峡市",
+    "COUNTY_NAME": "灵宝市",
+    "CDATE": ""
+}, {
+    "": "2109",
+    "DETAIL_PROVID": "411300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2110",
+    "DETAIL_PROVID": "411302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "宛城区",
+    "CDATE": ""
+}, {
+    "": "2111",
+    "DETAIL_PROVID": "411303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "卧龙区",
+    "CDATE": ""
+}, {
+    "": "2112",
+    "DETAIL_PROVID": "411321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "南召县",
+    "CDATE": ""
+}, {
+    "": "2113",
+    "DETAIL_PROVID": "411322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "方城县",
+    "CDATE": ""
+}, {
+    "": "2114",
+    "DETAIL_PROVID": "411323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "西峡县",
+    "CDATE": ""
+}, {
+    "": "2115",
+    "DETAIL_PROVID": "411324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "镇平县",
+    "CDATE": ""
+}, {
+    "": "2116",
+    "DETAIL_PROVID": "411325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "内乡县",
+    "CDATE": ""
+}, {
+    "": "2117",
+    "DETAIL_PROVID": "411326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "淅川县",
+    "CDATE": ""
+}, {
+    "": "2118",
+    "DETAIL_PROVID": "411327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "社旗县",
+    "CDATE": ""
+}, {
+    "": "2119",
+    "DETAIL_PROVID": "411328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "唐河县",
+    "CDATE": ""
+}, {
+    "": "2120",
+    "DETAIL_PROVID": "411329",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "新野县",
+    "CDATE": ""
+}, {
+    "": "2121",
+    "DETAIL_PROVID": "411330",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "桐柏县",
+    "CDATE": ""
+}, {
+    "": "2122",
+    "DETAIL_PROVID": "411381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411300",
+    "CITY_NAME": "南阳市",
+    "COUNTY_NAME": "邓州市",
+    "CDATE": ""
+}, {
+    "": "2123",
+    "DETAIL_PROVID": "411400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411400",
+    "CITY_NAME": "商丘市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2124",
+    "DETAIL_PROVID": "411402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411400",
+    "CITY_NAME": "商丘市",
+    "COUNTY_NAME": "梁园区",
+    "CDATE": ""
+}, {
+    "": "2125",
+    "DETAIL_PROVID": "411403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411400",
+    "CITY_NAME": "商丘市",
+    "COUNTY_NAME": "睢阳区",
+    "CDATE": ""
+}, {
+    "": "2126",
+    "DETAIL_PROVID": "411421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411400",
+    "CITY_NAME": "商丘市",
+    "COUNTY_NAME": "民权县",
+    "CDATE": ""
+}, {
+    "": "2127",
+    "DETAIL_PROVID": "411422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411400",
+    "CITY_NAME": "商丘市",
+    "COUNTY_NAME": "睢县",
+    "CDATE": ""
+}, {
+    "": "2128",
+    "DETAIL_PROVID": "411423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411400",
+    "CITY_NAME": "商丘市",
+    "COUNTY_NAME": "宁陵县",
+    "CDATE": ""
+}, {
+    "": "2129",
+    "DETAIL_PROVID": "411424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411400",
+    "CITY_NAME": "商丘市",
+    "COUNTY_NAME": "柘城县",
+    "CDATE": ""
+}, {
+    "": "2130",
+    "DETAIL_PROVID": "411425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411400",
+    "CITY_NAME": "商丘市",
+    "COUNTY_NAME": "虞城县",
+    "CDATE": ""
+}, {
+    "": "2131",
+    "DETAIL_PROVID": "411426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411400",
+    "CITY_NAME": "商丘市",
+    "COUNTY_NAME": "夏邑县",
+    "CDATE": ""
+}, {
+    "": "2132",
+    "DETAIL_PROVID": "411481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411400",
+    "CITY_NAME": "商丘市",
+    "COUNTY_NAME": "永城市",
+    "CDATE": ""
+}, {
+    "": "2133",
+    "DETAIL_PROVID": "411500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2134",
+    "DETAIL_PROVID": "411502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "浉河区",
+    "CDATE": ""
+}, {
+    "": "2135",
+    "DETAIL_PROVID": "411503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "平桥区",
+    "CDATE": ""
+}, {
+    "": "2136",
+    "DETAIL_PROVID": "411521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "罗山县",
+    "CDATE": ""
+}, {
+    "": "2137",
+    "DETAIL_PROVID": "411522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "光山县",
+    "CDATE": ""
+}, {
+    "": "2138",
+    "DETAIL_PROVID": "411523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "新县",
+    "CDATE": ""
+}, {
+    "": "2139",
+    "DETAIL_PROVID": "411524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "商城县",
+    "CDATE": ""
+}, {
+    "": "2140",
+    "DETAIL_PROVID": "411525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "固始县",
+    "CDATE": ""
+}, {
+    "": "2141",
+    "DETAIL_PROVID": "411526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "潢川县",
+    "CDATE": ""
+}, {
+    "": "2142",
+    "DETAIL_PROVID": "411527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "淮滨县",
+    "CDATE": ""
+}, {
+    "": "2143",
+    "DETAIL_PROVID": "411528",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411500",
+    "CITY_NAME": "信阳市",
+    "COUNTY_NAME": "息县",
+    "CDATE": ""
+}, {
+    "": "2144",
+    "DETAIL_PROVID": "411600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2145",
+    "DETAIL_PROVID": "411602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "川汇区",
+    "CDATE": ""
+}, {
+    "": "2146",
+    "DETAIL_PROVID": "411621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "扶沟县",
+    "CDATE": ""
+}, {
+    "": "2147",
+    "DETAIL_PROVID": "411622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "西华县",
+    "CDATE": ""
+}, {
+    "": "2148",
+    "DETAIL_PROVID": "411623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "商水县",
+    "CDATE": ""
+}, {
+    "": "2149",
+    "DETAIL_PROVID": "411624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "沈丘县",
+    "CDATE": ""
+}, {
+    "": "2150",
+    "DETAIL_PROVID": "411625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "郸城县",
+    "CDATE": ""
+}, {
+    "": "2151",
+    "DETAIL_PROVID": "411626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "淮阳县",
+    "CDATE": ""
+}, {
+    "": "2152",
+    "DETAIL_PROVID": "411627",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "太康县",
+    "CDATE": ""
+}, {
+    "": "2153",
+    "DETAIL_PROVID": "411628",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "鹿邑县",
+    "CDATE": ""
+}, {
+    "": "2154",
+    "DETAIL_PROVID": "411681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411600",
+    "CITY_NAME": "周口市",
+    "COUNTY_NAME": "项城市",
+    "CDATE": ""
+}, {
+    "": "2155",
+    "DETAIL_PROVID": "411700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2156",
+    "DETAIL_PROVID": "411702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "驿城区",
+    "CDATE": ""
+}, {
+    "": "2157",
+    "DETAIL_PROVID": "411721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "西平县",
+    "CDATE": ""
+}, {
+    "": "2158",
+    "DETAIL_PROVID": "411722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "上蔡县",
+    "CDATE": ""
+}, {
+    "": "2159",
+    "DETAIL_PROVID": "411723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "平舆县",
+    "CDATE": ""
+}, {
+    "": "2160",
+    "DETAIL_PROVID": "411724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "正阳县",
+    "CDATE": ""
+}, {
+    "": "2161",
+    "DETAIL_PROVID": "411725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "确山县",
+    "CDATE": ""
+}, {
+    "": "2162",
+    "DETAIL_PROVID": "411726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "泌阳县",
+    "CDATE": ""
+}, {
+    "": "2163",
+    "DETAIL_PROVID": "411727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "汝南县",
+    "CDATE": ""
+}, {
+    "": "2164",
+    "DETAIL_PROVID": "411728",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "遂平县",
+    "CDATE": ""
+}, {
+    "": "2165",
+    "DETAIL_PROVID": "411729",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "411700",
+    "CITY_NAME": "驻马店市",
+    "COUNTY_NAME": "新蔡县",
+    "CDATE": ""
+}, {
+    "": "2166",
+    "DETAIL_PROVID": "419001",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "41",
+    "PROV_NAME": "河南",
+    "CITY_CODE": "419001",
+    "CITY_NAME": "济源市",
+    "COUNTY_NAME": "济源市",
+    "CDATE": ""
+}, {
+    "": "2167",
+    "DETAIL_PROVID": "420100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2168",
+    "DETAIL_PROVID": "420102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "江岸区",
+    "CDATE": ""
+}, {
+    "": "2169",
+    "DETAIL_PROVID": "420103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "江汉区",
+    "CDATE": ""
+}, {
+    "": "2170",
+    "DETAIL_PROVID": "420104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "硚口区",
+    "CDATE": ""
+}, {
+    "": "2171",
+    "DETAIL_PROVID": "420105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "汉阳区",
+    "CDATE": ""
+}, {
+    "": "2172",
+    "DETAIL_PROVID": "420106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "42",
+    "PROV_NAME": "湖北",
+    "CITY_CODE": "420100",
+    "CITY_NAME": "武汉市",
+    "COUNTY_NAME": "武昌区",
+    "CDATE": ""
+}, {
+    "": "2173",
+    "DETAIL_PROVID": "632724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632700",
+    "CITY_NAME": "玉树藏族自治州",
+    "COUNTY_NAME": "治多县",
+    "CDATE": ""
+}, {
+    "": "2174",
+    "DETAIL_PROVID": "632725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632700",
+    "CITY_NAME": "玉树藏族自治州",
+    "COUNTY_NAME": "囊谦县",
+    "CDATE": ""
+}, {
+    "": "2175",
+    "DETAIL_PROVID": "632726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632700",
+    "CITY_NAME": "玉树藏族自治州",
+    "COUNTY_NAME": "曲麻莱县",
+    "CDATE": ""
+}, {
+    "": "2176",
+    "DETAIL_PROVID": "632800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632800",
+    "CITY_NAME": "海西蒙古族藏族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2177",
+    "DETAIL_PROVID": "632801",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632800",
+    "CITY_NAME": "海西蒙古族藏族自治州",
+    "COUNTY_NAME": "格尔木市",
+    "CDATE": ""
+}, {
+    "": "2178",
+    "DETAIL_PROVID": "632802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632800",
+    "CITY_NAME": "海西蒙古族藏族自治州",
+    "COUNTY_NAME": "德令哈市",
+    "CDATE": ""
+}, {
+    "": "2179",
+    "DETAIL_PROVID": "632821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632800",
+    "CITY_NAME": "海西蒙古族藏族自治州",
+    "COUNTY_NAME": "乌兰县",
+    "CDATE": ""
+}, {
+    "": "2180",
+    "DETAIL_PROVID": "632822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632800",
+    "CITY_NAME": "海西蒙古族藏族自治州",
+    "COUNTY_NAME": "都兰县",
+    "CDATE": ""
+}, {
+    "": "2181",
+    "DETAIL_PROVID": "632823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632800",
+    "CITY_NAME": "海西蒙古族藏族自治州",
+    "COUNTY_NAME": "天峻县",
+    "CDATE": ""
+}, {
+    "": "2182",
+    "DETAIL_PROVID": "632824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632800",
+    "CITY_NAME": "海西蒙古族藏族自治州",
+    "COUNTY_NAME": "冷湖行政区",
+    "CDATE": ""
+}, {
+    "": "2183",
+    "DETAIL_PROVID": "632825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632800",
+    "CITY_NAME": "海西蒙古族藏族自治州",
+    "COUNTY_NAME": "大柴旦行政区",
+    "CDATE": ""
+}, {
+    "": "2184",
+    "DETAIL_PROVID": "632826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632800",
+    "CITY_NAME": "海西蒙古族藏族自治州",
+    "COUNTY_NAME": "茫崖行政区",
+    "CDATE": ""
+}, {
+    "": "2185",
+    "DETAIL_PROVID": "640100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "银川市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2186",
+    "DETAIL_PROVID": "640104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "银川市",
+    "COUNTY_NAME": "兴庆区",
+    "CDATE": ""
+}, {
+    "": "2187",
+    "DETAIL_PROVID": "640105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "银川市",
+    "COUNTY_NAME": "西夏区",
+    "CDATE": ""
+}, {
+    "": "2188",
+    "DETAIL_PROVID": "640106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "银川市",
+    "COUNTY_NAME": "金凤区",
+    "CDATE": ""
+}, {
+    "": "2189",
+    "DETAIL_PROVID": "640121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "银川市",
+    "COUNTY_NAME": "永宁县",
+    "CDATE": ""
+}, {
+    "": "2190",
+    "DETAIL_PROVID": "640122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "银川市",
+    "COUNTY_NAME": "贺兰县",
+    "CDATE": ""
+}, {
+    "": "2191",
+    "DETAIL_PROVID": "640181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "银川市",
+    "COUNTY_NAME": "灵武市",
+    "CDATE": ""
+}, {
+    "": "2192",
+    "DETAIL_PROVID": "640200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "石嘴山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2193",
+    "DETAIL_PROVID": "640202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "石嘴山市",
+    "COUNTY_NAME": "大武口区",
+    "CDATE": ""
+}, {
+    "": "2194",
+    "DETAIL_PROVID": "640205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "石嘴山市",
+    "COUNTY_NAME": "惠农区",
+    "CDATE": ""
+}, {
+    "": "2195",
+    "DETAIL_PROVID": "640221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640100",
+    "CITY_NAME": "石嘴山市",
+    "COUNTY_NAME": "平罗县",
+    "CDATE": ""
+}, {
+    "": "2196",
+    "DETAIL_PROVID": "640300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640300",
+    "CITY_NAME": "吴忠市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2197",
+    "DETAIL_PROVID": "640302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640300",
+    "CITY_NAME": "吴忠市",
+    "COUNTY_NAME": "利通区",
+    "CDATE": ""
+}, {
+    "": "2198",
+    "DETAIL_PROVID": "640303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640300",
+    "CITY_NAME": "吴忠市",
+    "COUNTY_NAME": "红寺堡区",
+    "CDATE": ""
+}, {
+    "": "2199",
+    "DETAIL_PROVID": "640323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640300",
+    "CITY_NAME": "吴忠市",
+    "COUNTY_NAME": "盐池县",
+    "CDATE": ""
+}, {
+    "": "2200",
+    "DETAIL_PROVID": "640324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640300",
+    "CITY_NAME": "吴忠市",
+    "COUNTY_NAME": "同心县",
+    "CDATE": ""
+}, {
+    "": "2201",
+    "DETAIL_PROVID": "640381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640300",
+    "CITY_NAME": "吴忠市",
+    "COUNTY_NAME": "青铜峡市",
+    "CDATE": ""
+}, {
+    "": "2202",
+    "DETAIL_PROVID": "640400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640400",
+    "CITY_NAME": "固原市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2203",
+    "DETAIL_PROVID": "640402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640400",
+    "CITY_NAME": "固原市",
+    "COUNTY_NAME": "原州区",
+    "CDATE": ""
+}, {
+    "": "2204",
+    "DETAIL_PROVID": "640422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640400",
+    "CITY_NAME": "固原市",
+    "COUNTY_NAME": "西吉县",
+    "CDATE": ""
+}, {
+    "": "2205",
+    "DETAIL_PROVID": "640423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640400",
+    "CITY_NAME": "固原市",
+    "COUNTY_NAME": "隆德县",
+    "CDATE": ""
+}, {
+    "": "2206",
+    "DETAIL_PROVID": "640424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640400",
+    "CITY_NAME": "固原市",
+    "COUNTY_NAME": "泾源县",
+    "CDATE": ""
+}, {
+    "": "2207",
+    "DETAIL_PROVID": "640425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640400",
+    "CITY_NAME": "固原市",
+    "COUNTY_NAME": "彭阳县",
+    "CDATE": ""
+}, {
+    "": "2208",
+    "DETAIL_PROVID": "640500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640402",
+    "CITY_NAME": "中卫市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2209",
+    "DETAIL_PROVID": "640502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640402",
+    "CITY_NAME": "中卫市",
+    "COUNTY_NAME": "沙坡头区",
+    "CDATE": ""
+}, {
+    "": "2210",
+    "DETAIL_PROVID": "640521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640402",
+    "CITY_NAME": "中卫市",
+    "COUNTY_NAME": "中宁县",
+    "CDATE": ""
+}, {
+    "": "2211",
+    "DETAIL_PROVID": "640522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "64",
+    "PROV_NAME": "宁夏",
+    "CITY_CODE": "640402",
+    "CITY_NAME": "中卫市",
+    "COUNTY_NAME": "海原县",
+    "CDATE": ""
+}, {
+    "": "2212",
+    "DETAIL_PROVID": "650100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650100",
+    "CITY_NAME": "乌鲁木齐市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2213",
+    "DETAIL_PROVID": "650102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650100",
+    "CITY_NAME": "乌鲁木齐市",
+    "COUNTY_NAME": "天山区",
+    "CDATE": ""
+}, {
+    "": "2214",
+    "DETAIL_PROVID": "650103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650100",
+    "CITY_NAME": "乌鲁木齐市",
+    "COUNTY_NAME": "沙依巴克区",
+    "CDATE": ""
+}, {
+    "": "2215",
+    "DETAIL_PROVID": "650104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650100",
+    "CITY_NAME": "乌鲁木齐市",
+    "COUNTY_NAME": "新市区",
+    "CDATE": ""
+}, {
+    "": "2216",
+    "DETAIL_PROVID": "650105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650100",
+    "CITY_NAME": "乌鲁木齐市",
+    "COUNTY_NAME": "水磨沟区",
+    "CDATE": ""
+}, {
+    "": "2217",
+    "DETAIL_PROVID": "650106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650100",
+    "CITY_NAME": "乌鲁木齐市",
+    "COUNTY_NAME": "头屯河区",
+    "CDATE": ""
+}, {
+    "": "2218",
+    "DETAIL_PROVID": "650107",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650100",
+    "CITY_NAME": "乌鲁木齐市",
+    "COUNTY_NAME": "达坂城区",
+    "CDATE": ""
+}, {
+    "": "2219",
+    "DETAIL_PROVID": "650109",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650100",
+    "CITY_NAME": "乌鲁木齐市",
+    "COUNTY_NAME": "米东区",
+    "CDATE": ""
+}, {
+    "": "2220",
+    "DETAIL_PROVID": "650121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650100",
+    "CITY_NAME": "乌鲁木齐市",
+    "COUNTY_NAME": "乌鲁木齐县",
+    "CDATE": ""
+}, {
+    "": "2221",
+    "DETAIL_PROVID": "650200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650200",
+    "CITY_NAME": "克拉玛依市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2222",
+    "DETAIL_PROVID": "650202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650200",
+    "CITY_NAME": "克拉玛依市",
+    "COUNTY_NAME": "独山子区",
+    "CDATE": ""
+}, {
+    "": "2223",
+    "DETAIL_PROVID": "650203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650200",
+    "CITY_NAME": "克拉玛依市",
+    "COUNTY_NAME": "克拉玛依区",
+    "CDATE": ""
+}, {
+    "": "2224",
+    "DETAIL_PROVID": "650204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650200",
+    "CITY_NAME": "克拉玛依市",
+    "COUNTY_NAME": "白碱滩区",
+    "CDATE": ""
+}, {
+    "": "2225",
+    "DETAIL_PROVID": "650205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650200",
+    "CITY_NAME": "克拉玛依市",
+    "COUNTY_NAME": "乌尔禾区",
+    "CDATE": ""
+}, {
+    "": "2226",
+    "DETAIL_PROVID": "650400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650205",
+    "CITY_NAME": "吐鲁番市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2227",
+    "DETAIL_PROVID": "650402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650205",
+    "CITY_NAME": "吐鲁番市",
+    "COUNTY_NAME": "高昌区",
+    "CDATE": ""
+}, {
+    "": "2228",
+    "DETAIL_PROVID": "650421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650205",
+    "CITY_NAME": "吐鲁番市",
+    "COUNTY_NAME": "鄯善县",
+    "CDATE": ""
+}, {
+    "": "2229",
+    "DETAIL_PROVID": "650422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650205",
+    "CITY_NAME": "吐鲁番市",
+    "COUNTY_NAME": "托克逊县",
+    "CDATE": ""
+}, {
+    "": "2230",
+    "DETAIL_PROVID": "650500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650500",
+    "CITY_NAME": "哈密市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2231",
+    "DETAIL_PROVID": "650502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650500",
+    "CITY_NAME": "哈密市",
+    "COUNTY_NAME": "伊州区",
+    "CDATE": ""
+}, {
+    "": "2232",
+    "DETAIL_PROVID": "650521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650500",
+    "CITY_NAME": "哈密市",
+    "COUNTY_NAME": "巴里坤哈萨克自治县",
+    "CDATE": ""
+}, {
+    "": "2233",
+    "DETAIL_PROVID": "650522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "650500",
+    "CITY_NAME": "哈密市",
+    "COUNTY_NAME": "伊吾县",
+    "CDATE": ""
+}, {
+    "": "2234",
+    "DETAIL_PROVID": "652300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652300",
+    "CITY_NAME": "昌吉回族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2235",
+    "DETAIL_PROVID": "652301",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652300",
+    "CITY_NAME": "昌吉回族自治州",
+    "COUNTY_NAME": "昌吉市",
+    "CDATE": ""
+}, {
+    "": "2236",
+    "DETAIL_PROVID": "652302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652300",
+    "CITY_NAME": "昌吉回族自治州",
+    "COUNTY_NAME": "阜康市",
+    "CDATE": ""
+}, {
+    "": "2237",
+    "DETAIL_PROVID": "652323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652300",
+    "CITY_NAME": "昌吉回族自治州",
+    "COUNTY_NAME": "呼图壁县",
+    "CDATE": ""
+}, {
+    "": "2238",
+    "DETAIL_PROVID": "652324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652300",
+    "CITY_NAME": "昌吉回族自治州",
+    "COUNTY_NAME": "玛纳斯县",
+    "CDATE": ""
+}, {
+    "": "2239",
+    "DETAIL_PROVID": "652325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652300",
+    "CITY_NAME": "昌吉回族自治州",
+    "COUNTY_NAME": "奇台县",
+    "CDATE": ""
+}, {
+    "": "2240",
+    "DETAIL_PROVID": "652327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652300",
+    "CITY_NAME": "昌吉回族自治州",
+    "COUNTY_NAME": "吉木萨尔县",
+    "CDATE": ""
+}, {
+    "": "2241",
+    "DETAIL_PROVID": "652328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652300",
+    "CITY_NAME": "昌吉回族自治州",
+    "COUNTY_NAME": "木垒哈萨克自治县",
+    "CDATE": ""
+}, {
+    "": "2242",
+    "DETAIL_PROVID": "652700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652700",
+    "CITY_NAME": "博尔塔拉蒙古自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2243",
+    "DETAIL_PROVID": "652701",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652700",
+    "CITY_NAME": "博尔塔拉蒙古自治州",
+    "COUNTY_NAME": "博乐市",
+    "CDATE": ""
+}, {
+    "": "2244",
+    "DETAIL_PROVID": "652702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652700",
+    "CITY_NAME": "博尔塔拉蒙古自治州",
+    "COUNTY_NAME": "阿拉山口市",
+    "CDATE": ""
+}, {
+    "": "2245",
+    "DETAIL_PROVID": "652722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652700",
+    "CITY_NAME": "博尔塔拉蒙古自治州",
+    "COUNTY_NAME": "精河县",
+    "CDATE": ""
+}, {
+    "": "2246",
+    "DETAIL_PROVID": "652723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652700",
+    "CITY_NAME": "博尔塔拉蒙古自治州",
+    "COUNTY_NAME": "温泉县",
+    "CDATE": ""
+}, {
+    "": "2247",
+    "DETAIL_PROVID": "652800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652800",
+    "CITY_NAME": "巴音郭楞蒙古自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2248",
+    "DETAIL_PROVID": "652801",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652800",
+    "CITY_NAME": "巴音郭楞蒙古自治州",
+    "COUNTY_NAME": "库尔勒市",
+    "CDATE": ""
+}, {
+    "": "2249",
+    "DETAIL_PROVID": "652822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652800",
+    "CITY_NAME": "巴音郭楞蒙古自治州",
+    "COUNTY_NAME": "轮台县",
+    "CDATE": ""
+}, {
+    "": "2250",
+    "DETAIL_PROVID": "652823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652800",
+    "CITY_NAME": "巴音郭楞蒙古自治州",
+    "COUNTY_NAME": "尉犁县",
+    "CDATE": ""
+}, {
+    "": "2251",
+    "DETAIL_PROVID": "652824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652800",
+    "CITY_NAME": "巴音郭楞蒙古自治州",
+    "COUNTY_NAME": "若羌县",
+    "CDATE": ""
+}, {
+    "": "2252",
+    "DETAIL_PROVID": "652825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652800",
+    "CITY_NAME": "巴音郭楞蒙古自治州",
+    "COUNTY_NAME": "且末县",
+    "CDATE": ""
+}, {
+    "": "2253",
+    "DETAIL_PROVID": "451322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451300",
+    "CITY_NAME": "来宾市",
+    "COUNTY_NAME": "象州县",
+    "CDATE": ""
+}, {
+    "": "2254",
+    "DETAIL_PROVID": "451323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451300",
+    "CITY_NAME": "来宾市",
+    "COUNTY_NAME": "武宣县",
+    "CDATE": ""
+}, {
+    "": "2255",
+    "DETAIL_PROVID": "451324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451300",
+    "CITY_NAME": "来宾市",
+    "COUNTY_NAME": "金秀瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "2256",
+    "DETAIL_PROVID": "451381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451300",
+    "CITY_NAME": "来宾市",
+    "COUNTY_NAME": "合山市",
+    "CDATE": ""
+}, {
+    "": "2257",
+    "DETAIL_PROVID": "451400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451400",
+    "CITY_NAME": "崇左市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2258",
+    "DETAIL_PROVID": "451402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451400",
+    "CITY_NAME": "崇左市",
+    "COUNTY_NAME": "江州区",
+    "CDATE": ""
+}, {
+    "": "2259",
+    "DETAIL_PROVID": "451421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451400",
+    "CITY_NAME": "崇左市",
+    "COUNTY_NAME": "扶绥县",
+    "CDATE": ""
+}, {
+    "": "2260",
+    "DETAIL_PROVID": "451422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451400",
+    "CITY_NAME": "崇左市",
+    "COUNTY_NAME": "宁明县",
+    "CDATE": ""
+}, {
+    "": "2261",
+    "DETAIL_PROVID": "451423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451400",
+    "CITY_NAME": "崇左市",
+    "COUNTY_NAME": "龙州县",
+    "CDATE": ""
+}, {
+    "": "2262",
+    "DETAIL_PROVID": "451424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451400",
+    "CITY_NAME": "崇左市",
+    "COUNTY_NAME": "大新县",
+    "CDATE": ""
+}, {
+    "": "2263",
+    "DETAIL_PROVID": "451425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451400",
+    "CITY_NAME": "崇左市",
+    "COUNTY_NAME": "天等县",
+    "CDATE": ""
+}, {
+    "": "2264",
+    "DETAIL_PROVID": "451481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "45",
+    "PROV_NAME": "广西",
+    "CITY_CODE": "451400",
+    "CITY_NAME": "崇左市",
+    "COUNTY_NAME": "凭祥市",
+    "CDATE": ""
+}, {
+    "": "2265",
+    "DETAIL_PROVID": "460100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460100",
+    "CITY_NAME": "海口市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2266",
+    "DETAIL_PROVID": "460105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460100",
+    "CITY_NAME": "海口市",
+    "COUNTY_NAME": "秀英区",
+    "CDATE": ""
+}, {
+    "": "2267",
+    "DETAIL_PROVID": "460106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460100",
+    "CITY_NAME": "海口市",
+    "COUNTY_NAME": "龙华区",
+    "CDATE": ""
+}, {
+    "": "2268",
+    "DETAIL_PROVID": "460107",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460100",
+    "CITY_NAME": "海口市",
+    "COUNTY_NAME": "琼山区",
+    "CDATE": ""
+}, {
+    "": "2269",
+    "DETAIL_PROVID": "460108",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460100",
+    "CITY_NAME": "海口市",
+    "COUNTY_NAME": "美兰区",
+    "CDATE": ""
+}, {
+    "": "2270",
+    "DETAIL_PROVID": "460200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460200",
+    "CITY_NAME": "三亚市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2271",
+    "DETAIL_PROVID": "460202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460200",
+    "CITY_NAME": "三亚市",
+    "COUNTY_NAME": "海棠区",
+    "CDATE": ""
+}, {
+    "": "2272",
+    "DETAIL_PROVID": "460203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460200",
+    "CITY_NAME": "三亚市",
+    "COUNTY_NAME": "吉阳区",
+    "CDATE": ""
+}, {
+    "": "2273",
+    "DETAIL_PROVID": "460204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460200",
+    "CITY_NAME": "三亚市",
+    "COUNTY_NAME": "天涯区",
+    "CDATE": ""
+}, {
+    "": "2274",
+    "DETAIL_PROVID": "460205",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460200",
+    "CITY_NAME": "三亚市",
+    "COUNTY_NAME": "崖州区",
+    "CDATE": ""
+}, {
+    "": "2275",
+    "DETAIL_PROVID": "460300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460200",
+    "CITY_NAME": "三沙市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2276",
+    "DETAIL_PROVID": "460321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460200",
+    "CITY_NAME": "三沙市",
+    "COUNTY_NAME": "西沙群岛",
+    "CDATE": ""
+}, {
+    "": "2277",
+    "DETAIL_PROVID": "460322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460200",
+    "CITY_NAME": "三沙市",
+    "COUNTY_NAME": "南沙群岛",
+    "CDATE": ""
+}, {
+    "": "2278",
+    "DETAIL_PROVID": "460323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460200",
+    "CITY_NAME": "三沙市",
+    "COUNTY_NAME": "中沙群岛的岛礁及其海域",
+    "CDATE": ""
+}, {
+    "": "2279",
+    "DETAIL_PROVID": "460400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "460400",
+    "CITY_NAME": "儋州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2280",
+    "DETAIL_PROVID": "469001",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469001",
+    "CITY_NAME": "五指山市",
+    "COUNTY_NAME": "五指山市",
+    "CDATE": ""
+}, {
+    "": "2281",
+    "DETAIL_PROVID": "469002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469002",
+    "CITY_NAME": "琼海市",
+    "COUNTY_NAME": "琼海市",
+    "CDATE": ""
+}, {
+    "": "2282",
+    "DETAIL_PROVID": "469005",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469005",
+    "CITY_NAME": "文昌市",
+    "COUNTY_NAME": "文昌市",
+    "CDATE": ""
+}, {
+    "": "2283",
+    "DETAIL_PROVID": "469006",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469006",
+    "CITY_NAME": "万宁市",
+    "COUNTY_NAME": "万宁市",
+    "CDATE": ""
+}, {
+    "": "2284",
+    "DETAIL_PROVID": "469007",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469007",
+    "CITY_NAME": "东方市",
+    "COUNTY_NAME": "东方市",
+    "CDATE": ""
+}, {
+    "": "2285",
+    "DETAIL_PROVID": "469021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469021",
+    "CITY_NAME": "定安县",
+    "COUNTY_NAME": "定安县",
+    "CDATE": ""
+}, {
+    "": "2286",
+    "DETAIL_PROVID": "469022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469022",
+    "CITY_NAME": "屯昌县",
+    "COUNTY_NAME": "屯昌县",
+    "CDATE": ""
+}, {
+    "": "2287",
+    "DETAIL_PROVID": "469023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469023",
+    "CITY_NAME": "澄迈县",
+    "COUNTY_NAME": "澄迈县",
+    "CDATE": ""
+}, {
+    "": "2288",
+    "DETAIL_PROVID": "469024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469024",
+    "CITY_NAME": "临高县",
+    "COUNTY_NAME": "临高县",
+    "CDATE": ""
+}, {
+    "": "2289",
+    "DETAIL_PROVID": "469025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469025",
+    "CITY_NAME": "白沙黎族自治县",
+    "COUNTY_NAME": "白沙黎族自治县",
+    "CDATE": ""
+}, {
+    "": "2290",
+    "DETAIL_PROVID": "469026",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469026",
+    "CITY_NAME": "昌江黎族自治县",
+    "COUNTY_NAME": "昌江黎族自治县",
+    "CDATE": ""
+}, {
+    "": "2291",
+    "DETAIL_PROVID": "469027",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469027",
+    "CITY_NAME": "乐东黎族自治县",
+    "COUNTY_NAME": "乐东黎族自治县",
+    "CDATE": ""
+}, {
+    "": "2292",
+    "DETAIL_PROVID": "469028",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469028",
+    "CITY_NAME": "陵水黎族自治县",
+    "COUNTY_NAME": "陵水黎族自治县",
+    "CDATE": ""
+}, {
+    "": "2293",
+    "DETAIL_PROVID": "469029",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469029",
+    "CITY_NAME": "保亭黎族苗族自治县",
+    "COUNTY_NAME": "保亭黎族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2294",
+    "DETAIL_PROVID": "469030",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "46",
+    "PROV_NAME": "海南",
+    "CITY_CODE": "469030",
+    "CITY_NAME": "琼中黎族苗族自治县",
+    "COUNTY_NAME": "琼中黎族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2295",
+    "DETAIL_PROVID": "500000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2296",
+    "DETAIL_PROVID": "500101",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "万州区",
+    "CDATE": ""
+}, {
+    "": "2297",
+    "DETAIL_PROVID": "500102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "涪陵区",
+    "CDATE": ""
+}, {
+    "": "2298",
+    "DETAIL_PROVID": "500103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "渝中区",
+    "CDATE": ""
+}, {
+    "": "2299",
+    "DETAIL_PROVID": "500104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "大渡口区",
+    "CDATE": ""
+}, {
+    "": "2300",
+    "DETAIL_PROVID": "500105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "江北区",
+    "CDATE": ""
+}, {
+    "": "2301",
+    "DETAIL_PROVID": "500106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "沙坪坝区",
+    "CDATE": ""
+}, {
+    "": "2302",
+    "DETAIL_PROVID": "500107",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "九龙坡区",
+    "CDATE": ""
+}, {
+    "": "2303",
+    "DETAIL_PROVID": "500108",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "南岸区",
+    "CDATE": ""
+}, {
+    "": "2304",
+    "DETAIL_PROVID": "500109",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "北碚区",
+    "CDATE": ""
+}, {
+    "": "2305",
+    "DETAIL_PROVID": "500110",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "綦江区",
+    "CDATE": ""
+}, {
+    "": "2306",
+    "DETAIL_PROVID": "500111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "大足区",
+    "CDATE": ""
+}, {
+    "": "2307",
+    "DETAIL_PROVID": "500112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "渝北区",
+    "CDATE": ""
+}, {
+    "": "2308",
+    "DETAIL_PROVID": "500113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "巴南区",
+    "CDATE": ""
+}, {
+    "": "2309",
+    "DETAIL_PROVID": "500114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "黔江区",
+    "CDATE": ""
+}, {
+    "": "2310",
+    "DETAIL_PROVID": "500115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "长寿区",
+    "CDATE": ""
+}, {
+    "": "2311",
+    "DETAIL_PROVID": "500116",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "江津区",
+    "CDATE": ""
+}, {
+    "": "2312",
+    "DETAIL_PROVID": "500117",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "合川区",
+    "CDATE": ""
+}, {
+    "": "2313",
+    "DETAIL_PROVID": "500118",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "永川区",
+    "CDATE": ""
+}, {
+    "": "2314",
+    "DETAIL_PROVID": "500119",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "南川区",
+    "CDATE": ""
+}, {
+    "": "2315",
+    "DETAIL_PROVID": "500120",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "璧山区",
+    "CDATE": ""
+}, {
+    "": "2316",
+    "DETAIL_PROVID": "500151",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "铜梁区",
+    "CDATE": ""
+}, {
+    "": "2317",
+    "DETAIL_PROVID": "500152",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "潼南区",
+    "CDATE": ""
+}, {
+    "": "2318",
+    "DETAIL_PROVID": "500153",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "荣昌区",
+    "CDATE": ""
+}, {
+    "": "2319",
+    "DETAIL_PROVID": "500154",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "开州区",
+    "CDATE": ""
+}, {
+    "": "2320",
+    "DETAIL_PROVID": "500155",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "梁平区",
+    "CDATE": ""
+}, {
+    "": "2321",
+    "DETAIL_PROVID": "500156",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "武隆区",
+    "CDATE": ""
+}, {
+    "": "2322",
+    "DETAIL_PROVID": "500229",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "城口县",
+    "CDATE": ""
+}, {
+    "": "2323",
+    "DETAIL_PROVID": "500230",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "丰都县",
+    "CDATE": ""
+}, {
+    "": "2324",
+    "DETAIL_PROVID": "500231",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "垫江县",
+    "CDATE": ""
+}, {
+    "": "2325",
+    "DETAIL_PROVID": "500233",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "忠县",
+    "CDATE": ""
+}, {
+    "": "2326",
+    "DETAIL_PROVID": "500235",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "云阳县",
+    "CDATE": ""
+}, {
+    "": "2327",
+    "DETAIL_PROVID": "500236",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "奉节县",
+    "CDATE": ""
+}, {
+    "": "2328",
+    "DETAIL_PROVID": "500237",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "巫山县",
+    "CDATE": ""
+}, {
+    "": "2329",
+    "DETAIL_PROVID": "500238",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "巫溪县",
+    "CDATE": ""
+}, {
+    "": "2330",
+    "DETAIL_PROVID": "500240",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "石柱土家族自治县",
+    "CDATE": ""
+}, {
+    "": "2331",
+    "DETAIL_PROVID": "500241",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "秀山土家族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2332",
+    "DETAIL_PROVID": "513232",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "若尔盖县",
+    "CDATE": ""
+}, {
+    "": "2333",
+    "DETAIL_PROVID": "513233",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "红原县",
+    "CDATE": ""
+}, {
+    "": "2334",
+    "DETAIL_PROVID": "513300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2335",
+    "DETAIL_PROVID": "513301",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "康定市",
+    "CDATE": ""
+}, {
+    "": "2336",
+    "DETAIL_PROVID": "513322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "泸定县",
+    "CDATE": ""
+}, {
+    "": "2337",
+    "DETAIL_PROVID": "513323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "丹巴县",
+    "CDATE": ""
+}, {
+    "": "2338",
+    "DETAIL_PROVID": "513324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "九龙县",
+    "CDATE": ""
+}, {
+    "": "2339",
+    "DETAIL_PROVID": "513325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "雅江县",
+    "CDATE": ""
+}, {
+    "": "2340",
+    "DETAIL_PROVID": "513326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "道孚县",
+    "CDATE": ""
+}, {
+    "": "2341",
+    "DETAIL_PROVID": "513327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "炉霍县",
+    "CDATE": ""
+}, {
+    "": "2342",
+    "DETAIL_PROVID": "513328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "甘孜县",
+    "CDATE": ""
+}, {
+    "": "2343",
+    "DETAIL_PROVID": "513329",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "新龙县",
+    "CDATE": ""
+}, {
+    "": "2344",
+    "DETAIL_PROVID": "513330",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "德格县",
+    "CDATE": ""
+}, {
+    "": "2345",
+    "DETAIL_PROVID": "513331",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "白玉县",
+    "CDATE": ""
+}, {
+    "": "2346",
+    "DETAIL_PROVID": "513332",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "石渠县",
+    "CDATE": ""
+}, {
+    "": "2347",
+    "DETAIL_PROVID": "513333",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "色达县",
+    "CDATE": ""
+}, {
+    "": "2348",
+    "DETAIL_PROVID": "513334",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "理塘县",
+    "CDATE": ""
+}, {
+    "": "2349",
+    "DETAIL_PROVID": "513335",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "巴塘县",
+    "CDATE": ""
+}, {
+    "": "2350",
+    "DETAIL_PROVID": "513336",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "乡城县",
+    "CDATE": ""
+}, {
+    "": "2351",
+    "DETAIL_PROVID": "513337",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "稻城县",
+    "CDATE": ""
+}, {
+    "": "2352",
+    "DETAIL_PROVID": "513338",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513300",
+    "CITY_NAME": "甘孜藏族自治州",
+    "COUNTY_NAME": "得荣县",
+    "CDATE": ""
+}, {
+    "": "2353",
+    "DETAIL_PROVID": "513400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2354",
+    "DETAIL_PROVID": "513401",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "西昌市",
+    "CDATE": ""
+}, {
+    "": "2355",
+    "DETAIL_PROVID": "513422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "木里藏族自治县",
+    "CDATE": ""
+}, {
+    "": "2356",
+    "DETAIL_PROVID": "513423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "盐源县",
+    "CDATE": ""
+}, {
+    "": "2357",
+    "DETAIL_PROVID": "513424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "德昌县",
+    "CDATE": ""
+}, {
+    "": "2358",
+    "DETAIL_PROVID": "513425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "会理县",
+    "CDATE": ""
+}, {
+    "": "2359",
+    "DETAIL_PROVID": "513426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "会东县",
+    "CDATE": ""
+}, {
+    "": "2360",
+    "DETAIL_PROVID": "513427",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "宁南县",
+    "CDATE": ""
+}, {
+    "": "2361",
+    "DETAIL_PROVID": "513428",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "普格县",
+    "CDATE": ""
+}, {
+    "": "2362",
+    "DETAIL_PROVID": "513429",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "布拖县",
+    "CDATE": ""
+}, {
+    "": "2363",
+    "DETAIL_PROVID": "513430",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "金阳县",
+    "CDATE": ""
+}, {
+    "": "2364",
+    "DETAIL_PROVID": "513431",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "昭觉县",
+    "CDATE": ""
+}, {
+    "": "2365",
+    "DETAIL_PROVID": "513432",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "喜德县",
+    "CDATE": ""
+}, {
+    "": "2366",
+    "DETAIL_PROVID": "513433",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "冕宁县",
+    "CDATE": ""
+}, {
+    "": "2367",
+    "DETAIL_PROVID": "513434",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "越西县",
+    "CDATE": ""
+}, {
+    "": "2368",
+    "DETAIL_PROVID": "513435",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "甘洛县",
+    "CDATE": ""
+}, {
+    "": "2369",
+    "DETAIL_PROVID": "513436",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "美姑县",
+    "CDATE": ""
+}, {
+    "": "2370",
+    "DETAIL_PROVID": "513437",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513400",
+    "CITY_NAME": "凉山彝族自治州",
+    "COUNTY_NAME": "雷波县",
+    "CDATE": ""
+}, {
+    "": "2371",
+    "DETAIL_PROVID": "520100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2372",
+    "DETAIL_PROVID": "520102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "南明区",
+    "CDATE": ""
+}, {
+    "": "2373",
+    "DETAIL_PROVID": "520103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "云岩区",
+    "CDATE": ""
+}, {
+    "": "2374",
+    "DETAIL_PROVID": "520111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "花溪区",
+    "CDATE": ""
+}, {
+    "": "2375",
+    "DETAIL_PROVID": "520112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "乌当区",
+    "CDATE": ""
+}, {
+    "": "2376",
+    "DETAIL_PROVID": "520113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "白云区",
+    "CDATE": ""
+}, {
+    "": "2377",
+    "DETAIL_PROVID": "520115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "观山湖区",
+    "CDATE": ""
+}, {
+    "": "2378",
+    "DETAIL_PROVID": "520121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "开阳县",
+    "CDATE": ""
+}, {
+    "": "2379",
+    "DETAIL_PROVID": "520122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "息烽县",
+    "CDATE": ""
+}, {
+    "": "2380",
+    "DETAIL_PROVID": "520123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "修文县",
+    "CDATE": ""
+}, {
+    "": "2381",
+    "DETAIL_PROVID": "520181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520100",
+    "CITY_NAME": "贵阳市",
+    "COUNTY_NAME": "清镇市",
+    "CDATE": ""
+}, {
+    "": "2382",
+    "DETAIL_PROVID": "520200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520200",
+    "CITY_NAME": "六盘水市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2383",
+    "DETAIL_PROVID": "520201",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520200",
+    "CITY_NAME": "六盘水市",
+    "COUNTY_NAME": "钟山区",
+    "CDATE": ""
+}, {
+    "": "2384",
+    "DETAIL_PROVID": "520203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520200",
+    "CITY_NAME": "六盘水市",
+    "COUNTY_NAME": "六枝特区",
+    "CDATE": ""
+}, {
+    "": "2385",
+    "DETAIL_PROVID": "520221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520200",
+    "CITY_NAME": "六盘水市",
+    "COUNTY_NAME": "水城县",
+    "CDATE": ""
+}, {
+    "": "2386",
+    "DETAIL_PROVID": "520281",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520200",
+    "CITY_NAME": "六盘水市",
+    "COUNTY_NAME": "盘州市",
+    "CDATE": ""
+}, {
+    "": "2387",
+    "DETAIL_PROVID": "520300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2388",
+    "DETAIL_PROVID": "520302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "红花岗区",
+    "CDATE": ""
+}, {
+    "": "2389",
+    "DETAIL_PROVID": "520303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "汇川区",
+    "CDATE": ""
+}, {
+    "": "2390",
+    "DETAIL_PROVID": "520304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "播州区",
+    "CDATE": ""
+}, {
+    "": "2391",
+    "DETAIL_PROVID": "520322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "桐梓县",
+    "CDATE": ""
+}, {
+    "": "2392",
+    "DETAIL_PROVID": "520323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "绥阳县",
+    "CDATE": ""
+}, {
+    "": "2393",
+    "DETAIL_PROVID": "520324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "正安县",
+    "CDATE": ""
+}, {
+    "": "2394",
+    "DETAIL_PROVID": "520325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "道真仡佬族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2395",
+    "DETAIL_PROVID": "520326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "务川仡佬族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2396",
+    "DETAIL_PROVID": "520327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "凤冈县",
+    "CDATE": ""
+}, {
+    "": "2397",
+    "DETAIL_PROVID": "520328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "湄潭县",
+    "CDATE": ""
+}, {
+    "": "2398",
+    "DETAIL_PROVID": "520329",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "余庆县",
+    "CDATE": ""
+}, {
+    "": "2399",
+    "DETAIL_PROVID": "520330",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "习水县",
+    "CDATE": ""
+}, {
+    "": "2400",
+    "DETAIL_PROVID": "520381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "赤水市",
+    "CDATE": ""
+}, {
+    "": "2401",
+    "DETAIL_PROVID": "520382",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520300",
+    "CITY_NAME": "遵义市",
+    "COUNTY_NAME": "仁怀市",
+    "CDATE": ""
+}, {
+    "": "2402",
+    "DETAIL_PROVID": "520400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520400",
+    "CITY_NAME": "安顺市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2403",
+    "DETAIL_PROVID": "520402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520400",
+    "CITY_NAME": "安顺市",
+    "COUNTY_NAME": "西秀区",
+    "CDATE": ""
+}, {
+    "": "2404",
+    "DETAIL_PROVID": "520403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520400",
+    "CITY_NAME": "安顺市",
+    "COUNTY_NAME": "平坝区",
+    "CDATE": ""
+}, {
+    "": "2405",
+    "DETAIL_PROVID": "520422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520400",
+    "CITY_NAME": "安顺市",
+    "COUNTY_NAME": "普定县",
+    "CDATE": ""
+}, {
+    "": "2406",
+    "DETAIL_PROVID": "520423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520400",
+    "CITY_NAME": "安顺市",
+    "COUNTY_NAME": "镇宁布依族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2407",
+    "DETAIL_PROVID": "520424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520400",
+    "CITY_NAME": "安顺市",
+    "COUNTY_NAME": "关岭布依族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2408",
+    "DETAIL_PROVID": "520425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520400",
+    "CITY_NAME": "安顺市",
+    "COUNTY_NAME": "紫云苗族布依族自治县",
+    "CDATE": ""
+}, {
+    "": "2409",
+    "DETAIL_PROVID": "520500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520500",
+    "CITY_NAME": "毕节市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2410",
+    "DETAIL_PROVID": "520502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520500",
+    "CITY_NAME": "毕节市",
+    "COUNTY_NAME": "七星关区",
+    "CDATE": ""
+}, {
+    "": "2411",
+    "DETAIL_PROVID": "520521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520500",
+    "CITY_NAME": "毕节市",
+    "COUNTY_NAME": "大方县",
+    "CDATE": ""
+}, {
+    "": "2412",
+    "DETAIL_PROVID": "520522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520500",
+    "CITY_NAME": "毕节市",
+    "COUNTY_NAME": "黔西县",
+    "CDATE": ""
+}, {
+    "": "2413",
+    "DETAIL_PROVID": "520523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520500",
+    "CITY_NAME": "毕节市",
+    "COUNTY_NAME": "金沙县",
+    "CDATE": ""
+}, {
+    "": "2414",
+    "DETAIL_PROVID": "520524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520500",
+    "CITY_NAME": "毕节市",
+    "COUNTY_NAME": "织金县",
+    "CDATE": ""
+}, {
+    "": "2415",
+    "DETAIL_PROVID": "520525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520500",
+    "CITY_NAME": "毕节市",
+    "COUNTY_NAME": "纳雍县",
+    "CDATE": ""
+}, {
+    "": "2416",
+    "DETAIL_PROVID": "520526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520500",
+    "CITY_NAME": "毕节市",
+    "COUNTY_NAME": "威宁彝族回族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2417",
+    "DETAIL_PROVID": "520527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520500",
+    "CITY_NAME": "毕节市",
+    "COUNTY_NAME": "赫章县",
+    "CDATE": ""
+}, {
+    "": "2418",
+    "DETAIL_PROVID": "520600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2419",
+    "DETAIL_PROVID": "520602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "碧江区",
+    "CDATE": ""
+}, {
+    "": "2420",
+    "DETAIL_PROVID": "520603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "万山区",
+    "CDATE": ""
+}, {
+    "": "2421",
+    "DETAIL_PROVID": "520621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "江口县",
+    "CDATE": ""
+}, {
+    "": "2422",
+    "DETAIL_PROVID": "520622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "玉屏侗族自治县",
+    "CDATE": ""
+}, {
+    "": "2423",
+    "DETAIL_PROVID": "520623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "石阡县",
+    "CDATE": ""
+}, {
+    "": "2424",
+    "DETAIL_PROVID": "520624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "思南县",
+    "CDATE": ""
+}, {
+    "": "2425",
+    "DETAIL_PROVID": "520625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "印江土家族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2426",
+    "DETAIL_PROVID": "520626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "德江县",
+    "CDATE": ""
+}, {
+    "": "2427",
+    "DETAIL_PROVID": "520627",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "沿河土家族自治县",
+    "CDATE": ""
+}, {
+    "": "2428",
+    "DETAIL_PROVID": "520628",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "520600",
+    "CITY_NAME": "铜仁市",
+    "COUNTY_NAME": "松桃苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2429",
+    "DETAIL_PROVID": "522300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522300",
+    "CITY_NAME": "黔西南布依族苗族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2430",
+    "DETAIL_PROVID": "522301",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522300",
+    "CITY_NAME": "黔西南布依族苗族自治州",
+    "COUNTY_NAME": "兴义市",
+    "CDATE": ""
+}, {
+    "": "2431",
+    "DETAIL_PROVID": "522322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522300",
+    "CITY_NAME": "黔西南布依族苗族自治州",
+    "COUNTY_NAME": "兴仁县",
+    "CDATE": ""
+}, {
+    "": "2432",
+    "DETAIL_PROVID": "522323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522300",
+    "CITY_NAME": "黔西南布依族苗族自治州",
+    "COUNTY_NAME": "普安县",
+    "CDATE": ""
+}, {
+    "": "2433",
+    "DETAIL_PROVID": "522324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522300",
+    "CITY_NAME": "黔西南布依族苗族自治州",
+    "COUNTY_NAME": "晴隆县",
+    "CDATE": ""
+}, {
+    "": "2434",
+    "DETAIL_PROVID": "522325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522300",
+    "CITY_NAME": "黔西南布依族苗族自治州",
+    "COUNTY_NAME": "贞丰县",
+    "CDATE": ""
+}, {
+    "": "2435",
+    "DETAIL_PROVID": "522326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522300",
+    "CITY_NAME": "黔西南布依族苗族自治州",
+    "COUNTY_NAME": "望谟县",
+    "CDATE": ""
+}, {
+    "": "2436",
+    "DETAIL_PROVID": "522327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522300",
+    "CITY_NAME": "黔西南布依族苗族自治州",
+    "COUNTY_NAME": "册亨县",
+    "CDATE": ""
+}, {
+    "": "2437",
+    "DETAIL_PROVID": "522328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522300",
+    "CITY_NAME": "黔西南布依族苗族自治州",
+    "COUNTY_NAME": "安龙县",
+    "CDATE": ""
+}, {
+    "": "2438",
+    "DETAIL_PROVID": "522600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2439",
+    "DETAIL_PROVID": "522601",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "凯里市",
+    "CDATE": ""
+}, {
+    "": "2440",
+    "DETAIL_PROVID": "522622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "黄平县",
+    "CDATE": ""
+}, {
+    "": "2441",
+    "DETAIL_PROVID": "522623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "施秉县",
+    "CDATE": ""
+}, {
+    "": "2442",
+    "DETAIL_PROVID": "522624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "三穗县",
+    "CDATE": ""
+}, {
+    "": "2443",
+    "DETAIL_PROVID": "522625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "镇远县",
+    "CDATE": ""
+}, {
+    "": "2444",
+    "DETAIL_PROVID": "522626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "岑巩县",
+    "CDATE": ""
+}, {
+    "": "2445",
+    "DETAIL_PROVID": "522627",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "天柱县",
+    "CDATE": ""
+}, {
+    "": "2446",
+    "DETAIL_PROVID": "522628",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "锦屏县",
+    "CDATE": ""
+}, {
+    "": "2447",
+    "DETAIL_PROVID": "522629",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "剑河县",
+    "CDATE": ""
+}, {
+    "": "2448",
+    "DETAIL_PROVID": "522630",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "台江县",
+    "CDATE": ""
+}, {
+    "": "2449",
+    "DETAIL_PROVID": "522631",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "黎平县",
+    "CDATE": ""
+}, {
+    "": "2450",
+    "DETAIL_PROVID": "522632",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "榕江县",
+    "CDATE": ""
+}, {
+    "": "2451",
+    "DETAIL_PROVID": "522633",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "从江县",
+    "CDATE": ""
+}, {
+    "": "2452",
+    "DETAIL_PROVID": "522634",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "雷山县",
+    "CDATE": ""
+}, {
+    "": "2453",
+    "DETAIL_PROVID": "522635",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "麻江县",
+    "CDATE": ""
+}, {
+    "": "2454",
+    "DETAIL_PROVID": "522636",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522600",
+    "CITY_NAME": "黔东南苗族侗族自治州",
+    "COUNTY_NAME": "丹寨县",
+    "CDATE": ""
+}, {
+    "": "2455",
+    "DETAIL_PROVID": "522700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2456",
+    "DETAIL_PROVID": "522701",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "都匀市",
+    "CDATE": ""
+}, {
+    "": "2457",
+    "DETAIL_PROVID": "522702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "福泉市",
+    "CDATE": ""
+}, {
+    "": "2458",
+    "DETAIL_PROVID": "522722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "荔波县",
+    "CDATE": ""
+}, {
+    "": "2459",
+    "DETAIL_PROVID": "522723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "贵定县",
+    "CDATE": ""
+}, {
+    "": "2460",
+    "DETAIL_PROVID": "522725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "瓮安县",
+    "CDATE": ""
+}, {
+    "": "2461",
+    "DETAIL_PROVID": "522726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "独山县",
+    "CDATE": ""
+}, {
+    "": "2462",
+    "DETAIL_PROVID": "522727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "平塘县",
+    "CDATE": ""
+}, {
+    "": "2463",
+    "DETAIL_PROVID": "522728",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "罗甸县",
+    "CDATE": ""
+}, {
+    "": "2464",
+    "DETAIL_PROVID": "522729",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "长顺县",
+    "CDATE": ""
+}, {
+    "": "2465",
+    "DETAIL_PROVID": "522730",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "龙里县",
+    "CDATE": ""
+}, {
+    "": "2466",
+    "DETAIL_PROVID": "522731",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "惠水县",
+    "CDATE": ""
+}, {
+    "": "2467",
+    "DETAIL_PROVID": "522732",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "52",
+    "PROV_NAME": "贵州",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "黔南布依族苗族自治州",
+    "COUNTY_NAME": "三都水族自治县",
+    "CDATE": ""
+}, {
+    "": "2468",
+    "DETAIL_PROVID": "530100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2469",
+    "DETAIL_PROVID": "530102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "五华区",
+    "CDATE": ""
+}, {
+    "": "2470",
+    "DETAIL_PROVID": "530103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "盘龙区",
+    "CDATE": ""
+}, {
+    "": "2471",
+    "DETAIL_PROVID": "530111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "官渡区",
+    "CDATE": ""
+}, {
+    "": "2472",
+    "DETAIL_PROVID": "530112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "西山区",
+    "CDATE": ""
+}, {
+    "": "2473",
+    "DETAIL_PROVID": "530113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "东川区",
+    "CDATE": ""
+}, {
+    "": "2474",
+    "DETAIL_PROVID": "530114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "呈贡区",
+    "CDATE": ""
+}, {
+    "": "2475",
+    "DETAIL_PROVID": "530115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "晋宁区",
+    "CDATE": ""
+}, {
+    "": "2476",
+    "DETAIL_PROVID": "530124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "富民县",
+    "CDATE": ""
+}, {
+    "": "2477",
+    "DETAIL_PROVID": "530125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "宜良县",
+    "CDATE": ""
+}, {
+    "": "2478",
+    "DETAIL_PROVID": "530126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "石林彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2479",
+    "DETAIL_PROVID": "530127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "嵩明县",
+    "CDATE": ""
+}, {
+    "": "2480",
+    "DETAIL_PROVID": "530128",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "禄劝彝族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2481",
+    "DETAIL_PROVID": "530129",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "寻甸回族彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2482",
+    "DETAIL_PROVID": "530181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "522700",
+    "CITY_NAME": "昆明市",
+    "COUNTY_NAME": "安宁市",
+    "CDATE": ""
+}, {
+    "": "2483",
+    "DETAIL_PROVID": "530300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530300",
+    "CITY_NAME": "曲靖市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2484",
+    "DETAIL_PROVID": "530302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530300",
+    "CITY_NAME": "曲靖市",
+    "COUNTY_NAME": "麒麟区",
+    "CDATE": ""
+}, {
+    "": "2485",
+    "DETAIL_PROVID": "530303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530300",
+    "CITY_NAME": "曲靖市",
+    "COUNTY_NAME": "沾益区",
+    "CDATE": ""
+}, {
+    "": "2486",
+    "DETAIL_PROVID": "530321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530300",
+    "CITY_NAME": "曲靖市",
+    "COUNTY_NAME": "马龙县",
+    "CDATE": ""
+}, {
+    "": "2487",
+    "DETAIL_PROVID": "530322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530300",
+    "CITY_NAME": "曲靖市",
+    "COUNTY_NAME": "陆良县",
+    "CDATE": ""
+}, {
+    "": "2488",
+    "DETAIL_PROVID": "530323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530300",
+    "CITY_NAME": "曲靖市",
+    "COUNTY_NAME": "师宗县",
+    "CDATE": ""
+}, {
+    "": "2489",
+    "DETAIL_PROVID": "530324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530300",
+    "CITY_NAME": "曲靖市",
+    "COUNTY_NAME": "罗平县",
+    "CDATE": ""
+}, {
+    "": "2490",
+    "DETAIL_PROVID": "530325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530300",
+    "CITY_NAME": "曲靖市",
+    "COUNTY_NAME": "富源县",
+    "CDATE": ""
+}, {
+    "": "2491",
+    "DETAIL_PROVID": "530326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530300",
+    "CITY_NAME": "曲靖市",
+    "COUNTY_NAME": "会泽县",
+    "CDATE": ""
+}, {
+    "": "2492",
+    "DETAIL_PROVID": "530381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530300",
+    "CITY_NAME": "曲靖市",
+    "COUNTY_NAME": "宣威市",
+    "CDATE": ""
+}, {
+    "": "2493",
+    "DETAIL_PROVID": "530400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530400",
+    "CITY_NAME": "玉溪市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2494",
+    "DETAIL_PROVID": "530402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530400",
+    "CITY_NAME": "玉溪市",
+    "COUNTY_NAME": "红塔区",
+    "CDATE": ""
+}, {
+    "": "2495",
+    "DETAIL_PROVID": "530403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530400",
+    "CITY_NAME": "玉溪市",
+    "COUNTY_NAME": "江川区",
+    "CDATE": ""
+}, {
+    "": "2496",
+    "DETAIL_PROVID": "530422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530400",
+    "CITY_NAME": "玉溪市",
+    "COUNTY_NAME": "澄江县",
+    "CDATE": ""
+}, {
+    "": "2497",
+    "DETAIL_PROVID": "530423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530400",
+    "CITY_NAME": "玉溪市",
+    "COUNTY_NAME": "通海县",
+    "CDATE": ""
+}, {
+    "": "2498",
+    "DETAIL_PROVID": "530424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530400",
+    "CITY_NAME": "玉溪市",
+    "COUNTY_NAME": "华宁县",
+    "CDATE": ""
+}, {
+    "": "2499",
+    "DETAIL_PROVID": "530425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530400",
+    "CITY_NAME": "玉溪市",
+    "COUNTY_NAME": "易门县",
+    "CDATE": ""
+}, {
+    "": "2500",
+    "DETAIL_PROVID": "530426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530400",
+    "CITY_NAME": "玉溪市",
+    "COUNTY_NAME": "峨山彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2501",
+    "DETAIL_PROVID": "530427",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530400",
+    "CITY_NAME": "玉溪市",
+    "COUNTY_NAME": "新平彝族傣族自治县",
+    "CDATE": ""
+}, {
+    "": "2502",
+    "DETAIL_PROVID": "530428",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530400",
+    "CITY_NAME": "玉溪市",
+    "COUNTY_NAME": "元江哈尼族彝族傣族自治县",
+    "CDATE": ""
+}, {
+    "": "2503",
+    "DETAIL_PROVID": "530500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530500",
+    "CITY_NAME": "保山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2504",
+    "DETAIL_PROVID": "530502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530500",
+    "CITY_NAME": "保山市",
+    "COUNTY_NAME": "隆阳区",
+    "CDATE": ""
+}, {
+    "": "2505",
+    "DETAIL_PROVID": "530521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530500",
+    "CITY_NAME": "保山市",
+    "COUNTY_NAME": "施甸县",
+    "CDATE": ""
+}, {
+    "": "2506",
+    "DETAIL_PROVID": "530523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530500",
+    "CITY_NAME": "保山市",
+    "COUNTY_NAME": "龙陵县",
+    "CDATE": ""
+}, {
+    "": "2507",
+    "DETAIL_PROVID": "530524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530500",
+    "CITY_NAME": "保山市",
+    "COUNTY_NAME": "昌宁县",
+    "CDATE": ""
+}, {
+    "": "2508",
+    "DETAIL_PROVID": "530581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530500",
+    "CITY_NAME": "保山市",
+    "COUNTY_NAME": "腾冲市",
+    "CDATE": ""
+}, {
+    "": "2509",
+    "DETAIL_PROVID": "530600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2510",
+    "DETAIL_PROVID": "530602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "昭阳区",
+    "CDATE": ""
+}, {
+    "": "2511",
+    "DETAIL_PROVID": "530621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "鲁甸县",
+    "CDATE": ""
+}, {
+    "": "2512",
+    "DETAIL_PROVID": "530622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "巧家县",
+    "CDATE": ""
+}, {
+    "": "2513",
+    "DETAIL_PROVID": "530623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "盐津县",
+    "CDATE": ""
+}, {
+    "": "2514",
+    "DETAIL_PROVID": "530624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "大关县",
+    "CDATE": ""
+}, {
+    "": "2515",
+    "DETAIL_PROVID": "530625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "永善县",
+    "CDATE": ""
+}, {
+    "": "2516",
+    "DETAIL_PROVID": "530626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "绥江县",
+    "CDATE": ""
+}, {
+    "": "2517",
+    "DETAIL_PROVID": "530627",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "镇雄县",
+    "CDATE": ""
+}, {
+    "": "2518",
+    "DETAIL_PROVID": "530628",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "彝良县",
+    "CDATE": ""
+}, {
+    "": "2519",
+    "DETAIL_PROVID": "530629",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "威信县",
+    "CDATE": ""
+}, {
+    "": "2520",
+    "DETAIL_PROVID": "530630",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530600",
+    "CITY_NAME": "昭通市",
+    "COUNTY_NAME": "水富县",
+    "CDATE": ""
+}, {
+    "": "2521",
+    "DETAIL_PROVID": "530700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530700",
+    "CITY_NAME": "丽江市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2522",
+    "DETAIL_PROVID": "530702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530700",
+    "CITY_NAME": "丽江市",
+    "COUNTY_NAME": "古城区",
+    "CDATE": ""
+}, {
+    "": "2523",
+    "DETAIL_PROVID": "530721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530700",
+    "CITY_NAME": "丽江市",
+    "COUNTY_NAME": "玉龙纳西族自治县",
+    "CDATE": ""
+}, {
+    "": "2524",
+    "DETAIL_PROVID": "530722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530700",
+    "CITY_NAME": "丽江市",
+    "COUNTY_NAME": "永胜县",
+    "CDATE": ""
+}, {
+    "": "2525",
+    "DETAIL_PROVID": "530723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530700",
+    "CITY_NAME": "丽江市",
+    "COUNTY_NAME": "华坪县",
+    "CDATE": ""
+}, {
+    "": "2526",
+    "DETAIL_PROVID": "530724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530700",
+    "CITY_NAME": "丽江市",
+    "COUNTY_NAME": "宁蒗彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2527",
+    "DETAIL_PROVID": "530800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2528",
+    "DETAIL_PROVID": "530802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "思茅区",
+    "CDATE": ""
+}, {
+    "": "2529",
+    "DETAIL_PROVID": "530821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "宁洱哈尼族彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2530",
+    "DETAIL_PROVID": "530822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "墨江哈尼族自治县",
+    "CDATE": ""
+}, {
+    "": "2531",
+    "DETAIL_PROVID": "530823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "景东彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2532",
+    "DETAIL_PROVID": "530824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "景谷傣族彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2533",
+    "DETAIL_PROVID": "530825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "镇沅彝族哈尼族拉祜族自治县",
+    "CDATE": ""
+}, {
+    "": "2534",
+    "DETAIL_PROVID": "530826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "江城哈尼族彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2535",
+    "DETAIL_PROVID": "530827",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "孟连傣族拉祜族佤族自治县",
+    "CDATE": ""
+}, {
+    "": "2536",
+    "DETAIL_PROVID": "530828",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "澜沧拉祜族自治县",
+    "CDATE": ""
+}, {
+    "": "2537",
+    "DETAIL_PROVID": "530829",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530800",
+    "CITY_NAME": "普洱市",
+    "COUNTY_NAME": "西盟佤族自治县",
+    "CDATE": ""
+}, {
+    "": "2538",
+    "DETAIL_PROVID": "530900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530900",
+    "CITY_NAME": "临沧市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2539",
+    "DETAIL_PROVID": "530902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530900",
+    "CITY_NAME": "临沧市",
+    "COUNTY_NAME": "临翔区",
+    "CDATE": ""
+}, {
+    "": "2540",
+    "DETAIL_PROVID": "530921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530900",
+    "CITY_NAME": "临沧市",
+    "COUNTY_NAME": "凤庆县",
+    "CDATE": ""
+}, {
+    "": "2541",
+    "DETAIL_PROVID": "530922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530900",
+    "CITY_NAME": "临沧市",
+    "COUNTY_NAME": "云县",
+    "CDATE": ""
+}, {
+    "": "2542",
+    "DETAIL_PROVID": "530923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530900",
+    "CITY_NAME": "临沧市",
+    "COUNTY_NAME": "永德县",
+    "CDATE": ""
+}, {
+    "": "2543",
+    "DETAIL_PROVID": "530924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530900",
+    "CITY_NAME": "临沧市",
+    "COUNTY_NAME": "镇康县",
+    "CDATE": ""
+}, {
+    "": "2544",
+    "DETAIL_PROVID": "530925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530900",
+    "CITY_NAME": "临沧市",
+    "COUNTY_NAME": "双江拉祜族佤族布朗族傣族自",
+    "CDATE": ""
+}, {
+    "": "2545",
+    "DETAIL_PROVID": "530926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530900",
+    "CITY_NAME": "临沧市",
+    "COUNTY_NAME": "耿马傣族佤族自治县",
+    "CDATE": ""
+}, {
+    "": "2546",
+    "DETAIL_PROVID": "530927",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "530900",
+    "CITY_NAME": "临沧市",
+    "COUNTY_NAME": "沧源佤族自治县",
+    "CDATE": ""
+}, {
+    "": "2547",
+    "DETAIL_PROVID": "532300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2548",
+    "DETAIL_PROVID": "532301",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "楚雄市",
+    "CDATE": ""
+}, {
+    "": "2549",
+    "DETAIL_PROVID": "532322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "双柏县",
+    "CDATE": ""
+}, {
+    "": "2550",
+    "DETAIL_PROVID": "532323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "牟定县",
+    "CDATE": ""
+}, {
+    "": "2551",
+    "DETAIL_PROVID": "532324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "南华县",
+    "CDATE": ""
+}, {
+    "": "2552",
+    "DETAIL_PROVID": "532325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "姚安县",
+    "CDATE": ""
+}, {
+    "": "2553",
+    "DETAIL_PROVID": "532326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "大姚县",
+    "CDATE": ""
+}, {
+    "": "2554",
+    "DETAIL_PROVID": "532327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "永仁县",
+    "CDATE": ""
+}, {
+    "": "2555",
+    "DETAIL_PROVID": "532328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "元谋县",
+    "CDATE": ""
+}, {
+    "": "2556",
+    "DETAIL_PROVID": "532329",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "武定县",
+    "CDATE": ""
+}, {
+    "": "2557",
+    "DETAIL_PROVID": "532331",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532300",
+    "CITY_NAME": "楚雄彝族自治州",
+    "COUNTY_NAME": "禄丰县",
+    "CDATE": ""
+}, {
+    "": "2558",
+    "DETAIL_PROVID": "532500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2559",
+    "DETAIL_PROVID": "532501",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "个旧市",
+    "CDATE": ""
+}, {
+    "": "2560",
+    "DETAIL_PROVID": "532502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "开远市",
+    "CDATE": ""
+}, {
+    "": "2561",
+    "DETAIL_PROVID": "532503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "蒙自市",
+    "CDATE": ""
+}, {
+    "": "2562",
+    "DETAIL_PROVID": "532504",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "弥勒市",
+    "CDATE": ""
+}, {
+    "": "2563",
+    "DETAIL_PROVID": "532523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "屏边苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2564",
+    "DETAIL_PROVID": "532524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "建水县",
+    "CDATE": ""
+}, {
+    "": "2565",
+    "DETAIL_PROVID": "532525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "石屏县",
+    "CDATE": ""
+}, {
+    "": "2566",
+    "DETAIL_PROVID": "532527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "泸西县",
+    "CDATE": ""
+}, {
+    "": "2567",
+    "DETAIL_PROVID": "532528",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "元阳县",
+    "CDATE": ""
+}, {
+    "": "2568",
+    "DETAIL_PROVID": "532529",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "红河县",
+    "CDATE": ""
+}, {
+    "": "2569",
+    "DETAIL_PROVID": "532530",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "金平苗族瑶族傣族自治县",
+    "CDATE": ""
+}, {
+    "": "2570",
+    "DETAIL_PROVID": "532531",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "绿春县",
+    "CDATE": ""
+}, {
+    "": "2571",
+    "DETAIL_PROVID": "532532",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532500",
+    "CITY_NAME": "红河哈尼族彝族自治州",
+    "COUNTY_NAME": "河口瑶族自治县",
+    "CDATE": ""
+}, {
+    "": "2572",
+    "DETAIL_PROVID": "532600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532600",
+    "CITY_NAME": "文山壮族苗族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2573",
+    "DETAIL_PROVID": "532601",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532600",
+    "CITY_NAME": "文山壮族苗族自治州",
+    "COUNTY_NAME": "文山市",
+    "CDATE": ""
+}, {
+    "": "2574",
+    "DETAIL_PROVID": "532622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532600",
+    "CITY_NAME": "文山壮族苗族自治州",
+    "COUNTY_NAME": "砚山县",
+    "CDATE": ""
+}, {
+    "": "2575",
+    "DETAIL_PROVID": "532623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532600",
+    "CITY_NAME": "文山壮族苗族自治州",
+    "COUNTY_NAME": "西畴县",
+    "CDATE": ""
+}, {
+    "": "2576",
+    "DETAIL_PROVID": "532624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532600",
+    "CITY_NAME": "文山壮族苗族自治州",
+    "COUNTY_NAME": "麻栗坡县",
+    "CDATE": ""
+}, {
+    "": "2577",
+    "DETAIL_PROVID": "532625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532600",
+    "CITY_NAME": "文山壮族苗族自治州",
+    "COUNTY_NAME": "马关县",
+    "CDATE": ""
+}, {
+    "": "2578",
+    "DETAIL_PROVID": "532626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532600",
+    "CITY_NAME": "文山壮族苗族自治州",
+    "COUNTY_NAME": "丘北县",
+    "CDATE": ""
+}, {
+    "": "2579",
+    "DETAIL_PROVID": "532627",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532600",
+    "CITY_NAME": "文山壮族苗族自治州",
+    "COUNTY_NAME": "广南县",
+    "CDATE": ""
+}, {
+    "": "2580",
+    "DETAIL_PROVID": "532628",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532600",
+    "CITY_NAME": "文山壮族苗族自治州",
+    "COUNTY_NAME": "富宁县",
+    "CDATE": ""
+}, {
+    "": "2581",
+    "DETAIL_PROVID": "532800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532800",
+    "CITY_NAME": "西双版纳傣族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2582",
+    "DETAIL_PROVID": "532801",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532800",
+    "CITY_NAME": "西双版纳傣族自治州",
+    "COUNTY_NAME": "景洪市",
+    "CDATE": ""
+}, {
+    "": "2583",
+    "DETAIL_PROVID": "532822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532800",
+    "CITY_NAME": "西双版纳傣族自治州",
+    "COUNTY_NAME": "勐海县",
+    "CDATE": ""
+}, {
+    "": "2584",
+    "DETAIL_PROVID": "532823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532800",
+    "CITY_NAME": "西双版纳傣族自治州",
+    "COUNTY_NAME": "勐腊县",
+    "CDATE": ""
+}, {
+    "": "2585",
+    "DETAIL_PROVID": "532900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2586",
+    "DETAIL_PROVID": "532901",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "大理市",
+    "CDATE": ""
+}, {
+    "": "2587",
+    "DETAIL_PROVID": "532922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "漾濞彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2588",
+    "DETAIL_PROVID": "532923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "祥云县",
+    "CDATE": ""
+}, {
+    "": "2589",
+    "DETAIL_PROVID": "532924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "宾川县",
+    "CDATE": ""
+}, {
+    "": "2590",
+    "DETAIL_PROVID": "532925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "弥渡县",
+    "CDATE": ""
+}, {
+    "": "2591",
+    "DETAIL_PROVID": "532926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "南涧彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2592",
+    "DETAIL_PROVID": "532927",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "巍山彝族回族自治县",
+    "CDATE": ""
+}, {
+    "": "2593",
+    "DETAIL_PROVID": "532928",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "永平县",
+    "CDATE": ""
+}, {
+    "": "2594",
+    "DETAIL_PROVID": "532929",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "云龙县",
+    "CDATE": ""
+}, {
+    "": "2595",
+    "DETAIL_PROVID": "532930",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "洱源县",
+    "CDATE": ""
+}, {
+    "": "2596",
+    "DETAIL_PROVID": "532931",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "剑川县",
+    "CDATE": ""
+}, {
+    "": "2597",
+    "DETAIL_PROVID": "532932",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "532900",
+    "CITY_NAME": "大理白族自治州",
+    "COUNTY_NAME": "鹤庆县",
+    "CDATE": ""
+}, {
+    "": "2598",
+    "DETAIL_PROVID": "533100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533100",
+    "CITY_NAME": "德宏傣族景颇族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2599",
+    "DETAIL_PROVID": "533102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533100",
+    "CITY_NAME": "德宏傣族景颇族自治州",
+    "COUNTY_NAME": "瑞丽市",
+    "CDATE": ""
+}, {
+    "": "2600",
+    "DETAIL_PROVID": "533103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533100",
+    "CITY_NAME": "德宏傣族景颇族自治州",
+    "COUNTY_NAME": "芒市",
+    "CDATE": ""
+}, {
+    "": "2601",
+    "DETAIL_PROVID": "533122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533100",
+    "CITY_NAME": "德宏傣族景颇族自治州",
+    "COUNTY_NAME": "梁河县",
+    "CDATE": ""
+}, {
+    "": "2602",
+    "DETAIL_PROVID": "533123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533100",
+    "CITY_NAME": "德宏傣族景颇族自治州",
+    "COUNTY_NAME": "盈江县",
+    "CDATE": ""
+}, {
+    "": "2603",
+    "DETAIL_PROVID": "533124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533100",
+    "CITY_NAME": "德宏傣族景颇族自治州",
+    "COUNTY_NAME": "陇川县",
+    "CDATE": ""
+}, {
+    "": "2604",
+    "DETAIL_PROVID": "533300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533300",
+    "CITY_NAME": "怒江傈僳族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2605",
+    "DETAIL_PROVID": "533301",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533300",
+    "CITY_NAME": "怒江傈僳族自治州",
+    "COUNTY_NAME": "泸水市",
+    "CDATE": ""
+}, {
+    "": "2606",
+    "DETAIL_PROVID": "533323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533300",
+    "CITY_NAME": "怒江傈僳族自治州",
+    "COUNTY_NAME": "福贡县",
+    "CDATE": ""
+}, {
+    "": "2607",
+    "DETAIL_PROVID": "533324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533300",
+    "CITY_NAME": "怒江傈僳族自治州",
+    "COUNTY_NAME": "贡山独龙族怒族自治县",
+    "CDATE": ""
+}, {
+    "": "2608",
+    "DETAIL_PROVID": "533325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533300",
+    "CITY_NAME": "怒江傈僳族自治州",
+    "COUNTY_NAME": "兰坪白族普米族自治县",
+    "CDATE": ""
+}, {
+    "": "2609",
+    "DETAIL_PROVID": "533400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533400",
+    "CITY_NAME": "迪庆藏族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2610",
+    "DETAIL_PROVID": "533401",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533400",
+    "CITY_NAME": "迪庆藏族自治州",
+    "COUNTY_NAME": "香格里拉市",
+    "CDATE": ""
+}, {
+    "": "2611",
+    "DETAIL_PROVID": "533422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533400",
+    "CITY_NAME": "迪庆藏族自治州",
+    "COUNTY_NAME": "德钦县",
+    "CDATE": ""
+}, {
+    "": "2612",
+    "DETAIL_PROVID": "533423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "53",
+    "PROV_NAME": "云南",
+    "CITY_CODE": "533400",
+    "CITY_NAME": "迪庆藏族自治州",
+    "COUNTY_NAME": "维西傈僳族自治县",
+    "CDATE": ""
+}, {
+    "": "2613",
+    "DETAIL_PROVID": "540100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540100",
+    "CITY_NAME": "拉萨市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2614",
+    "DETAIL_PROVID": "540102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540100",
+    "CITY_NAME": "拉萨市",
+    "COUNTY_NAME": "城关区",
+    "CDATE": ""
+}, {
+    "": "2615",
+    "DETAIL_PROVID": "540103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540100",
+    "CITY_NAME": "拉萨市",
+    "COUNTY_NAME": "堆龙德庆区",
+    "CDATE": ""
+}, {
+    "": "2616",
+    "DETAIL_PROVID": "540121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540100",
+    "CITY_NAME": "拉萨市",
+    "COUNTY_NAME": "林周县",
+    "CDATE": ""
+}, {
+    "": "2617",
+    "DETAIL_PROVID": "540122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540100",
+    "CITY_NAME": "拉萨市",
+    "COUNTY_NAME": "当雄县",
+    "CDATE": ""
+}, {
+    "": "2618",
+    "DETAIL_PROVID": "540123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540100",
+    "CITY_NAME": "拉萨市",
+    "COUNTY_NAME": "尼木县",
+    "CDATE": ""
+}, {
+    "": "2619",
+    "DETAIL_PROVID": "540124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540100",
+    "CITY_NAME": "拉萨市",
+    "COUNTY_NAME": "曲水县",
+    "CDATE": ""
+}, {
+    "": "2620",
+    "DETAIL_PROVID": "540126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540100",
+    "CITY_NAME": "拉萨市",
+    "COUNTY_NAME": "达孜县",
+    "CDATE": ""
+}, {
+    "": "2621",
+    "DETAIL_PROVID": "540127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540100",
+    "CITY_NAME": "拉萨市",
+    "COUNTY_NAME": "墨竹工卡县",
+    "CDATE": ""
+}, {
+    "": "2622",
+    "DETAIL_PROVID": "540200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2623",
+    "DETAIL_PROVID": "540202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "桑珠孜区",
+    "CDATE": ""
+}, {
+    "": "2624",
+    "DETAIL_PROVID": "540221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "南木林县",
+    "CDATE": ""
+}, {
+    "": "2625",
+    "DETAIL_PROVID": "540222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "江孜县",
+    "CDATE": ""
+}, {
+    "": "2626",
+    "DETAIL_PROVID": "540223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "定日县",
+    "CDATE": ""
+}, {
+    "": "2627",
+    "DETAIL_PROVID": "540224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "萨迦县",
+    "CDATE": ""
+}, {
+    "": "2628",
+    "DETAIL_PROVID": "540225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "拉孜县",
+    "CDATE": ""
+}, {
+    "": "2629",
+    "DETAIL_PROVID": "540226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "昂仁县",
+    "CDATE": ""
+}, {
+    "": "2630",
+    "DETAIL_PROVID": "540227",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "谢通门县",
+    "CDATE": ""
+}, {
+    "": "2631",
+    "DETAIL_PROVID": "540228",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "白朗县",
+    "CDATE": ""
+}, {
+    "": "2632",
+    "DETAIL_PROVID": "540229",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "仁布县",
+    "CDATE": ""
+}, {
+    "": "2633",
+    "DETAIL_PROVID": "540230",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "康马县",
+    "CDATE": ""
+}, {
+    "": "2634",
+    "DETAIL_PROVID": "540231",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "定结县",
+    "CDATE": ""
+}, {
+    "": "2635",
+    "DETAIL_PROVID": "540232",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "仲巴县",
+    "CDATE": ""
+}, {
+    "": "2636",
+    "DETAIL_PROVID": "540233",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "亚东县",
+    "CDATE": ""
+}, {
+    "": "2637",
+    "DETAIL_PROVID": "540234",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "吉隆县",
+    "CDATE": ""
+}, {
+    "": "2638",
+    "DETAIL_PROVID": "540235",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "聂拉木县",
+    "CDATE": ""
+}, {
+    "": "2639",
+    "DETAIL_PROVID": "540236",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "萨嘎县",
+    "CDATE": ""
+}, {
+    "": "2640",
+    "DETAIL_PROVID": "540237",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540200",
+    "CITY_NAME": "日喀则市",
+    "COUNTY_NAME": "岗巴县",
+    "CDATE": ""
+}, {
+    "": "2641",
+    "DETAIL_PROVID": "540300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2642",
+    "DETAIL_PROVID": "540302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "卡若区",
+    "CDATE": ""
+}, {
+    "": "2643",
+    "DETAIL_PROVID": "540321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "江达县",
+    "CDATE": ""
+}, {
+    "": "2644",
+    "DETAIL_PROVID": "540322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "贡觉县",
+    "CDATE": ""
+}, {
+    "": "2645",
+    "DETAIL_PROVID": "540323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "类乌齐县",
+    "CDATE": ""
+}, {
+    "": "2646",
+    "DETAIL_PROVID": "540324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "丁青县",
+    "CDATE": ""
+}, {
+    "": "2647",
+    "DETAIL_PROVID": "540325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "察雅县",
+    "CDATE": ""
+}, {
+    "": "2648",
+    "DETAIL_PROVID": "540326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "八宿县",
+    "CDATE": ""
+}, {
+    "": "2649",
+    "DETAIL_PROVID": "540327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "左贡县",
+    "CDATE": ""
+}, {
+    "": "2650",
+    "DETAIL_PROVID": "540328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "芒康县",
+    "CDATE": ""
+}, {
+    "": "2651",
+    "DETAIL_PROVID": "540329",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "洛隆县",
+    "CDATE": ""
+}, {
+    "": "2652",
+    "DETAIL_PROVID": "540330",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540300",
+    "CITY_NAME": "昌都市",
+    "COUNTY_NAME": "边坝县",
+    "CDATE": ""
+}, {
+    "": "2653",
+    "DETAIL_PROVID": "540400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540400",
+    "CITY_NAME": "林芝市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2654",
+    "DETAIL_PROVID": "540402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540400",
+    "CITY_NAME": "林芝市",
+    "COUNTY_NAME": "巴宜区",
+    "CDATE": ""
+}, {
+    "": "2655",
+    "DETAIL_PROVID": "540421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540400",
+    "CITY_NAME": "林芝市",
+    "COUNTY_NAME": "工布江达县",
+    "CDATE": ""
+}, {
+    "": "2656",
+    "DETAIL_PROVID": "540422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540400",
+    "CITY_NAME": "林芝市",
+    "COUNTY_NAME": "米林县",
+    "CDATE": ""
+}, {
+    "": "2657",
+    "DETAIL_PROVID": "540423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540400",
+    "CITY_NAME": "林芝市",
+    "COUNTY_NAME": "墨脱县",
+    "CDATE": ""
+}, {
+    "": "2658",
+    "DETAIL_PROVID": "540424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540400",
+    "CITY_NAME": "林芝市",
+    "COUNTY_NAME": "波密县",
+    "CDATE": ""
+}, {
+    "": "2659",
+    "DETAIL_PROVID": "540425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540400",
+    "CITY_NAME": "林芝市",
+    "COUNTY_NAME": "察隅县",
+    "CDATE": ""
+}, {
+    "": "2660",
+    "DETAIL_PROVID": "540426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540400",
+    "CITY_NAME": "林芝市",
+    "COUNTY_NAME": "朗县",
+    "CDATE": ""
+}, {
+    "": "2661",
+    "DETAIL_PROVID": "540500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2662",
+    "DETAIL_PROVID": "540502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "乃东区",
+    "CDATE": ""
+}, {
+    "": "2663",
+    "DETAIL_PROVID": "540521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "扎囊县",
+    "CDATE": ""
+}, {
+    "": "2664",
+    "DETAIL_PROVID": "540522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "贡嘎县",
+    "CDATE": ""
+}, {
+    "": "2665",
+    "DETAIL_PROVID": "540523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "桑日县",
+    "CDATE": ""
+}, {
+    "": "2666",
+    "DETAIL_PROVID": "540524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "琼结县",
+    "CDATE": ""
+}, {
+    "": "2667",
+    "DETAIL_PROVID": "540525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "曲松县",
+    "CDATE": ""
+}, {
+    "": "2668",
+    "DETAIL_PROVID": "540526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "措美县",
+    "CDATE": ""
+}, {
+    "": "2669",
+    "DETAIL_PROVID": "540527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "洛扎县",
+    "CDATE": ""
+}, {
+    "": "2670",
+    "DETAIL_PROVID": "540528",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "加查县",
+    "CDATE": ""
+}, {
+    "": "2671",
+    "DETAIL_PROVID": "540529",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "隆子县",
+    "CDATE": ""
+}, {
+    "": "2672",
+    "DETAIL_PROVID": "540530",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "错那县",
+    "CDATE": ""
+}, {
+    "": "2673",
+    "DETAIL_PROVID": "540531",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "540500",
+    "CITY_NAME": "山南市",
+    "COUNTY_NAME": "浪卡子县",
+    "CDATE": ""
+}, {
+    "": "2674",
+    "DETAIL_PROVID": "542400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2675",
+    "DETAIL_PROVID": "542421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "那曲县",
+    "CDATE": ""
+}, {
+    "": "2676",
+    "DETAIL_PROVID": "542422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "嘉黎县",
+    "CDATE": ""
+}, {
+    "": "2677",
+    "DETAIL_PROVID": "542423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "比如县",
+    "CDATE": ""
+}, {
+    "": "2678",
+    "DETAIL_PROVID": "542424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "聂荣县",
+    "CDATE": ""
+}, {
+    "": "2679",
+    "DETAIL_PROVID": "542425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "安多县",
+    "CDATE": ""
+}, {
+    "": "2680",
+    "DETAIL_PROVID": "542426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "申扎县",
+    "CDATE": ""
+}, {
+    "": "2681",
+    "DETAIL_PROVID": "542427",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "索县",
+    "CDATE": ""
+}, {
+    "": "2682",
+    "DETAIL_PROVID": "542428",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "班戈县",
+    "CDATE": ""
+}, {
+    "": "2683",
+    "DETAIL_PROVID": "542429",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "巴青县",
+    "CDATE": ""
+}, {
+    "": "2684",
+    "DETAIL_PROVID": "542430",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "尼玛县",
+    "CDATE": ""
+}, {
+    "": "2685",
+    "DETAIL_PROVID": "542431",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542400",
+    "CITY_NAME": "那曲地区",
+    "COUNTY_NAME": "双湖县",
+    "CDATE": ""
+}, {
+    "": "2686",
+    "DETAIL_PROVID": "542500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542500",
+    "CITY_NAME": "阿里地区",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2687",
+    "DETAIL_PROVID": "542521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542500",
+    "CITY_NAME": "阿里地区",
+    "COUNTY_NAME": "普兰县",
+    "CDATE": ""
+}, {
+    "": "2688",
+    "DETAIL_PROVID": "542522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542500",
+    "CITY_NAME": "阿里地区",
+    "COUNTY_NAME": "札达县",
+    "CDATE": ""
+}, {
+    "": "2689",
+    "DETAIL_PROVID": "542523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542500",
+    "CITY_NAME": "阿里地区",
+    "COUNTY_NAME": "噶尔县",
+    "CDATE": ""
+}, {
+    "": "2690",
+    "DETAIL_PROVID": "542524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542500",
+    "CITY_NAME": "阿里地区",
+    "COUNTY_NAME": "日土县",
+    "CDATE": ""
+}, {
+    "": "2691",
+    "DETAIL_PROVID": "542525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542500",
+    "CITY_NAME": "阿里地区",
+    "COUNTY_NAME": "革吉县",
+    "CDATE": ""
+}, {
+    "": "2692",
+    "DETAIL_PROVID": "542526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542500",
+    "CITY_NAME": "阿里地区",
+    "COUNTY_NAME": "改则县",
+    "CDATE": ""
+}, {
+    "": "2693",
+    "DETAIL_PROVID": "542527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "54",
+    "PROV_NAME": "西藏",
+    "CITY_CODE": "542500",
+    "CITY_NAME": "阿里地区",
+    "COUNTY_NAME": "措勤县",
+    "CDATE": ""
+}, {
+    "": "2694",
+    "DETAIL_PROVID": "610100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2695",
+    "DETAIL_PROVID": "610102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "新城区",
+    "CDATE": ""
+}, {
+    "": "2696",
+    "DETAIL_PROVID": "610103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "碑林区",
+    "CDATE": ""
+}, {
+    "": "2697",
+    "DETAIL_PROVID": "610104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "莲湖区",
+    "CDATE": ""
+}, {
+    "": "2698",
+    "DETAIL_PROVID": "610111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "灞桥区",
+    "CDATE": ""
+}, {
+    "": "2699",
+    "DETAIL_PROVID": "610112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "未央区",
+    "CDATE": ""
+}, {
+    "": "2700",
+    "DETAIL_PROVID": "610113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "雁塔区",
+    "CDATE": ""
+}, {
+    "": "2701",
+    "DETAIL_PROVID": "610114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "阎良区",
+    "CDATE": ""
+}, {
+    "": "2702",
+    "DETAIL_PROVID": "610115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "临潼区",
+    "CDATE": ""
+}, {
+    "": "2703",
+    "DETAIL_PROVID": "610116",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "长安区",
+    "CDATE": ""
+}, {
+    "": "2704",
+    "DETAIL_PROVID": "610117",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "高陵区",
+    "CDATE": ""
+}, {
+    "": "2705",
+    "DETAIL_PROVID": "610118",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "鄠邑区",
+    "CDATE": ""
+}, {
+    "": "2706",
+    "DETAIL_PROVID": "610122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "蓝田县",
+    "CDATE": ""
+}, {
+    "": "2707",
+    "DETAIL_PROVID": "610124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610100",
+    "CITY_NAME": "西安市",
+    "COUNTY_NAME": "周至县",
+    "CDATE": ""
+}, {
+    "": "2708",
+    "DETAIL_PROVID": "610200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610200",
+    "CITY_NAME": "铜川市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2709",
+    "DETAIL_PROVID": "610202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610200",
+    "CITY_NAME": "铜川市",
+    "COUNTY_NAME": "王益区",
+    "CDATE": ""
+}, {
+    "": "2710",
+    "DETAIL_PROVID": "610203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610200",
+    "CITY_NAME": "铜川市",
+    "COUNTY_NAME": "印台区",
+    "CDATE": ""
+}, {
+    "": "2711",
+    "DETAIL_PROVID": "610204",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610200",
+    "CITY_NAME": "铜川市",
+    "COUNTY_NAME": "耀州区",
+    "CDATE": ""
+}, {
+    "": "2712",
+    "DETAIL_PROVID": "441900",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "441900",
+    "CITY_NAME": "东莞市",
+    "COUNTY_NAME": "东莞市",
+    "CDATE": "2018/10/18"
+}, {
+    "": "2713",
+    "DETAIL_PROVID": "442001",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "44",
+    "PROV_NAME": "广东",
+    "CITY_CODE": "442000",
+    "CITY_NAME": "中山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2714",
+    "DETAIL_PROVID": "500242",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "酉阳土家族苗族自治县",
+    "CDATE": ""
+}, {
+    "": "2715",
+    "DETAIL_PROVID": "500243",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "50",
+    "PROV_NAME": "重庆",
+    "CITY_CODE": "5000",
+    "CITY_NAME": "重庆市",
+    "COUNTY_NAME": "彭水苗族土家族自治县",
+    "CDATE": ""
+}, {
+    "": "2716",
+    "DETAIL_PROVID": "510100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2717",
+    "DETAIL_PROVID": "510104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "锦江区",
+    "CDATE": ""
+}, {
+    "": "2718",
+    "DETAIL_PROVID": "510105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "青羊区",
+    "CDATE": ""
+}, {
+    "": "2719",
+    "DETAIL_PROVID": "510106",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "金牛区",
+    "CDATE": ""
+}, {
+    "": "2720",
+    "DETAIL_PROVID": "510107",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "武侯区",
+    "CDATE": ""
+}, {
+    "": "2721",
+    "DETAIL_PROVID": "510108",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "成华区",
+    "CDATE": ""
+}, {
+    "": "2722",
+    "DETAIL_PROVID": "510112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "龙泉驿区",
+    "CDATE": ""
+}, {
+    "": "2723",
+    "DETAIL_PROVID": "510113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "青白江区",
+    "CDATE": ""
+}, {
+    "": "2724",
+    "DETAIL_PROVID": "510114",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "新都区",
+    "CDATE": ""
+}, {
+    "": "2725",
+    "DETAIL_PROVID": "510115",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "温江区",
+    "CDATE": ""
+}, {
+    "": "2726",
+    "DETAIL_PROVID": "510116",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "双流区",
+    "CDATE": ""
+}, {
+    "": "2727",
+    "DETAIL_PROVID": "510117",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "郫都区",
+    "CDATE": ""
+}, {
+    "": "2728",
+    "DETAIL_PROVID": "510121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "金堂县",
+    "CDATE": ""
+}, {
+    "": "2729",
+    "DETAIL_PROVID": "510129",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "大邑县",
+    "CDATE": ""
+}, {
+    "": "2730",
+    "DETAIL_PROVID": "510131",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "蒲江县",
+    "CDATE": ""
+}, {
+    "": "2731",
+    "DETAIL_PROVID": "510132",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "新津县",
+    "CDATE": ""
+}, {
+    "": "2732",
+    "DETAIL_PROVID": "510181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "都江堰市",
+    "CDATE": ""
+}, {
+    "": "2733",
+    "DETAIL_PROVID": "510182",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "彭州市",
+    "CDATE": ""
+}, {
+    "": "2734",
+    "DETAIL_PROVID": "510183",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "邛崃市",
+    "CDATE": ""
+}, {
+    "": "2735",
+    "DETAIL_PROVID": "510184",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "崇州市",
+    "CDATE": ""
+}, {
+    "": "2736",
+    "DETAIL_PROVID": "510185",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510100",
+    "CITY_NAME": "成都市",
+    "COUNTY_NAME": "简阳市",
+    "CDATE": ""
+}, {
+    "": "2737",
+    "DETAIL_PROVID": "510300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510300",
+    "CITY_NAME": "自贡市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2738",
+    "DETAIL_PROVID": "510302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510300",
+    "CITY_NAME": "自贡市",
+    "COUNTY_NAME": "自流井区",
+    "CDATE": ""
+}, {
+    "": "2739",
+    "DETAIL_PROVID": "510303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510300",
+    "CITY_NAME": "自贡市",
+    "COUNTY_NAME": "贡井区",
+    "CDATE": ""
+}, {
+    "": "2740",
+    "DETAIL_PROVID": "510304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510300",
+    "CITY_NAME": "自贡市",
+    "COUNTY_NAME": "大安区",
+    "CDATE": ""
+}, {
+    "": "2741",
+    "DETAIL_PROVID": "510311",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510300",
+    "CITY_NAME": "自贡市",
+    "COUNTY_NAME": "沿滩区",
+    "CDATE": ""
+}, {
+    "": "2742",
+    "DETAIL_PROVID": "510321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510300",
+    "CITY_NAME": "自贡市",
+    "COUNTY_NAME": "荣县",
+    "CDATE": ""
+}, {
+    "": "2743",
+    "DETAIL_PROVID": "510322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510300",
+    "CITY_NAME": "自贡市",
+    "COUNTY_NAME": "富顺县",
+    "CDATE": ""
+}, {
+    "": "2744",
+    "DETAIL_PROVID": "510400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510400",
+    "CITY_NAME": "攀枝花市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2745",
+    "DETAIL_PROVID": "510402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510400",
+    "CITY_NAME": "攀枝花市",
+    "COUNTY_NAME": "东区",
+    "CDATE": ""
+}, {
+    "": "2746",
+    "DETAIL_PROVID": "510403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510400",
+    "CITY_NAME": "攀枝花市",
+    "COUNTY_NAME": "西区",
+    "CDATE": ""
+}, {
+    "": "2747",
+    "DETAIL_PROVID": "510411",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510400",
+    "CITY_NAME": "攀枝花市",
+    "COUNTY_NAME": "仁和区",
+    "CDATE": ""
+}, {
+    "": "2748",
+    "DETAIL_PROVID": "510421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510400",
+    "CITY_NAME": "攀枝花市",
+    "COUNTY_NAME": "米易县",
+    "CDATE": ""
+}, {
+    "": "2749",
+    "DETAIL_PROVID": "510422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510400",
+    "CITY_NAME": "攀枝花市",
+    "COUNTY_NAME": "盐边县",
+    "CDATE": ""
+}, {
+    "": "2750",
+    "DETAIL_PROVID": "510500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510500",
+    "CITY_NAME": "泸州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2751",
+    "DETAIL_PROVID": "510502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510500",
+    "CITY_NAME": "泸州市",
+    "COUNTY_NAME": "江阳区",
+    "CDATE": ""
+}, {
+    "": "2752",
+    "DETAIL_PROVID": "510503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510500",
+    "CITY_NAME": "泸州市",
+    "COUNTY_NAME": "纳溪区",
+    "CDATE": ""
+}, {
+    "": "2753",
+    "DETAIL_PROVID": "510504",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510500",
+    "CITY_NAME": "泸州市",
+    "COUNTY_NAME": "龙马潭区",
+    "CDATE": ""
+}, {
+    "": "2754",
+    "DETAIL_PROVID": "510521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510500",
+    "CITY_NAME": "泸州市",
+    "COUNTY_NAME": "泸县",
+    "CDATE": ""
+}, {
+    "": "2755",
+    "DETAIL_PROVID": "510522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510500",
+    "CITY_NAME": "泸州市",
+    "COUNTY_NAME": "合江县",
+    "CDATE": ""
+}, {
+    "": "2756",
+    "DETAIL_PROVID": "510524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510500",
+    "CITY_NAME": "泸州市",
+    "COUNTY_NAME": "叙永县",
+    "CDATE": ""
+}, {
+    "": "2757",
+    "DETAIL_PROVID": "510525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510500",
+    "CITY_NAME": "泸州市",
+    "COUNTY_NAME": "古蔺县",
+    "CDATE": ""
+}, {
+    "": "2758",
+    "DETAIL_PROVID": "510600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510600",
+    "CITY_NAME": "德阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2759",
+    "DETAIL_PROVID": "510603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510600",
+    "CITY_NAME": "德阳市",
+    "COUNTY_NAME": "旌阳区",
+    "CDATE": ""
+}, {
+    "": "2760",
+    "DETAIL_PROVID": "510623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510600",
+    "CITY_NAME": "德阳市",
+    "COUNTY_NAME": "中江县",
+    "CDATE": ""
+}, {
+    "": "2761",
+    "DETAIL_PROVID": "510626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510600",
+    "CITY_NAME": "德阳市",
+    "COUNTY_NAME": "罗江县",
+    "CDATE": ""
+}, {
+    "": "2762",
+    "DETAIL_PROVID": "510681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510600",
+    "CITY_NAME": "德阳市",
+    "COUNTY_NAME": "广汉市",
+    "CDATE": ""
+}, {
+    "": "2763",
+    "DETAIL_PROVID": "510682",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510600",
+    "CITY_NAME": "德阳市",
+    "COUNTY_NAME": "什邡市",
+    "CDATE": ""
+}, {
+    "": "2764",
+    "DETAIL_PROVID": "510683",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510600",
+    "CITY_NAME": "德阳市",
+    "COUNTY_NAME": "绵竹市",
+    "CDATE": ""
+}, {
+    "": "2765",
+    "DETAIL_PROVID": "510700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510700",
+    "CITY_NAME": "绵阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2766",
+    "DETAIL_PROVID": "510703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510700",
+    "CITY_NAME": "绵阳市",
+    "COUNTY_NAME": "涪城区",
+    "CDATE": ""
+}, {
+    "": "2767",
+    "DETAIL_PROVID": "510704",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510700",
+    "CITY_NAME": "绵阳市",
+    "COUNTY_NAME": "游仙区",
+    "CDATE": ""
+}, {
+    "": "2768",
+    "DETAIL_PROVID": "510705",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510700",
+    "CITY_NAME": "绵阳市",
+    "COUNTY_NAME": "安州区",
+    "CDATE": ""
+}, {
+    "": "2769",
+    "DETAIL_PROVID": "510722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510700",
+    "CITY_NAME": "绵阳市",
+    "COUNTY_NAME": "三台县",
+    "CDATE": ""
+}, {
+    "": "2770",
+    "DETAIL_PROVID": "510723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510700",
+    "CITY_NAME": "绵阳市",
+    "COUNTY_NAME": "盐亭县",
+    "CDATE": ""
+}, {
+    "": "2771",
+    "DETAIL_PROVID": "510725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510700",
+    "CITY_NAME": "绵阳市",
+    "COUNTY_NAME": "梓潼县",
+    "CDATE": ""
+}, {
+    "": "2772",
+    "DETAIL_PROVID": "510726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510700",
+    "CITY_NAME": "绵阳市",
+    "COUNTY_NAME": "北川羌族自治县",
+    "CDATE": ""
+}, {
+    "": "2773",
+    "DETAIL_PROVID": "510727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510700",
+    "CITY_NAME": "绵阳市",
+    "COUNTY_NAME": "平武县",
+    "CDATE": ""
+}, {
+    "": "2774",
+    "DETAIL_PROVID": "510781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510700",
+    "CITY_NAME": "绵阳市",
+    "COUNTY_NAME": "江油市",
+    "CDATE": ""
+}, {
+    "": "2775",
+    "DETAIL_PROVID": "510800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510800",
+    "CITY_NAME": "广元市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2776",
+    "DETAIL_PROVID": "510802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510800",
+    "CITY_NAME": "广元市",
+    "COUNTY_NAME": "利州区",
+    "CDATE": ""
+}, {
+    "": "2777",
+    "DETAIL_PROVID": "510811",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510800",
+    "CITY_NAME": "广元市",
+    "COUNTY_NAME": "昭化区",
+    "CDATE": ""
+}, {
+    "": "2778",
+    "DETAIL_PROVID": "510812",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510800",
+    "CITY_NAME": "广元市",
+    "COUNTY_NAME": "朝天区",
+    "CDATE": ""
+}, {
+    "": "2779",
+    "DETAIL_PROVID": "510821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510800",
+    "CITY_NAME": "广元市",
+    "COUNTY_NAME": "旺苍县",
+    "CDATE": ""
+}, {
+    "": "2780",
+    "DETAIL_PROVID": "510822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510800",
+    "CITY_NAME": "广元市",
+    "COUNTY_NAME": "青川县",
+    "CDATE": ""
+}, {
+    "": "2781",
+    "DETAIL_PROVID": "510823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510800",
+    "CITY_NAME": "广元市",
+    "COUNTY_NAME": "剑阁县",
+    "CDATE": ""
+}, {
+    "": "2782",
+    "DETAIL_PROVID": "510824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510800",
+    "CITY_NAME": "广元市",
+    "COUNTY_NAME": "苍溪县",
+    "CDATE": ""
+}, {
+    "": "2783",
+    "DETAIL_PROVID": "510900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510900",
+    "CITY_NAME": "遂宁市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2784",
+    "DETAIL_PROVID": "510903",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510900",
+    "CITY_NAME": "遂宁市",
+    "COUNTY_NAME": "船山区",
+    "CDATE": ""
+}, {
+    "": "2785",
+    "DETAIL_PROVID": "510904",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510900",
+    "CITY_NAME": "遂宁市",
+    "COUNTY_NAME": "安居区",
+    "CDATE": ""
+}, {
+    "": "2786",
+    "DETAIL_PROVID": "510921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510900",
+    "CITY_NAME": "遂宁市",
+    "COUNTY_NAME": "蓬溪县",
+    "CDATE": ""
+}, {
+    "": "2787",
+    "DETAIL_PROVID": "510922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510900",
+    "CITY_NAME": "遂宁市",
+    "COUNTY_NAME": "射洪县",
+    "CDATE": ""
+}, {
+    "": "2788",
+    "DETAIL_PROVID": "510923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "510900",
+    "CITY_NAME": "遂宁市",
+    "COUNTY_NAME": "大英县",
+    "CDATE": ""
+}, {
+    "": "2789",
+    "DETAIL_PROVID": "511000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511000",
+    "CITY_NAME": "内江市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2790",
+    "DETAIL_PROVID": "511002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511000",
+    "CITY_NAME": "内江市",
+    "COUNTY_NAME": "市中区",
+    "CDATE": ""
+}, {
+    "": "2791",
+    "DETAIL_PROVID": "511011",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511000",
+    "CITY_NAME": "内江市",
+    "COUNTY_NAME": "东兴区",
+    "CDATE": ""
+}, {
+    "": "2792",
+    "DETAIL_PROVID": "511024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511000",
+    "CITY_NAME": "内江市",
+    "COUNTY_NAME": "威远县",
+    "CDATE": ""
+}, {
+    "": "2793",
+    "DETAIL_PROVID": "511025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511000",
+    "CITY_NAME": "内江市",
+    "COUNTY_NAME": "资中县",
+    "CDATE": ""
+}, {
+    "": "2794",
+    "DETAIL_PROVID": "511083",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511000",
+    "CITY_NAME": "内江市",
+    "COUNTY_NAME": "隆昌市",
+    "CDATE": ""
+}, {
+    "": "2795",
+    "DETAIL_PROVID": "511100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2796",
+    "DETAIL_PROVID": "511102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "市中区",
+    "CDATE": ""
+}, {
+    "": "2797",
+    "DETAIL_PROVID": "511111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "沙湾区",
+    "CDATE": ""
+}, {
+    "": "2798",
+    "DETAIL_PROVID": "511112",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "五通桥区",
+    "CDATE": ""
+}, {
+    "": "2799",
+    "DETAIL_PROVID": "511113",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "金口河区",
+    "CDATE": ""
+}, {
+    "": "2800",
+    "DETAIL_PROVID": "511123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "犍为县",
+    "CDATE": ""
+}, {
+    "": "2801",
+    "DETAIL_PROVID": "511124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "井研县",
+    "CDATE": ""
+}, {
+    "": "2802",
+    "DETAIL_PROVID": "511126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "夹江县",
+    "CDATE": ""
+}, {
+    "": "2803",
+    "DETAIL_PROVID": "511129",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "沐川县",
+    "CDATE": ""
+}, {
+    "": "2804",
+    "DETAIL_PROVID": "511132",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "峨边彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2805",
+    "DETAIL_PROVID": "511133",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "马边彝族自治县",
+    "CDATE": ""
+}, {
+    "": "2806",
+    "DETAIL_PROVID": "511181",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511100",
+    "CITY_NAME": "乐山市",
+    "COUNTY_NAME": "峨眉山市",
+    "CDATE": ""
+}, {
+    "": "2807",
+    "DETAIL_PROVID": "511300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511300",
+    "CITY_NAME": "南充市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2808",
+    "DETAIL_PROVID": "511302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511300",
+    "CITY_NAME": "南充市",
+    "COUNTY_NAME": "顺庆区",
+    "CDATE": ""
+}, {
+    "": "2809",
+    "DETAIL_PROVID": "511303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511300",
+    "CITY_NAME": "南充市",
+    "COUNTY_NAME": "高坪区",
+    "CDATE": ""
+}, {
+    "": "2810",
+    "DETAIL_PROVID": "511304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511300",
+    "CITY_NAME": "南充市",
+    "COUNTY_NAME": "嘉陵区",
+    "CDATE": ""
+}, {
+    "": "2811",
+    "DETAIL_PROVID": "511321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511300",
+    "CITY_NAME": "南充市",
+    "COUNTY_NAME": "南部县",
+    "CDATE": ""
+}, {
+    "": "2812",
+    "DETAIL_PROVID": "511322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511300",
+    "CITY_NAME": "南充市",
+    "COUNTY_NAME": "营山县",
+    "CDATE": ""
+}, {
+    "": "2813",
+    "DETAIL_PROVID": "511323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511300",
+    "CITY_NAME": "南充市",
+    "COUNTY_NAME": "蓬安县",
+    "CDATE": ""
+}, {
+    "": "2814",
+    "DETAIL_PROVID": "511324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511300",
+    "CITY_NAME": "南充市",
+    "COUNTY_NAME": "仪陇县",
+    "CDATE": ""
+}, {
+    "": "2815",
+    "DETAIL_PROVID": "511325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511300",
+    "CITY_NAME": "南充市",
+    "COUNTY_NAME": "西充县",
+    "CDATE": ""
+}, {
+    "": "2816",
+    "DETAIL_PROVID": "511381",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511300",
+    "CITY_NAME": "南充市",
+    "COUNTY_NAME": "阆中市",
+    "CDATE": ""
+}, {
+    "": "2817",
+    "DETAIL_PROVID": "511400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511400",
+    "CITY_NAME": "眉山市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2818",
+    "DETAIL_PROVID": "511402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511400",
+    "CITY_NAME": "眉山市",
+    "COUNTY_NAME": "东坡区",
+    "CDATE": ""
+}, {
+    "": "2819",
+    "DETAIL_PROVID": "511403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511400",
+    "CITY_NAME": "眉山市",
+    "COUNTY_NAME": "彭山区",
+    "CDATE": ""
+}, {
+    "": "2820",
+    "DETAIL_PROVID": "511421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511400",
+    "CITY_NAME": "眉山市",
+    "COUNTY_NAME": "仁寿县",
+    "CDATE": ""
+}, {
+    "": "2821",
+    "DETAIL_PROVID": "511423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511400",
+    "CITY_NAME": "眉山市",
+    "COUNTY_NAME": "洪雅县",
+    "CDATE": ""
+}, {
+    "": "2822",
+    "DETAIL_PROVID": "511424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511400",
+    "CITY_NAME": "眉山市",
+    "COUNTY_NAME": "丹棱县",
+    "CDATE": ""
+}, {
+    "": "2823",
+    "DETAIL_PROVID": "511425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511400",
+    "CITY_NAME": "眉山市",
+    "COUNTY_NAME": "青神县",
+    "CDATE": ""
+}, {
+    "": "2824",
+    "DETAIL_PROVID": "511500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2825",
+    "DETAIL_PROVID": "511502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "翠屏区",
+    "CDATE": ""
+}, {
+    "": "2826",
+    "DETAIL_PROVID": "511503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "南溪区",
+    "CDATE": ""
+}, {
+    "": "2827",
+    "DETAIL_PROVID": "511521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "宜宾县",
+    "CDATE": ""
+}, {
+    "": "2828",
+    "DETAIL_PROVID": "511523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "江安县",
+    "CDATE": ""
+}, {
+    "": "2829",
+    "DETAIL_PROVID": "511524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "长宁县",
+    "CDATE": ""
+}, {
+    "": "2830",
+    "DETAIL_PROVID": "511525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "高县",
+    "CDATE": ""
+}, {
+    "": "2831",
+    "DETAIL_PROVID": "511526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "珙县",
+    "CDATE": ""
+}, {
+    "": "2832",
+    "DETAIL_PROVID": "511527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "筠连县",
+    "CDATE": ""
+}, {
+    "": "2833",
+    "DETAIL_PROVID": "511528",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "兴文县",
+    "CDATE": ""
+}, {
+    "": "2834",
+    "DETAIL_PROVID": "511529",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511500",
+    "CITY_NAME": "宜宾市",
+    "COUNTY_NAME": "屏山县",
+    "CDATE": ""
+}, {
+    "": "2835",
+    "DETAIL_PROVID": "511600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511600",
+    "CITY_NAME": "广安市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2836",
+    "DETAIL_PROVID": "511602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511600",
+    "CITY_NAME": "广安市",
+    "COUNTY_NAME": "广安区",
+    "CDATE": ""
+}, {
+    "": "2837",
+    "DETAIL_PROVID": "511603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511600",
+    "CITY_NAME": "广安市",
+    "COUNTY_NAME": "前锋区",
+    "CDATE": ""
+}, {
+    "": "2838",
+    "DETAIL_PROVID": "511621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511600",
+    "CITY_NAME": "广安市",
+    "COUNTY_NAME": "岳池县",
+    "CDATE": ""
+}, {
+    "": "2839",
+    "DETAIL_PROVID": "511622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511600",
+    "CITY_NAME": "广安市",
+    "COUNTY_NAME": "武胜县",
+    "CDATE": ""
+}, {
+    "": "2840",
+    "DETAIL_PROVID": "511623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511600",
+    "CITY_NAME": "广安市",
+    "COUNTY_NAME": "邻水县",
+    "CDATE": ""
+}, {
+    "": "2841",
+    "DETAIL_PROVID": "511681",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511600",
+    "CITY_NAME": "广安市",
+    "COUNTY_NAME": "华蓥市",
+    "CDATE": ""
+}, {
+    "": "2842",
+    "DETAIL_PROVID": "511700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511700",
+    "CITY_NAME": "达州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2843",
+    "DETAIL_PROVID": "511702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511700",
+    "CITY_NAME": "达州市",
+    "COUNTY_NAME": "通川区",
+    "CDATE": ""
+}, {
+    "": "2844",
+    "DETAIL_PROVID": "511703",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511700",
+    "CITY_NAME": "达州市",
+    "COUNTY_NAME": "达川区",
+    "CDATE": ""
+}, {
+    "": "2845",
+    "DETAIL_PROVID": "511722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511700",
+    "CITY_NAME": "达州市",
+    "COUNTY_NAME": "宣汉县",
+    "CDATE": ""
+}, {
+    "": "2846",
+    "DETAIL_PROVID": "511723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511700",
+    "CITY_NAME": "达州市",
+    "COUNTY_NAME": "开江县",
+    "CDATE": ""
+}, {
+    "": "2847",
+    "DETAIL_PROVID": "511724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511700",
+    "CITY_NAME": "达州市",
+    "COUNTY_NAME": "大竹县",
+    "CDATE": ""
+}, {
+    "": "2848",
+    "DETAIL_PROVID": "511725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511700",
+    "CITY_NAME": "达州市",
+    "COUNTY_NAME": "渠县",
+    "CDATE": ""
+}, {
+    "": "2849",
+    "DETAIL_PROVID": "511781",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511700",
+    "CITY_NAME": "达州市",
+    "COUNTY_NAME": "万源市",
+    "CDATE": ""
+}, {
+    "": "2850",
+    "DETAIL_PROVID": "511800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511800",
+    "CITY_NAME": "雅安市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2851",
+    "DETAIL_PROVID": "511802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511800",
+    "CITY_NAME": "雅安市",
+    "COUNTY_NAME": "雨城区",
+    "CDATE": ""
+}, {
+    "": "2852",
+    "DETAIL_PROVID": "511803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511800",
+    "CITY_NAME": "雅安市",
+    "COUNTY_NAME": "名山区",
+    "CDATE": ""
+}, {
+    "": "2853",
+    "DETAIL_PROVID": "511822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511800",
+    "CITY_NAME": "雅安市",
+    "COUNTY_NAME": "荥经县",
+    "CDATE": ""
+}, {
+    "": "2854",
+    "DETAIL_PROVID": "511823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511800",
+    "CITY_NAME": "雅安市",
+    "COUNTY_NAME": "汉源县",
+    "CDATE": ""
+}, {
+    "": "2855",
+    "DETAIL_PROVID": "511824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511800",
+    "CITY_NAME": "雅安市",
+    "COUNTY_NAME": "石棉县",
+    "CDATE": ""
+}, {
+    "": "2856",
+    "DETAIL_PROVID": "511825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511800",
+    "CITY_NAME": "雅安市",
+    "COUNTY_NAME": "天全县",
+    "CDATE": ""
+}, {
+    "": "2857",
+    "DETAIL_PROVID": "511826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511800",
+    "CITY_NAME": "雅安市",
+    "COUNTY_NAME": "芦山县",
+    "CDATE": ""
+}, {
+    "": "2858",
+    "DETAIL_PROVID": "511827",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511800",
+    "CITY_NAME": "雅安市",
+    "COUNTY_NAME": "宝兴县",
+    "CDATE": ""
+}, {
+    "": "2859",
+    "DETAIL_PROVID": "511900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511900",
+    "CITY_NAME": "巴中市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2860",
+    "DETAIL_PROVID": "511902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511900",
+    "CITY_NAME": "巴中市",
+    "COUNTY_NAME": "巴州区",
+    "CDATE": ""
+}, {
+    "": "2861",
+    "DETAIL_PROVID": "511903",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511900",
+    "CITY_NAME": "巴中市",
+    "COUNTY_NAME": "恩阳区",
+    "CDATE": ""
+}, {
+    "": "2862",
+    "DETAIL_PROVID": "511921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511900",
+    "CITY_NAME": "巴中市",
+    "COUNTY_NAME": "通江县",
+    "CDATE": ""
+}, {
+    "": "2863",
+    "DETAIL_PROVID": "511922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511900",
+    "CITY_NAME": "巴中市",
+    "COUNTY_NAME": "南江县",
+    "CDATE": ""
+}, {
+    "": "2864",
+    "DETAIL_PROVID": "511923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "511900",
+    "CITY_NAME": "巴中市",
+    "COUNTY_NAME": "平昌县",
+    "CDATE": ""
+}, {
+    "": "2865",
+    "DETAIL_PROVID": "512000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "512000",
+    "CITY_NAME": "资阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2866",
+    "DETAIL_PROVID": "512002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "512000",
+    "CITY_NAME": "资阳市",
+    "COUNTY_NAME": "雁江区",
+    "CDATE": ""
+}, {
+    "": "2867",
+    "DETAIL_PROVID": "512021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "512000",
+    "CITY_NAME": "资阳市",
+    "COUNTY_NAME": "安岳县",
+    "CDATE": ""
+}, {
+    "": "2868",
+    "DETAIL_PROVID": "512022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "512000",
+    "CITY_NAME": "资阳市",
+    "COUNTY_NAME": "乐至县",
+    "CDATE": ""
+}, {
+    "": "2869",
+    "DETAIL_PROVID": "513200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2870",
+    "DETAIL_PROVID": "513201",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "马尔康市",
+    "CDATE": ""
+}, {
+    "": "2871",
+    "DETAIL_PROVID": "513221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "汶川县",
+    "CDATE": ""
+}, {
+    "": "2872",
+    "DETAIL_PROVID": "513222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "理县",
+    "CDATE": ""
+}, {
+    "": "2873",
+    "DETAIL_PROVID": "513223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "茂县",
+    "CDATE": ""
+}, {
+    "": "2874",
+    "DETAIL_PROVID": "513224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "松潘县",
+    "CDATE": ""
+}, {
+    "": "2875",
+    "DETAIL_PROVID": "513225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "九寨沟县",
+    "CDATE": ""
+}, {
+    "": "2876",
+    "DETAIL_PROVID": "513226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "金川县",
+    "CDATE": ""
+}, {
+    "": "2877",
+    "DETAIL_PROVID": "513227",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "小金县",
+    "CDATE": ""
+}, {
+    "": "2878",
+    "DETAIL_PROVID": "513228",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "黑水县",
+    "CDATE": ""
+}, {
+    "": "2879",
+    "DETAIL_PROVID": "513230",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "壤塘县",
+    "CDATE": ""
+}, {
+    "": "2880",
+    "DETAIL_PROVID": "513231",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "51",
+    "PROV_NAME": "四川",
+    "CITY_CODE": "513200",
+    "CITY_NAME": "阿坝藏族羌族自治州",
+    "COUNTY_NAME": "阿坝县",
+    "CDATE": ""
+}, {
+    "": "2881",
+    "DETAIL_PROVID": "610222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610200",
+    "CITY_NAME": "铜川市",
+    "COUNTY_NAME": "宜君县",
+    "CDATE": ""
+}, {
+    "": "2882",
+    "DETAIL_PROVID": "610300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2883",
+    "DETAIL_PROVID": "610302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "渭滨区",
+    "CDATE": ""
+}, {
+    "": "2884",
+    "DETAIL_PROVID": "610303",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "金台区",
+    "CDATE": ""
+}, {
+    "": "2885",
+    "DETAIL_PROVID": "610304",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "陈仓区",
+    "CDATE": ""
+}, {
+    "": "2886",
+    "DETAIL_PROVID": "610322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "凤翔县",
+    "CDATE": ""
+}, {
+    "": "2887",
+    "DETAIL_PROVID": "610323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "岐山县",
+    "CDATE": ""
+}, {
+    "": "2888",
+    "DETAIL_PROVID": "610324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "扶风县",
+    "CDATE": ""
+}, {
+    "": "2889",
+    "DETAIL_PROVID": "610326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "眉县",
+    "CDATE": ""
+}, {
+    "": "2890",
+    "DETAIL_PROVID": "610327",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "陇县",
+    "CDATE": ""
+}, {
+    "": "2891",
+    "DETAIL_PROVID": "610328",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "千阳县",
+    "CDATE": ""
+}, {
+    "": "2892",
+    "DETAIL_PROVID": "610329",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "麟游县",
+    "CDATE": ""
+}, {
+    "": "2893",
+    "DETAIL_PROVID": "610330",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "凤县",
+    "CDATE": ""
+}, {
+    "": "2894",
+    "DETAIL_PROVID": "610331",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610300",
+    "CITY_NAME": "宝鸡市",
+    "COUNTY_NAME": "太白县",
+    "CDATE": ""
+}, {
+    "": "2895",
+    "DETAIL_PROVID": "610400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2896",
+    "DETAIL_PROVID": "610402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "秦都区",
+    "CDATE": ""
+}, {
+    "": "2897",
+    "DETAIL_PROVID": "610403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "杨陵区",
+    "CDATE": ""
+}, {
+    "": "2898",
+    "DETAIL_PROVID": "610404",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "渭城区",
+    "CDATE": ""
+}, {
+    "": "2899",
+    "DETAIL_PROVID": "610422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "三原县",
+    "CDATE": ""
+}, {
+    "": "2900",
+    "DETAIL_PROVID": "610423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "泾阳县",
+    "CDATE": ""
+}, {
+    "": "2901",
+    "DETAIL_PROVID": "610424",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "乾县",
+    "CDATE": ""
+}, {
+    "": "2902",
+    "DETAIL_PROVID": "610425",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "礼泉县",
+    "CDATE": ""
+}, {
+    "": "2903",
+    "DETAIL_PROVID": "610426",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "永寿县",
+    "CDATE": ""
+}, {
+    "": "2904",
+    "DETAIL_PROVID": "610427",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "彬县",
+    "CDATE": ""
+}, {
+    "": "2905",
+    "DETAIL_PROVID": "610428",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "长武县",
+    "CDATE": ""
+}, {
+    "": "2906",
+    "DETAIL_PROVID": "610429",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "旬邑县",
+    "CDATE": ""
+}, {
+    "": "2907",
+    "DETAIL_PROVID": "610430",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "淳化县",
+    "CDATE": ""
+}, {
+    "": "2908",
+    "DETAIL_PROVID": "610431",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "武功县",
+    "CDATE": ""
+}, {
+    "": "2909",
+    "DETAIL_PROVID": "610481",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610400",
+    "CITY_NAME": "咸阳市",
+    "COUNTY_NAME": "兴平市",
+    "CDATE": ""
+}, {
+    "": "2910",
+    "DETAIL_PROVID": "610500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2911",
+    "DETAIL_PROVID": "610502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "临渭区",
+    "CDATE": ""
+}, {
+    "": "2912",
+    "DETAIL_PROVID": "610503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "华州区",
+    "CDATE": ""
+}, {
+    "": "2913",
+    "DETAIL_PROVID": "610522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "潼关县",
+    "CDATE": ""
+}, {
+    "": "2914",
+    "DETAIL_PROVID": "610523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "大荔县",
+    "CDATE": ""
+}, {
+    "": "2915",
+    "DETAIL_PROVID": "610524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "合阳县",
+    "CDATE": ""
+}, {
+    "": "2916",
+    "DETAIL_PROVID": "610525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "澄城县",
+    "CDATE": ""
+}, {
+    "": "2917",
+    "DETAIL_PROVID": "610526",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "蒲城县",
+    "CDATE": ""
+}, {
+    "": "2918",
+    "DETAIL_PROVID": "610527",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "白水县",
+    "CDATE": ""
+}, {
+    "": "2919",
+    "DETAIL_PROVID": "610528",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "富平县",
+    "CDATE": ""
+}, {
+    "": "2920",
+    "DETAIL_PROVID": "610581",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "韩城市",
+    "CDATE": ""
+}, {
+    "": "2921",
+    "DETAIL_PROVID": "610582",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610500",
+    "CITY_NAME": "渭南市",
+    "COUNTY_NAME": "华阴市",
+    "CDATE": ""
+}, {
+    "": "2922",
+    "DETAIL_PROVID": "610600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2923",
+    "DETAIL_PROVID": "610602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "宝塔区",
+    "CDATE": ""
+}, {
+    "": "2924",
+    "DETAIL_PROVID": "610603",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "安塞区",
+    "CDATE": ""
+}, {
+    "": "2925",
+    "DETAIL_PROVID": "610621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "延长县",
+    "CDATE": ""
+}, {
+    "": "2926",
+    "DETAIL_PROVID": "610622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "延川县",
+    "CDATE": ""
+}, {
+    "": "2927",
+    "DETAIL_PROVID": "610623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "子长县",
+    "CDATE": ""
+}, {
+    "": "2928",
+    "DETAIL_PROVID": "610625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "志丹县",
+    "CDATE": ""
+}, {
+    "": "2929",
+    "DETAIL_PROVID": "610626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "吴起县",
+    "CDATE": ""
+}, {
+    "": "2930",
+    "DETAIL_PROVID": "610627",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "甘泉县",
+    "CDATE": ""
+}, {
+    "": "2931",
+    "DETAIL_PROVID": "610628",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "富县",
+    "CDATE": ""
+}, {
+    "": "2932",
+    "DETAIL_PROVID": "610629",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "洛川县",
+    "CDATE": ""
+}, {
+    "": "2933",
+    "DETAIL_PROVID": "610630",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "宜川县",
+    "CDATE": ""
+}, {
+    "": "2934",
+    "DETAIL_PROVID": "610631",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "黄龙县",
+    "CDATE": ""
+}, {
+    "": "2935",
+    "DETAIL_PROVID": "610632",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610600",
+    "CITY_NAME": "延安市",
+    "COUNTY_NAME": "黄陵县",
+    "CDATE": ""
+}, {
+    "": "2936",
+    "DETAIL_PROVID": "610700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2937",
+    "DETAIL_PROVID": "610702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "汉台区",
+    "CDATE": ""
+}, {
+    "": "2938",
+    "DETAIL_PROVID": "610721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "南郑县",
+    "CDATE": ""
+}, {
+    "": "2939",
+    "DETAIL_PROVID": "610722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "城固县",
+    "CDATE": ""
+}, {
+    "": "2940",
+    "DETAIL_PROVID": "610723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "洋县",
+    "CDATE": ""
+}, {
+    "": "2941",
+    "DETAIL_PROVID": "610724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "西乡县",
+    "CDATE": ""
+}, {
+    "": "2942",
+    "DETAIL_PROVID": "610725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "勉县",
+    "CDATE": ""
+}, {
+    "": "2943",
+    "DETAIL_PROVID": "610726",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "宁强县",
+    "CDATE": ""
+}, {
+    "": "2944",
+    "DETAIL_PROVID": "610727",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "略阳县",
+    "CDATE": ""
+}, {
+    "": "2945",
+    "DETAIL_PROVID": "610728",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "镇巴县",
+    "CDATE": ""
+}, {
+    "": "2946",
+    "DETAIL_PROVID": "610729",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "留坝县",
+    "CDATE": ""
+}, {
+    "": "2947",
+    "DETAIL_PROVID": "610730",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610700",
+    "CITY_NAME": "汉中市",
+    "COUNTY_NAME": "佛坪县",
+    "CDATE": ""
+}, {
+    "": "2948",
+    "DETAIL_PROVID": "610800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2949",
+    "DETAIL_PROVID": "610802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "榆阳区",
+    "CDATE": ""
+}, {
+    "": "2950",
+    "DETAIL_PROVID": "610803",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "横山区",
+    "CDATE": ""
+}, {
+    "": "2951",
+    "DETAIL_PROVID": "610822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "府谷县",
+    "CDATE": ""
+}, {
+    "": "2952",
+    "DETAIL_PROVID": "610824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "靖边县",
+    "CDATE": ""
+}, {
+    "": "2953",
+    "DETAIL_PROVID": "610825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "定边县",
+    "CDATE": ""
+}, {
+    "": "2954",
+    "DETAIL_PROVID": "610826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "绥德县",
+    "CDATE": ""
+}, {
+    "": "2955",
+    "DETAIL_PROVID": "610827",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "米脂县",
+    "CDATE": ""
+}, {
+    "": "2956",
+    "DETAIL_PROVID": "610828",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "佳县",
+    "CDATE": ""
+}, {
+    "": "2957",
+    "DETAIL_PROVID": "610829",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "吴堡县",
+    "CDATE": ""
+}, {
+    "": "2958",
+    "DETAIL_PROVID": "610830",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "清涧县",
+    "CDATE": ""
+}, {
+    "": "2959",
+    "DETAIL_PROVID": "610831",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "子洲县",
+    "CDATE": ""
+}, {
+    "": "2960",
+    "DETAIL_PROVID": "610881",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610800",
+    "CITY_NAME": "榆林市",
+    "COUNTY_NAME": "神木市",
+    "CDATE": ""
+}, {
+    "": "2961",
+    "DETAIL_PROVID": "610900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2962",
+    "DETAIL_PROVID": "610902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "汉滨区",
+    "CDATE": ""
+}, {
+    "": "2963",
+    "DETAIL_PROVID": "610921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "汉阴县",
+    "CDATE": ""
+}, {
+    "": "2964",
+    "DETAIL_PROVID": "610922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "石泉县",
+    "CDATE": ""
+}, {
+    "": "2965",
+    "DETAIL_PROVID": "610923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "宁陕县",
+    "CDATE": ""
+}, {
+    "": "2966",
+    "DETAIL_PROVID": "610924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "紫阳县",
+    "CDATE": ""
+}, {
+    "": "2967",
+    "DETAIL_PROVID": "610925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "岚皋县",
+    "CDATE": ""
+}, {
+    "": "2968",
+    "DETAIL_PROVID": "610926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "平利县",
+    "CDATE": ""
+}, {
+    "": "2969",
+    "DETAIL_PROVID": "610927",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "镇坪县",
+    "CDATE": ""
+}, {
+    "": "2970",
+    "DETAIL_PROVID": "610928",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "旬阳县",
+    "CDATE": ""
+}, {
+    "": "2971",
+    "DETAIL_PROVID": "610929",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "610900",
+    "CITY_NAME": "安康市",
+    "COUNTY_NAME": "白河县",
+    "CDATE": ""
+}, {
+    "": "2972",
+    "DETAIL_PROVID": "611000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "611000",
+    "CITY_NAME": "商洛市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2973",
+    "DETAIL_PROVID": "611002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "611000",
+    "CITY_NAME": "商洛市",
+    "COUNTY_NAME": "商州区",
+    "CDATE": ""
+}, {
+    "": "2974",
+    "DETAIL_PROVID": "611021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "611000",
+    "CITY_NAME": "商洛市",
+    "COUNTY_NAME": "洛南县",
+    "CDATE": ""
+}, {
+    "": "2975",
+    "DETAIL_PROVID": "611022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "611000",
+    "CITY_NAME": "商洛市",
+    "COUNTY_NAME": "丹凤县",
+    "CDATE": ""
+}, {
+    "": "2976",
+    "DETAIL_PROVID": "611023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "611000",
+    "CITY_NAME": "商洛市",
+    "COUNTY_NAME": "商南县",
+    "CDATE": ""
+}, {
+    "": "2977",
+    "DETAIL_PROVID": "611024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "611000",
+    "CITY_NAME": "商洛市",
+    "COUNTY_NAME": "山阳县",
+    "CDATE": ""
+}, {
+    "": "2978",
+    "DETAIL_PROVID": "611025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "611000",
+    "CITY_NAME": "商洛市",
+    "COUNTY_NAME": "镇安县",
+    "CDATE": ""
+}, {
+    "": "2979",
+    "DETAIL_PROVID": "611026",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "61",
+    "PROV_NAME": "陕西",
+    "CITY_CODE": "611000",
+    "CITY_NAME": "商洛市",
+    "COUNTY_NAME": "柞水县",
+    "CDATE": ""
+}, {
+    "": "2980",
+    "DETAIL_PROVID": "620100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620100",
+    "CITY_NAME": "兰州市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2981",
+    "DETAIL_PROVID": "620102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620100",
+    "CITY_NAME": "兰州市",
+    "COUNTY_NAME": "城关区",
+    "CDATE": ""
+}, {
+    "": "2982",
+    "DETAIL_PROVID": "620103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620100",
+    "CITY_NAME": "兰州市",
+    "COUNTY_NAME": "七里河区",
+    "CDATE": ""
+}, {
+    "": "2983",
+    "DETAIL_PROVID": "620104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620100",
+    "CITY_NAME": "兰州市",
+    "COUNTY_NAME": "西固区",
+    "CDATE": ""
+}, {
+    "": "2984",
+    "DETAIL_PROVID": "620105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620100",
+    "CITY_NAME": "兰州市",
+    "COUNTY_NAME": "安宁区",
+    "CDATE": ""
+}, {
+    "": "2985",
+    "DETAIL_PROVID": "620111",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620100",
+    "CITY_NAME": "兰州市",
+    "COUNTY_NAME": "红古区",
+    "CDATE": ""
+}, {
+    "": "2986",
+    "DETAIL_PROVID": "620121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620100",
+    "CITY_NAME": "兰州市",
+    "COUNTY_NAME": "永登县",
+    "CDATE": ""
+}, {
+    "": "2987",
+    "DETAIL_PROVID": "620122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620100",
+    "CITY_NAME": "兰州市",
+    "COUNTY_NAME": "皋兰县",
+    "CDATE": ""
+}, {
+    "": "2988",
+    "DETAIL_PROVID": "620123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620100",
+    "CITY_NAME": "兰州市",
+    "COUNTY_NAME": "榆中县",
+    "CDATE": ""
+}, {
+    "": "2989",
+    "DETAIL_PROVID": "620200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620200",
+    "CITY_NAME": "嘉峪关市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2990",
+    "DETAIL_PROVID": "620201",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620200",
+    "CITY_NAME": "嘉峪关市",
+    "COUNTY_NAME": "嘉峪关市",
+    "CDATE": ""
+}, {
+    "": "2991",
+    "DETAIL_PROVID": "620300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620300",
+    "CITY_NAME": "金昌市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2992",
+    "DETAIL_PROVID": "620302",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620300",
+    "CITY_NAME": "金昌市",
+    "COUNTY_NAME": "金川区",
+    "CDATE": ""
+}, {
+    "": "2993",
+    "DETAIL_PROVID": "620321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620300",
+    "CITY_NAME": "金昌市",
+    "COUNTY_NAME": "永昌县",
+    "CDATE": ""
+}, {
+    "": "2994",
+    "DETAIL_PROVID": "620400",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620400",
+    "CITY_NAME": "白银市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "2995",
+    "DETAIL_PROVID": "620402",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620400",
+    "CITY_NAME": "白银市",
+    "COUNTY_NAME": "白银区",
+    "CDATE": ""
+}, {
+    "": "2996",
+    "DETAIL_PROVID": "620403",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620400",
+    "CITY_NAME": "白银市",
+    "COUNTY_NAME": "平川区",
+    "CDATE": ""
+}, {
+    "": "2997",
+    "DETAIL_PROVID": "620421",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620400",
+    "CITY_NAME": "白银市",
+    "COUNTY_NAME": "靖远县",
+    "CDATE": ""
+}, {
+    "": "2998",
+    "DETAIL_PROVID": "620422",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620400",
+    "CITY_NAME": "白银市",
+    "COUNTY_NAME": "会宁县",
+    "CDATE": ""
+}, {
+    "": "2999",
+    "DETAIL_PROVID": "620423",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620400",
+    "CITY_NAME": "白银市",
+    "COUNTY_NAME": "景泰县",
+    "CDATE": ""
+}, {
+    "": "3000",
+    "DETAIL_PROVID": "620500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620500",
+    "CITY_NAME": "天水市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3001",
+    "DETAIL_PROVID": "620502",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620500",
+    "CITY_NAME": "天水市",
+    "COUNTY_NAME": "秦州区",
+    "CDATE": ""
+}, {
+    "": "3002",
+    "DETAIL_PROVID": "620503",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620500",
+    "CITY_NAME": "天水市",
+    "COUNTY_NAME": "麦积区",
+    "CDATE": ""
+}, {
+    "": "3003",
+    "DETAIL_PROVID": "620521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620500",
+    "CITY_NAME": "天水市",
+    "COUNTY_NAME": "清水县",
+    "CDATE": ""
+}, {
+    "": "3004",
+    "DETAIL_PROVID": "620522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620500",
+    "CITY_NAME": "天水市",
+    "COUNTY_NAME": "秦安县",
+    "CDATE": ""
+}, {
+    "": "3005",
+    "DETAIL_PROVID": "620523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620500",
+    "CITY_NAME": "天水市",
+    "COUNTY_NAME": "甘谷县",
+    "CDATE": ""
+}, {
+    "": "3006",
+    "DETAIL_PROVID": "620524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620500",
+    "CITY_NAME": "天水市",
+    "COUNTY_NAME": "武山县",
+    "CDATE": ""
+}, {
+    "": "3007",
+    "DETAIL_PROVID": "620525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620500",
+    "CITY_NAME": "天水市",
+    "COUNTY_NAME": "张家川回族自治县",
+    "CDATE": ""
+}, {
+    "": "3008",
+    "DETAIL_PROVID": "620600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620600",
+    "CITY_NAME": "武威市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3009",
+    "DETAIL_PROVID": "620602",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620600",
+    "CITY_NAME": "武威市",
+    "COUNTY_NAME": "凉州区",
+    "CDATE": ""
+}, {
+    "": "3010",
+    "DETAIL_PROVID": "620621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620600",
+    "CITY_NAME": "武威市",
+    "COUNTY_NAME": "民勤县",
+    "CDATE": ""
+}, {
+    "": "3011",
+    "DETAIL_PROVID": "620622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620600",
+    "CITY_NAME": "武威市",
+    "COUNTY_NAME": "古浪县",
+    "CDATE": ""
+}, {
+    "": "3012",
+    "DETAIL_PROVID": "620623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620600",
+    "CITY_NAME": "武威市",
+    "COUNTY_NAME": "天祝藏族自治县",
+    "CDATE": ""
+}, {
+    "": "3013",
+    "DETAIL_PROVID": "620700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620700",
+    "CITY_NAME": "张掖市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3014",
+    "DETAIL_PROVID": "620702",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620700",
+    "CITY_NAME": "张掖市",
+    "COUNTY_NAME": "甘州区",
+    "CDATE": ""
+}, {
+    "": "3015",
+    "DETAIL_PROVID": "620721",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620700",
+    "CITY_NAME": "张掖市",
+    "COUNTY_NAME": "肃南裕固族自治县",
+    "CDATE": ""
+}, {
+    "": "3016",
+    "DETAIL_PROVID": "620722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620700",
+    "CITY_NAME": "张掖市",
+    "COUNTY_NAME": "民乐县",
+    "CDATE": ""
+}, {
+    "": "3017",
+    "DETAIL_PROVID": "620723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620700",
+    "CITY_NAME": "张掖市",
+    "COUNTY_NAME": "临泽县",
+    "CDATE": ""
+}, {
+    "": "3018",
+    "DETAIL_PROVID": "620724",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620700",
+    "CITY_NAME": "张掖市",
+    "COUNTY_NAME": "高台县",
+    "CDATE": ""
+}, {
+    "": "3019",
+    "DETAIL_PROVID": "620725",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620700",
+    "CITY_NAME": "张掖市",
+    "COUNTY_NAME": "山丹县",
+    "CDATE": ""
+}, {
+    "": "3020",
+    "DETAIL_PROVID": "620800",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620800",
+    "CITY_NAME": "平凉市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3021",
+    "DETAIL_PROVID": "620802",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620800",
+    "CITY_NAME": "平凉市",
+    "COUNTY_NAME": "崆峒区",
+    "CDATE": ""
+}, {
+    "": "3022",
+    "DETAIL_PROVID": "620821",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620800",
+    "CITY_NAME": "平凉市",
+    "COUNTY_NAME": "泾川县",
+    "CDATE": ""
+}, {
+    "": "3023",
+    "DETAIL_PROVID": "620822",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620800",
+    "CITY_NAME": "平凉市",
+    "COUNTY_NAME": "灵台县",
+    "CDATE": ""
+}, {
+    "": "3024",
+    "DETAIL_PROVID": "620823",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620800",
+    "CITY_NAME": "平凉市",
+    "COUNTY_NAME": "崇信县",
+    "CDATE": ""
+}, {
+    "": "3025",
+    "DETAIL_PROVID": "620824",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620800",
+    "CITY_NAME": "平凉市",
+    "COUNTY_NAME": "华亭县",
+    "CDATE": ""
+}, {
+    "": "3026",
+    "DETAIL_PROVID": "620825",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620800",
+    "CITY_NAME": "平凉市",
+    "COUNTY_NAME": "庄浪县",
+    "CDATE": ""
+}, {
+    "": "3027",
+    "DETAIL_PROVID": "620826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620800",
+    "CITY_NAME": "平凉市",
+    "COUNTY_NAME": "静宁县",
+    "CDATE": ""
+}, {
+    "": "3028",
+    "DETAIL_PROVID": "620900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620900",
+    "CITY_NAME": "酒泉市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3029",
+    "DETAIL_PROVID": "620902",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620900",
+    "CITY_NAME": "酒泉市",
+    "COUNTY_NAME": "肃州区",
+    "CDATE": ""
+}, {
+    "": "3030",
+    "DETAIL_PROVID": "620921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620900",
+    "CITY_NAME": "酒泉市",
+    "COUNTY_NAME": "金塔县",
+    "CDATE": ""
+}, {
+    "": "3031",
+    "DETAIL_PROVID": "620922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620900",
+    "CITY_NAME": "酒泉市",
+    "COUNTY_NAME": "瓜州县",
+    "CDATE": ""
+}, {
+    "": "3032",
+    "DETAIL_PROVID": "620923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620900",
+    "CITY_NAME": "酒泉市",
+    "COUNTY_NAME": "肃北蒙古族自治县",
+    "CDATE": ""
+}, {
+    "": "3033",
+    "DETAIL_PROVID": "620924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620900",
+    "CITY_NAME": "酒泉市",
+    "COUNTY_NAME": "阿克塞哈萨克族自治县",
+    "CDATE": ""
+}, {
+    "": "3034",
+    "DETAIL_PROVID": "620981",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620900",
+    "CITY_NAME": "酒泉市",
+    "COUNTY_NAME": "玉门市",
+    "CDATE": ""
+}, {
+    "": "3035",
+    "DETAIL_PROVID": "620982",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "620900",
+    "CITY_NAME": "酒泉市",
+    "COUNTY_NAME": "敦煌市",
+    "CDATE": ""
+}, {
+    "": "3036",
+    "DETAIL_PROVID": "621000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621000",
+    "CITY_NAME": "庆阳市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3037",
+    "DETAIL_PROVID": "621002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621000",
+    "CITY_NAME": "庆阳市",
+    "COUNTY_NAME": "西峰区",
+    "CDATE": ""
+}, {
+    "": "3038",
+    "DETAIL_PROVID": "621021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621000",
+    "CITY_NAME": "庆阳市",
+    "COUNTY_NAME": "庆城县",
+    "CDATE": ""
+}, {
+    "": "3039",
+    "DETAIL_PROVID": "621022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621000",
+    "CITY_NAME": "庆阳市",
+    "COUNTY_NAME": "环县",
+    "CDATE": ""
+}, {
+    "": "3040",
+    "DETAIL_PROVID": "621023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621000",
+    "CITY_NAME": "庆阳市",
+    "COUNTY_NAME": "华池县",
+    "CDATE": ""
+}, {
+    "": "3041",
+    "DETAIL_PROVID": "621024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621000",
+    "CITY_NAME": "庆阳市",
+    "COUNTY_NAME": "合水县",
+    "CDATE": ""
+}, {
+    "": "3042",
+    "DETAIL_PROVID": "621025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621000",
+    "CITY_NAME": "庆阳市",
+    "COUNTY_NAME": "正宁县",
+    "CDATE": ""
+}, {
+    "": "3043",
+    "DETAIL_PROVID": "621026",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621000",
+    "CITY_NAME": "庆阳市",
+    "COUNTY_NAME": "宁县",
+    "CDATE": ""
+}, {
+    "": "3044",
+    "DETAIL_PROVID": "621027",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621000",
+    "CITY_NAME": "庆阳市",
+    "COUNTY_NAME": "镇原县",
+    "CDATE": ""
+}, {
+    "": "3045",
+    "DETAIL_PROVID": "621100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621100",
+    "CITY_NAME": "定西市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3046",
+    "DETAIL_PROVID": "621102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621100",
+    "CITY_NAME": "定西市",
+    "COUNTY_NAME": "安定区",
+    "CDATE": ""
+}, {
+    "": "3047",
+    "DETAIL_PROVID": "621121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621100",
+    "CITY_NAME": "定西市",
+    "COUNTY_NAME": "通渭县",
+    "CDATE": ""
+}, {
+    "": "3048",
+    "DETAIL_PROVID": "621122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621100",
+    "CITY_NAME": "定西市",
+    "COUNTY_NAME": "陇西县",
+    "CDATE": ""
+}, {
+    "": "3049",
+    "DETAIL_PROVID": "621123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621100",
+    "CITY_NAME": "定西市",
+    "COUNTY_NAME": "渭源县",
+    "CDATE": ""
+}, {
+    "": "3050",
+    "DETAIL_PROVID": "621124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621100",
+    "CITY_NAME": "定西市",
+    "COUNTY_NAME": "临洮县",
+    "CDATE": ""
+}, {
+    "": "3051",
+    "DETAIL_PROVID": "621125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621100",
+    "CITY_NAME": "定西市",
+    "COUNTY_NAME": "漳县",
+    "CDATE": ""
+}, {
+    "": "3052",
+    "DETAIL_PROVID": "621126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621100",
+    "CITY_NAME": "定西市",
+    "COUNTY_NAME": "岷县",
+    "CDATE": ""
+}, {
+    "": "3053",
+    "DETAIL_PROVID": "652826",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652800",
+    "CITY_NAME": "巴音郭楞蒙古自治州",
+    "COUNTY_NAME": "焉耆回族自治县",
+    "CDATE": ""
+}, {
+    "": "3054",
+    "DETAIL_PROVID": "652827",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652800",
+    "CITY_NAME": "巴音郭楞蒙古自治州",
+    "COUNTY_NAME": "和静县",
+    "CDATE": ""
+}, {
+    "": "3055",
+    "DETAIL_PROVID": "652828",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652800",
+    "CITY_NAME": "巴音郭楞蒙古自治州",
+    "COUNTY_NAME": "和硕县",
+    "CDATE": ""
+}, {
+    "": "3056",
+    "DETAIL_PROVID": "652829",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652800",
+    "CITY_NAME": "巴音郭楞蒙古自治州",
+    "COUNTY_NAME": "博湖县",
+    "CDATE": ""
+}, {
+    "": "3057",
+    "DETAIL_PROVID": "652900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652900",
+    "CITY_NAME": "阿克苏地区",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3058",
+    "DETAIL_PROVID": "652901",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652900",
+    "CITY_NAME": "阿克苏地区",
+    "COUNTY_NAME": "阿克苏市",
+    "CDATE": ""
+}, {
+    "": "3059",
+    "DETAIL_PROVID": "652922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652900",
+    "CITY_NAME": "阿克苏地区",
+    "COUNTY_NAME": "温宿县",
+    "CDATE": ""
+}, {
+    "": "3060",
+    "DETAIL_PROVID": "652923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652900",
+    "CITY_NAME": "阿克苏地区",
+    "COUNTY_NAME": "库车县",
+    "CDATE": ""
+}, {
+    "": "3061",
+    "DETAIL_PROVID": "652924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652900",
+    "CITY_NAME": "阿克苏地区",
+    "COUNTY_NAME": "沙雅县",
+    "CDATE": ""
+}, {
+    "": "3062",
+    "DETAIL_PROVID": "652925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652900",
+    "CITY_NAME": "阿克苏地区",
+    "COUNTY_NAME": "新和县",
+    "CDATE": ""
+}, {
+    "": "3063",
+    "DETAIL_PROVID": "652926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652900",
+    "CITY_NAME": "阿克苏地区",
+    "COUNTY_NAME": "拜城县",
+    "CDATE": ""
+}, {
+    "": "3064",
+    "DETAIL_PROVID": "652927",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652900",
+    "CITY_NAME": "阿克苏地区",
+    "COUNTY_NAME": "乌什县",
+    "CDATE": ""
+}, {
+    "": "3065",
+    "DETAIL_PROVID": "652928",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652900",
+    "CITY_NAME": "阿克苏地区",
+    "COUNTY_NAME": "阿瓦提县",
+    "CDATE": ""
+}, {
+    "": "3066",
+    "DETAIL_PROVID": "652929",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "652900",
+    "CITY_NAME": "阿克苏地区",
+    "COUNTY_NAME": "柯坪县",
+    "CDATE": ""
+}, {
+    "": "3067",
+    "DETAIL_PROVID": "653000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653000",
+    "CITY_NAME": "克孜勒苏柯尔克孜自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3068",
+    "DETAIL_PROVID": "653001",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653000",
+    "CITY_NAME": "克孜勒苏柯尔克孜自治州",
+    "COUNTY_NAME": "阿图什市",
+    "CDATE": ""
+}, {
+    "": "3069",
+    "DETAIL_PROVID": "653022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653000",
+    "CITY_NAME": "克孜勒苏柯尔克孜自治州",
+    "COUNTY_NAME": "阿克陶县",
+    "CDATE": ""
+}, {
+    "": "3070",
+    "DETAIL_PROVID": "653023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653000",
+    "CITY_NAME": "克孜勒苏柯尔克孜自治州",
+    "COUNTY_NAME": "阿合奇县",
+    "CDATE": ""
+}, {
+    "": "3071",
+    "DETAIL_PROVID": "653024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653000",
+    "CITY_NAME": "克孜勒苏柯尔克孜自治州",
+    "COUNTY_NAME": "乌恰县",
+    "CDATE": ""
+}, {
+    "": "3072",
+    "DETAIL_PROVID": "653100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3073",
+    "DETAIL_PROVID": "653101",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "喀什市",
+    "CDATE": ""
+}, {
+    "": "3074",
+    "DETAIL_PROVID": "653121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "疏附县",
+    "CDATE": ""
+}, {
+    "": "3075",
+    "DETAIL_PROVID": "653122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "疏勒县",
+    "CDATE": ""
+}, {
+    "": "3076",
+    "DETAIL_PROVID": "653123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "英吉沙县",
+    "CDATE": ""
+}, {
+    "": "3077",
+    "DETAIL_PROVID": "653124",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "泽普县",
+    "CDATE": ""
+}, {
+    "": "3078",
+    "DETAIL_PROVID": "653125",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "莎车县",
+    "CDATE": ""
+}, {
+    "": "3079",
+    "DETAIL_PROVID": "653126",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "叶城县",
+    "CDATE": ""
+}, {
+    "": "3080",
+    "DETAIL_PROVID": "653127",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "麦盖提县",
+    "CDATE": ""
+}, {
+    "": "3081",
+    "DETAIL_PROVID": "653128",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "岳普湖县",
+    "CDATE": ""
+}, {
+    "": "3082",
+    "DETAIL_PROVID": "653129",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "伽师县",
+    "CDATE": ""
+}, {
+    "": "3083",
+    "DETAIL_PROVID": "653130",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "巴楚县",
+    "CDATE": ""
+}, {
+    "": "3084",
+    "DETAIL_PROVID": "653131",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653100",
+    "CITY_NAME": "喀什地区",
+    "COUNTY_NAME": "塔什库尔干塔吉克自治县",
+    "CDATE": ""
+}, {
+    "": "3085",
+    "DETAIL_PROVID": "653200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653200",
+    "CITY_NAME": "和田地区",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3086",
+    "DETAIL_PROVID": "653201",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653200",
+    "CITY_NAME": "和田地区",
+    "COUNTY_NAME": "和田市",
+    "CDATE": ""
+}, {
+    "": "3087",
+    "DETAIL_PROVID": "653221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653200",
+    "CITY_NAME": "和田地区",
+    "COUNTY_NAME": "和田县",
+    "CDATE": ""
+}, {
+    "": "3088",
+    "DETAIL_PROVID": "653222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653200",
+    "CITY_NAME": "和田地区",
+    "COUNTY_NAME": "墨玉县",
+    "CDATE": ""
+}, {
+    "": "3089",
+    "DETAIL_PROVID": "653223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653200",
+    "CITY_NAME": "和田地区",
+    "COUNTY_NAME": "皮山县",
+    "CDATE": ""
+}, {
+    "": "3090",
+    "DETAIL_PROVID": "653224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653200",
+    "CITY_NAME": "和田地区",
+    "COUNTY_NAME": "洛浦县",
+    "CDATE": ""
+}, {
+    "": "3091",
+    "DETAIL_PROVID": "653225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653200",
+    "CITY_NAME": "和田地区",
+    "COUNTY_NAME": "策勒县",
+    "CDATE": ""
+}, {
+    "": "3092",
+    "DETAIL_PROVID": "653226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653200",
+    "CITY_NAME": "和田地区",
+    "COUNTY_NAME": "于田县",
+    "CDATE": ""
+}, {
+    "": "3093",
+    "DETAIL_PROVID": "653227",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "653200",
+    "CITY_NAME": "和田地区",
+    "COUNTY_NAME": "民丰县",
+    "CDATE": ""
+}, {
+    "": "3094",
+    "DETAIL_PROVID": "654000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3095",
+    "DETAIL_PROVID": "654002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "伊宁市",
+    "CDATE": ""
+}, {
+    "": "3096",
+    "DETAIL_PROVID": "654003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "奎屯市",
+    "CDATE": ""
+}, {
+    "": "3097",
+    "DETAIL_PROVID": "654004",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "霍尔果斯市",
+    "CDATE": ""
+}, {
+    "": "3098",
+    "DETAIL_PROVID": "654021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "伊宁县",
+    "CDATE": ""
+}, {
+    "": "3099",
+    "DETAIL_PROVID": "654022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "察布查尔锡伯自治县",
+    "CDATE": ""
+}, {
+    "": "3100",
+    "DETAIL_PROVID": "654023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "霍城县",
+    "CDATE": ""
+}, {
+    "": "3101",
+    "DETAIL_PROVID": "654024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "巩留县",
+    "CDATE": ""
+}, {
+    "": "3102",
+    "DETAIL_PROVID": "654025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "新源县",
+    "CDATE": ""
+}, {
+    "": "3103",
+    "DETAIL_PROVID": "654026",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "昭苏县",
+    "CDATE": ""
+}, {
+    "": "3104",
+    "DETAIL_PROVID": "654027",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "特克斯县",
+    "CDATE": ""
+}, {
+    "": "3105",
+    "DETAIL_PROVID": "654028",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654000",
+    "CITY_NAME": "伊犁哈萨克自治州",
+    "COUNTY_NAME": "尼勒克县",
+    "CDATE": ""
+}, {
+    "": "3106",
+    "DETAIL_PROVID": "654200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654200",
+    "CITY_NAME": "塔城地区",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3107",
+    "DETAIL_PROVID": "654201",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654200",
+    "CITY_NAME": "塔城地区",
+    "COUNTY_NAME": "塔城市",
+    "CDATE": ""
+}, {
+    "": "3108",
+    "DETAIL_PROVID": "654202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654200",
+    "CITY_NAME": "塔城地区",
+    "COUNTY_NAME": "乌苏市",
+    "CDATE": ""
+}, {
+    "": "3109",
+    "DETAIL_PROVID": "654221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654200",
+    "CITY_NAME": "塔城地区",
+    "COUNTY_NAME": "额敏县",
+    "CDATE": ""
+}, {
+    "": "3110",
+    "DETAIL_PROVID": "654223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654200",
+    "CITY_NAME": "塔城地区",
+    "COUNTY_NAME": "沙湾县",
+    "CDATE": ""
+}, {
+    "": "3111",
+    "DETAIL_PROVID": "654224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654200",
+    "CITY_NAME": "塔城地区",
+    "COUNTY_NAME": "托里县",
+    "CDATE": ""
+}, {
+    "": "3112",
+    "DETAIL_PROVID": "654225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654200",
+    "CITY_NAME": "塔城地区",
+    "COUNTY_NAME": "裕民县",
+    "CDATE": ""
+}, {
+    "": "3113",
+    "DETAIL_PROVID": "654226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654200",
+    "CITY_NAME": "塔城地区",
+    "COUNTY_NAME": "和布克赛尔蒙古自治县",
+    "CDATE": ""
+}, {
+    "": "3114",
+    "DETAIL_PROVID": "654300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654300",
+    "CITY_NAME": "阿勒泰地区",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3115",
+    "DETAIL_PROVID": "654301",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654300",
+    "CITY_NAME": "阿勒泰地区",
+    "COUNTY_NAME": "阿勒泰市",
+    "CDATE": ""
+}, {
+    "": "3116",
+    "DETAIL_PROVID": "654321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654300",
+    "CITY_NAME": "阿勒泰地区",
+    "COUNTY_NAME": "布尔津县",
+    "CDATE": ""
+}, {
+    "": "3117",
+    "DETAIL_PROVID": "654322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654300",
+    "CITY_NAME": "阿勒泰地区",
+    "COUNTY_NAME": "富蕴县",
+    "CDATE": ""
+}, {
+    "": "3118",
+    "DETAIL_PROVID": "654323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654300",
+    "CITY_NAME": "阿勒泰地区",
+    "COUNTY_NAME": "福海县",
+    "CDATE": ""
+}, {
+    "": "3119",
+    "DETAIL_PROVID": "654324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654300",
+    "CITY_NAME": "阿勒泰地区",
+    "COUNTY_NAME": "哈巴河县",
+    "CDATE": ""
+}, {
+    "": "3120",
+    "DETAIL_PROVID": "654325",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654300",
+    "CITY_NAME": "阿勒泰地区",
+    "COUNTY_NAME": "青河县",
+    "CDATE": ""
+}, {
+    "": "3121",
+    "DETAIL_PROVID": "654326",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "654300",
+    "CITY_NAME": "阿勒泰地区",
+    "COUNTY_NAME": "吉木乃县",
+    "CDATE": ""
+}, {
+    "": "3122",
+    "DETAIL_PROVID": "659001",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "659001",
+    "CITY_NAME": "石河子市",
+    "COUNTY_NAME": "石河子市",
+    "CDATE": ""
+}, {
+    "": "3123",
+    "DETAIL_PROVID": "659002",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "659002",
+    "CITY_NAME": "阿拉尔市",
+    "COUNTY_NAME": "阿拉尔市",
+    "CDATE": ""
+}, {
+    "": "3124",
+    "DETAIL_PROVID": "659003",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "659003",
+    "CITY_NAME": "图木舒克市",
+    "COUNTY_NAME": "图木舒克市",
+    "CDATE": ""
+}, {
+    "": "3125",
+    "DETAIL_PROVID": "659004",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "659004",
+    "CITY_NAME": "五家渠市",
+    "COUNTY_NAME": "五家渠市",
+    "CDATE": ""
+}, {
+    "": "3126",
+    "DETAIL_PROVID": "659005",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "659005",
+    "CITY_NAME": "北屯市",
+    "COUNTY_NAME": "北屯市",
+    "CDATE": ""
+}, {
+    "": "3127",
+    "DETAIL_PROVID": "659006",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "659006",
+    "CITY_NAME": "铁门关市",
+    "COUNTY_NAME": "铁门关市",
+    "CDATE": ""
+}, {
+    "": "3128",
+    "DETAIL_PROVID": "659007",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "659007",
+    "CITY_NAME": "双河市",
+    "COUNTY_NAME": "双河市",
+    "CDATE": ""
+}, {
+    "": "3129",
+    "DETAIL_PROVID": "659008",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "659008",
+    "CITY_NAME": "可克达拉市",
+    "COUNTY_NAME": "可克达拉市",
+    "CDATE": ""
+}, {
+    "": "3130",
+    "DETAIL_PROVID": "659009",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "65",
+    "PROV_NAME": "新疆",
+    "CITY_CODE": "659009",
+    "CITY_NAME": "昆玉市",
+    "COUNTY_NAME": "昆玉市",
+    "CDATE": ""
+}, {
+    "": "3131",
+    "DETAIL_PROVID": "621200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621200",
+    "CITY_NAME": "陇南市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3132",
+    "DETAIL_PROVID": "621202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621200",
+    "CITY_NAME": "陇南市",
+    "COUNTY_NAME": "武都区",
+    "CDATE": ""
+}, {
+    "": "3133",
+    "DETAIL_PROVID": "621221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621200",
+    "CITY_NAME": "陇南市",
+    "COUNTY_NAME": "成县",
+    "CDATE": ""
+}, {
+    "": "3134",
+    "DETAIL_PROVID": "621222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621200",
+    "CITY_NAME": "陇南市",
+    "COUNTY_NAME": "文县",
+    "CDATE": ""
+}, {
+    "": "3135",
+    "DETAIL_PROVID": "621223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621200",
+    "CITY_NAME": "陇南市",
+    "COUNTY_NAME": "宕昌县",
+    "CDATE": ""
+}, {
+    "": "3136",
+    "DETAIL_PROVID": "621224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621200",
+    "CITY_NAME": "陇南市",
+    "COUNTY_NAME": "康县",
+    "CDATE": ""
+}, {
+    "": "3137",
+    "DETAIL_PROVID": "621225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621200",
+    "CITY_NAME": "陇南市",
+    "COUNTY_NAME": "西和县",
+    "CDATE": ""
+}, {
+    "": "3138",
+    "DETAIL_PROVID": "621226",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621200",
+    "CITY_NAME": "陇南市",
+    "COUNTY_NAME": "礼县",
+    "CDATE": ""
+}, {
+    "": "3139",
+    "DETAIL_PROVID": "621227",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621200",
+    "CITY_NAME": "陇南市",
+    "COUNTY_NAME": "徽县",
+    "CDATE": ""
+}, {
+    "": "3140",
+    "DETAIL_PROVID": "621228",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "621200",
+    "CITY_NAME": "陇南市",
+    "COUNTY_NAME": "两当县",
+    "CDATE": ""
+}, {
+    "": "3141",
+    "DETAIL_PROVID": "622900",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "622900",
+    "CITY_NAME": "临夏回族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3142",
+    "DETAIL_PROVID": "622901",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "622900",
+    "CITY_NAME": "临夏回族自治州",
+    "COUNTY_NAME": "临夏市",
+    "CDATE": ""
+}, {
+    "": "3143",
+    "DETAIL_PROVID": "622921",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "622900",
+    "CITY_NAME": "临夏回族自治州",
+    "COUNTY_NAME": "临夏县",
+    "CDATE": ""
+}, {
+    "": "3144",
+    "DETAIL_PROVID": "622922",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "622900",
+    "CITY_NAME": "临夏回族自治州",
+    "COUNTY_NAME": "康乐县",
+    "CDATE": ""
+}, {
+    "": "3145",
+    "DETAIL_PROVID": "622923",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "622900",
+    "CITY_NAME": "临夏回族自治州",
+    "COUNTY_NAME": "永靖县",
+    "CDATE": ""
+}, {
+    "": "3146",
+    "DETAIL_PROVID": "622924",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "622900",
+    "CITY_NAME": "临夏回族自治州",
+    "COUNTY_NAME": "广河县",
+    "CDATE": ""
+}, {
+    "": "3147",
+    "DETAIL_PROVID": "622925",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "622900",
+    "CITY_NAME": "临夏回族自治州",
+    "COUNTY_NAME": "和政县",
+    "CDATE": ""
+}, {
+    "": "3148",
+    "DETAIL_PROVID": "622926",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "622900",
+    "CITY_NAME": "临夏回族自治州",
+    "COUNTY_NAME": "东乡族自治县",
+    "CDATE": ""
+}, {
+    "": "3149",
+    "DETAIL_PROVID": "622927",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "622900",
+    "CITY_NAME": "临夏回族自治州",
+    "COUNTY_NAME": "积石山保安族东乡族撒拉族自",
+    "CDATE": ""
+}, {
+    "": "3150",
+    "DETAIL_PROVID": "623000",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "623000",
+    "CITY_NAME": "甘南藏族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3151",
+    "DETAIL_PROVID": "623001",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "623000",
+    "CITY_NAME": "甘南藏族自治州",
+    "COUNTY_NAME": "合作市",
+    "CDATE": ""
+}, {
+    "": "3152",
+    "DETAIL_PROVID": "623021",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "623000",
+    "CITY_NAME": "甘南藏族自治州",
+    "COUNTY_NAME": "临潭县",
+    "CDATE": ""
+}, {
+    "": "3153",
+    "DETAIL_PROVID": "623022",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "623000",
+    "CITY_NAME": "甘南藏族自治州",
+    "COUNTY_NAME": "卓尼县",
+    "CDATE": ""
+}, {
+    "": "3154",
+    "DETAIL_PROVID": "623023",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "623000",
+    "CITY_NAME": "甘南藏族自治州",
+    "COUNTY_NAME": "舟曲县",
+    "CDATE": ""
+}, {
+    "": "3155",
+    "DETAIL_PROVID": "623024",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "623000",
+    "CITY_NAME": "甘南藏族自治州",
+    "COUNTY_NAME": "迭部县",
+    "CDATE": ""
+}, {
+    "": "3156",
+    "DETAIL_PROVID": "623025",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "623000",
+    "CITY_NAME": "甘南藏族自治州",
+    "COUNTY_NAME": "玛曲县",
+    "CDATE": ""
+}, {
+    "": "3157",
+    "DETAIL_PROVID": "623026",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "623000",
+    "CITY_NAME": "甘南藏族自治州",
+    "COUNTY_NAME": "碌曲县",
+    "CDATE": ""
+}, {
+    "": "3158",
+    "DETAIL_PROVID": "623027",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "62",
+    "PROV_NAME": "甘肃",
+    "CITY_CODE": "623000",
+    "CITY_NAME": "甘南藏族自治州",
+    "COUNTY_NAME": "夏河县",
+    "CDATE": ""
+}, {
+    "": "3159",
+    "DETAIL_PROVID": "630100",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630100",
+    "CITY_NAME": "西宁市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3160",
+    "DETAIL_PROVID": "630102",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630100",
+    "CITY_NAME": "西宁市",
+    "COUNTY_NAME": "城东区",
+    "CDATE": ""
+}, {
+    "": "3161",
+    "DETAIL_PROVID": "630103",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630100",
+    "CITY_NAME": "西宁市",
+    "COUNTY_NAME": "城中区",
+    "CDATE": ""
+}, {
+    "": "3162",
+    "DETAIL_PROVID": "630104",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630100",
+    "CITY_NAME": "西宁市",
+    "COUNTY_NAME": "城西区",
+    "CDATE": ""
+}, {
+    "": "3163",
+    "DETAIL_PROVID": "630105",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630100",
+    "CITY_NAME": "西宁市",
+    "COUNTY_NAME": "城北区",
+    "CDATE": ""
+}, {
+    "": "3164",
+    "DETAIL_PROVID": "630121",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630100",
+    "CITY_NAME": "西宁市",
+    "COUNTY_NAME": "大通回族土族自治县",
+    "CDATE": ""
+}, {
+    "": "3165",
+    "DETAIL_PROVID": "630122",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630100",
+    "CITY_NAME": "西宁市",
+    "COUNTY_NAME": "湟中县",
+    "CDATE": ""
+}, {
+    "": "3166",
+    "DETAIL_PROVID": "630123",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630100",
+    "CITY_NAME": "西宁市",
+    "COUNTY_NAME": "湟源县",
+    "CDATE": ""
+}, {
+    "": "3167",
+    "DETAIL_PROVID": "630200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630200",
+    "CITY_NAME": "海东市",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3168",
+    "DETAIL_PROVID": "630202",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630200",
+    "CITY_NAME": "海东市",
+    "COUNTY_NAME": "乐都区",
+    "CDATE": ""
+}, {
+    "": "3169",
+    "DETAIL_PROVID": "630203",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630200",
+    "CITY_NAME": "海东市",
+    "COUNTY_NAME": "平安区",
+    "CDATE": ""
+}, {
+    "": "3170",
+    "DETAIL_PROVID": "630222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630200",
+    "CITY_NAME": "海东市",
+    "COUNTY_NAME": "民和回族土族自治县",
+    "CDATE": ""
+}, {
+    "": "3171",
+    "DETAIL_PROVID": "630223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630200",
+    "CITY_NAME": "海东市",
+    "COUNTY_NAME": "互助土族自治县",
+    "CDATE": ""
+}, {
+    "": "3172",
+    "DETAIL_PROVID": "630224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630200",
+    "CITY_NAME": "海东市",
+    "COUNTY_NAME": "化隆回族自治县",
+    "CDATE": ""
+}, {
+    "": "3173",
+    "DETAIL_PROVID": "630225",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "630200",
+    "CITY_NAME": "海东市",
+    "COUNTY_NAME": "循化撒拉族自治县",
+    "CDATE": ""
+}, {
+    "": "3174",
+    "DETAIL_PROVID": "632200",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632200",
+    "CITY_NAME": "海北藏族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3175",
+    "DETAIL_PROVID": "632221",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632200",
+    "CITY_NAME": "海北藏族自治州",
+    "COUNTY_NAME": "门源回族自治县",
+    "CDATE": ""
+}, {
+    "": "3176",
+    "DETAIL_PROVID": "632222",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632200",
+    "CITY_NAME": "海北藏族自治州",
+    "COUNTY_NAME": "祁连县",
+    "CDATE": ""
+}, {
+    "": "3177",
+    "DETAIL_PROVID": "632223",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632200",
+    "CITY_NAME": "海北藏族自治州",
+    "COUNTY_NAME": "海晏县",
+    "CDATE": ""
+}, {
+    "": "3178",
+    "DETAIL_PROVID": "632224",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632200",
+    "CITY_NAME": "海北藏族自治州",
+    "COUNTY_NAME": "刚察县",
+    "CDATE": ""
+}, {
+    "": "3179",
+    "DETAIL_PROVID": "632300",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632300",
+    "CITY_NAME": "黄南藏族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3180",
+    "DETAIL_PROVID": "632321",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632300",
+    "CITY_NAME": "黄南藏族自治州",
+    "COUNTY_NAME": "同仁县",
+    "CDATE": ""
+}, {
+    "": "3181",
+    "DETAIL_PROVID": "632322",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632300",
+    "CITY_NAME": "黄南藏族自治州",
+    "COUNTY_NAME": "尖扎县",
+    "CDATE": ""
+}, {
+    "": "3182",
+    "DETAIL_PROVID": "632323",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632300",
+    "CITY_NAME": "黄南藏族自治州",
+    "COUNTY_NAME": "泽库县",
+    "CDATE": ""
+}, {
+    "": "3183",
+    "DETAIL_PROVID": "632324",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632300",
+    "CITY_NAME": "黄南藏族自治州",
+    "COUNTY_NAME": "河南蒙古族自治县",
+    "CDATE": ""
+}, {
+    "": "3184",
+    "DETAIL_PROVID": "632500",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632500",
+    "CITY_NAME": "海南藏族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3185",
+    "DETAIL_PROVID": "632521",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632500",
+    "CITY_NAME": "海南藏族自治州",
+    "COUNTY_NAME": "共和县",
+    "CDATE": ""
+}, {
+    "": "3186",
+    "DETAIL_PROVID": "632522",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632500",
+    "CITY_NAME": "海南藏族自治州",
+    "COUNTY_NAME": "同德县",
+    "CDATE": ""
+}, {
+    "": "3187",
+    "DETAIL_PROVID": "632523",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632500",
+    "CITY_NAME": "海南藏族自治州",
+    "COUNTY_NAME": "贵德县",
+    "CDATE": ""
+}, {
+    "": "3188",
+    "DETAIL_PROVID": "632524",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632500",
+    "CITY_NAME": "海南藏族自治州",
+    "COUNTY_NAME": "兴海县",
+    "CDATE": ""
+}, {
+    "": "3189",
+    "DETAIL_PROVID": "632525",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632500",
+    "CITY_NAME": "海南藏族自治州",
+    "COUNTY_NAME": "贵南县",
+    "CDATE": ""
+}, {
+    "": "3190",
+    "DETAIL_PROVID": "632600",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632600",
+    "CITY_NAME": "果洛藏族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3191",
+    "DETAIL_PROVID": "632621",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632600",
+    "CITY_NAME": "果洛藏族自治州",
+    "COUNTY_NAME": "玛沁县",
+    "CDATE": ""
+}, {
+    "": "3192",
+    "DETAIL_PROVID": "632622",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632600",
+    "CITY_NAME": "果洛藏族自治州",
+    "COUNTY_NAME": "班玛县",
+    "CDATE": ""
+}, {
+    "": "3193",
+    "DETAIL_PROVID": "632623",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632600",
+    "CITY_NAME": "果洛藏族自治州",
+    "COUNTY_NAME": "甘德县",
+    "CDATE": ""
+}, {
+    "": "3194",
+    "DETAIL_PROVID": "632624",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632600",
+    "CITY_NAME": "果洛藏族自治州",
+    "COUNTY_NAME": "达日县",
+    "CDATE": ""
+}, {
+    "": "3195",
+    "DETAIL_PROVID": "632625",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632600",
+    "CITY_NAME": "果洛藏族自治州",
+    "COUNTY_NAME": "久治县",
+    "CDATE": ""
+}, {
+    "": "3196",
+    "DETAIL_PROVID": "632626",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632600",
+    "CITY_NAME": "果洛藏族自治州",
+    "COUNTY_NAME": "玛多县",
+    "CDATE": ""
+}, {
+    "": "3197",
+    "DETAIL_PROVID": "632700",
+    "PROV_LEVEL": "1",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632700",
+    "CITY_NAME": "玉树藏族自治州",
+    "COUNTY_NAME": "",
+    "CDATE": ""
+}, {
+    "": "3198",
+    "DETAIL_PROVID": "632701",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632700",
+    "CITY_NAME": "玉树藏族自治州",
+    "COUNTY_NAME": "玉树市",
+    "CDATE": ""
+}, {
+    "": "3199",
+    "DETAIL_PROVID": "632722",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632700",
+    "CITY_NAME": "玉树藏族自治州",
+    "COUNTY_NAME": "杂多县",
+    "CDATE": ""
+}, {
+    "": "3200",
+    "DETAIL_PROVID": "632723",
+    "PROV_LEVEL": "2",
+    "PROV_CODE": "63",
+    "PROV_NAME": "青海",
+    "CITY_CODE": "632700",
+    "CITY_NAME": "玉树藏族自治州",
+    "COUNTY_NAME": "称多县",
+    "CDATE": ""
+}]

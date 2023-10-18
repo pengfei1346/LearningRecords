@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>oldcity</title>
+</head>
+<body>
+<div id="app">
+    <div v-for="(item,index) in newe" :key="index">
+        <p>{{index}}:::</p>
+        <p> {{ item.A1}}</p>
+        <p> ==> </p>
+        <p>{{item.A2}}</p>
+        <p style="height: 3px;background: #ff0"></p>
+    </div>
+</div>
+
+</body>
+
+<script src="common/js/vue.js"></script>
+
+<script>
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            fill: [
+                {
+                    "A1": "iainst37\niainst33\nyw33app\nyw37app\nmonitor\npatrol\nzabbix\nftpuser",
+                    "A2": "iainst37\niainst33\nyw33app\nyw37app\nzabbix"
+                },
+                {
+                    "A1": "iainst85\nyw85app\niainst42\nyw42app\nmonitor\npatrol\nzabbix",
+                    "A2": "iainst85\nyw85app\niainst42\nyw42app\nzabbix"
+                }, {
+                    "A1": "db2inst5\nyw43app\nyw83app\nyw23app\nread23\nread43\nread83\nzabbix\nmapread",
+                    "A2": "db2inst5\nyw43app\nyw83app\nyw23app\nread23\nread43\nread83\nzabbix\nmapread"
+                }, {
+                    "A1": "db2instb\nyw44app\nread44\nzabbix\nloguser\nmapread",
+                    "A2": "db2instb\nyw44app\nread44\nzabbix\nmapread"
+                }, {
+                    "A1": "db2inst8\nyw21app\nyw54app\nyw63app\nyw85app\nread21\nread54\nread63\nread85\nzabbix\nmapread",
+                    "A2": "db2inst8\nyw21app\nyw54app\nyw63app\nyw85app\nread21\nread54\nread63\nread85\nzabbix\nmapread"
+                }, {
+                    "A1": "db2instc\nyw33app\nread33\nzabbix\nmapread",
+                    "A2": "db2instc\nyw33app\nread33\nzabbix\nmapread"
+                }, {
+                    "A1": "db2instc\nyw33app\nread33\nzabbix\nmapread",
+                    "A2": "db2instc\nyw33app\nread33\nzabbix\nmapread"
+                }, {
+                    "A1": "db2inst1\nyw12app",
+                    "A2": "db2inst1\nyw12app"
+                }, {
+                    "A1": "db2inst2\nyw14app\nyw34app\nread14\nread34\npatrol\nzabbix\nmapread",
+                    "A2": "db2inst2\nyw14app\nyw34app\nread14\nread34\nzabbix\nmapread"
+                }, {
+                    "A1": "db2insta\nyw22app\nyw41app\nyw84app\ndb2fenc\nread22\nread41\nread84\nzabbix\ncxgis84\nmapread",
+                    "A2": "db2insta\nyw22app\nyw41app\nyw84app\ndb2fenc\nread22\nread41\nread84\nzabbix\ncxgis84\nmapread"
+                }, {
+                    "A1": "\ndb2inst7\nyw32app\nread32\njsbxcx\nzabbix\nmapread",
+                    "A2": "db2inst7\nyw32app\nread32\njsbxcx\nzabbix\nmapread"
+                }, {
+                    "A1": "db2inst9\nyw42app\nyw52app\nyw64app\nyw46app\nread42\nread46\nread52\nread64\nzabbix\nmapread",
+                    "A2": "db2inst9\nyw42app\nyw52app\nyw64app\nyw46app\nread42\nread46\nread52\nread64\nzabbix\nmapread"
+                }, {
+                    "A1": "db2inst6\nyw45app\nyw61app\nyw62app\nyw81app\nread45\nread61\nread62\nread81\nzabbix\ncxgis61\nmapread",
+                    "A2": "db2inst6\nyw45app\nyw61app\nyw62app\nyw81app\nread45\nread61\nread62\nread81\nzabbix\ncxgis61\nmapread"
+                }, {
+                    "A1": "db2inste\nyw51app\nread51\nzabbix\nmapread",
+                    "A2": "db2inste\nyw51app\nread51\nzabbix\nmapread"
+                }, {
+                    "A1": "db2inst3\nyw15app\nyw50app\nyw36app\nread15\nread36\nread50\nzabbix\nmapread",
+                    "A2": "db2inst3\nyw15app\nyw50app\nyw36app\nread15\nread36\nread50\nzabbix\nmapread"
+                }, {
+                    "A1": "db2inst4\nyw35app\nyw53app\nyw65app\nread35\nread53\nread65\nloguser\nzabbix\nmapread",
+                    "A2": "db2inst4\nyw35app\nyw53app\nyw65app\nread35\nread53\nread65\nzabbix\nmapread"
+                }, {
+                    "A1": "cfxinst\nmonitor\ncfxfenc\ncfxapp\npatrol",
+                    "A2": "cfxinst\ncfxfenc\ncfxapp"
+                }, {
+                    "A1": "dzinst\nmonitor\ndzfenc\ndzapp\npatrol",
+                    "A2": "dzinst\n\ndzfenc\ndzapp"
+                }, {
+                    "A1": "oracle\ngrid\npatrol",
+                    "A2": "oracle\ngrid"
+                }, {
+                    "A1": "esbinst\nesbfenc\nsjfbinst\nsjfbfenc\nsjfbapp\nesbapp\npatrol",
+                    "A2": "esbinst\nesbfenc\nsjfbinst\nsjfbfenc\nsjfbapp\nesbapp"
+                }, {"A1": "oracle\ngrid\npatrol\n", "A2": "oracle\ngrid"}, {
+                    "A1": "oracle\ngrid\npatrol\n",
+                    "A2": "oracle\ngrid"
+                }, {"A1": "grid\noracle\n", "A2": "grid\noracle\n"}, {
+                    "A1": "grid\noracle",
+                    "A2": "grid\noracle"
+                }, {
+                    "A1": "grid\noracle\nbjyj\npatrol\nloguser",
+                    "A2": "grid\noracle\nbjyj"
+                }, {"A1": "grid\noracle\nloguser\n", "A2": "grid\noracle"}, {
+                    "A1": "grid\noracle\n",
+                    "A2": "grid\noracle\n"
+                }, {
+                    "A1": "grid\noracle\nmonitor\nsshd\nbjyj\npatrol\n",
+                    "A2": "grid\noracle\nmonitor\nbjyj"
+                }, {"A1": "oracle\ngrid\nloguser\n\n", "A2": "oracle\ngrid"}, {
+                    "A1": "oracle",
+                    "A2": "oracle"
+                }, {"A1": "iainst11\nyw11app", "A2": "iainst11\nyw11app"}, {
+                    "A1": "grid\noracle\npatrol\nloguser",
+                    "A2": "grid\noracle"
+                }, {"A1": "grid\noracle\nloguser", "A2": "grid\noracle"}, {
+                    "A1": "oracle\ngrid",
+                    "A2": "oracle\ngrid"
+                }, {
+                    "A1": "grid\noracle\n",
+                    "A2": "grid\noracle\n"
+                }, {
+                    "A1": "iainst83\nyw83app\nyw85app\niainst85\nyw83read\nyw85read\npatrol\nzabbix\nloguser\n",
+                    "A2": "iainst83\nyw83app\nyw85app\niainst85\nyw83read\nyw85read\nzabbix"
+                }, {
+                    "A1": "iainst37\niainst32\nyw37app\nyw37read\nyw32read\nyw32app\npatrol\nzabbix\nloguser\niatax37\n",
+                    "A2": "iainst37\niainst32\nyw37app\nyw37read\nyw32read\nyw32app\nzabbix\niatax37"
+                }, {
+                    "A1": "iainst43\nyw43app\niainst51\nyw51app\nyw43read\nyw51read\npatrol\niatax43\nzabbix\nloguser\n",
+                    "A2": "iainst43\nyw43app\niainst51\nyw51app\nyw43read\nyw51read\niatax43\nzabbix\nloguser\n"
+                }, {
+                    "A1": "iainst21\nyw21app\niainst54\nyw54app\nyw21read\nyw54read\npatrol\niatax21\nzabbix\nloguser",
+                    "A2": "iainst21\nyw21app\niainst54\nyw54app\nyw21read\nyw54read\niatax21\nzabbix\n"
+                }, {
+                    "A1": "iainst23\nyw23app\niainst82\nyw82app\nyw82read\nyw23read\npatrol\nzabbix\nloguser\niatax82\n",
+                    "A2": "iainst23\nyw23app\niainst82\nyw82app\nyw82read\nyw23read\nzabbix\niatax82\n"
+                }, {
+                    "A1": "yw45app\niainst45\niainst53\nyw53app\nyw45read\nyw53read\npatrol\niatax45\nzabbix\nloguser",
+                    "A2": "yw45app\niainst45\niainst53\nyw53app\nyw45read\nyw53read\niatax45\nzabbix\n"
+                }, {
+                    "A1": "iainst61\nyw61app\niainst62\nyw62app\nyw61read\nyw62read\npatrol\niatax61\nzabbix\nloguser",
+                    "A2": "iainst61\nyw61app\niainst62\nyw62app\nyw61read\nyw62read\n\niatax61\nzabbix\n"
+                }, {
+                    "A1": "iainst50\nyw50app\niainst63\nyw63app\nyw50read\nyw63read\npatrol\niatax50\nzabbix\nloguser",
+                    "A2": "iainst50\nyw50app\niainst63\nyw63app\nyw50read\nyw63read\n\niatax50\nzabbix"
+                }, {
+                    "A1": "iainst84\nyw84app\niainst12\nyw12app\nyw84read\nyw12read\npatrol\niatax84\nzabbix\nloguser",
+                    "A2": "iainst84\nyw84app\niainst12\nyw12app\nyw84read\nyw12read\n\niatax84\nzabbix\n"
+                }, {
+                    "A1": "iainst65\nyw65app\nyw65read\niainst52\nyw52app\nyw52read\npatrol\nzabbix\niatax65\nloguser",
+                    "A2": "iainst65\nyw65app\nyw65read\niainst52\nyw52app\nyw52read\n\nzabbix\niatax65\n"
+                }, {
+                    "A1": "iainst81\nyw81app\nyw81read\niainst64\nyw64app\nyw64read\npatrol\niatax81\nzabbix\nloguser",
+                    "A2": "iainst81\nyw81app\nyw81read\niainst64\nyw64app\nyw64read\n\niatax81\nzabbix"
+                }, {
+                    "A1": "iainst33\nyw33app\nyw33read\niainst35\nyw35app\nyw35read\npatrol\nzabbix\nloguser",
+                    "A2": "iainst33\nyw33app\nyw33read\niainst35\nyw35app\nyw35read\n\nzabbix\n"
+                }, {
+                    "A1": "iainst44\nyw44app\nyw44read\niainst46\nyw46app\nyw46read\npatrol\niatax44\nzabbix\nloguser",
+                    "A2": "iainst44\nyw44app\nyw44read\niainst46\nyw46app\nyw46read\n\niatax44\nzabbix\n"
+                }, {
+                    "A1": "iainst36\nyw36app\nyw36read\niainst34\nyw34read\nyw34app\npatrol\niatax36\nzabbix\nloguser",
+                    "A2": "iainst36\nyw36app\nyw36read\niainst34\nyw34read\nyw34app\n\niatax36\nzabbix\n"
+                }, {
+                    "A1": "grid\noracle\nzabbix\nmonitor1\npatrol\nloguser",
+                    "A2": "grid\noracle\nzabbix\nmonitor1\n"
+                }, {
+                    "A1": "grid\noracle\nzabbix\nloguser\n",
+                    "A2": "grid\noracle\nzabbix\n"
+                }, {
+                    "A1": "iainst85\nyw85app\niainst83\nyw83app\nyw85read\nyw83read\npatrol\niatax85\nzabbix\nloguser",
+                    "A2": "iainst85\nyw85app\niainst83\nyw83app\nyw85read\nyw83read\n\niatax85\nzabbix\n"
+                }, {
+                    "A1": "iainst37\niainst32\nyw37app\nyw37read\nyw32read\nyw32app\npatrol\niatax32\nzabbix\nloguser",
+                    "A2": "iainst37\niainst32\nyw37app\nyw37read\nyw32read\nyw32app\n\niatax32\nzabbix\n"
+                }, {
+                    "A1": "iainst43\nyw43app\niainst51\nyw51app\nyw51read\nyw43read\npatrol\niatax51\nzabbix\nloguser",
+                    "A2": "iainst43\nyw43app\niainst51\nyw51app\nyw51read\nyw43read\n\niatax51\nzabbix"
+                }, {
+                    "A1": "iainst21\nyw21app\niainst54\nyw54app\nyw21read\nyw54read\npatrol\nzabbix\nloguser\niatax54",
+                    "A2": "iainst21\nyw21app\niainst54\nyw54app\nyw21read\nyw54read\n\nzabbix\nloguser\niatax54"
+                }, {
+                    "A1": "iainst23\nyw23app\niainst82\nyw82app\nyw82read\nyw23read\npatrol\niatax23\nzabbix\nloguser\n",
+                    "A2": "iainst23\nyw23app\niainst82\nyw82app\nyw82read\nyw23read\n\niatax23\nzabbix\n\n"
+                }, {
+                    "A1": "iainst53\nyw53app\niainst45\nyw45app\nyw53read\nyw45read\npatrol\nzabbix\nloguser",
+                    "A2": "iainst53\nyw53app\niainst45\nyw45app\nyw53read\nyw45read\n\nzabbix"
+                }, {
+                    "A1": "iainst61\nyw61app\niainst62\nyw62app\nyw61read\nyw62read\npatrol\nzabbix\niatax62\nloguser",
+                    "A2": "iainst61\nyw61app\niainst62\nyw62app\nyw61read\nyw62read\n\nzabbix\niatax62"
+                }, {
+                    "A1": "iainst63\nyw63app\niainst50\nyw50app\nyw50read\nyw63read\npatrol\nzabbix\niatax63\nloguser",
+                    "A2": "iainst63\nyw63app\niainst50\nyw50app\nyw50read\nyw63read\n\nzabbix\niatax63\n"
+                }, {
+                    "A1": "iainst12\nyw12app\niainst84\nyw84app\nyw84read\nyw12read\npatrol\nzabbix\nloguser",
+                    "A2": "iainst12\nyw12app\niainst84\nyw84app\nyw84read\nyw12read\n\nzabbix"
+                }, {
+                    "A1": "iainst65\nyw65app\nyw65read\niainst52\nyw52app\nyw52read\npatrol\nzabbix\niatax52\nloguser",
+                    "A2": "iainst65\nyw65app\nyw65read\niainst52\nyw52app\nyw52read\n\nzabbix\niatax52"
+                }, {
+                    "A1": "iainst81\nyw81app\nyw81read\niainst64\nyw64app\nyw64read\npatrol\niatax64\nzabbix\nloguser",
+                    "A2": "iainst81\nyw81app\nyw81read\niainst64\nyw64app\nyw64read\n\niatax64\nzabbix\n"
+                }, {
+                    "A1": "iainst33\nyw33app\nyw33read\niainst35\nyw35app\nyw35read\npatrol\niatax35\nzabbix\nloguser",
+                    "A2": "iainst33\nyw33app\nyw33read\niainst35\nyw35app\nyw35read\n\niatax35\nzabbix\n"
+                }, {
+                    "A1": "iainst44\nyw44app\nyw44read\niainst46\nyw46app\nyw46read\npatrol\niatax46\nzabbix\nloguser",
+                    "A2": "iainst44\nyw44app\nyw44read\niainst46\nyw46app\nyw46read\n\niatax46\nzabbix\n"
+                }, {
+                    "A1": "iainst36\nyw36app\nyw36read\niainst34\nyw34app\nyw34read\npatrol\nzabbix\nloguser\niatax34",
+                    "A2": "iainst36\nyw36app\nyw36read\niainst34\nyw34app\nyw34read\n\nzabbix\n\niatax34"
+                }, {
+                    "A1": "grid\noracle\nzabbix\nmonitor1\npatrol\nloguser\n",
+                    "A2": "grid\noracle\nzabbix\nmonitor1\n\n"
+                }, {
+                    "A1": "grid\noracle\nzabbix\nloguser\n",
+                    "A2": "grid\noracle\nzabbix"
+                }, {
+                    "A1": "grid\noracle\nzabbix\n",
+                    "A2": "grid\noracle\nzabbix"
+                }, {
+                    "A1": "iainst13\nyw13app\nyw13read\niainst42\nyw42app\nyw42read\nzabbix\niatax13\npatrol\nloguser",
+                    "A2": "iainst13\nyw13app\nyw13read\niainst42\nyw42app\nyw42read\nzabbix\niatax13"
+                }, {
+                    "A1": "iainst14\nyw14app\nyw14read\niainst41\nyw41app\nyw41read\niatax41\nzabbix\nloguser",
+                    "A2": "iainst14\nyw14app\nyw14read\niainst41\nyw41app\nyw41read\niatax41\nzabbix"
+                }, {
+                    "A1": "iainst22\nyw22app\niainst15\nyw15app\nyw15read\nzabbix\nyw22read\niatax22\nloguser",
+                    "A2": "iainst22\nyw22app\niainst15\nyw15app\nyw15read\nzabbix\nyw22read\niatax22"
+                }, {"A1": "grid\noracle\nzabbix\n", "A2": "grid\noracle\nzabbix"}, {
+                    "A1": "iatax42\nzabbix",
+                    "A2": "iatax42\nzabbix"
+                }, {
+                    "A1": "iatax14\nzabbix\niainst14\nyw14app\nyw14read\niainst41\nyw41app\nyw41read\nloguser",
+                    "A2": "iatax14\nzabbix\niainst14\nyw14app\nyw14read\niainst41\nyw41app\nyw41read"
+                }, {
+                    "A1": "iatax15\nzabbix\niainst22\nyw22app\nyw22read\niainst15\nyw15app\nyw15read\nloguser",
+                    "A2": "iatax15\nzabbix\niainst22\nyw22app\nyw22read\niainst15\nyw15app\nyw15read"
+                }, {
+                    "A1": "grid\noracle\nzabbix\nloguser",
+                    "A2": "grid\noracle\nzabbix"
+                }, {
+                    "A1": "oracle\ngrid\npatrol\nzabbix\njkxzb\nloguser\n",
+                    "A2": "oracle\ngrid\n\nzabbix\njkxzb"
+                }, {
+                    "A1": "oracle\ngrid\nzabbix\nkhzsj\nloguser\n",
+                    "A2": "oracle\ngrid\nzabbix\nkhzsj"
+                }, {
+                    "A1": "oracle\ngrid\nview\npatrol\nzabbix\nloguser\n",
+                    "A2": "oracle\ngrid\n\n\nzabbix"
+                }, {
+                    "A1": "grid\noracle\nzabbix\npatrol\nloguser",
+                    "A2": "grid\noracle\nzabbix"
+                }, {
+                    "A1": "oracle\ngrid\npatrol\nzabbix\nloguser",
+                    "A2": "oracle\ngrid\n\nzabbix"
+                }, {
+                    "A1": "oracle\ngrid\nzabbix\nloguser",
+                    "A2": "oracle\ngrid\nzabbix"
+                }, {
+                    "A1": "oracle\ngrid\nnmon\npatrol\nzabbix\njkxzb\nloguser",
+                    "A2": "oracle\ngrid\n\n\nzabbix\njkxzb"
+                }, {
+                    "A1": "oracle\ngrid\nzabbix\nkhzsj\nloguser\n",
+                    "A2": "oracle\ngrid\nzabbix\nkhzsj"
+                }, {
+                    "A1": "oracle\ngrid\nview\npatrol\nzabbix\nloguser",
+                    "A2": "oracle\ngrid\n\n\nzabbix"
+                }, {
+                    "A1": "oracle\ngrid\npatrol\nzabbix\nloguser\n",
+                    "A2": "oracle\ngrid\n\nzabbix\n"
+                }, {
+                    "A1": "\nstasi\nstaeb\nstaes\nodsi\nodsw\nodswread\nitf\nodsinst\nitfuser\nodsitf\nuser001\nuser002\nuser003\nuser004\nuser005\npatrol\nzabbix\nstanx\nstajkx\nloguser\nzhoudy\ncixiang\n",
+                    "A2": "\nstasi\nstaeb\nstaes\nodsi\nodsw\nodswread\nitf\nodsinst\nitfuser\nodsitf\nuser001\nuser002\nuser003\nuser004\nuser005\n\nzabbix\nstanx\nstajkx\n\n\ncixiang"
+                }, {
+                    "A1": "sjzlinst\npatrol\nzabbix\nloguser\nzhoudy\nyubo",
+                    "A2": "sjzlinst\n\nzabbix\nloguser\n\n"
+                }, {
+                    "A1": "oracle\ngrid\nsinoiaaf\npatrol\nzabbix\nloguser",
+                    "A2": "oracle\ngrid\nsinoiaaf\n\nzabbix\n"
+                }, {
+                    "A1": "grid\noracle\nzabbix\nloguser",
+                    "A2": "grid\noracle\nzabbix"
+                }, {
+                    "A1": "\noracle\ngrid\nciitc\nquery\nview\npatrol\nzabbix\nloguser",
+                    "A2": "oracle\ngrid\nciitc\n\n\n\nzabbix"
+                }, {
+                    "A1": "oracle\ngrid\npatrol\nzabbix\nloguser",
+                    "A2": "oracle\ngrid\n\nzabbix"
+                }, {
+                    "A1": "lpcx1\nlpcx2\nlpcxapp\nlpread\npatrol\nsecurity\nzabbix\nloguser",
+                    "A2": "lpcx1\nlpcx2\nlpcxapp\nlpread\npatrol\n\nzabbix"
+                }, {
+                    "A1": "\noracle\ngrid\nciitc\nquery\nview\npatrol\nzabbix\nloguser",
+                    "A2": "oracle\ngrid\nciitc\n\n\n\nzabbix"
+                }, {
+                    "A1": "instiaci\niainst43\niamon43\n",
+                    "A2": "instiaci\niainst43\niamon43"
+                }, {
+                    "A1": "grid\noracle\nzabbix\nloguser",
+                    "A2": "grid\noracle\nzabbix"
+                }, {
+                    "A1": "cfxinst\ncfxfenc\ncfxapp\ndzinst\ndzfenc\ndzapp\npatrol\ncfxread\nshujuzu\nhuanjzu\nyewuzu\nzabbix\nsjzcxt\nxujie\nloguser\n\n",
+                    "A2": "cfxinst\ncfxfenc\ncfxapp\ndzinst\ndzfenc\ndzapp\n\ncfxread\n\n\n\nzabbix\n\nxujie"
+                }, {
+                    "A1": "oracle\ngrid\npatrol\nzabbix\nloguser\n",
+                    "A2": "oracle\ngrid\n\nzabbix"
+                }, {
+                    "A1": "oracle\ngrid\npatrol\nzabbix\nloguser\n",
+                    "A2": "oracle\ngrid\n\nzabbix\n\n"
+                }, {
+                    "A1": "cfxinst\ncfxfenc\ncfxapp\ndzinst\ndzfenc\ndzapp\npatrol\ndzread\nshujuzu\nhuanjzu\nyewuzu\nzabbix\nsjzcxt\nxujie\nloguser",
+                    "A2": "cfxinst\ncfxfenc\ncfxapp\ndzinst\ndzfenc\ndzapp\npatrol\ndzread\nshujuzu\nhuanjzu\nyewuzu\nzabbix\nsjzcxt\nxujie"
+                }, {
+                    "A1": "oracle\ngrid\npatrol\nzabbix\nloguser\n",
+                    "A2": "oracle\ngrid\nzabbix"
+                }, {
+                    "A1": "oracle\ngrid\npatrol\nzabbix\nloguser\n",
+                    "A2": "oracle\ngrid\nzabbix"
+                }, {
+                    "A1": "grid\noracle\nmonitor\ncognos\naiptest\nallpnfs\nsshd\npatrol\nzabbix\nloguser",
+                    "A2": "grid\noracle\n\ncognos\naiptest\n\n\n\nzabbix"
+                }, {
+                    "A1": "esbinst\nesbfenc\nesbapp\nsjfbinst\nsjfbfenc\nsjfbapp\nAAICadm\nABICadm\nACICadm\nAHICadm\nAICSadm\nAIGCadm\nAMICadm\nAZCNadm\nBGICadm\nBOCIadm\nBPICadm\nCAICadm\nCATHadm\nCCICadm\nCHACadm\nCICPadm\nCJCXadm\nCPICadm\nCRICadm\nDBICadm\nDHICadm\nDICCadm\nFPICadm\nGPICadm\nGYICadm\nHAICadm\nHBICadm\nHHBXadm\nHNICadm\nHTICadm\nHYICadm\nJTICadm\nLIHIadm\nMACNadm\nMSICadm\nPAICadm\nPICCadm\nSJICadm\nSMICadm\nSPICadm\nTAICadm\nTMNFadm\nTPBXadm\nTPICadm\nTSBXadm\nUTICadm\nXAICadm\nXDCXadm\nYAICadm\nYDCXadm\nYGBXadm\nYZICadm\nZKICadm\nZLICadm\nZMBXadm\nZSICadm\nZYBXadm\nZYICadm\nftpuser\npatrol\nzabbix\nloguser\n",
+                    "A2": "esbinst\nesbfenc\nesbapp\nsjfbinst\nsjfbfenc\nsjfbapp\nAAICadm\nABICadm\nACICadm\nAHICadm\nAICSadm\nAIGCadm\nAMICadm\nAZCNadm\nBGICadm\nBOCIadm\nBPICadm\nCAICadm\nCATHadm\nCCICadm\nCHACadm\nCICPadm\nCJCXadm\nCPICadm\nCRICadm\nDBICadm\nDHICadm\nDICCadm\nFPICadm\nGPICadm\nGYICadm\nHAICadm\nHBICadm\nHHBXadm\nHNICadm\nHTICadm\nHYICadm\nJTICadm\nLIHIadm\nMACNadm\nMSICadm\nPAICadm\nPICCadm\nSJICadm\nSMICadm\nSPICadm\nTAICadm\nTMNFadm\nTPBXadm\nTPICadm\nTSBXadm\nUTICadm\nXAICadm\nXDCXadm\nYAICadm\nYDCXadm\nYGBXadm\nYZICadm\nZKICadm\nZLICadm\nZMBXadm\nZSICadm\nZYBXadm\nZYICadm\n\n\nzabbix\n"
+                }, {
+                    "A1": "instiaci\niafenc\niasoft\niasvc\niatest\nyunwei\npatrol\nzabbix\nshujuzu\nloguser",
+                    "A2": "instiaci\niafenc\niasoft\niasvc\niatest\nyunwei\n\nzabbix\n\n"
+                }, {
+                    "A1": "iasoft\ndb2fenc\ninstiaci\niasvc\niart\niatest\npatrol\nloguser\nzabbix\n",
+                    "A2": "iasoft\ndb2fenc\ninstiaci\niasvc\niart\niatest\n\n\nzabbix"
+                }, {
+                    "A1": "iacadata\niacafen\nstatdata\nstatfen\niacauser\nstatuser\nstatsvc\nstatrt\niacart\niacasvc\npatrol\nloguser\nzabbix\nzhoudy",
+                    "A2": "iacadata\niacafen\nstatdata\nstatfen\niacauser\nstatuser\nstatsvc\nstatrt\niacart\niacasvc\n\n\nzabbix\n"
+                }, {
+                    "A1": "instiaci\niafenc\nkfywfwpt\nmonitor\npatrol\nreaduser\nzabbix\nloguser",
+                    "A2": "instiaci\niafenc\nkfywfwpt\n\n\nreaduser\nzabbix"
+                }, {
+                    "A1": "grid\noracle\nmonitor\nsshd\npatrol\ncognos\nzabbix\nloguser",
+                    "A2": "grid\noracle\n\n\n\ncognos\nzabbix"
+                }, {
+                    "A1": "iasoft\ninstiaci\niafenc\niasvc\niatest\nyunwei\nshujuzu\nzabbix\ndb_sjbd",
+                    "A2": "iasoft\ninstiaci\niafenc\niasvc\niatest\nyunwei\n\nzabbix\ndb_sjbd"
+                }, {
+                    "A1": "db2test\ndb2fen\npatrol\nloguser\n",
+                    "A2": "db2test\ndb2fen"
+                }, {
+                    "A1": "sjfbinst\nsjfbfenc\nsjfbapp\nesbinst\nesbfenc\nesbapp\nzcdc\npatrol\nzabbix\nloguser",
+                    "A2": "sjfbinst\nsjfbfenc\nsjfbapp\nesbinst\nesbfenc\nesbapp\nzcdc\n\nzabbix"
+                }, {
+                    "A1": "instiaci\ninstfenc\ninstjias\ninstda\ninstiast\ninstlpcx\nfenclpcx\npatrol\nzabbix\nloguser",
+                    "A2": "instiaci\ninstfenc\ninstjias\ninstda\ninstiast\ninstlpcx\nfenclpcx\n\nzabbix"
+                }, {
+                    "A1": "instiaci\niafenc\nreaduser\nkfywfwpt",
+                    "A2": "instiaci\niafenc\nreaduser\nkfywfwpt"
+                }, {
+                    "A1": "instiaci\niafenc\ntestuser\npatrol\nloguser",
+                    "A2": "instiaci\niafenc\ntestuser"
+                }, {
+                    "A1": "\nodsinst\nstanx\nstajkx\nodsi\nodsw\nloguser\nzabbix\nzhoudy\ncixiang\nstashy",
+                    "A2": "odsinst\nstanx\nstajkx\nodsi\nodsw\nl\nzabbix\nzhoudy\n\nstashy"
+                }, {
+                    "A1": "oracle\ngrid\npatrol\nloguser\n",
+                    "A2": "oracle\ngrid"
+                }, {
+                    "A1": "\noracle\ngrid\nzabbix\nloguser\nsoft\niainst37\niainst54\niainst12\niainst13\niainst14\niainst15\niainst21\niainst22\niainst23\niainst32\niainst33\niainst34\niainst35\niainst36\niainst41\niainst42\niainst43\niainst44\niainst45\niainst46\niainst50\niainst51\niainst52\niainst53\niainst61\niainst62\niainst63\niainst64\niainst65\niainst81\niainst82\niainst83\niainst84\niainst85\ndb2test\ndb2inst1\ndb2fenc",
+                    "A2": "\noracle\ngrid\nzabbix\n\n\niainst37\niainst54\niainst12\niainst13\niainst14\niainst15\niainst21\niainst22\niainst23\niainst32\niainst33\niainst34\niainst35\niainst36\niainst41\niainst42\niainst43\niainst44\niainst45\niainst46\niainst50\niainst51\niainst52\niainst53\niainst61\niainst62\niainst63\niainst64\niainst65\niainst81\niainst82\niainst83\niainst84\niainst85\ndb2test\ndb2inst1\ndb2fenc"
+                }, {
+                    "A1": "iainst44\niafenc44\nyw44app\niatax44\ncdc44\niainst97\niafenc97\ntest",
+                    "A2": "iainst44\niafenc44\nyw44app\niatax44\ncdc44\niainst97\niafenc97\ntest"
+                },
+                {"A1": "N/A"}, {"A1": "N/A"}, {"A1": "radiusd\nisso\nso\nsa\n"}, {
+                    "A1": "iainst21\niafenc21\nyw21app\niatax21\ncdc21\niainst54\niafenc54\nyw54app\niatax54\ncdc54",
+                    "A2": "iainst21\niafenc21\nyw21app\niatax21\ncdc21\niainst54\niafenc54\nyw54app\niatax54\ncdc54"
+                },
+                {
+                    "A1": "iainst44\nyw44app\nyw44read\niafenc44\niatax44\ncdc44",
+                    "A2": "iainst44\nyw44app\nyw44read\niafenc44\niatax44\ncdc44"
+                },
+                {"A1": "N/A"}, {"A1": "N/A"}, {"A1": "N/A"},
+                {
+                    "A1": "iainst54\niafenc54\nyw54app\niatax54\ncdc54\niainst21\niafenc21\nyw21app\niatax21\ncdc21",
+                    "A2": "iainst54\niafenc54\nyw54app\niatax54\ncdc54\niainst21\niafenc21\nyw21app\niatax21\ncdc21"
+                },
+                {"A1": "srvproxy"}, {"A1": "N/A"}, {"A1": "N/A"}, {
+                    "A1": "radiusd\nisso\nso\nsa\noracle",
+                    "A2": "\noracle"
+                },
+                {"A1": "N/A"}, {"A1": "N/A"}, {"A1": "N/A"}, {"A1": "N/A"}, {"A1": "N/A"}, {"A1": "N/A"},
+                {
+                    "A1": "oracle",
+                    "A2": "oracle"
+                },
+                {"A1": "db2fen\ndb2test\noracle", "A2": "db2fen\ndb2test\noracle"}
+            ],
+            newe: [],
+        },
+        methods: {
+            changeFile: function () {
+                this.fill.forEach(item => {
+                    if (item.A1 != item.A2) {
+                        this.newe.push(item)
+                    }
+                })
+            }
+        },
+        mounted: function () {
+            this.changeFile()
+        }
+    })
+
+</script>
+</html>

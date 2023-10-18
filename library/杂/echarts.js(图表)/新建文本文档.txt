@@ -1,0 +1,216 @@
+drawLine:function () {
+                var date = new Date();
+                var month = date.getMonth() + 1;
+
+                var self = this;
+                var jineData = this.jineData;
+                var bishuData = this.bishuData;
+                var xkedu = this.xkedu;
+
+                var myChart = echarts.init(document.getElementById('main'));
+                // 指定图表的配置项和数据
+                var option = {
+                    backgroundColor: '#0A1429',
+                    title: {
+                        x: '10', // 水平安放位置，默认为左对齐，可选为：// 'center' | 'left' | 'right'// | {number}（x坐标，单位px）
+                        y:'20',
+                        text: '单位：笔 / 元 时间：2018年' + month + '月',
+                        textStyle: {
+                            fontSize: 11,
+                            fontWeight: 100,
+                            color: '#ffffff'          // 主标题文字颜色
+                        }
+                    },
+                    color:['#64dcec','#ffff00'],
+                    tooltip: {
+                        show:false
+                        // trigger: 'axis'
+                    },
+                    toolbox:{
+                        show:false
+                    },
+                    legend: {
+                        data:['交易金额','交易笔数'],
+                        align: 'left',
+                        x:'210',
+                        y:'18',
+                        // 强制设置图形为圆。
+                        icon: 'circle',
+                        // 设置文本为红色
+                        textStyle: {
+                            fontSize: 10,
+                            color: ['#64dcec','#ffff00']
+                        }
+                    },
+                    grid: {
+                        left: '3%',
+                        right: '1%',
+                        bottom: '6%',
+                        containLabel: true
+                    },
+                    xAxis: {
+                        type: 'category',
+                        axisLabel:{color:'rgb(150,150,150)'},   // x轴字体颜色
+                        axisLine:{
+                            lineStyle: {
+                                color: '#ffffff',
+                                width: 0.5
+                            },
+                        },
+                        axisTick: {
+                            show: false,
+                        },
+                        boundaryGap: true,//false取消左侧的间距 true
+                        // data: xkedu,
+                        data:function (){
+                            var list = [];
+                            for (var i = 1; i <= 30; i++) {
+                                if(i >= 0 && i <= 9){
+                                    i = '0' + i
+                                }
+                                list.push(i);
+                            }
+                            return list;
+                        }()
+                    },
+                    yAxis: {
+                        name: '', //Y轴名字
+                        type: 'value',
+                        axisLabel:{color:'rgb(150,150,150)'},   // x轴字体颜色
+                        nameGap: 20, //刻度与Y轴线名字之间的距离
+                        nameTextStyle: { //Y轴名字的样式
+                            color: '#000',
+                            fontSize: 12
+                        },
+                        // min: minax2.min, //设置Y轴的最大最小值
+                        // max: minax2.max,
+                        splitLine: {show: false}, //去掉网格线
+                        // axisLine: {
+                        //     symbol: ['none', 'arrow'], //是否显示箭头
+                        //     symbolSize: [8, 10], //调整坐标箭头的大小
+                        //     symbolOffset: [5, 7] //调整箭头的偏移位置
+                        // },
+                        axisTick: {
+                            show:false,//是否显示Y轴的刻度
+                            inside: false //改变刻度的朝向
+                        },
+                        axisLine:{
+                            lineStyle: {
+                                color: '#ffffff',
+                                width: 0.5
+                            },
+                        },
+                    },
+                    dataZoom: [
+                        { //Y轴固定,让内容滚动
+                            type: 'slider',
+                            show: false,
+                            xAxisIndex: [0],
+                            start: 1,
+                            end: 20,//设置X轴刻度之间的间隔(根据数据量来调整)
+                            handleSize: 8,
+                            zoomLock: true, //锁定区域禁止缩放(鼠标滚动会缩放,所以禁止)
+                        },
+                        {
+                            type: 'inside',
+                            xAxisIndex: [0],
+                            start: 1,
+                            end: 90,
+                            zoomLock: true, //锁定区域禁止缩放
+                        }
+                    ],
+                    series: [
+                        {
+                            // data:function (){
+                            //     var list = [];
+                            //     for (var i = 1; i <= 30; i++) {
+                            //         list.push(Math.round(Math.random()* 30));
+                            //     }
+                            //     console.log('对比',list);
+                            //     console.log('内部',self.lineData.bishuArr);
+                            //     return list;
+                            // }(),
+                            data: self.lineData.jineArr,
+                            name:'交易金额',
+                            type:'line',
+                            stack: '总量',
+                            symbol: 'circle',    //设置折线图中表示每个坐标点的符号 emptycircle：空心圆；emptyrect：空心矩形；circle：实心圆；emptydiamond：菱形
+                            symbolSize: 6,
+                            itemStyle : {
+                                normal: {
+                                    lineStyle:{
+                                        width:0.5,//折线宽度
+                                        // color:"#64dcec"//折线颜色
+                                    },
+                                    label : {show: true}
+                                }
+                            }
+                        },
+                        {
+                            // data:function (){
+                            //     var list = [];
+                            //     for (var i = 1; i <= 30; i++) {
+                            //         list.push(Math.round(Math.random()* 30));
+                            //     }
+                            //     return list;
+                            // }(),
+                            data: self.lineData.bishuArr,
+                            name:'交易笔数',
+                            type:'line',
+                            stack: '总量',
+                            symbol: 'circle',    //设置折线图中表示每个坐标点的符号 emptycircle：空心圆；emptyrect：空心矩形；circle：实心圆；emptydiamond：菱形
+                            symbolSize: 6,
+                            itemStyle : {
+                                normal: {
+                                    lineStyle:{
+                                        width:0.5,//折线宽度
+                                        // color:"#ffff00"//折线颜色
+                                    },
+                                    label : {show: true}
+                                }
+                            }
+                        },
+                    ],
+                    axisTick: {
+                        inside: true,
+                        lignWithLabel: true //这两行代码可以让刻度正对刻度名
+                    },
+                    markPoint:{
+                        symbol: 'pin',         // 标注类型
+                        symbolSize: 10,
+                        itemStyle: {
+                            normal: {
+                                label: {
+                                    show: true,
+                                    textStyle:{
+                                        color: '#0f0'
+                                    },
+                                    // formatter: "{b}: {c}",
+                                },
+                                // labelLine: {
+                                //     show: false
+                                // },
+                                // textColor : '#ff0'
+                            } ,
+                            emphasis: {
+                                // label: {
+                                //     show: true,
+                                //     // position: 'outer'
+                                // },
+                                // labelLine: {
+                                //     show: true,
+                                //     lineStyle: {
+                                //         color: 'red'
+                                //     }
+                                // }
+                            }
+                        }
+                    },
+                    animation:true
+                };
+                // 使用刚指定的配置项和数据显示图表。
+                myChart.setOption(option);
+                window.onresize = function(){
+                    myChart.resize();
+                }
+            },

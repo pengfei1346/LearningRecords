@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+    /*
+    *
+    * es5实现
+    *
+    * */
+    function create(proto) {
+        function F() {}
+        F.prototype = proto;
+        return new F();
+    }
+
+    // Parent
+    function Parent(name) {
+        this.name = name
+    }
+
+    Parent.prototype.sayName = function () {
+        console.log(this.name)
+    };
+
+    // Child
+    function Child(age, name) {
+        Parent.call(this, name)
+        this.age = age
+    }
+    Child.prototype = create(Parent.prototype)
+    Child.prototype.constructor = Child
+
+    Child.prototype.sayAge = function () {
+        console.log(this.age)
+    }
+
+    // 测试
+    const child = new Child(18, 'Jack')
+    child.sayName()
+    child.sayAge()
+
+
+
+    /*
+   *
+   * es6实现：class
+   *
+   * 子类使用extends关键字，调用super方法继承
+   *
+   * */
+</script>
+
+</html>
