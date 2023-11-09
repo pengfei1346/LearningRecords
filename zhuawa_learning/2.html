@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+  class myPromise {
+    constructor(executor) {
+      this.status = 'pending'// pending fulfilled rejected
+      this.value = '' // 成功的value
+      this.reason = '' // 失败的原因
+
+      // 发布订阅模式
+      this.onFulfilledCallbacks = [] // 成功态回调函数队列
+      this.onRejectedCallbacks = [] // 失败态回调函数队列
+
+      let resolved = (value) => {
+        if (this.status === 'pending') {
+          this.status = 'fulfilled';
+          this.value = value;
+
+          // 成功态回调函数依次执行
+          this.onFulfilledCallbacks.forEach(fn => fn(this.value))
+        }
+      }
+
+      let rejected = (reason) => {
+        if (this.status === 'pending') {
+          this.status = 'rejected';
+          this.reason = reason;
+          // 失败态回调函数依次执行
+          this.onRejectedCallbacks.forEach(fn => fn(this.reason))
+        }
+      }
+
+      try {
+        // 执行器 立即执行一遍
+        executor(resolved, rejected)
+      } catch (e) {
+        rejected(e)
+      }
+    }
+
+    then(onFulfilled, onRejected) {
+      // 解决 onFulfilled，onRejected 没有传值的问题
+      onFulfilled = typeof onFulfilled === "function" ? onFulfilled : (value) => value;
+      onRejected = typeof onRejected === "function" ? onRejected : (err) => {
+        throw err;
+      };
+
+      // 链式调用需要返回一个新的promise
+      return new myPromise((resolve, reject) => {
+        // pending状态
+        // 把成功回调函数和失败回调函数推进 成功态回调函数队列 、失败态回调函数队列
+        if (this.status === 'pending') {
+          this.onFulfilledCallbacks.push(() => {
+            try {
+              setTimeout(() => {
+                const result = onFulfilled(this.value);
+                result instanceof myPromise ? result.then(resolve, reject) : resolve(result);
+              })
+            } catch (e) {
+              reject(e);
+            }
+          })
+
+          // 同理
+          this.onRejectedCallbacks.push(() => {
+            try {
+              setTimeout(() => {
+                const result = onRejected(this.reason);
+                result instanceof myPromise ? result.then(resolve, reject) : resolve(result);
+              })
+
+            } catch (e) {
+              reject(e);
+            }
+          })
+        } else if (this.status === 'fulfilled') {
+          try {
+            setTimeout(() => {
+              const result = onFulfilled(this.value);
+              result instanceof myPromise ? result.then(resolve, reject) : resolve(result);
+            });
+          } catch(e) {
+            reject(e);
+          }
+        } else if (this.status === 'rejected') {
+          try {
+            setTimeout(() => {
+              const result = onRejected(this.reason);
+              result instanceof myPromise ? result.then(resolve, reject) : resolve(result);
+            })
+          } catch(e) {
+            reject(e);
+          }
+        }
+      })
+    }
+
+
+    catch(onRejected) {
+      return this.then(null, onRejected);
+    }
+
+    static resolve(value) {
+      // 判断是否是 myPromise的实例，如果是，直接返回结果，如果不是，包裹一层 promise 返回结果
+      if (value instanceof myPromise) {
+        return value
+      } else {
+        return new myPromise((resolve) => resolve(value))
+      }
+    }
+    static reject(reason) {
+      return new myPromise((resolve, reject) => reject(reason))
+    }
+
+
+    finally(cb) {
+      // todo
+    }
+
+    static all(promiseArr) {
+      // todo
+    }
+  }
+
+</script>
+
+</html>
