@@ -21,26 +21,88 @@
     const tasks = []
     const doingTasks = []
     let i = 0
+
     const enqueue = () => {
+
       if (i === array.length) {
         return Promise.resolve()
       }
+
       const task = Promise.resolve().then(() => iterateFunc(array[i++]))
+
       tasks.push(task)
+
       const doing = task.then(() => doingTasks.splice(doingTasks.indexOf(doing), 1))
+
       doingTasks.push(doing)
+
       const res = doingTasks.length >= count ? Promise.race(doingTasks) : Promise.resolve()
+
       return res.then(enqueue)
     };
+
     return enqueue().then(() => Promise.all(tasks))
   }
 
   // test
-  const timeout = i => new Promise(resolve => setTimeout(() => resolve(i), i))
-  limit(2, [1000, 1000, 1000, 1000], timeout).then((res) => {
-    console.log(res)
-  })
+  // const timeout = i => new Promise(resolve => setTimeout(() => resolve(i), i))
+  // limit(2, [1000, 1000, 1000, 1000], timeout).then((res) => {
+  //   console.log(res)
+  // })
 
+
+
+
+  const quickSort = (arr) => {
+
+
+
+  }
+  console.log(a); // undefined
+  var a = 10
+
+  // let
+  console.log(b);
+  let b = 10
+
+  // const
+  console.log(c);
+  const c = 10
+
+  // function MyPromise(fn) {
+  //     this.cbs = [];
+  //
+  //     const resolve = (value) => {
+  //         setTimeout(() => {
+  //             this.data = value;
+  //             this.cbs.forEach((cb) => cb(value));
+  //         });
+  //     }
+  //
+  //     fn(resolve);
+  // }
+  //
+  // MyPromise.prototype.then = function (onResolved) {
+  //     return new MyPromise((resolve) => {
+  //         this.cbs.push(() => {
+  //             const res = onResolved(this.data);
+  //             if (res instanceof MyPromise) {
+  //                 res.then(resolve);
+  //             } else {
+  //                 resolve(res);
+  //             }
+  //         });
+  //     });
+  // };
+  //
+  // let r = new MyPromise((res,rej) => {
+  //     setTimeout(() => {
+  //         res(6666)
+  //     })
+  // })
+  // r.then(res => {
+  //     console.log(res);
+  // })
 </script>
 
 </html>

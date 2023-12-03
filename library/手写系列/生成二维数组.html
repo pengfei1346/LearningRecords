@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+//     输入 column 和 target ；生成如下的 二维数组：
+// 1.column: 4 target: 6
+//     result: [
+//         [1, 1, 1, 1],
+//         [1, 1, 0, ‘’]
+//     ]
+//     2.column: 3 target: 6
+//     result: [
+//         [1, 1, 1],
+//         [1, 1, 1],
+//         [0, 0, '’]
+//         ]
+//         二维数组中1的个数刚好等于 target；
+// 多出来的部分用0填充，并且最后一项必须是 字符串 ‘*’
+
+
+function createMatrix(column, target) {
+    // 存放结果
+    let result = []
+    // 剩余多少个数字
+    let curTarget = target
+    // 遍历次数
+    let len = target%column === 0? Math.floor(target/column):Math.floor(target/column) + 1
+
+    for (let i = 0; i < len; i++) {
+        if(curTarget >= column) {
+            result[i]= new Array(column).fill(1,0,column)
+        }else {
+            // 边界情况
+            let rl = curTarget - column < 0 ?  curTarget: curTarget - column
+            // 填充 1
+            result[i]= new Array(column).fill(1,0,rl)
+
+            // 填充 0
+            result[i].fill(0,rl,column - 1)
+
+            // 最后一位要求字符串？
+            result[i].fill('*',column - 1,column)
+        }
+        curTarget -= column
+    }
+
+    return result
+}
+
+console.log(createMatrix(3, 4));
+</script>
+
+</html>

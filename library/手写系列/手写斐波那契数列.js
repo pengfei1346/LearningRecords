@@ -30,7 +30,7 @@ function fibonacci(n){
 }
 
 // 3 闭包
-const fibonacci1 = function(){
+const fibonacci = function(){
     var mem = [0,1];
     var f = function(n){
         var res = mem[n];
